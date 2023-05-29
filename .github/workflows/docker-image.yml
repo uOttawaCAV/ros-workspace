@@ -7,6 +7,7 @@ on:
 
 jobs:
   test:
+    # Split this into two separate workflows ci and cd
     # We will have to create our own agent so we dont have to reinstall ros and everything
     # just to check that colcon build works with our image
     runs-on: ubuntu-20.04
@@ -14,6 +15,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+    - name: Build dependencies
+      run: |
+        echo "sudo apt update && rosdep update"
+        echo "rosdep install --from-path src --ignore-src -y"
     - name: Colon build
       run: |
         echo "work in progress"

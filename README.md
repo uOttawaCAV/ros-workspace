@@ -1,2 +1,2 @@
 # Notes
-When adding new packages, please create a separate branch then create a pull request.
+When adding new packages, please check the ros version and create a pull request that merges to the right branch (foxy, humble).

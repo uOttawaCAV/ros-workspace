@@ -30,5 +30,8 @@ Don't forget to source the workspace after you are complete
 ```bash
 source ros-workspace/install/setup.bash
 ```
+
+For additional information regarding each package, navigate to the readme within each of the packages
+
 # Notes
 When adding new packages, please create a separate branch then create a pull request.

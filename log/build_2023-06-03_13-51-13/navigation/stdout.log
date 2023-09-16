@@ -1,0 +1,19 @@
+[100%] Built target occupancy_pub
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.sh
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.dsv
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.bash
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.sh
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.zsh
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.dsv
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/package.dsv
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/packages/navigation
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig.cmake
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+-- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/package.xml

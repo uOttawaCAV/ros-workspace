@@ -1,0 +1,597 @@
+[0.000000] (-) TimerEvent: {}
+[0.001236] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002482] (ouster_msgs) JobQueued: {'identifier': 'ouster_msgs', 'dependencies': OrderedDict()}
+[0.003063] (ouster_srvs) JobQueued: {'identifier': 'ouster_srvs', 'dependencies': OrderedDict()}
+[0.003181] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.003335] (ouster_ros) JobQueued: {'identifier': 'ouster_ros', 'dependencies': OrderedDict([('ouster_msgs', '/home/jetson/ros-workspace/install/ouster_msgs'), ('ouster_srvs', '/home/jetson/ros-workspace/install/ouster_srvs')])}
+[0.003446] (ouster_msgs) JobStarted: {'identifier': 'ouster_msgs'}
+[0.043646] (ouster_srvs) JobStarted: {'identifier': 'ouster_srvs'}
+[0.082499] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.100452] (-) TimerEvent: {}
+[0.121907] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.176104] (ouster_msgs) JobProgress: {'identifier': 'ouster_msgs', 'progress': 'cmake'}
+[0.179859] (ouster_msgs) JobProgress: {'identifier': 'ouster_msgs', 'progress': 'build'}
+[0.182721] (ouster_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/ouster_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros-workspace/build/ouster_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[0.204781] (-) TimerEvent: {}
+[0.207334] (ouster_srvs) JobProgress: {'identifier': 'ouster_srvs', 'progress': 'cmake'}
+[0.210502] (ouster_srvs) JobProgress: {'identifier': 'ouster_srvs', 'progress': 'build'}
+[0.212837] (ouster_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/ouster_srvs', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros-workspace/build/ouster_srvs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[0.233107] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.236123] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.238843] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros-workspace/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[0.258553] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.262337] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[0.263669] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/pointcloud_to_laserscan', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros-workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[0.305297] (-) TimerEvent: {}
+[0.407349] (-) TimerEvent: {}
+[0.462097] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.507936] (-) TimerEvent: {}
+[0.528710] (ouster_msgs) StdoutLine: {'line': b'[  9%] Built target ouster_msgs__rosidl_generator_c\n'}
+[0.566688] (ouster_msgs) StdoutLine: {'line': b'[ 12%] Built target ouster_msgs__cpp\n'}
+[0.583081] (ouster_srvs) StdoutLine: {'line': b'[ 10%] Built target ouster_srvs__rosidl_generator_c\n'}
+[0.608006] (-) TimerEvent: {}
+[0.634309] (ouster_srvs) StdoutLine: {'line': b'[ 12%] Built target ouster_srvs__cpp\n'}
+[0.708269] (-) TimerEvent: {}
+[0.810394] (-) TimerEvent: {}
+[0.848428] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.866460] (ouster_msgs) StdoutLine: {'line': b'[ 22%] Built target ouster_msgs__rosidl_typesupport_introspection_c\n'}
+[0.897382] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] Built target laserscan_to_pointcloud_node\n'}
+[0.911785] (-) TimerEvent: {}
+[0.923299] (ouster_msgs) StdoutLine: {'line': b'[ 32%] Built target ouster_msgs__rosidl_typesupport_c\n'}
+[0.938176] (ouster_srvs) StdoutLine: {'line': b'[ 23%] Built target ouster_srvs__rosidl_typesupport_introspection_c\n'}
+[0.944567] (ouster_msgs) StdoutLine: {'line': b'[ 41%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.952829] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] Built target pointcloud_to_laserscan_node\n'}
+[0.986335] (ouster_msgs) StdoutLine: {'line': b'[ 51%] Built target ouster_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.008675] (ouster_srvs) StdoutLine: {'line': b'[ 34%] Built target ouster_srvs__rosidl_typesupport_c\n'}
+[1.010150] (ouster_srvs) StdoutLine: {'line': b'[ 44%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.010729] (-) TimerEvent: {}
+[1.037467] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/micro_ros_setup'], 'cwd': '/home/jetson/ros-workspace/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[1.053464] (ouster_srvs) StdoutLine: {'line': b'[ 55%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp\n'}
+[1.062642] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target laserscan_to_pointcloud\n'}
+[1.082526] (ouster_msgs) StdoutLine: {'line': b'[ 61%] Built target ouster_msgs__rosidl_typesupport_cpp\n'}
+[1.086517] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target pointcloud_to_laserscan\n'}
+[1.099278] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.101604] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.105749] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[1.107539] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[1.109484] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[1.110915] (-) TimerEvent: {}
+[1.112766] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[1.115017] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[1.117506] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[1.120148] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[1.122605] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[1.126271] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[1.128853] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[1.132160] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[1.149102] (ouster_srvs) StdoutLine: {'line': b'[ 65%] Built target ouster_srvs__rosidl_typesupport_cpp\n'}
+[1.194791] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[1.195767] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target dummy_pointcloud_publisher\n'}
+[1.198289] (ouster_msgs) StdoutLine: {'line': b'[ 70%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.198911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[1.201191] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[1.205341] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[1.208547] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[1.210805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[1.211325] (-) TimerEvent: {}
+[1.213987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[1.216057] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[1.218084] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[1.219253] (ouster_srvs) StdoutLine: {'line': b'[ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c\n'}
+[1.221053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh\n'}
+[1.224195] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[1.227412] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[1.229553] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[1.231753] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[1.233123] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config\n'}
+[1.234362] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[1.235323] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[1.236346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host\n'}
+[1.237301] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[1.238225] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[1.249679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[1.250770] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic\n'}
+[1.251166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[1.251658] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[1.252085] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[1.256465] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[1.257233] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[1.261071] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/reset.sh\n'}
+[1.261448] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[1.261826] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos\n'}
+[1.262189] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[1.262484] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[1.262798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[1.263091] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[1.263378] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[1.263697] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[1.263975] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[1.264297] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh\n'}
+[1.264582] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[1.264879] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[1.265183] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[1.265460] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[1.274676] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[1.285191] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[1.301002] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[1.301432] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[1.301981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[1.302280] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[1.302597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[1.302880] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[1.303232] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[1.303626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[1.303995] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[1.307290] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[1.318052] (-) TimerEvent: {}
+[1.318910] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[1.319354] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[1.319674] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[1.319997] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[1.320289] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh\n'}
+[1.320573] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[1.320911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[1.321192] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[1.321470] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[1.321834] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[1.328522] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[1.328896] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[1.329195] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[1.329472] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[1.330900] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh\n'}
+[1.331298] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[1.331603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[1.331922] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[1.332206] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[1.332473] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[1.332745] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[1.333036] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[1.333311] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[1.333578] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[1.334013] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[1.334297] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh\n'}
+[1.334564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[1.334832] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[1.335123] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[1.335385] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[1.335654] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[1.335960] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[1.336241] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[1.336526] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[1.336794] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[1.337053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[1.337322] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh\n'}
+[1.337597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[1.350368] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[1.350754] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32\n'}
+[1.351096] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[1.351398] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[1.351732] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[1.353215] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[1.353555] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[1.353976] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[1.354310] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[1.354590] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[1.354934] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[1.355239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[1.355508] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx\n'}
+[1.355776] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos\n'}
+[1.356034] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt\n'}
+[1.356313] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic\n'}
+[1.356605] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos\n'}
+[1.356908] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/package.xml\n'}
+[1.357215] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/configure.sh\n'}
+[1.357476] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/flash.sh\n'}
+[1.357823] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/create.sh\n'}
+[1.358126] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos\n'}
+[1.358422] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/supported_platforms\n'}
+[1.358706] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/reset.sh\n'}
+[1.358999] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta\n'}
+[1.359279] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/build.sh\n'}
+[1.359550] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra\n'}
+[1.359812] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[1.360088] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[1.360392] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[1.360679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[1.360949] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[1.361245] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[1.361541] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[1.361962] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[1.362244] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[1.362549] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[1.362832] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[1.363109] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib\n'}
+[1.363369] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[1.363661] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[1.363917] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[1.364214] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[1.364484] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[1.364820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[1.382202] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[1.382669] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[1.383013] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[1.383324] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[1.383650] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr\n'}
+[1.383988] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[1.384302] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[1.384605] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[1.384874] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic\n'}
+[1.385149] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[1.385472] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[1.386090] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[1.386407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[1.386709] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[1.386998] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[1.387319] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[1.387583] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/reset.sh\n'}
+[1.387863] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[1.388130] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[1.388402] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[1.388677] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/utils.sh\n'}
+[1.388969] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian\n'}
+[1.389231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[1.389951] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[1.390290] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic\n'}
+[1.390589] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[1.390870] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[1.391152] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[1.391434] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[1.391704] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[1.391971] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[1.392232] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[1.392516] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[1.393723] (ouster_msgs) StdoutLine: {'line': b'[ 70%] Built target ouster_msgs\n'}
+[1.394199] (ouster_srvs) StdoutLine: {'line': b'[ 76%] Built target ouster_srvs\n'}
+[1.415374] (ouster_msgs) StdoutLine: {'line': b'[ 74%] Built target ouster_msgs__py\n'}
+[1.419493] (-) TimerEvent: {}
+[1.426268] (ouster_srvs) StdoutLine: {'line': b'[ 78%] Built target ouster_srvs__py\n'}
+[1.483666] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'install'}
+[1.485193] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/pointcloud_to_laserscan'], 'cwd': '/home/jetson/ros-workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[1.519910] (-) TimerEvent: {}
+[1.532958] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.535522] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.538348] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node\n'}
+[1.569125] (ouster_srvs) StdoutLine: {'line': b'[ 87%] Built target ouster_srvs__python\n'}
+[1.575506] (ouster_msgs) StdoutLine: {'line': b'[ 80%] Built target ouster_msgs__python\n'}
+[1.586623] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node\n'}
+[1.630519] (-) TimerEvent: {}
+[1.654423] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so\n'}
+[1.704010] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[1.730746] (-) TimerEvent: {}
+[1.746115] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so\n'}
+[1.783042] (ouster_msgs) StdoutLine: {'line': b'[ 87%] Built target ouster_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.804763] (ouster_msgs) StdoutLine: {'line': b'[ 93%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.825032] (ouster_srvs) StdoutLine: {'line': b'[ 91%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.828016] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher\n'}
+[1.828798] (ouster_msgs) StdoutLine: {'line': b'[100%] Built target ouster_msgs__rosidl_typesupport_c__pyext\n'}
+[1.830879] (-) TimerEvent: {}
+[1.832292] (ouster_srvs) StdoutLine: {'line': b'[ 95%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.854294] (ouster_srvs) StdoutLine: {'line': b'[100%] Built target ouster_srvs__rosidl_typesupport_c__pyext\n'}
+[1.873894] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp\n'}
+[1.888476] (ouster_msgs) CommandEnded: {'returncode': 0}
+[1.915062] (ouster_srvs) CommandEnded: {'returncode': 0}
+[1.924199] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp\n'}
+[1.931385] (-) TimerEvent: {}
+[1.969155] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h\n'}
+[2.014814] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pcl_to_laser_launch.py\n'}
+[2.031640] (-) TimerEvent: {}
+[2.061538] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[2.107572] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[2.131837] (-) TimerEvent: {}
+[2.142266] (ouster_msgs) JobProgress: {'identifier': 'ouster_msgs', 'progress': 'install'}
+[2.144810] (ouster_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/ouster_msgs'], 'cwd': '/home/jetson/ros-workspace/build/ouster_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[2.160741] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan\n'}
+[2.199411] (ouster_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.202103] (ouster_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.204334] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_msgs\n'}
+[2.208239] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan\n'}
+[2.209064] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__functions.h\n'}
+[2.209852] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.h\n'}
+[2.210921] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__type_support.h\n'}
+[2.212031] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.h\n'}
+[2.213001] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.214653] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.sh\n'}
+[2.216023] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.dsv\n'}
+[2.219454] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.220588] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.222533] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.227123] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.228042] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.230090] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.231981] (-) TimerEvent: {}
+[2.233898] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.236034] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.237094] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__builder.hpp\n'}
+[2.238184] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp\n'}
+[2.239439] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__traits.hpp\n'}
+[2.240222] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp\n'}
+[2.243087] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.245024] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.sh\n'}
+[2.246462] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.dsv\n'}
+[2.247767] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/__init__.py\n'}
+[2.250246] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/__init__.py\n'}
+[2.251244] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/_packet_msg.py\n'}
+[2.253576] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.257385] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.259022] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh\n'}
+[2.259677] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.261349] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__python.so\n'}
+[2.263625] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.idl\n'}
+[2.266803] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.msg\n'}
+[2.268801] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_msgs\n'}
+[2.270800] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_msgs\n'}
+[2.272666] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.sh\n'}
+[2.274823] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.dsv\n'}
+[2.276639] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.sh\n'}
+[2.278635] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.dsv\n'}
+[2.280333] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.bash\n'}
+[2.282100] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.sh\n'}
+[2.283783] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.zsh\n'}
+[2.285607] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.dsv\n'}
+[2.288057] (ouster_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv\n'}
+[2.305998] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[2.332195] (-) TimerEvent: {}
+[2.333474] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/packages/ouster_msgs\n'}
+[2.337309] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.343262] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.348321] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.348880] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.349289] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.349890] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.350362] (ouster_srvs) JobProgress: {'identifier': 'ouster_srvs', 'progress': 'install'}
+[2.350506] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.351116] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig.cmake\n'}
+[2.351820] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig-version.cmake\n'}
+[2.352193] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.xml\n'}
+[2.352799] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh\n'}
+[2.363593] (ouster_srvs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/ouster_srvs'], 'cwd': '/home/jetson/ros-workspace/build/ouster_srvs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[2.371599] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_generator_c.so\n'}
+[2.377466] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.378227] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_c.so\n'}
+[2.378614] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.379336] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_cpp.so\n'}
+[2.403456] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv\n'}
+[2.407047] (ouster_srvs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.410585] (ouster_srvs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.412603] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/rosidl_interfaces/ouster_srvs\n'}
+[2.416182] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.417218] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__functions.h\n'}
+[2.418281] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.h\n'}
+[2.419480] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__type_support.h\n'}
+[2.420534] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__functions.h\n'}
+[2.421581] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.h\n'}
+[2.422861] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__type_support.h\n'}
+[2.423888] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__functions.h\n'}
+[2.425335] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.h\n'}
+[2.426489] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__type_support.h\n'}
+[2.427514] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.h\n'}
+[2.428501] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.h\n'}
+[2.429499] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.h\n'}
+[2.431265] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.sh\n'}
+[2.432326] (-) TimerEvent: {}
+[2.434143] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.dsv\n'}
+[2.438036] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.438806] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h\n'}
+[2.439866] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[2.440871] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h\n'}
+[2.443106] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.448365] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.449357] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.450594] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.451654] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.454106] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.454837] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash\n'}
+[2.456951] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.458001] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_c.h\n'}
+[2.459044] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h\n'}
+[2.460072] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_c.h\n'}
+[2.464709] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__builder.hpp\n'}
+[2.465694] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.hpp\n'}
+[2.466820] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__traits.hpp\n'}
+[2.467861] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__builder.hpp\n'}
+[2.469163] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.hpp\n'}
+[2.470858] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__traits.hpp\n'}
+[2.474218] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__builder.hpp\n'}
+[2.475369] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.hpp\n'}
+[2.476446] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__traits.hpp\n'}
+[2.477426] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.hpp\n'}
+[2.478555] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.hpp\n'}
+[2.479550] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.hpp\n'}
+[2.482440] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.483489] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.484548] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.486680] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.sh\n'}
+[2.488258] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.dsv\n'}
+[2.489932] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/__init__.py\n'}
+[2.492740] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/__init__.py\n'}
+[2.494513] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_config.py\n'}
+[2.495626] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_metadata.py\n'}
+[2.496612] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_set_config.py\n'}
+[2.499340] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.501211] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.503632] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.505761] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__python.so\n'}
+[2.507244] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.idl\n'}
+[2.507987] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh\n'}
+[2.509869] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.idl\n'}
+[2.510672] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.idl\n'}
+[2.512177] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.srv\n'}
+[2.513502] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Request.msg\n'}
+[2.515016] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Response.msg\n'}
+[2.516388] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.srv\n'}
+[2.517406] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport.cmake\n'}
+[2.518067] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Request.msg\n'}
+[2.518598] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport-release.cmake\n'}
+[2.519215] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.519669] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Response.msg\n'}
+[2.520187] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.521006] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.srv\n'}
+[2.521604] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.522326] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[2.522743] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Request.msg\n'}
+[2.523243] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.523697] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Response.msg\n'}
+[2.524251] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.524813] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.525232] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/package_run_dependencies/ouster_srvs\n'}
+[2.525862] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.526405] (ouster_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.527251] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/parent_prefix_path/ouster_srvs\n'}
+[2.529293] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.sh\n'}
+[2.530726] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.dsv\n'}
+[2.532047] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.sh\n'}
+[2.532385] (-) TimerEvent: {}
+[2.534347] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.dsv\n'}
+[2.535663] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.bash\n'}
+[2.538926] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.sh\n'}
+[2.545400] (ouster_msgs) CommandEnded: {'returncode': 0}
+[2.546701] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.zsh\n'}
+[2.556540] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.dsv\n'}
+[2.556964] (ouster_srvs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv\n'}
+[2.557301] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh\n'}
+[2.589250] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/packages/ouster_srvs\n'}
+[2.590000] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.591870] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.592806] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.594772] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.595820] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.597183] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.599423] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.602408] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv\n'}
+[2.610543] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig.cmake\n'}
+[2.610934] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig-version.cmake\n'}
+[2.611259] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.xml\n'}
+[2.611552] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_generator_c.so\n'}
+[2.612147] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_c.so\n'}
+[2.612471] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_c.so\n'}
+[2.612773] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.614298] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_cpp.so\n'}
+[2.632692] (-) TimerEvent: {}
+[2.651465] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv\n'}
+[2.696967] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan\n'}
+[2.732968] (-) TimerEvent: {}
+[2.741593] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan\n'}
+[2.775658] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport.cmake\n'}
+[2.776812] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport-release.cmake\n'}
+[2.777248] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.777691] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.778311] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport.cmake\n'}
+[2.778685] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport-release.cmake\n'}
+[2.780272] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cppExport.cmake\n'}
+[2.780790] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.781147] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.781885] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport.cmake\n'}
+[2.782242] (ouster_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.791461] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake\n'}
+[2.807787] (ouster_srvs) CommandEnded: {'returncode': 0}
+[2.833479] (-) TimerEvent: {}
+[2.836084] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake\n'}
+[2.886470] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml\n'}
+[2.935039] (-) TimerEvent: {}
+[2.997867] (ouster_msgs) JobEnded: {'identifier': 'ouster_msgs', 'rc': 0}
+[3.008354] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[3.036426] (-) TimerEvent: {}
+[3.137920] (-) TimerEvent: {}
+[3.242583] (-) TimerEvent: {}
+[3.292033] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 0}
+[3.342812] (-) TimerEvent: {}
+[3.371602] (ouster_srvs) JobEnded: {'identifier': 'ouster_srvs', 'rc': 0}
+[3.379514] (ouster_ros) JobStarted: {'identifier': 'ouster_ros'}
+[3.430813] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'cmake'}
+[3.435554] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros-workspace/src/ouster-ros/ouster-ros', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_ros'], 'cwd': '/home/jetson/ros-workspace/build/ouster_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '2595'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:61900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2647,unix/ubuntu:/tmp/.ICE-unix/2647'), ('INVOCATION_ID', 'be785e31fde24971a6a1ed85ceb0fac1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ad871ba_9170_4e44_85c4_cdf6be445824'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:.local/lib/python3.8/site-packages/:/opt/ros/foxy')]), 'shell': False}
+[3.454464] (-) TimerEvent: {}
+[3.479725] (ouster_ros) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (include):\n'}
+[3.480535] (ouster_ros) StderrLine: {'line': b'  include could not find load file:\n'}
+[3.480829] (ouster_ros) StderrLine: {'line': b'\n'}
+[3.481101] (ouster_ros) StderrLine: {'line': b'    DefaultBuildType\n'}
+[3.481382] (ouster_ros) StderrLine: {'line': b'\n'}
+[3.481732] (ouster_ros) StderrLine: {'line': b'\n'}
+[3.501772] (ouster_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.552617] (-) TimerEvent: {}
+[3.591704] (ouster_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.652836] (-) TimerEvent: {}
+[3.753814] (-) TimerEvent: {}
+[3.854684] (-) TimerEvent: {}
+[3.955588] (-) TimerEvent: {}
+[4.056386] (-) TimerEvent: {}
+[4.157196] (-) TimerEvent: {}
+[4.245519] (ouster_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.257381] (-) TimerEvent: {}
+[4.275134] (ouster_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.357614] (-) TimerEvent: {}
+[4.401446] (ouster_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.415035] (ouster_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.457771] (-) TimerEvent: {}
+[4.558667] (-) TimerEvent: {}
+[4.659697] (-) TimerEvent: {}
+[4.760661] (-) TimerEvent: {}
+[4.861587] (-) TimerEvent: {}
+[4.864030] (ouster_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.961876] (-) TimerEvent: {}
+[5.057907] (ouster_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.062040] (-) TimerEvent: {}
+[5.063439] (ouster_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.162315] (-) TimerEvent: {}
+[5.263319] (-) TimerEvent: {}
+[5.364289] (-) TimerEvent: {}
+[5.465265] (-) TimerEvent: {}
+[5.566321] (-) TimerEvent: {}
+[5.577224] (ouster_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[5.666586] (-) TimerEvent: {}
+[5.767543] (-) TimerEvent: {}
+[5.770804] (ouster_ros) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[5.867763] (-) TimerEvent: {}
+[5.879048] (ouster_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[5.968009] (-) TimerEvent: {}
+[6.069003] (-) TimerEvent: {}
+[6.170042] (-) TimerEvent: {}
+[6.263578] (ouster_ros) StdoutLine: {'line': b'-- Found ouster_msgs: 0.1.0 (/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)\n'}
+[6.270281] (-) TimerEvent: {}
+[6.294253] (ouster_ros) StdoutLine: {'line': b'-- Found ouster_srvs: 0.1.0 (/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake)\n'}
+[6.325229] (ouster_ros) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[6.358896] (ouster_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.370492] (-) TimerEvent: {}
+[6.440943] (ouster_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[6.470847] (-) TimerEvent: {}
+[6.480853] (ouster_ros) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[6.485571] (ouster_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[6.571071] (-) TimerEvent: {}
+[6.672442] (-) TimerEvent: {}
+[6.773340] (-) TimerEvent: {}
+[6.874406] (-) TimerEvent: {}
+[6.975339] (-) TimerEvent: {}
+[7.007211] (ouster_ros) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[7.075587] (-) TimerEvent: {}
+[7.176633] (-) TimerEvent: {}
+[7.277525] (-) TimerEvent: {}
+[7.378497] (-) TimerEvent: {}
+[7.479369] (-) TimerEvent: {}
+[7.580350] (-) TimerEvent: {}
+[7.681281] (-) TimerEvent: {}
+[7.782362] (-) TimerEvent: {}
+[7.883280] (-) TimerEvent: {}
+[7.934621] (ouster_ros) StderrLine: {'line': b'CMake Error at CMakeLists.txt:49 (find_package):\n'}
+[7.935334] (ouster_ros) StderrLine: {'line': b'  By not providing "FindOusterSDK.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.935643] (ouster_ros) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.935902] (ouster_ros) StderrLine: {'line': b'  "OusterSDK", but CMake did not find one.\n'}
+[7.936160] (ouster_ros) StderrLine: {'line': b'\n'}
+[7.936404] (ouster_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "OusterSDK" with\n'}
+[7.936670] (ouster_ros) StderrLine: {'line': b'  any of the following names:\n'}
+[7.936943] (ouster_ros) StderrLine: {'line': b'\n'}
+[7.937213] (ouster_ros) StderrLine: {'line': b'    OusterSDKConfig.cmake\n'}
+[7.937454] (ouster_ros) StderrLine: {'line': b'    oustersdk-config.cmake\n'}
+[7.937773] (ouster_ros) StderrLine: {'line': b'\n'}
+[7.938026] (ouster_ros) StderrLine: {'line': b'  Add the installation prefix of "OusterSDK" to CMAKE_PREFIX_PATH or set\n'}
+[7.938289] (ouster_ros) StderrLine: {'line': b'  "OusterSDK_DIR" to a directory containing one of the above files.  If\n'}
+[7.938586] (ouster_ros) StderrLine: {'line': b'  "OusterSDK" provides a separate development package or SDK, be sure it has\n'}
+[7.938852] (ouster_ros) StderrLine: {'line': b'  been installed.\n'}
+[7.939091] (ouster_ros) StderrLine: {'line': b'\n'}
+[7.939343] (ouster_ros) StderrLine: {'line': b'\n'}
+[7.951342] (ouster_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.951773] (ouster_ros) StdoutLine: {'line': b'See also "/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/CMakeOutput.log".\n'}
+[7.952101] (ouster_ros) StdoutLine: {'line': b'See also "/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/CMakeError.log".\n'}
+[7.981002] (ouster_ros) CommandEnded: {'returncode': 1}
+[7.985058] (-) TimerEvent: {}
+[8.086382] (-) TimerEvent: {}
+[8.090713] (ouster_ros) JobEnded: {'identifier': 'ouster_ros', 'rc': 1}
+[8.106765] (-) EventReactorShutdown: {}

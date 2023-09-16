@@ -1,0 +1,31 @@
+[0.073s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation
+[0.131s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.853s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.881s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.016s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.619s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.106s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.708s] -- Configuring done
+[2.749s] -- Generating done
+[2.756s] -- Build files have been written to: /home/jetson/ros-workspace/build/navigation
+[2.782s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation
+[2.797s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j4 -l4
+[3.069s] [100%] Built target occupancy_pub
+[3.118s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j4 -l4
+[3.287s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation
+[3.320s] -- Install configuration: "Release"
+[3.322s] -- Execute custom install script
+[3.324s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+[3.326s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[3.327s]   ament_cmake_symlink_install_directory() can't find
+[3.327s]   '/home/jetson/ros-workspace/src/navigation/launch'
+[3.327s] Call Stack (most recent call first):
+[3.328s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[3.328s]   cmake_install.cmake:41 (include)
+[3.328s] 
+[3.329s] 
+[3.334s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation

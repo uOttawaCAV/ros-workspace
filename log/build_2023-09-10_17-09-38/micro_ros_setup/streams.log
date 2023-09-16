@@ -1,0 +1,4 @@
+[0.412s] Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup
+[0.544s] CMake Error: The source directory "/home/jetson/ros-workspace/build/micro_ros_setup/ouster_ros" does not exist.
+[0.546s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.596s] Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup

@@ -1,0 +1,45 @@
+[0.157s] Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j4 -l4
+[0.865s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.903s] [ 40%] Built target laserscan_to_pointcloud
+[0.911s] [ 60%] Built target laserscan_to_pointcloud_node
+[0.967s] [ 80%] Built target pointcloud_to_laserscan
+[1.153s] [100%] Built target dummy_pointcloud_publisher
+[1.240s] Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j4 -l4
+[1.422s] Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/pointcloud_to_laserscan
+[1.484s] -- Install configuration: ""
+[1.484s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[1.490s] -- Set runtime path of "/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""
+[1.499s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[1.511s] -- Set runtime path of "/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+[1.511s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[1.569s] -- Set runtime path of "/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""
+[1.570s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[1.628s] -- Set runtime path of "/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[1.638s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[1.649s] -- Set runtime path of "/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[1.651s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include
+[1.653s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan
+[1.654s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[1.656s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[1.657s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h
+[1.660s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[1.661s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[1.662s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[1.664s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pcl_to_laser_launch.py
+[1.666s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[1.668s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[1.670s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[1.671s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[1.672s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[1.673s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[1.674s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[1.675s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[1.677s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[1.678s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[1.679s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[1.681s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[1.683s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[1.684s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[1.685s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[1.686s] -- Installing: /home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[1.697s] Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/pointcloud_to_laserscan

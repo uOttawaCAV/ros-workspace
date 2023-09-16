@@ -1,0 +1,23 @@
+CMake Error at CMakeLists.txt:4 (include):
+  include could not find load file:
+
+    DefaultBuildType
+
+
+CMake Error at CMakeLists.txt:49 (find_package):
+  By not providing "FindOusterSDK.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "OusterSDK", but CMake did not find one.
+
+  Could not find a package configuration file provided by "OusterSDK" with
+  any of the following names:
+
+    OusterSDKConfig.cmake
+    oustersdk-config.cmake
+
+  Add the installation prefix of "OusterSDK" to CMAKE_PREFIX_PATH or set
+  "OusterSDK_DIR" to a directory containing one of the above files.  If
+  "OusterSDK" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

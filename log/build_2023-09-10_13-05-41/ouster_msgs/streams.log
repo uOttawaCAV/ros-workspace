@@ -1,0 +1,12 @@
+[0.420s] Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j6 -l6
+[1.091s] [  3%] Built target ouster_msgs__cpp
+[1.108s] [ 12%] Built target ouster_msgs__rosidl_generator_c
+[1.408s] [ 22%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[1.457s] make[2]: *** No rule to make target '/opt/ros/foxy/lib/libfastrtps.so.2.1.3', needed by 'libouster_msgs__rosidl_typesupport_fastrtps_cpp.so'.  Stop.
+[1.460s] make[1]: *** [CMakeFiles/Makefile2:274: CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[1.461s] make[1]: *** Waiting for unfinished jobs....
+[1.533s] [ 32%] Built target ouster_msgs__rosidl_typesupport_cpp
+[1.754s] [ 41%] Built target ouster_msgs__rosidl_typesupport_c
+[1.760s] [ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c
+[1.763s] make: *** [Makefile:141: all] Error 2
+[1.778s] Invoked command in '/home/jetson/ros-workspace/build/ouster_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j6 -l6

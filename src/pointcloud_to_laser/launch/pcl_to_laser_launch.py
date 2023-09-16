@@ -14,7 +14,7 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'cloud']
+            arguments=['0', '0', '0', '0', '0', '0', '1', 'tower_link', 'os_sensor']
         ),
         Node(
             package='pointcloud_to_laserscan', executable='pointcloud_to_laserscan_node',

@@ -1,0 +1,4 @@
+[0.325s] Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/pointcloud_to_laserscan
+[0.391s] CMake Error: The source directory "/home/jetson/ros-workspace/build/pointcloud_to_laserscan/ouster_ros" does not exist.
+[0.392s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.496s] Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/pointcloud_to_laserscan

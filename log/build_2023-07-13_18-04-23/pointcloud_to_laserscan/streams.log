@@ -1,0 +1,43 @@
+[0.272s] Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[0.577s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.000s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.060s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[2.101s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[2.118s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.375s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.392s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.180s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.468s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.010s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[5.055s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.264s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[6.464s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.814s] -- Configured cppcheck include dirs: /home/jetson/ros-workspace/src/pointcloud_to_laser/include
+[6.814s] -- Configured cppcheck exclude dirs and/or files: 
+[6.822s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.823s] -- Configured cpplint exclude dirs and/or files: 
+[6.824s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.827s] -- Added test 'lint_cmake' to check CMake code style
+[6.829s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.837s] -- Added test 'uncrustify' to check C / C++ code style
+[6.838s] -- Configured uncrustify additional arguments: 
+[6.839s] -- Added test 'xmllint' to check XML markup files
+[6.867s] -- Configuring done
+[7.128s] -- Generating done
+[7.141s] -- Build files have been written to: /home/jetson/ros-workspace/build/pointcloud_to_laserscan
+[7.347s] [35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[7.348s] [35m[1mScanning dependencies of target laserscan_to_pointcloud[0m
+[7.450s] [ 20%] Built target dummy_pointcloud_publisher
+[7.452s] [ 40%] Built target laserscan_to_pointcloud_node
+[7.460s] [ 60%] Built target pointcloud_to_laserscan_node
+[7.670s] [ 80%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[7.670s] [ 80%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[65.471s] [ 90%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[66.342s] [ 90%] Built target laserscan_to_pointcloud
+[66.459s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[67.255s] [100%] Built target pointcloud_to_laserscan

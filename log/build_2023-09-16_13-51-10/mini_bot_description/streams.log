@@ -1,0 +1,25 @@
+[0.434s] Invoking command in '/home/jetson/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/mini_bot_description -- -j6 -l6
+[0.937s] Invoked command in '/home/jetson/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/mini_bot_description -- -j6 -l6
+[1.654s] Invoking command in '/home/jetson/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/mini_bot_description
+[2.172s] -- Install configuration: "Release"
+[2.173s] -- Execute custom install script
+[2.173s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/src/description/prototype.urdf
+[2.174s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/display.launch.py
+[2.174s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/robot_state.launch.py
+[2.195s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/rviz/urdf_config.rviz
+[2.211s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/package_run_dependencies/mini_bot_description
+[2.212s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/parent_prefix_path/mini_bot_description
+[2.212s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.sh
+[2.213s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.dsv
+[2.213s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.sh
+[2.222s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.dsv
+[2.233s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.bash
+[2.240s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.sh
+[2.241s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.zsh
+[2.254s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.dsv
+[2.256s] -- Symlinking: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.dsv
+[2.407s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/packages/mini_bot_description
+[2.408s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig.cmake
+[2.420s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig-version.cmake
+[2.422s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.xml
+[2.439s] Invoked command in '/home/jetson/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/mini_bot_description

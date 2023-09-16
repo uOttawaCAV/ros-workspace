@@ -1,0 +1,6 @@
+[0.408s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[1.120s] [35m[1mScanning dependencies of target integer_publisher[0m
+[1.625s] [ 50%] Built target string_publisher
+[1.759s] [ 75%] [32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o[0m
+[18.746s] [100%] [32m[1mLinking CXX executable integer_publisher[0m
+[19.620s] [100%] Built target integer_publisher

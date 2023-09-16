@@ -1,0 +1,7 @@
+[0.382s] Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[1.550s] [ 20%] Built target laserscan_to_pointcloud_node
+[1.609s] [ 40%] Built target dummy_pointcloud_publisher
+[1.732s] [ 60%] Built target pointcloud_to_laserscan
+[1.741s] [ 80%] Built target laserscan_to_pointcloud
+[1.769s] [100%] Built target pointcloud_to_laserscan_node
+[2.226s] Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6

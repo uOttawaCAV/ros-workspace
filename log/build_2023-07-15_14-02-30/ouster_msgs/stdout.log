@@ -1,0 +1,6 @@
+[  3%] Built target ouster_msgs__cpp
+[ 12%] Built target ouster_msgs__rosidl_generator_c
+[ 22%] Built target ouster_msgs__rosidl_typesupport_c
+[ 38%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[ 41%] Built target ouster_msgs__rosidl_typesupport_cpp
+[ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c

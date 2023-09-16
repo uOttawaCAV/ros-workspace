@@ -1,0 +1,4 @@
+[0.285s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ros2_esp32
+[0.342s] CMake Error: The source directory "/home/jetson/ros-workspace/build/ros2_esp32/ouster_ros" does not exist.
+[0.344s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.463s] Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ros2_esp32

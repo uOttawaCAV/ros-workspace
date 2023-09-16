@@ -1,0 +1,16 @@
+[0.406s] Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j6 -l6
+[1.015s] [  2%] Built target ouster_srvs__cpp
+[1.035s] [ 12%] Built target ouster_srvs__rosidl_generator_c
+[1.486s] [ 23%] Built target ouster_srvs__rosidl_typesupport_c
+[1.526s] [ 34%] Built target ouster_srvs__rosidl_typesupport_cpp
+[1.560s] [ 55%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp
+[1.562s] [ 55%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp
+[1.567s] [ 65%] Built target ouster_srvs__rosidl_typesupport_introspection_c
+[1.929s] [ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c
+[1.978s] [ 76%] Built target ouster_srvs
+[2.071s] [ 78%] Built target ouster_srvs__py
+[2.312s] [ 87%] Built target ouster_srvs__python
+[2.562s] [ 91%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext
+[2.599s] [ 97%] Built target ouster_srvs__rosidl_typesupport_c__pyext
+[2.600s] [100%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext
+[2.915s] Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j6 -l6

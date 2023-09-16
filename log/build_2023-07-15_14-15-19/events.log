@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.002738] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.003987] (-) JobUnselected: {'identifier': 'navigation'}
+[0.004349] (-) JobUnselected: {'identifier': 'ouster_msgs'}
+[0.004504] (-) JobUnselected: {'identifier': 'ouster_ros'}
+[0.004661] (-) JobUnselected: {'identifier': 'ouster_srvs'}
+[0.004867] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.005078] (ros2_esp32) JobQueued: {'identifier': 'ros2_esp32', 'dependencies': OrderedDict()}
+[0.005363] (ros2_esp32) JobStarted: {'identifier': 'ros2_esp32'}
+[0.080643] (ros2_esp32) JobProgress: {'identifier': 'ros2_esp32', 'progress': 'cmake'}
+[0.085134] (ros2_esp32) JobProgress: {'identifier': 'ros2_esp32', 'progress': 'build'}
+[0.089448] (ros2_esp32) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/ros2_esp32', '--', '-j6', '-l6'], 'cwd': '/home/jetson/ros-workspace/build/ros2_esp32', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '3228'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros-workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2667'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:60679'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3392,unix/ubuntu:/tmp/.ICE-unix/3392'), ('INVOCATION_ID', 'b9c9c47946684504bdb032fb061d9ce3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f89fa314_bff2_43d7_95fe_9af256439775'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ros2_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy')]), 'shell': False}
+[0.116926] (-) TimerEvent: {}
+[0.219079] (-) TimerEvent: {}
+[0.320132] (-) TimerEvent: {}
+[0.382152] (ros2_esp32) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target integer_publisher\x1b[0m\n'}
+[0.420407] (-) TimerEvent: {}
+[0.487964] (ros2_esp32) StdoutLine: {'line': b'[ 50%] Built target string_publisher\n'}
+[0.520648] (-) TimerEvent: {}
+[0.609627] (ros2_esp32) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o\x1b[0m\n'}
+[0.620835] (-) TimerEvent: {}
+[0.721912] (-) TimerEvent: {}
+[0.823185] (-) TimerEvent: {}
+[0.924285] (-) TimerEvent: {}
+[1.025299] (-) TimerEvent: {}
+[1.126542] (-) TimerEvent: {}
+[1.227665] (-) TimerEvent: {}
+[1.328926] (-) TimerEvent: {}
+[1.430009] (-) TimerEvent: {}
+[1.531181] (-) TimerEvent: {}
+[1.632175] (-) TimerEvent: {}
+[1.733182] (-) TimerEvent: {}
+[1.834194] (-) TimerEvent: {}
+[1.935370] (-) TimerEvent: {}
+[2.036459] (-) TimerEvent: {}
+[2.137485] (-) TimerEvent: {}
+[2.238828] (-) TimerEvent: {}
+[2.339932] (-) TimerEvent: {}
+[2.441026] (-) TimerEvent: {}
+[2.542028] (-) TimerEvent: {}
+[2.643302] (-) TimerEvent: {}
+[2.744468] (-) TimerEvent: {}
+[2.845512] (-) TimerEvent: {}
+[2.946570] (-) TimerEvent: {}
+[3.047626] (-) TimerEvent: {}
+[3.148646] (-) TimerEvent: {}
+[3.249756] (-) TimerEvent: {}
+[3.350943] (-) TimerEvent: {}
+[3.452026] (-) TimerEvent: {}
+[3.553198] (-) TimerEvent: {}
+[3.654279] (-) TimerEvent: {}
+[3.755370] (-) TimerEvent: {}
+[3.856428] (-) TimerEvent: {}
+[3.957568] (-) TimerEvent: {}
+[4.058719] (-) TimerEvent: {}
+[4.159926] (-) TimerEvent: {}
+[4.260968] (-) TimerEvent: {}
+[4.362179] (-) TimerEvent: {}
+[4.463437] (-) TimerEvent: {}
+[4.564529] (-) TimerEvent: {}
+[4.665708] (-) TimerEvent: {}
+[4.766935] (-) TimerEvent: {}
+[4.868062] (-) TimerEvent: {}
+[4.969155] (-) TimerEvent: {}
+[5.070170] (-) TimerEvent: {}
+[5.171269] (-) TimerEvent: {}
+[5.272423] (-) TimerEvent: {}
+[5.373497] (-) TimerEvent: {}
+[5.474661] (-) TimerEvent: {}
+[5.575615] (-) TimerEvent: {}
+[5.676795] (-) TimerEvent: {}
+[5.777986] (-) TimerEvent: {}
+[5.879181] (-) TimerEvent: {}
+[5.980341] (-) TimerEvent: {}
+[6.081563] (-) TimerEvent: {}
+[6.182852] (-) TimerEvent: {}
+[6.284052] (-) TimerEvent: {}
+[6.385212] (-) TimerEvent: {}
+[6.486236] (-) TimerEvent: {}
+[6.587573] (-) TimerEvent: {}
+[6.688774] (-) TimerEvent: {}
+[6.789924] (-) TimerEvent: {}
+[6.891129] (-) TimerEvent: {}
+[6.992245] (-) TimerEvent: {}
+[7.093353] (-) TimerEvent: {}
+[7.194552] (-) TimerEvent: {}
+[7.295620] (-) TimerEvent: {}
+[7.396729] (-) TimerEvent: {}
+[7.497796] (-) TimerEvent: {}
+[7.598976] (-) TimerEvent: {}
+[7.700053] (-) TimerEvent: {}
+[7.801170] (-) TimerEvent: {}
+[7.902377] (-) TimerEvent: {}
+[8.003489] (-) TimerEvent: {}
+[8.104555] (-) TimerEvent: {}
+[8.205680] (-) TimerEvent: {}
+[8.306936] (-) TimerEvent: {}
+[8.408066] (-) TimerEvent: {}
+[8.509104] (-) TimerEvent: {}
+[8.610282] (-) TimerEvent: {}
+[8.711579] (-) TimerEvent: {}
+[8.812614] (-) TimerEvent: {}
+[8.913664] (-) TimerEvent: {}
+[9.014841] (-) TimerEvent: {}
+[9.115922] (-) TimerEvent: {}
+[9.217063] (-) TimerEvent: {}
+[9.318193] (-) TimerEvent: {}
+[9.419451] (-) TimerEvent: {}
+[9.520647] (-) TimerEvent: {}
+[9.621886] (-) TimerEvent: {}
+[9.723095] (-) TimerEvent: {}
+[9.824202] (-) TimerEvent: {}
+[9.925288] (-) TimerEvent: {}
+[10.026515] (-) TimerEvent: {}
+[10.127590] (-) TimerEvent: {}
+[10.228722] (-) TimerEvent: {}
+[10.329756] (-) TimerEvent: {}
+[10.430936] (-) TimerEvent: {}
+[10.532004] (-) TimerEvent: {}
+[10.633190] (-) TimerEvent: {}
+[10.734760] (-) TimerEvent: {}
+[10.835921] (-) TimerEvent: {}
+[10.937130] (-) TimerEvent: {}
+[11.038281] (-) TimerEvent: {}
+[11.139277] (-) TimerEvent: {}
+[11.240347] (-) TimerEvent: {}
+[11.341519] (-) TimerEvent: {}
+[11.442662] (-) TimerEvent: {}
+[11.543694] (-) TimerEvent: {}
+[11.644752] (-) TimerEvent: {}
+[11.745740] (-) TimerEvent: {}
+[11.846847] (-) TimerEvent: {}
+[11.947908] (-) TimerEvent: {}
+[12.049004] (-) TimerEvent: {}
+[12.150007] (-) TimerEvent: {}
+[12.251131] (-) TimerEvent: {}
+[12.352176] (-) TimerEvent: {}
+[12.453250] (-) TimerEvent: {}
+[12.554352] (-) TimerEvent: {}
+[12.655391] (-) TimerEvent: {}
+[12.756507] (-) TimerEvent: {}
+[12.857713] (-) TimerEvent: {}
+[12.958992] (-) TimerEvent: {}
+[13.060100] (-) TimerEvent: {}
+[13.161207] (-) TimerEvent: {}
+[13.262421] (-) TimerEvent: {}
+[13.363505] (-) TimerEvent: {}
+[13.464529] (-) TimerEvent: {}
+[13.565566] (-) TimerEvent: {}
+[13.666854] (-) TimerEvent: {}
+[13.768039] (-) TimerEvent: {}
+[13.869098] (-) TimerEvent: {}
+[13.970134] (-) TimerEvent: {}
+[14.071359] (-) TimerEvent: {}
+[14.172542] (-) TimerEvent: {}
+[14.273724] (-) TimerEvent: {}
+[14.374897] (-) TimerEvent: {}
+[14.475905] (-) TimerEvent: {}
+[14.577285] (-) TimerEvent: {}
+[14.678477] (-) TimerEvent: {}
+[14.779489] (-) TimerEvent: {}
+[14.880607] (-) TimerEvent: {}
+[14.981643] (-) TimerEvent: {}
+[15.082822] (-) TimerEvent: {}
+[15.183897] (-) TimerEvent: {}
+[15.285069] (-) TimerEvent: {}
+[15.300976] (ros2_esp32) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable integer_publisher\x1b[0m\n'}
+[15.385314] (-) TimerEvent: {}
+[15.486493] (-) TimerEvent: {}
+[15.587575] (-) TimerEvent: {}
+[15.688800] (-) TimerEvent: {}
+[15.790018] (-) TimerEvent: {}
+[15.891267] (-) TimerEvent: {}
+[15.992413] (-) TimerEvent: {}
+[16.067943] (ros2_esp32) StdoutLine: {'line': b'[100%] Built target integer_publisher\n'}
+[16.092646] (-) TimerEvent: {}
+[16.143246] (ros2_esp32) CommandEnded: {'returncode': 0}
+[16.192978] (-) TimerEvent: {}
+[16.294547] (-) TimerEvent: {}
+[16.313194] (ros2_esp32) JobProgress: {'identifier': 'ros2_esp32', 'progress': 'install'}
+[16.381709] (ros2_esp32) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/ros2_esp32'], 'cwd': '/home/jetson/ros-workspace/build/ros2_esp32', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '3228'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros-workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2667'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:60679'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3392,unix/ubuntu:/tmp/.ICE-unix/3392'), ('INVOCATION_ID', 'b9c9c47946684504bdb032fb061d9ce3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f89fa314_bff2_43d7_95fe_9af256439775'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ros2_esp32'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy')]), 'shell': False}
+[16.397325] (-) TimerEvent: {}
+[16.443010] (ros2_esp32) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.444860] (ros2_esp32) StdoutLine: {'line': b'-- Installing: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher\n'}
+[16.457229] (ros2_esp32) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher" to ""\n'}
+[16.459025] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher\n'}
+[16.460966] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/package_run_dependencies/ros2_esp32\n'}
+[16.461669] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/parent_prefix_path/ros2_esp32\n'}
+[16.462742] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.sh\n'}
+[16.463228] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.dsv\n'}
+[16.463961] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.sh\n'}
+[16.464645] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.dsv\n'}
+[16.465383] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.bash\n'}
+[16.466039] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.sh\n'}
+[16.466921] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.zsh\n'}
+[16.467444] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.dsv\n'}
+[16.467940] (ros2_esp32) StdoutLine: {'line': b'-- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv\n'}
+[16.468517] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/packages/ros2_esp32\n'}
+[16.469176] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config.cmake\n'}
+[16.469816] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config-version.cmake\n'}
+[16.470421] (ros2_esp32) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.xml\n'}
+[16.479331] (ros2_esp32) CommandEnded: {'returncode': 0}
+[16.498780] (-) TimerEvent: {}
+[16.601918] (-) TimerEvent: {}
+[16.704066] (-) TimerEvent: {}
+[16.805962] (-) TimerEvent: {}
+[16.814422] (ros2_esp32) JobEnded: {'identifier': 'ros2_esp32', 'rc': 0}
+[16.818932] (-) EventReactorShutdown: {}

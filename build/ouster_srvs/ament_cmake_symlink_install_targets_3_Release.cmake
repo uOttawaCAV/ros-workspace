@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/ros-workspace/build/ouster_srvs/rosidl_generator_py/ouster_srvs/ouster_srvs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "ouster_srvs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ouster_srvs")

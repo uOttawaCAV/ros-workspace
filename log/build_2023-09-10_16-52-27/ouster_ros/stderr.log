@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/ouster_ros_library.dir/build.make:63: CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:439: CMakeFiles/ouster_ros_library.dir/all] Interrupt
+make: *** [Makefile:163: all] Interrupt

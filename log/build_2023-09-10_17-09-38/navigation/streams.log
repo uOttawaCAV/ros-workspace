@@ -1,0 +1,4 @@
+[0.366s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation
+[0.466s] CMake Error: The source directory "/home/jetson/ros-workspace/build/navigation/ouster_ros" does not exist.
+[0.474s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.537s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_BUILD_TYPE=Release --select-packages ouster_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation

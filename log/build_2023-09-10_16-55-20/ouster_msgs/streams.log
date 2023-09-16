@@ -1,0 +1,91 @@
+[0.412s] Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.824s] [  3%] Built target ouster_msgs__cpp
+[0.959s] [ 12%] Built target ouster_msgs__rosidl_generator_c
+[1.209s] [ 22%] Built target ouster_msgs__rosidl_typesupport_cpp
+[1.223s] [ 32%] Built target ouster_msgs__rosidl_typesupport_fastrtps_cpp
+[1.288s] [ 41%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[1.469s] [ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c
+[1.497s] [ 61%] Built target ouster_msgs__rosidl_typesupport_c
+[1.665s] [ 70%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c
+[2.004s] [ 70%] Built target ouster_msgs
+[2.059s] [ 74%] Built target ouster_msgs__py
+[2.244s] [ 80%] Built target ouster_msgs__python
+[2.519s] [ 87%] Built target ouster_msgs__rosidl_typesupport_introspection_c__pyext
+[2.535s] [ 93%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.621s] [100%] Built target ouster_msgs__rosidl_typesupport_c__pyext
+[2.899s] Invoked command in '/home/jetson/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j6 -l6
+[3.307s] Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_msgs
+[3.374s] -- Install configuration: "Release"
+[3.375s] -- Execute custom install script
+[3.375s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_msgs
+[3.377s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__functions.h
+[3.378s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.h
+[3.380s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__type_support.h
+[3.381s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.h
+[3.383s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.385s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.sh
+[3.404s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.dsv
+[3.409s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h
+[3.410s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.412s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_c.so
+[3.417s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.419s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.421s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.425s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h
+[3.426s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.430s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__builder.hpp
+[3.431s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp
+[3.433s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__traits.hpp
+[3.434s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__type_support.hpp
+[3.435s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp
+[3.436s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.440s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.442s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.sh
+[3.445s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.dsv
+[3.446s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/__init__.py
+[3.450s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/__init__.py
+[3.451s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/_packet_msg.py
+[3.454s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.456s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.459s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.461s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__python.so
+[3.464s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.idl
+[3.466s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.msg
+[3.468s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_msgs
+[3.471s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_msgs
+[3.473s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.sh
+[3.476s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.dsv
+[3.479s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.sh
+[3.482s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.dsv
+[3.483s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.bash
+[3.484s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.sh
+[3.485s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.zsh
+[3.487s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.dsv
+[3.489s] -- Symlinking: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv
+[3.549s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/packages/ouster_msgs
+[3.551s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake-extras.cmake
+[3.553s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.555s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.557s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.559s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.560s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.563s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.565s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig.cmake
+[3.567s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig-version.cmake
+[3.569s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.xml
+[3.571s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_generator_c.so
+[3.574s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_c.so
+[3.577s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_c.so
+[3.580s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_cpp.so
+[3.583s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_cpp.so
+[3.756s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport.cmake
+[3.756s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport-release.cmake
+[3.757s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.758s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[3.758s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport.cmake
+[3.759s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport-release.cmake
+[3.760s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cppExport.cmake
+[3.761s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.761s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.762s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport.cmake
+[3.762s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport-release.cmake

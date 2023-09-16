@@ -1,0 +1,1 @@
+/home/jetson/ros-workspace/src/micro_ros_setup/scripts/build_firmware.sh

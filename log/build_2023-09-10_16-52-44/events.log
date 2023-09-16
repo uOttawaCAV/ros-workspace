@@ -1,0 +1,1969 @@
+[0.000000] (-) TimerEvent: {}
+[0.002008] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.002865] (-) JobUnselected: {'identifier': 'navigation'}
+[0.004420] (-) JobUnselected: {'identifier': 'ouster_msgs'}
+[0.004596] (-) JobUnselected: {'identifier': 'ouster_srvs'}
+[0.004787] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.005010] (-) JobUnselected: {'identifier': 'ros2_esp32'}
+[0.005329] (-) JobUnselected: {'identifier': 'sbg_driver'}
+[0.005504] (ouster_ros) JobQueued: {'identifier': 'ouster_ros', 'dependencies': OrderedDict([('ouster_msgs', '/home/jetson/ros-workspace/install/ouster_msgs'), ('ouster_srvs', '/home/jetson/ros-workspace/install/ouster_srvs')])}
+[0.009365] (ouster_ros) JobStarted: {'identifier': 'ouster_ros'}
+[0.098279] (-) TimerEvent: {}
+[0.117430] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'cmake'}
+[0.122315] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'build'}
+[0.128771] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros-workspace/build/ouster_ros', '--', '-j6', '-l6'], 'cwd': '/home/jetson/ros-workspace/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '3047'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:57380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3089,unix/ubuntu:/tmp/.ICE-unix/3089'), ('INVOCATION_ID', '7b0b8d80088c4cacbdb116b73069ff28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3977ee_d3cc_4e0b_8c30_7bd600b31a9b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy')]), 'shell': False}
+[0.198459] (-) TimerEvent: {}
+[0.301133] (-) TimerEvent: {}
+[0.402287] (-) TimerEvent: {}
+[0.481375] (ouster_ros) StdoutLine: {'line': b'\x1b[34m\x1b[1mGenerating build info header\x1b[0m\n'}
+[0.502569] (-) TimerEvent: {}
+[0.542705] (ouster_ros) StdoutLine: {'line': b'[  5%] Built target os_replay\n'}
+[0.543992] (ouster_ros) StdoutLine: {'line': b'[ 11%] Built target os_sensor\n'}
+[0.553919] (ouster_ros) StdoutLine: {'line': b'[ 23%] Built target os_image\n'}
+[0.554877] (ouster_ros) StdoutLine: {'line': b'[ 23%] Built target os_cloud\n'}
+[0.602737] (-) TimerEvent: {}
+[0.648753] (ouster_ros) StdoutLine: {'line': b'[ 23%] Built target ouster_generate_header\n'}
+[0.703064] (-) TimerEvent: {}
+[0.804159] (-) TimerEvent: {}
+[0.824020] (ouster_ros) StdoutLine: {'line': b'[ 58%] Built target ouster_client\n'}
+[0.904450] (-) TimerEvent: {}
+[1.005616] (-) TimerEvent: {}
+[1.032823] (ouster_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o\x1b[0m\n'}
+[1.105855] (-) TimerEvent: {}
+[1.206940] (-) TimerEvent: {}
+[1.308030] (-) TimerEvent: {}
+[1.409050] (-) TimerEvent: {}
+[1.510077] (-) TimerEvent: {}
+[1.611097] (-) TimerEvent: {}
+[1.712196] (-) TimerEvent: {}
+[1.813365] (-) TimerEvent: {}
+[1.914548] (-) TimerEvent: {}
+[2.015683] (-) TimerEvent: {}
+[2.116701] (-) TimerEvent: {}
+[2.217924] (-) TimerEvent: {}
+[2.318928] (-) TimerEvent: {}
+[2.419983] (-) TimerEvent: {}
+[2.521062] (-) TimerEvent: {}
+[2.622195] (-) TimerEvent: {}
+[2.723224] (-) TimerEvent: {}
+[2.824323] (-) TimerEvent: {}
+[2.925459] (-) TimerEvent: {}
+[3.026621] (-) TimerEvent: {}
+[3.127671] (-) TimerEvent: {}
+[3.228737] (-) TimerEvent: {}
+[3.329873] (-) TimerEvent: {}
+[3.430885] (-) TimerEvent: {}
+[3.531896] (-) TimerEvent: {}
+[3.632980] (-) TimerEvent: {}
+[3.734143] (-) TimerEvent: {}
+[3.835247] (-) TimerEvent: {}
+[3.936386] (-) TimerEvent: {}
+[4.037477] (-) TimerEvent: {}
+[4.138601] (-) TimerEvent: {}
+[4.239787] (-) TimerEvent: {}
+[4.341112] (-) TimerEvent: {}
+[4.442320] (-) TimerEvent: {}
+[4.543395] (-) TimerEvent: {}
+[4.644457] (-) TimerEvent: {}
+[4.745641] (-) TimerEvent: {}
+[4.847102] (-) TimerEvent: {}
+[4.948279] (-) TimerEvent: {}
+[5.049494] (-) TimerEvent: {}
+[5.150616] (-) TimerEvent: {}
+[5.251851] (-) TimerEvent: {}
+[5.353103] (-) TimerEvent: {}
+[5.454240] (-) TimerEvent: {}
+[5.555396] (-) TimerEvent: {}
+[5.656575] (-) TimerEvent: {}
+[5.757754] (-) TimerEvent: {}
+[5.858892] (-) TimerEvent: {}
+[5.959893] (-) TimerEvent: {}
+[6.060846] (-) TimerEvent: {}
+[6.162122] (-) TimerEvent: {}
+[6.263360] (-) TimerEvent: {}
+[6.364489] (-) TimerEvent: {}
+[6.465697] (-) TimerEvent: {}
+[6.566889] (-) TimerEvent: {}
+[6.667991] (-) TimerEvent: {}
+[6.769373] (-) TimerEvent: {}
+[6.870538] (-) TimerEvent: {}
+[6.971736] (-) TimerEvent: {}
+[7.072987] (-) TimerEvent: {}
+[7.174930] (-) TimerEvent: {}
+[7.276041] (-) TimerEvent: {}
+[7.377057] (-) TimerEvent: {}
+[7.478250] (-) TimerEvent: {}
+[7.579309] (-) TimerEvent: {}
+[7.680344] (-) TimerEvent: {}
+[7.781437] (-) TimerEvent: {}
+[7.882501] (-) TimerEvent: {}
+[7.983649] (-) TimerEvent: {}
+[8.084697] (-) TimerEvent: {}
+[8.185959] (-) TimerEvent: {}
+[8.287011] (-) TimerEvent: {}
+[8.388243] (-) TimerEvent: {}
+[8.489423] (-) TimerEvent: {}
+[8.590549] (-) TimerEvent: {}
+[8.691645] (-) TimerEvent: {}
+[8.792769] (-) TimerEvent: {}
+[8.893887] (-) TimerEvent: {}
+[8.995419] (-) TimerEvent: {}
+[9.096436] (-) TimerEvent: {}
+[9.197539] (-) TimerEvent: {}
+[9.298562] (-) TimerEvent: {}
+[9.399620] (-) TimerEvent: {}
+[9.500833] (-) TimerEvent: {}
+[9.602698] (-) TimerEvent: {}
+[9.703857] (-) TimerEvent: {}
+[9.805812] (-) TimerEvent: {}
+[9.907451] (-) TimerEvent: {}
+[10.008541] (-) TimerEvent: {}
+[10.109649] (-) TimerEvent: {}
+[10.210749] (-) TimerEvent: {}
+[10.311866] (-) TimerEvent: {}
+[10.412864] (-) TimerEvent: {}
+[10.514740] (-) TimerEvent: {}
+[10.615846] (-) TimerEvent: {}
+[10.716838] (-) TimerEvent: {}
+[10.817955] (-) TimerEvent: {}
+[10.918936] (-) TimerEvent: {}
+[11.019947] (-) TimerEvent: {}
+[11.121051] (-) TimerEvent: {}
+[11.222184] (-) TimerEvent: {}
+[11.323149] (-) TimerEvent: {}
+[11.424188] (-) TimerEvent: {}
+[11.525402] (-) TimerEvent: {}
+[11.626476] (-) TimerEvent: {}
+[11.727507] (-) TimerEvent: {}
+[11.828569] (-) TimerEvent: {}
+[11.929771] (-) TimerEvent: {}
+[12.030994] (-) TimerEvent: {}
+[12.131988] (-) TimerEvent: {}
+[12.232925] (-) TimerEvent: {}
+[12.334030] (-) TimerEvent: {}
+[12.435107] (-) TimerEvent: {}
+[12.536195] (-) TimerEvent: {}
+[12.637528] (-) TimerEvent: {}
+[12.738534] (-) TimerEvent: {}
+[12.839730] (-) TimerEvent: {}
+[12.940823] (-) TimerEvent: {}
+[13.042282] (-) TimerEvent: {}
+[13.143274] (-) TimerEvent: {}
+[13.244318] (-) TimerEvent: {}
+[13.345453] (-) TimerEvent: {}
+[13.446476] (-) TimerEvent: {}
+[13.547484] (-) TimerEvent: {}
+[13.648501] (-) TimerEvent: {}
+[13.749577] (-) TimerEvent: {}
+[13.850635] (-) TimerEvent: {}
+[13.951604] (-) TimerEvent: {}
+[14.052661] (-) TimerEvent: {}
+[14.153744] (-) TimerEvent: {}
+[14.254787] (-) TimerEvent: {}
+[14.355797] (-) TimerEvent: {}
+[14.456891] (-) TimerEvent: {}
+[14.558097] (-) TimerEvent: {}
+[14.659170] (-) TimerEvent: {}
+[14.760257] (-) TimerEvent: {}
+[14.861355] (-) TimerEvent: {}
+[14.962436] (-) TimerEvent: {}
+[15.063413] (-) TimerEvent: {}
+[15.164480] (-) TimerEvent: {}
+[15.265774] (-) TimerEvent: {}
+[15.366913] (-) TimerEvent: {}
+[15.468429] (-) TimerEvent: {}
+[15.569546] (-) TimerEvent: {}
+[15.670581] (-) TimerEvent: {}
+[15.771688] (-) TimerEvent: {}
+[15.872642] (-) TimerEvent: {}
+[15.973655] (-) TimerEvent: {}
+[16.074747] (-) TimerEvent: {}
+[16.175715] (-) TimerEvent: {}
+[16.276714] (-) TimerEvent: {}
+[16.377829] (-) TimerEvent: {}
+[16.478896] (-) TimerEvent: {}
+[16.579907] (-) TimerEvent: {}
+[16.680997] (-) TimerEvent: {}
+[16.782271] (-) TimerEvent: {}
+[16.883266] (-) TimerEvent: {}
+[16.984193] (-) TimerEvent: {}
+[17.085397] (-) TimerEvent: {}
+[17.186455] (-) TimerEvent: {}
+[17.288042] (-) TimerEvent: {}
+[17.389033] (-) TimerEvent: {}
+[17.491106] (-) TimerEvent: {}
+[17.592075] (-) TimerEvent: {}
+[17.693096] (-) TimerEvent: {}
+[17.794210] (-) TimerEvent: {}
+[17.895272] (-) TimerEvent: {}
+[17.996225] (-) TimerEvent: {}
+[18.097375] (-) TimerEvent: {}
+[18.198647] (-) TimerEvent: {}
+[18.299674] (-) TimerEvent: {}
+[18.400772] (-) TimerEvent: {}
+[18.502260] (-) TimerEvent: {}
+[18.603229] (-) TimerEvent: {}
+[18.704252] (-) TimerEvent: {}
+[18.805710] (-) TimerEvent: {}
+[18.906851] (-) TimerEvent: {}
+[19.007922] (-) TimerEvent: {}
+[19.108935] (-) TimerEvent: {}
+[19.210242] (-) TimerEvent: {}
+[19.311300] (-) TimerEvent: {}
+[19.412356] (-) TimerEvent: {}
+[19.513460] (-) TimerEvent: {}
+[19.614573] (-) TimerEvent: {}
+[19.715661] (-) TimerEvent: {}
+[19.816675] (-) TimerEvent: {}
+[19.917823] (-) TimerEvent: {}
+[20.018818] (-) TimerEvent: {}
+[20.119877] (-) TimerEvent: {}
+[20.220949] (-) TimerEvent: {}
+[20.322067] (-) TimerEvent: {}
+[20.423208] (-) TimerEvent: {}
+[20.524251] (-) TimerEvent: {}
+[20.625418] (-) TimerEvent: {}
+[20.726488] (-) TimerEvent: {}
+[20.827481] (-) TimerEvent: {}
+[20.928392] (-) TimerEvent: {}
+[21.029454] (-) TimerEvent: {}
+[21.130400] (-) TimerEvent: {}
+[21.231405] (-) TimerEvent: {}
+[21.332442] (-) TimerEvent: {}
+[21.433444] (-) TimerEvent: {}
+[21.534500] (-) TimerEvent: {}
+[21.635577] (-) TimerEvent: {}
+[21.736636] (-) TimerEvent: {}
+[21.837798] (-) TimerEvent: {}
+[21.938825] (-) TimerEvent: {}
+[22.039850] (-) TimerEvent: {}
+[22.140827] (-) TimerEvent: {}
+[22.241839] (-) TimerEvent: {}
+[22.342754] (-) TimerEvent: {}
+[22.443745] (-) TimerEvent: {}
+[22.544664] (-) TimerEvent: {}
+[22.646094] (-) TimerEvent: {}
+[22.747095] (-) TimerEvent: {}
+[22.848219] (-) TimerEvent: {}
+[22.949306] (-) TimerEvent: {}
+[23.050385] (-) TimerEvent: {}
+[23.152087] (-) TimerEvent: {}
+[23.253292] (-) TimerEvent: {}
+[23.354518] (-) TimerEvent: {}
+[23.455675] (-) TimerEvent: {}
+[23.556855] (-) TimerEvent: {}
+[23.658232] (-) TimerEvent: {}
+[23.760310] (-) TimerEvent: {}
+[23.861631] (-) TimerEvent: {}
+[23.962923] (-) TimerEvent: {}
+[24.064135] (-) TimerEvent: {}
+[24.165446] (-) TimerEvent: {}
+[24.266514] (-) TimerEvent: {}
+[24.367623] (-) TimerEvent: {}
+[24.468770] (-) TimerEvent: {}
+[24.570202] (-) TimerEvent: {}
+[24.671510] (-) TimerEvent: {}
+[24.772674] (-) TimerEvent: {}
+[24.873969] (-) TimerEvent: {}
+[24.975634] (-) TimerEvent: {}
+[25.076809] (-) TimerEvent: {}
+[25.178128] (-) TimerEvent: {}
+[25.279369] (-) TimerEvent: {}
+[25.380482] (-) TimerEvent: {}
+[25.481673] (-) TimerEvent: {}
+[25.582802] (-) TimerEvent: {}
+[25.683861] (-) TimerEvent: {}
+[25.784990] (-) TimerEvent: {}
+[25.886245] (-) TimerEvent: {}
+[25.987326] (-) TimerEvent: {}
+[26.088424] (-) TimerEvent: {}
+[26.189831] (-) TimerEvent: {}
+[26.291105] (-) TimerEvent: {}
+[26.392281] (-) TimerEvent: {}
+[26.493634] (-) TimerEvent: {}
+[26.595141] (-) TimerEvent: {}
+[26.696409] (-) TimerEvent: {}
+[26.797529] (-) TimerEvent: {}
+[26.898756] (-) TimerEvent: {}
+[26.999852] (-) TimerEvent: {}
+[27.101077] (-) TimerEvent: {}
+[27.202283] (-) TimerEvent: {}
+[27.303369] (-) TimerEvent: {}
+[27.404579] (-) TimerEvent: {}
+[27.505879] (-) TimerEvent: {}
+[27.606945] (-) TimerEvent: {}
+[27.708158] (-) TimerEvent: {}
+[27.809438] (-) TimerEvent: {}
+[27.910562] (-) TimerEvent: {}
+[28.011587] (-) TimerEvent: {}
+[28.112767] (-) TimerEvent: {}
+[28.214000] (-) TimerEvent: {}
+[28.315279] (-) TimerEvent: {}
+[28.416841] (-) TimerEvent: {}
+[28.518112] (-) TimerEvent: {}
+[28.619308] (-) TimerEvent: {}
+[28.720487] (-) TimerEvent: {}
+[28.822066] (-) TimerEvent: {}
+[28.923149] (-) TimerEvent: {}
+[29.024210] (-) TimerEvent: {}
+[29.125268] (-) TimerEvent: {}
+[29.226247] (-) TimerEvent: {}
+[29.327259] (-) TimerEvent: {}
+[29.428232] (-) TimerEvent: {}
+[29.529386] (-) TimerEvent: {}
+[29.630508] (-) TimerEvent: {}
+[29.731568] (-) TimerEvent: {}
+[29.832647] (-) TimerEvent: {}
+[29.933831] (-) TimerEvent: {}
+[30.034840] (-) TimerEvent: {}
+[30.135916] (-) TimerEvent: {}
+[30.237003] (-) TimerEvent: {}
+[30.338197] (-) TimerEvent: {}
+[30.439228] (-) TimerEvent: {}
+[30.540324] (-) TimerEvent: {}
+[30.641469] (-) TimerEvent: {}
+[30.742521] (-) TimerEvent: {}
+[30.843581] (-) TimerEvent: {}
+[30.944579] (-) TimerEvent: {}
+[31.045758] (-) TimerEvent: {}
+[31.146813] (-) TimerEvent: {}
+[31.247978] (-) TimerEvent: {}
+[31.349041] (-) TimerEvent: {}
+[31.450133] (-) TimerEvent: {}
+[31.551187] (-) TimerEvent: {}
+[31.652263] (-) TimerEvent: {}
+[31.753446] (-) TimerEvent: {}
+[31.854554] (-) TimerEvent: {}
+[31.955736] (-) TimerEvent: {}
+[32.056725] (-) TimerEvent: {}
+[32.157792] (-) TimerEvent: {}
+[32.258767] (-) TimerEvent: {}
+[32.359721] (-) TimerEvent: {}
+[32.460775] (-) TimerEvent: {}
+[32.561933] (-) TimerEvent: {}
+[32.662924] (-) TimerEvent: {}
+[32.763973] (-) TimerEvent: {}
+[32.865054] (-) TimerEvent: {}
+[32.966097] (-) TimerEvent: {}
+[33.067175] (-) TimerEvent: {}
+[33.168196] (-) TimerEvent: {}
+[33.269212] (-) TimerEvent: {}
+[33.370339] (-) TimerEvent: {}
+[33.471476] (-) TimerEvent: {}
+[33.572464] (-) TimerEvent: {}
+[33.673745] (-) TimerEvent: {}
+[33.774818] (-) TimerEvent: {}
+[33.875867] (-) TimerEvent: {}
+[33.976969] (-) TimerEvent: {}
+[34.078121] (-) TimerEvent: {}
+[34.179287] (-) TimerEvent: {}
+[34.280315] (-) TimerEvent: {}
+[34.381378] (-) TimerEvent: {}
+[34.482310] (-) TimerEvent: {}
+[34.583377] (-) TimerEvent: {}
+[34.684445] (-) TimerEvent: {}
+[34.785607] (-) TimerEvent: {}
+[34.886704] (-) TimerEvent: {}
+[34.987866] (-) TimerEvent: {}
+[35.088906] (-) TimerEvent: {}
+[35.189988] (-) TimerEvent: {}
+[35.291046] (-) TimerEvent: {}
+[35.392057] (-) TimerEvent: {}
+[35.493130] (-) TimerEvent: {}
+[35.594250] (-) TimerEvent: {}
+[35.695277] (-) TimerEvent: {}
+[35.796303] (-) TimerEvent: {}
+[35.897405] (-) TimerEvent: {}
+[35.998401] (-) TimerEvent: {}
+[36.099437] (-) TimerEvent: {}
+[36.200468] (-) TimerEvent: {}
+[36.301691] (-) TimerEvent: {}
+[36.402750] (-) TimerEvent: {}
+[36.503811] (-) TimerEvent: {}
+[36.604886] (-) TimerEvent: {}
+[36.706061] (-) TimerEvent: {}
+[36.807063] (-) TimerEvent: {}
+[36.908159] (-) TimerEvent: {}
+[37.009189] (-) TimerEvent: {}
+[37.110333] (-) TimerEvent: {}
+[37.211421] (-) TimerEvent: {}
+[37.312489] (-) TimerEvent: {}
+[37.413674] (-) TimerEvent: {}
+[37.514757] (-) TimerEvent: {}
+[37.615821] (-) TimerEvent: {}
+[37.716868] (-) TimerEvent: {}
+[37.817964] (-) TimerEvent: {}
+[37.919030] (-) TimerEvent: {}
+[38.020094] (-) TimerEvent: {}
+[38.121097] (-) TimerEvent: {}
+[38.222168] (-) TimerEvent: {}
+[38.323178] (-) TimerEvent: {}
+[38.424330] (-) TimerEvent: {}
+[38.525459] (-) TimerEvent: {}
+[38.626490] (-) TimerEvent: {}
+[38.727499] (-) TimerEvent: {}
+[38.828497] (-) TimerEvent: {}
+[38.929560] (-) TimerEvent: {}
+[39.030613] (-) TimerEvent: {}
+[39.131624] (-) TimerEvent: {}
+[39.232815] (-) TimerEvent: {}
+[39.334109] (-) TimerEvent: {}
+[39.435130] (-) TimerEvent: {}
+[39.536142] (-) TimerEvent: {}
+[39.637122] (-) TimerEvent: {}
+[39.738210] (-) TimerEvent: {}
+[39.839239] (-) TimerEvent: {}
+[39.940245] (-) TimerEvent: {}
+[40.041434] (-) TimerEvent: {}
+[40.142558] (-) TimerEvent: {}
+[40.243593] (-) TimerEvent: {}
+[40.344674] (-) TimerEvent: {}
+[40.445763] (-) TimerEvent: {}
+[40.546739] (-) TimerEvent: {}
+[40.647774] (-) TimerEvent: {}
+[40.748810] (-) TimerEvent: {}
+[40.849921] (-) TimerEvent: {}
+[40.950933] (-) TimerEvent: {}
+[41.051999] (-) TimerEvent: {}
+[41.153065] (-) TimerEvent: {}
+[41.254167] (-) TimerEvent: {}
+[41.355170] (-) TimerEvent: {}
+[41.456210] (-) TimerEvent: {}
+[41.557309] (-) TimerEvent: {}
+[41.658347] (-) TimerEvent: {}
+[41.759440] (-) TimerEvent: {}
+[41.860429] (-) TimerEvent: {}
+[41.961466] (-) TimerEvent: {}
+[42.062535] (-) TimerEvent: {}
+[42.163589] (-) TimerEvent: {}
+[42.264578] (-) TimerEvent: {}
+[42.365678] (-) TimerEvent: {}
+[42.466751] (-) TimerEvent: {}
+[42.567747] (-) TimerEvent: {}
+[42.668844] (-) TimerEvent: {}
+[42.770010] (-) TimerEvent: {}
+[42.871080] (-) TimerEvent: {}
+[42.972115] (-) TimerEvent: {}
+[43.073164] (-) TimerEvent: {}
+[43.174295] (-) TimerEvent: {}
+[43.275311] (-) TimerEvent: {}
+[43.376344] (-) TimerEvent: {}
+[43.477479] (-) TimerEvent: {}
+[43.578545] (-) TimerEvent: {}
+[43.679598] (-) TimerEvent: {}
+[43.780711] (-) TimerEvent: {}
+[43.881907] (-) TimerEvent: {}
+[43.982925] (-) TimerEvent: {}
+[44.084037] (-) TimerEvent: {}
+[44.185059] (-) TimerEvent: {}
+[44.286189] (-) TimerEvent: {}
+[44.387228] (-) TimerEvent: {}
+[44.488313] (-) TimerEvent: {}
+[44.589488] (-) TimerEvent: {}
+[44.690461] (-) TimerEvent: {}
+[44.791525] (-) TimerEvent: {}
+[44.892553] (-) TimerEvent: {}
+[44.993620] (-) TimerEvent: {}
+[45.094677] (-) TimerEvent: {}
+[45.195747] (-) TimerEvent: {}
+[45.296855] (-) TimerEvent: {}
+[45.398246] (-) TimerEvent: {}
+[45.499278] (-) TimerEvent: {}
+[45.600469] (-) TimerEvent: {}
+[45.701671] (-) TimerEvent: {}
+[45.802837] (-) TimerEvent: {}
+[45.903976] (-) TimerEvent: {}
+[46.005879] (-) TimerEvent: {}
+[46.106929] (-) TimerEvent: {}
+[46.208045] (-) TimerEvent: {}
+[46.309124] (-) TimerEvent: {}
+[46.410286] (-) TimerEvent: {}
+[46.511276] (-) TimerEvent: {}
+[46.612405] (-) TimerEvent: {}
+[46.713580] (-) TimerEvent: {}
+[46.814616] (-) TimerEvent: {}
+[46.915693] (-) TimerEvent: {}
+[47.016891] (-) TimerEvent: {}
+[47.118196] (-) TimerEvent: {}
+[47.219173] (-) TimerEvent: {}
+[47.320170] (-) TimerEvent: {}
+[47.421180] (-) TimerEvent: {}
+[47.522314] (-) TimerEvent: {}
+[47.623434] (-) TimerEvent: {}
+[47.724437] (-) TimerEvent: {}
+[47.825442] (-) TimerEvent: {}
+[47.926471] (-) TimerEvent: {}
+[48.027481] (-) TimerEvent: {}
+[48.128517] (-) TimerEvent: {}
+[48.229685] (-) TimerEvent: {}
+[48.330736] (-) TimerEvent: {}
+[48.431738] (-) TimerEvent: {}
+[48.532770] (-) TimerEvent: {}
+[48.634035] (-) TimerEvent: {}
+[48.735110] (-) TimerEvent: {}
+[48.836185] (-) TimerEvent: {}
+[48.937277] (-) TimerEvent: {}
+[49.038469] (-) TimerEvent: {}
+[49.139533] (-) TimerEvent: {}
+[49.240505] (-) TimerEvent: {}
+[49.341718] (-) TimerEvent: {}
+[49.442721] (-) TimerEvent: {}
+[49.543815] (-) TimerEvent: {}
+[49.644889] (-) TimerEvent: {}
+[49.746106] (-) TimerEvent: {}
+[49.847260] (-) TimerEvent: {}
+[49.948366] (-) TimerEvent: {}
+[50.049564] (-) TimerEvent: {}
+[50.150646] (-) TimerEvent: {}
+[50.251677] (-) TimerEvent: {}
+[50.352763] (-) TimerEvent: {}
+[50.453924] (-) TimerEvent: {}
+[50.554836] (-) TimerEvent: {}
+[50.655885] (-) TimerEvent: {}
+[50.756852] (-) TimerEvent: {}
+[50.857895] (-) TimerEvent: {}
+[50.958851] (-) TimerEvent: {}
+[51.059899] (-) TimerEvent: {}
+[51.160965] (-) TimerEvent: {}
+[51.262105] (-) TimerEvent: {}
+[51.363163] (-) TimerEvent: {}
+[51.373955] (ouster_ros) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libouster_ros_library.so\x1b[0m\n'}
+[51.463420] (-) TimerEvent: {}
+[51.564420] (-) TimerEvent: {}
+[51.665496] (-) TimerEvent: {}
+[51.766497] (-) TimerEvent: {}
+[51.867326] (-) TimerEvent: {}
+[51.968269] (-) TimerEvent: {}
+[52.069415] (-) TimerEvent: {}
+[52.170460] (-) TimerEvent: {}
+[52.271473] (-) TimerEvent: {}
+[52.372483] (-) TimerEvent: {}
+[52.473448] (-) TimerEvent: {}
+[52.489208] (ouster_ros) StdoutLine: {'line': b'[ 64%] Built target ouster_ros_library\n'}
+[52.573764] (-) TimerEvent: {}
+[52.592592] (ouster_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target os_image_component\x1b[0m\n'}
+[52.593562] (ouster_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target os_cloud_component\x1b[0m\n'}
+[52.599788] (ouster_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target os_replay_component\x1b[0m\n'}
+[52.601395] (ouster_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target os_sensor_component\x1b[0m\n'}
+[52.674016] (-) TimerEvent: {}
+[52.775080] (-) TimerEvent: {}
+[52.876174] (-) TimerEvent: {}
+[52.977580] (-) TimerEvent: {}
+[53.006802] (ouster_ros) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o\x1b[0m\n'}
+[53.013582] (ouster_ros) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o\x1b[0m\n'}
+[53.035099] (ouster_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o\x1b[0m\n'}
+[53.054296] (ouster_ros) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o\x1b[0m\n'}
+[53.057687] (ouster_ros) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o\x1b[0m\n'}
+[53.077862] (-) TimerEvent: {}
+[53.106263] (ouster_ros) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o\x1b[0m\n'}
+[53.178143] (-) TimerEvent: {}
+[53.279155] (-) TimerEvent: {}
+[53.380128] (-) TimerEvent: {}
+[53.481335] (-) TimerEvent: {}
+[53.582361] (-) TimerEvent: {}
+[53.683417] (-) TimerEvent: {}
+[53.784456] (-) TimerEvent: {}
+[53.885486] (-) TimerEvent: {}
+[53.986504] (-) TimerEvent: {}
+[54.087524] (-) TimerEvent: {}
+[54.189948] (-) TimerEvent: {}
+[54.291057] (-) TimerEvent: {}
+[54.392109] (-) TimerEvent: {}
+[54.493167] (-) TimerEvent: {}
+[54.594415] (-) TimerEvent: {}
+[54.695478] (-) TimerEvent: {}
+[54.796593] (-) TimerEvent: {}
+[54.898139] (-) TimerEvent: {}
+[54.999290] (-) TimerEvent: {}
+[55.100377] (-) TimerEvent: {}
+[55.201456] (-) TimerEvent: {}
+[55.302632] (-) TimerEvent: {}
+[55.403644] (-) TimerEvent: {}
+[55.504756] (-) TimerEvent: {}
+[55.605855] (-) TimerEvent: {}
+[55.706866] (-) TimerEvent: {}
+[55.807855] (-) TimerEvent: {}
+[55.908873] (-) TimerEvent: {}
+[56.009957] (-) TimerEvent: {}
+[56.111025] (-) TimerEvent: {}
+[56.212128] (-) TimerEvent: {}
+[56.313737] (-) TimerEvent: {}
+[56.414812] (-) TimerEvent: {}
+[56.515899] (-) TimerEvent: {}
+[56.617025] (-) TimerEvent: {}
+[56.718214] (-) TimerEvent: {}
+[56.819297] (-) TimerEvent: {}
+[56.920385] (-) TimerEvent: {}
+[57.021495] (-) TimerEvent: {}
+[57.122528] (-) TimerEvent: {}
+[57.223581] (-) TimerEvent: {}
+[57.324598] (-) TimerEvent: {}
+[57.425702] (-) TimerEvent: {}
+[57.526748] (-) TimerEvent: {}
+[57.627768] (-) TimerEvent: {}
+[57.728766] (-) TimerEvent: {}
+[57.829842] (-) TimerEvent: {}
+[57.930878] (-) TimerEvent: {}
+[58.031908] (-) TimerEvent: {}
+[58.132966] (-) TimerEvent: {}
+[58.234138] (-) TimerEvent: {}
+[58.335148] (-) TimerEvent: {}
+[58.436174] (-) TimerEvent: {}
+[58.537206] (-) TimerEvent: {}
+[58.638392] (-) TimerEvent: {}
+[58.739466] (-) TimerEvent: {}
+[58.840553] (-) TimerEvent: {}
+[58.941780] (-) TimerEvent: {}
+[59.042920] (-) TimerEvent: {}
+[59.144119] (-) TimerEvent: {}
+[59.245337] (-) TimerEvent: {}
+[59.346544] (-) TimerEvent: {}
+[59.447649] (-) TimerEvent: {}
+[59.548752] (-) TimerEvent: {}
+[59.649890] (-) TimerEvent: {}
+[59.750968] (-) TimerEvent: {}
+[59.852018] (-) TimerEvent: {}
+[59.953122] (-) TimerEvent: {}
+[60.054238] (-) TimerEvent: {}
+[60.155308] (-) TimerEvent: {}
+[60.256331] (-) TimerEvent: {}
+[60.357454] (-) TimerEvent: {}
+[60.459656] (-) TimerEvent: {}
+[60.560688] (-) TimerEvent: {}
+[60.661839] (-) TimerEvent: {}
+[60.762934] (-) TimerEvent: {}
+[60.865095] (-) TimerEvent: {}
+[60.966213] (-) TimerEvent: {}
+[61.067250] (-) TimerEvent: {}
+[61.168288] (-) TimerEvent: {}
+[61.269399] (-) TimerEvent: {}
+[61.370597] (-) TimerEvent: {}
+[61.472738] (-) TimerEvent: {}
+[61.573942] (-) TimerEvent: {}
+[61.675030] (-) TimerEvent: {}
+[61.776121] (-) TimerEvent: {}
+[61.877197] (-) TimerEvent: {}
+[61.978318] (-) TimerEvent: {}
+[62.079359] (-) TimerEvent: {}
+[62.180408] (-) TimerEvent: {}
+[62.281538] (-) TimerEvent: {}
+[62.382577] (-) TimerEvent: {}
+[62.483627] (-) TimerEvent: {}
+[62.584629] (-) TimerEvent: {}
+[62.685718] (-) TimerEvent: {}
+[62.786744] (-) TimerEvent: {}
+[62.887798] (-) TimerEvent: {}
+[62.988845] (-) TimerEvent: {}
+[63.089948] (-) TimerEvent: {}
+[63.191016] (-) TimerEvent: {}
+[63.292074] (-) TimerEvent: {}
+[63.393132] (-) TimerEvent: {}
+[63.494184] (-) TimerEvent: {}
+[63.595226] (-) TimerEvent: {}
+[63.696278] (-) TimerEvent: {}
+[63.797380] (-) TimerEvent: {}
+[63.898408] (-) TimerEvent: {}
+[63.999450] (-) TimerEvent: {}
+[64.100544] (-) TimerEvent: {}
+[64.201645] (-) TimerEvent: {}
+[64.302681] (-) TimerEvent: {}
+[64.403730] (-) TimerEvent: {}
+[64.504845] (-) TimerEvent: {}
+[64.605990] (-) TimerEvent: {}
+[64.707023] (-) TimerEvent: {}
+[64.808051] (-) TimerEvent: {}
+[64.910294] (-) TimerEvent: {}
+[65.011371] (-) TimerEvent: {}
+[65.112427] (-) TimerEvent: {}
+[65.213548] (-) TimerEvent: {}
+[65.314604] (-) TimerEvent: {}
+[65.415663] (-) TimerEvent: {}
+[65.516697] (-) TimerEvent: {}
+[65.617833] (-) TimerEvent: {}
+[65.718895] (-) TimerEvent: {}
+[65.819965] (-) TimerEvent: {}
+[65.921152] (-) TimerEvent: {}
+[66.022250] (-) TimerEvent: {}
+[66.123367] (-) TimerEvent: {}
+[66.224554] (-) TimerEvent: {}
+[66.325756] (-) TimerEvent: {}
+[66.426852] (-) TimerEvent: {}
+[66.527964] (-) TimerEvent: {}
+[66.629108] (-) TimerEvent: {}
+[66.730448] (-) TimerEvent: {}
+[66.831725] (-) TimerEvent: {}
+[66.941835] (-) TimerEvent: {}
+[67.042958] (-) TimerEvent: {}
+[67.065970] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[67.068121] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[67.068756] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.069420] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.070022] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.070506] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.070988] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.071468] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.072302] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.073451] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.088308] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.088963] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.089546] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.090192] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.090630] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.091063] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.091537] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.091943] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.092364] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.092856] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.093384] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.093839] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.094320] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.094821] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.095235] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.095634] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.096040] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.096462] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[67.096874] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.097392] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[67.097840] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[67.098248] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[67.098673] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[67.099203] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[67.099624] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.100034] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.100444] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.100852] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.101335] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.101892] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.102295] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.102693] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.103171] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.103557] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.105185] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.105759] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.106188] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.106612] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[67.107033] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.107434] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[67.107845] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[67.108250] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[67.143252] (-) TimerEvent: {}
+[67.152763] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[67.154678] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12\x1b[m\x1b[K:\n'}
+[67.155730] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.156400] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.156943] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.157567] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.158715] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.159349] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.160147] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.160583] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.161042] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.161572] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.162006] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.162494] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.162914] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.163315] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.163766] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.164270] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.164738] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.178964] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.179628] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.180138] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.180743] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.181497] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.182046] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.182487] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.182924] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.183331] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12\x1b[m\x1b[K:\n'}
+[67.183750] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.184268] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[67.186286] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[67.187003] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[67.187533] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[67.188011] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12\x1b[m\x1b[K:\n'}
+[67.200387] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.201386] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.202133] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.202663] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.203153] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.203625] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.204090] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.204527] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[67.204983] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[67.205605] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[67.206095] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[67.206523] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[67.207020] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[67.207440] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12\x1b[m\x1b[K:\n'}
+[67.207856] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[67.208356] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[67.208838] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[67.209368] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[67.243539] (-) TimerEvent: {}
+[67.344511] (-) TimerEvent: {}
+[67.445597] (-) TimerEvent: {}
+[67.546588] (-) TimerEvent: {}
+[67.647767] (-) TimerEvent: {}
+[67.748882] (-) TimerEvent: {}
+[67.850072] (-) TimerEvent: {}
+[67.951039] (-) TimerEvent: {}
+[68.052066] (-) TimerEvent: {}
+[68.153093] (-) TimerEvent: {}
+[68.254234] (-) TimerEvent: {}
+[68.355210] (-) TimerEvent: {}
+[68.456188] (-) TimerEvent: {}
+[68.557204] (-) TimerEvent: {}
+[68.658319] (-) TimerEvent: {}
+[68.759296] (-) TimerEvent: {}
+[68.860288] (-) TimerEvent: {}
+[68.961334] (-) TimerEvent: {}
+[69.062295] (-) TimerEvent: {}
+[69.163506] (-) TimerEvent: {}
+[69.264599] (-) TimerEvent: {}
+[69.365585] (-) TimerEvent: {}
+[69.466534] (-) TimerEvent: {}
+[69.567506] (-) TimerEvent: {}
+[69.668484] (-) TimerEvent: {}
+[69.671019] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[69.672889] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[69.673941] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[69.674449] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.674924] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.675350] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.675784] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.676207] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.676713] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.677213] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.681157] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.681814] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.682512] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.683028] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.683460] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.683890] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.684417] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.684841] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.685332] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.685806] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.686251] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.686666] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.687143] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.687569] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.687988] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.688410] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.688827] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.689347] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[69.689897] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[69.690354] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[69.690851] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[69.691296] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[69.691711] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10\x1b[m\x1b[K,\n'}
+[69.692212] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[69.692630] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[69.693073] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.704051] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.704650] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.705140] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.716433] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.717041] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.717649] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[69.718121] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[69.718561] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[69.718975] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[69.719396] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[69.719820] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[69.720254] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9\x1b[m\x1b[K:\n'}
+[69.720695] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[69.721192] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[69.721753] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[69.722170] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[69.768801] (-) TimerEvent: {}
+[69.869927] (-) TimerEvent: {}
+[69.971237] (-) TimerEvent: {}
+[70.072564] (-) TimerEvent: {}
+[70.174981] (-) TimerEvent: {}
+[70.276624] (-) TimerEvent: {}
+[70.377944] (-) TimerEvent: {}
+[70.479554] (-) TimerEvent: {}
+[70.580965] (-) TimerEvent: {}
+[70.682230] (-) TimerEvent: {}
+[70.783372] (-) TimerEvent: {}
+[70.885019] (-) TimerEvent: {}
+[70.987024] (-) TimerEvent: {}
+[71.088095] (-) TimerEvent: {}
+[71.189355] (-) TimerEvent: {}
+[71.290402] (-) TimerEvent: {}
+[71.391509] (-) TimerEvent: {}
+[71.492472] (-) TimerEvent: {}
+[71.593540] (-) TimerEvent: {}
+[71.694533] (-) TimerEvent: {}
+[71.795566] (-) TimerEvent: {}
+[71.896680] (-) TimerEvent: {}
+[71.997804] (-) TimerEvent: {}
+[72.098956] (-) TimerEvent: {}
+[72.200241] (-) TimerEvent: {}
+[72.301411] (-) TimerEvent: {}
+[72.402487] (-) TimerEvent: {}
+[72.503556] (-) TimerEvent: {}
+[72.604793] (-) TimerEvent: {}
+[72.706053] (-) TimerEvent: {}
+[72.807062] (-) TimerEvent: {}
+[72.908064] (-) TimerEvent: {}
+[73.009155] (-) TimerEvent: {}
+[73.110459] (-) TimerEvent: {}
+[73.213044] (-) TimerEvent: {}
+[73.314288] (-) TimerEvent: {}
+[73.415317] (-) TimerEvent: {}
+[73.516532] (-) TimerEvent: {}
+[73.619206] (-) TimerEvent: {}
+[73.721426] (-) TimerEvent: {}
+[73.822647] (-) TimerEvent: {}
+[73.924754] (-) TimerEvent: {}
+[74.026043] (-) TimerEvent: {}
+[74.127023] (-) TimerEvent: {}
+[74.228027] (-) TimerEvent: {}
+[74.330149] (-) TimerEvent: {}
+[74.431199] (-) TimerEvent: {}
+[74.532237] (-) TimerEvent: {}
+[74.633330] (-) TimerEvent: {}
+[74.734335] (-) TimerEvent: {}
+[74.835389] (-) TimerEvent: {}
+[74.936481] (-) TimerEvent: {}
+[75.037559] (-) TimerEvent: {}
+[75.138595] (-) TimerEvent: {}
+[75.239658] (-) TimerEvent: {}
+[75.340684] (-) TimerEvent: {}
+[75.441753] (-) TimerEvent: {}
+[75.542767] (-) TimerEvent: {}
+[75.643790] (-) TimerEvent: {}
+[75.744877] (-) TimerEvent: {}
+[75.845947] (-) TimerEvent: {}
+[75.946955] (-) TimerEvent: {}
+[76.048896] (-) TimerEvent: {}
+[76.150210] (-) TimerEvent: {}
+[76.251405] (-) TimerEvent: {}
+[76.352600] (-) TimerEvent: {}
+[76.453875] (-) TimerEvent: {}
+[76.554925] (-) TimerEvent: {}
+[76.571275] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[76.572240] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[76.572742] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[76.573179] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.575113] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.576249] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.579065] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.579708] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.580368] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.580856] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.581579] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.582263] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.582817] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.583266] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.583832] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.584376] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.588531] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.589542] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.590255] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.590852] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.591448] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.592291] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.592868] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.603114] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.603896] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.604426] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.605132] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.605812] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.606453] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:28\x1b[m\x1b[K:\n'}
+[76.607043] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.607701] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[76.608533] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[76.609042] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[76.609872] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[76.610455] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[76.611009] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[76.611459] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.613147] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.614300] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.614892] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.615365] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.615946] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.616532] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.617064] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[76.617701] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[76.618261] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.618835] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[76.619405] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[76.620199] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[76.620665] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:28\x1b[m\x1b[K:\n'}
+[76.621195] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.622011] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[76.623421] (ouster_ros) StderrLine: {'line': b'   24 |         : rclcpp_lifecycle::LifecycleNode(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[76.624068] (ouster_ros) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[76.655201] (-) TimerEvent: {}
+[76.756507] (-) TimerEvent: {}
+[76.857847] (-) TimerEvent: {}
+[76.959137] (-) TimerEvent: {}
+[77.060333] (-) TimerEvent: {}
+[77.161814] (-) TimerEvent: {}
+[77.262938] (-) TimerEvent: {}
+[77.336691] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ouster_ros::OusterSensor::populate_metadata_defaults(ouster::sensor::sensor_info&, ouster::sensor::lidar_mode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[77.337796] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.338685] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K.size()) info.name = "UNKNOWN";\n'}
+[77.339365] (ouster_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.339962] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.340445] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.341077] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.344617] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.346084] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.346674] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.347266] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.348645] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K.size()) info.name = "UNKNOWN";\n'}
+[77.349453] (ouster_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.350062] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.350546] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.351102] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.351808] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.352417] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.352898] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.353676] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.354257] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K.size()) info.name = "UNKNOWN";\n'}
+[77.354849] (ouster_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.355289] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.355836] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.357178] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.357981] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.358602] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.359660] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.360209] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.360694] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.name.size()) info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K = "UNKNOWN";\n'}
+[77.361428] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.362503] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.362961] (-) TimerEvent: {}
+[77.363658] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.364317] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.364864] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.365433] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.366025] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.366592] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.367224] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.name.size()) info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K = "UNKNOWN";\n'}
+[77.368007] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.368496] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.369046] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.369798] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.370547] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.371168] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.371640] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.373599] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[77.374325] (ouster_ros) StderrLine: {'line': b'  632 |         if (!info.name.size()) info.\x1b[01;35m\x1b[Kname\x1b[m\x1b[K = "UNKNOWN";\n'}
+[77.374815] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.375761] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[77.376438] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[77.376911] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12\x1b[m\x1b[K:\n'}
+[77.377701] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.378641] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[77.379259] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[77.463404] (-) TimerEvent: {}
+[77.564542] (-) TimerEvent: {}
+[77.665756] (-) TimerEvent: {}
+[77.767500] (-) TimerEvent: {}
+[77.868862] (-) TimerEvent: {}
+[77.970340] (-) TimerEvent: {}
+[78.071552] (-) TimerEvent: {}
+[78.173499] (-) TimerEvent: {}
+[78.274696] (-) TimerEvent: {}
+[78.376226] (-) TimerEvent: {}
+[78.477559] (-) TimerEvent: {}
+[78.579216] (-) TimerEvent: {}
+[78.680653] (-) TimerEvent: {}
+[78.782042] (-) TimerEvent: {}
+[78.883320] (-) TimerEvent: {}
+[78.984628] (-) TimerEvent: {}
+[79.086036] (-) TimerEvent: {}
+[79.187412] (-) TimerEvent: {}
+[79.289785] (-) TimerEvent: {}
+[79.391492] (-) TimerEvent: {}
+[79.492865] (-) TimerEvent: {}
+[79.595102] (-) TimerEvent: {}
+[79.696366] (-) TimerEvent: {}
+[79.798590] (-) TimerEvent: {}
+[79.899894] (-) TimerEvent: {}
+[80.001038] (-) TimerEvent: {}
+[80.102829] (-) TimerEvent: {}
+[80.203977] (-) TimerEvent: {}
+[80.306523] (-) TimerEvent: {}
+[80.409150] (-) TimerEvent: {}
+[80.511441] (-) TimerEvent: {}
+[80.621098] (-) TimerEvent: {}
+[80.723502] (-) TimerEvent: {}
+[80.826082] (-) TimerEvent: {}
+[80.928325] (-) TimerEvent: {}
+[81.030655] (-) TimerEvent: {}
+[81.133467] (-) TimerEvent: {}
+[81.235560] (-) TimerEvent: {}
+[81.337756] (-) TimerEvent: {}
+[81.439391] (-) TimerEvent: {}
+[81.540683] (-) TimerEvent: {}
+[81.642033] (-) TimerEvent: {}
+[81.743349] (-) TimerEvent: {}
+[81.845142] (-) TimerEvent: {}
+[81.947321] (-) TimerEvent: {}
+[82.048585] (-) TimerEvent: {}
+[82.150093] (-) TimerEvent: {}
+[82.251441] (-) TimerEvent: {}
+[82.353483] (-) TimerEvent: {}
+[82.459086] (-) TimerEvent: {}
+[82.561566] (-) TimerEvent: {}
+[82.663687] (-) TimerEvent: {}
+[82.765366] (-) TimerEvent: {}
+[82.869996] (-) TimerEvent: {}
+[82.971036] (-) TimerEvent: {}
+[83.072095] (-) TimerEvent: {}
+[83.175918] (-) TimerEvent: {}
+[83.277638] (-) TimerEvent: {}
+[83.379579] (-) TimerEvent: {}
+[83.482657] (-) TimerEvent: {}
+[83.584570] (-) TimerEvent: {}
+[83.687355] (-) TimerEvent: {}
+[83.788393] (-) TimerEvent: {}
+[83.889595] (-) TimerEvent: {}
+[83.991407] (-) TimerEvent: {}
+[84.095152] (-) TimerEvent: {}
+[84.197473] (-) TimerEvent: {}
+[84.301496] (-) TimerEvent: {}
+[84.405467] (-) TimerEvent: {}
+[84.509513] (-) TimerEvent: {}
+[84.614330] (-) TimerEvent: {}
+[84.715328] (-) TimerEvent: {}
+[84.817100] (-) TimerEvent: {}
+[84.918836] (-) TimerEvent: {}
+[85.020106] (-) TimerEvent: {}
+[85.126129] (-) TimerEvent: {}
+[85.227603] (-) TimerEvent: {}
+[85.333166] (-) TimerEvent: {}
+[85.434359] (-) TimerEvent: {}
+[85.536048] (-) TimerEvent: {}
+[85.640308] (-) TimerEvent: {}
+[85.748485] (-) TimerEvent: {}
+[85.854022] (-) TimerEvent: {}
+[85.957719] (-) TimerEvent: {}
+[86.059743] (-) TimerEvent: {}
+[86.161040] (-) TimerEvent: {}
+[86.262302] (-) TimerEvent: {}
+[86.369569] (-) TimerEvent: {}
+[86.470693] (-) TimerEvent: {}
+[86.571755] (-) TimerEvent: {}
+[86.672842] (-) TimerEvent: {}
+[86.774344] (-) TimerEvent: {}
+[86.875325] (-) TimerEvent: {}
+[86.976334] (-) TimerEvent: {}
+[87.079157] (-) TimerEvent: {}
+[87.180143] (-) TimerEvent: {}
+[87.200094] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[87.200937] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[87.201560] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17\x1b[m\x1b[K:\n'}
+[87.202025] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.202478] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.203071] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.204165] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.204759] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.205347] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.206703] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.207152] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.207613] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.208021] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.208425] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.208848] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.209342] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.209803] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.210315] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.210742] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.211146] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.211604] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.212021] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.212419] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.213490] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.213999] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.214439] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.214860] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.215272] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.215696] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34\x1b[m\x1b[K:\n'}
+[87.216128] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.216665] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[87.217088] (ouster_ros) StderrLine: {'line': b'   22 |         : rclcpp::Node(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[87.230138] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[87.230709] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[87.231929] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[87.232472] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17\x1b[m\x1b[K:\n'}
+[87.232932] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.233932] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.234684] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.235436] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.235945] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.236403] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.239842] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.240543] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.241048] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.242258] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.242853] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.243634] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.244105] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.245180] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34\x1b[m\x1b[K:\n'}
+[87.246184] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.247012] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[87.247581] (ouster_ros) StderrLine: {'line': b'   22 |         : rclcpp::Node(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[87.248029] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[87.248566] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[87.249085] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:60:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.249893] (ouster_ros) StderrLine: {'line': b'   60 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[87.250352] (ouster_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[87.252347] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[87.252965] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14\x1b[m\x1b[K,\n'}
+[87.253563] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34\x1b[m\x1b[K:\n'}
+[87.254193] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:104:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.255508] (ouster_ros) StderrLine: {'line': b'  104 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[87.255987] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[87.280567] (-) TimerEvent: {}
+[87.382777] (-) TimerEvent: {}
+[87.482565] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[87.483654] (-) TimerEvent: {}
+[87.485957] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[87.487941] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[87.488633] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.489447] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.490092] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.490713] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.491172] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.492229] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.492742] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.493713] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.494250] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.498464] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.499304] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.499763] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.500306] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.500909] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.501718] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.502306] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.502829] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.503320] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.503900] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.504326] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.504882] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.505582] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.506191] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.506621] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.507174] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.507840] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:27\x1b[m\x1b[K:\n'}
+[87.508694] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.509555] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[87.510209] (ouster_ros) StderrLine: {'line': b'   22 |         : rclcpp::Node(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[87.510690] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[87.511210] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[87.511710] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[87.517728] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[87.519029] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.519655] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.520249] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.520688] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.521380] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.521994] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.522545] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.523003] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::name\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Will be removed in the next version [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.532778] (ouster_ros) StderrLine: {'line': b'  375 | struct \x1b[01;35m\x1b[Ksensor_info\x1b[m\x1b[K {\n'}
+[87.533612] (ouster_ros) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[87.534286] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.534824] (ouster_ros) StderrLine: {'line': b'  377 |         \x1b[01;36m\x1b[Kname\x1b[m\x1b[K;               ///< @deprecated Will be removed in the next version\n'}
+[87.535490] (ouster_ros) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[87.536068] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:27\x1b[m\x1b[K:\n'}
+[87.536478] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[87.537077] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::sensor_info::~sensor_info()\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[87.537985] (ouster_ros) StderrLine: {'line': b'   22 |         : rclcpp::Node(name, options\x1b[01;36m\x1b[K)\x1b[m\x1b[K {}\n'}
+[87.538544] (ouster_ros) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[87.539061] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[87.539471] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:279:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.540115] (ouster_ros) StderrLine: {'line': b'  279 |     void lidar_handler_sensor_time(const PacketMsg::ConstPtr& packet\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[87.540656] (ouster_ros) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[87.541050] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp:7\x1b[m\x1b[K,\n'}
+[87.542256] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:27\x1b[m\x1b[K,\n'}
+[87.542842] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[87.543979] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp:96:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.544600] (ouster_ros) StderrLine: {'line': b'   96 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[87.545022] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[87.546032] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:299:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[87.546470] (ouster_ros) StderrLine: {'line': b'  299 |     void lidar_handler_ros_time(const PacketMsg::ConstPtr& packet\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[87.547000] (ouster_ros) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[87.547613] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp:7\x1b[m\x1b[K,\n'}
+[87.548042] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:27\x1b[m\x1b[K,\n'}
+[87.548618] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[87.549143] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp:96:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[87.549726] (ouster_ros) StderrLine: {'line': b'   96 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[87.550225] (ouster_ros) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[87.583953] (-) TimerEvent: {}
+[87.686222] (-) TimerEvent: {}
+[87.788310] (-) TimerEvent: {}
+[87.890612] (-) TimerEvent: {}
+[87.992563] (-) TimerEvent: {}
+[88.094081] (-) TimerEvent: {}
+[88.116073] (ouster_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15\x1b[m\x1b[K,\n'}
+[88.117180] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15\x1b[m\x1b[K,\n'}
+[88.118033] (ouster_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12\x1b[m\x1b[K:\n'}
+[88.118624] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[88.119100] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::packet_format::encoder_ticks_per_rev\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[88.119737] (ouster_ros) StderrLine: {'line': b'  830 | class \x1b[01;35m\x1b[Kpacket_format\x1b[m\x1b[K final {\n'}
+[88.120265] (ouster_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[88.120667] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[88.121214] (ouster_ros) StderrLine: {'line': b'  854 |     [[deprecated]] const int \x1b[01;36m\x1b[Kencoder_ticks_per_rev\x1b[m\x1b[K;  ///< @deprecated\n'}
+[88.122547] (ouster_ros) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[88.123119] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::packet_format::encoder_ticks_per_rev\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[88.124446] (ouster_ros) StderrLine: {'line': b'  830 | class \x1b[01;35m\x1b[Kpacket_format\x1b[m\x1b[K final {\n'}
+[88.128391] (ouster_ros) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[88.129092] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[88.131305] (ouster_ros) StderrLine: {'line': b'  854 |     [[deprecated]] const int \x1b[01;36m\x1b[Kencoder_ticks_per_rev\x1b[m\x1b[K;  ///< @deprecated\n'}
+[88.131899] (ouster_ros) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[88.132400] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ouster_ros::OusterCloud::imu_handler(ouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[88.132943] (ouster_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:317:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[88.133745] (ouster_ros) StderrLine: {'line': b'  317 |         auto pf = sensor::get_format(info\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[88.134236] (ouster_ros) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[88.194470] (-) TimerEvent: {}
+[88.296526] (-) TimerEvent: {}
+[88.399064] (-) TimerEvent: {}
+[88.501062] (-) TimerEvent: {}
+[88.603288] (-) TimerEvent: {}
+[88.705730] (-) TimerEvent: {}
+[88.807726] (-) TimerEvent: {}
+[88.910461] (-) TimerEvent: {}
+[89.012524] (-) TimerEvent: {}
+[89.114554] (-) TimerEvent: {}
+[89.216647] (-) TimerEvent: {}
+[89.318924] (-) TimerEvent: {}
+[89.422066] (-) TimerEvent: {}
+[89.523986] (-) TimerEvent: {}
+[89.626746] (-) TimerEvent: {}
+[89.728745] (-) TimerEvent: {}
+[89.789822] (ouster_ros) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libos_replay_component.so\x1b[0m\n'}
+[89.829006] (-) TimerEvent: {}
+[89.931460] (-) TimerEvent: {}
+[90.033717] (-) TimerEvent: {}
+[90.135580] (-) TimerEvent: {}
+[90.236946] (-) TimerEvent: {}
+[90.339235] (-) TimerEvent: {}
+[90.441880] (-) TimerEvent: {}
+[90.544024] (-) TimerEvent: {}
+[90.646463] (-) TimerEvent: {}
+[90.748934] (-) TimerEvent: {}
+[90.851232] (-) TimerEvent: {}
+[90.953561] (-) TimerEvent: {}
+[91.024542] (ouster_ros) StdoutLine: {'line': b'[ 85%] Built target os_replay_component\n'}
+[91.054021] (-) TimerEvent: {}
+[91.156123] (-) TimerEvent: {}
+[91.257591] (-) TimerEvent: {}
+[91.359349] (-) TimerEvent: {}
+[91.460449] (-) TimerEvent: {}
+[91.561577] (-) TimerEvent: {}
+[91.662652] (-) TimerEvent: {}
+[91.763780] (-) TimerEvent: {}
+[91.865083] (-) TimerEvent: {}
+[91.966912] (-) TimerEvent: {}
+[92.069512] (-) TimerEvent: {}
+[92.170631] (-) TimerEvent: {}
+[92.272063] (-) TimerEvent: {}
+[92.373095] (-) TimerEvent: {}
+[92.474287] (-) TimerEvent: {}
+[92.577556] (-) TimerEvent: {}
+[92.679003] (-) TimerEvent: {}
+[92.780362] (-) TimerEvent: {}
+[92.881881] (-) TimerEvent: {}
+[92.983184] (-) TimerEvent: {}
+[93.084643] (-) TimerEvent: {}
+[93.186330] (-) TimerEvent: {}
+[93.288036] (-) TimerEvent: {}
+[93.389907] (-) TimerEvent: {}
+[93.491095] (-) TimerEvent: {}
+[93.592446] (-) TimerEvent: {}
+[93.693884] (-) TimerEvent: {}
+[93.795167] (-) TimerEvent: {}
+[93.896472] (-) TimerEvent: {}
+[93.998114] (-) TimerEvent: {}
+[94.099476] (-) TimerEvent: {}
+[94.200712] (-) TimerEvent: {}
+[94.302198] (-) TimerEvent: {}
+[94.403484] (-) TimerEvent: {}
+[94.504950] (-) TimerEvent: {}
+[94.606692] (-) TimerEvent: {}
+[94.708131] (-) TimerEvent: {}
+[94.809617] (-) TimerEvent: {}
+[94.910900] (-) TimerEvent: {}
+[95.012190] (-) TimerEvent: {}
+[95.113732] (-) TimerEvent: {}
+[95.215044] (-) TimerEvent: {}
+[95.316480] (-) TimerEvent: {}
+[95.417964] (-) TimerEvent: {}
+[95.519342] (-) TimerEvent: {}
+[95.620710] (-) TimerEvent: {}
+[95.722184] (-) TimerEvent: {}
+[95.823899] (-) TimerEvent: {}
+[95.925181] (-) TimerEvent: {}
+[96.027241] (-) TimerEvent: {}
+[96.128729] (-) TimerEvent: {}
+[96.230310] (-) TimerEvent: {}
+[96.332541] (-) TimerEvent: {}
+[96.433857] (-) TimerEvent: {}
+[96.535117] (-) TimerEvent: {}
+[96.637093] (-) TimerEvent: {}
+[96.738815] (-) TimerEvent: {}
+[96.840187] (-) TimerEvent: {}
+[96.941827] (-) TimerEvent: {}
+[97.043475] (-) TimerEvent: {}
+[97.145545] (-) TimerEvent: {}
+[97.246664] (-) TimerEvent: {}
+[97.347845] (-) TimerEvent: {}
+[97.449453] (-) TimerEvent: {}
+[97.550729] (-) TimerEvent: {}
+[97.651965] (-) TimerEvent: {}
+[97.753434] (-) TimerEvent: {}
+[97.854696] (-) TimerEvent: {}
+[97.956102] (-) TimerEvent: {}
+[98.057467] (-) TimerEvent: {}
+[98.158620] (-) TimerEvent: {}
+[98.259835] (-) TimerEvent: {}
+[98.361015] (-) TimerEvent: {}
+[98.462285] (-) TimerEvent: {}
+[98.563394] (-) TimerEvent: {}
+[98.664638] (-) TimerEvent: {}
+[98.765909] (-) TimerEvent: {}
+[98.867327] (-) TimerEvent: {}
+[98.969045] (-) TimerEvent: {}
+[99.070645] (-) TimerEvent: {}
+[99.172058] (-) TimerEvent: {}
+[99.273187] (-) TimerEvent: {}
+[99.374549] (-) TimerEvent: {}
+[99.475826] (-) TimerEvent: {}
+[99.576976] (-) TimerEvent: {}
+[99.678339] (-) TimerEvent: {}
+[99.779547] (-) TimerEvent: {}
+[99.881130] (-) TimerEvent: {}
+[99.983859] (-) TimerEvent: {}
+[100.086437] (-) TimerEvent: {}
+[100.188041] (-) TimerEvent: {}
+[100.289653] (-) TimerEvent: {}
+[100.390683] (-) TimerEvent: {}
+[100.491718] (-) TimerEvent: {}
+[100.592814] (-) TimerEvent: {}
+[100.693915] (-) TimerEvent: {}
+[100.794931] (-) TimerEvent: {}
+[100.895991] (-) TimerEvent: {}
+[100.997112] (-) TimerEvent: {}
+[101.098320] (-) TimerEvent: {}
+[101.199415] (-) TimerEvent: {}
+[101.300602] (-) TimerEvent: {}
+[101.401940] (-) TimerEvent: {}
+[101.503364] (-) TimerEvent: {}
+[101.605596] (-) TimerEvent: {}
+[101.706922] (-) TimerEvent: {}
+[101.808306] (-) TimerEvent: {}
+[101.909576] (-) TimerEvent: {}
+[102.010835] (-) TimerEvent: {}
+[102.112018] (-) TimerEvent: {}
+[102.213420] (-) TimerEvent: {}
+[102.314843] (-) TimerEvent: {}
+[102.416304] (-) TimerEvent: {}
+[102.517734] (-) TimerEvent: {}
+[102.619121] (-) TimerEvent: {}
+[102.720739] (-) TimerEvent: {}
+[102.822094] (-) TimerEvent: {}
+[102.923346] (-) TimerEvent: {}
+[103.024794] (-) TimerEvent: {}
+[103.126441] (-) TimerEvent: {}
+[103.227888] (-) TimerEvent: {}
+[103.329593] (-) TimerEvent: {}
+[103.431196] (-) TimerEvent: {}
+[103.532719] (-) TimerEvent: {}
+[103.634107] (-) TimerEvent: {}
+[103.735529] (-) TimerEvent: {}
+[103.837159] (-) TimerEvent: {}
+[103.938754] (-) TimerEvent: {}
+[104.040155] (-) TimerEvent: {}
+[104.141914] (-) TimerEvent: {}
+[104.243144] (-) TimerEvent: {}
+[104.344526] (-) TimerEvent: {}
+[104.446110] (-) TimerEvent: {}
+[104.547341] (-) TimerEvent: {}
+[104.648487] (-) TimerEvent: {}
+[104.750096] (-) TimerEvent: {}
+[104.851658] (-) TimerEvent: {}
+[104.953124] (-) TimerEvent: {}
+[105.054566] (-) TimerEvent: {}
+[105.155832] (-) TimerEvent: {}
+[105.257500] (-) TimerEvent: {}
+[105.359141] (-) TimerEvent: {}
+[105.460471] (-) TimerEvent: {}
+[105.562203] (-) TimerEvent: {}
+[105.663559] (-) TimerEvent: {}
+[105.764945] (-) TimerEvent: {}
+[105.866499] (-) TimerEvent: {}
+[105.967863] (-) TimerEvent: {}
+[106.069569] (-) TimerEvent: {}
+[106.170916] (-) TimerEvent: {}
+[106.272170] (-) TimerEvent: {}
+[106.373635] (-) TimerEvent: {}
+[106.475068] (-) TimerEvent: {}
+[106.576507] (-) TimerEvent: {}
+[106.677874] (-) TimerEvent: {}
+[106.779230] (-) TimerEvent: {}
+[106.880401] (-) TimerEvent: {}
+[106.982058] (-) TimerEvent: {}
+[107.083547] (-) TimerEvent: {}
+[107.185680] (-) TimerEvent: {}
+[107.287879] (-) TimerEvent: {}
+[107.389577] (-) TimerEvent: {}
+[107.491193] (-) TimerEvent: {}
+[107.592683] (-) TimerEvent: {}
+[107.694173] (-) TimerEvent: {}
+[107.795373] (-) TimerEvent: {}
+[107.896619] (-) TimerEvent: {}
+[107.998131] (-) TimerEvent: {}
+[108.099446] (-) TimerEvent: {}
+[108.200719] (-) TimerEvent: {}
+[108.302407] (-) TimerEvent: {}
+[108.403559] (-) TimerEvent: {}
+[108.505021] (-) TimerEvent: {}
+[108.606765] (-) TimerEvent: {}
+[108.707952] (-) TimerEvent: {}
+[108.809207] (-) TimerEvent: {}
+[108.910839] (-) TimerEvent: {}
+[109.012240] (-) TimerEvent: {}
+[109.113614] (-) TimerEvent: {}
+[109.215009] (-) TimerEvent: {}
+[109.316367] (-) TimerEvent: {}
+[109.418029] (-) TimerEvent: {}
+[109.519379] (-) TimerEvent: {}
+[109.620782] (-) TimerEvent: {}
+[109.722157] (-) TimerEvent: {}
+[109.823504] (-) TimerEvent: {}
+[109.924838] (-) TimerEvent: {}
+[110.026470] (-) TimerEvent: {}
+[110.128014] (-) TimerEvent: {}
+[110.229532] (-) TimerEvent: {}
+[110.330819] (-) TimerEvent: {}
+[110.432282] (-) TimerEvent: {}
+[110.533906] (-) TimerEvent: {}
+[110.635501] (-) TimerEvent: {}
+[110.737004] (-) TimerEvent: {}
+[110.838479] (-) TimerEvent: {}
+[110.939685] (-) TimerEvent: {}
+[111.040952] (-) TimerEvent: {}
+[111.142751] (-) TimerEvent: {}
+[111.245622] (-) TimerEvent: {}
+[111.346951] (-) TimerEvent: {}
+[111.448251] (-) TimerEvent: {}
+[111.550042] (-) TimerEvent: {}
+[111.651584] (-) TimerEvent: {}
+[111.753023] (-) TimerEvent: {}
+[111.854523] (-) TimerEvent: {}
+[111.956460] (-) TimerEvent: {}
+[112.057802] (-) TimerEvent: {}
+[112.159142] (-) TimerEvent: {}
+[112.260655] (-) TimerEvent: {}
+[112.362219] (-) TimerEvent: {}
+[112.463662] (-) TimerEvent: {}
+[112.565037] (-) TimerEvent: {}
+[112.666554] (-) TimerEvent: {}
+[112.768133] (-) TimerEvent: {}
+[112.869722] (-) TimerEvent: {}
+[112.971150] (-) TimerEvent: {}
+[113.072523] (-) TimerEvent: {}
+[113.174007] (-) TimerEvent: {}
+[113.275320] (-) TimerEvent: {}
+[113.376642] (-) TimerEvent: {}
+[113.478243] (-) TimerEvent: {}
+[113.580254] (-) TimerEvent: {}
+[113.682976] (-) TimerEvent: {}
+[113.784482] (-) TimerEvent: {}
+[113.885934] (-) TimerEvent: {}
+[113.987302] (-) TimerEvent: {}
+[114.088664] (-) TimerEvent: {}
+[114.190201] (-) TimerEvent: {}
+[114.291595] (-) TimerEvent: {}
+[114.392950] (-) TimerEvent: {}
+[114.494377] (-) TimerEvent: {}
+[114.595811] (-) TimerEvent: {}
+[114.697141] (-) TimerEvent: {}
+[114.750748] (ouster_ros) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libos_sensor_component.so\x1b[0m\n'}
+[114.797556] (-) TimerEvent: {}
+[114.898793] (-) TimerEvent: {}
+[115.000429] (-) TimerEvent: {}
+[115.101893] (-) TimerEvent: {}
+[115.203344] (-) TimerEvent: {}
+[115.304693] (-) TimerEvent: {}
+[115.406555] (-) TimerEvent: {}
+[115.507726] (-) TimerEvent: {}
+[115.609021] (-) TimerEvent: {}
+[115.710558] (-) TimerEvent: {}
+[115.811786] (-) TimerEvent: {}
+[115.913381] (-) TimerEvent: {}
+[116.014472] (-) TimerEvent: {}
+[116.019544] (ouster_ros) StdoutLine: {'line': b'[ 88%] Built target os_sensor_component\n'}
+[116.114763] (-) TimerEvent: {}
+[116.215805] (-) TimerEvent: {}
+[116.316716] (-) TimerEvent: {}
+[116.417774] (-) TimerEvent: {}
+[116.518670] (-) TimerEvent: {}
+[116.619636] (-) TimerEvent: {}
+[116.720615] (-) TimerEvent: {}
+[116.821777] (-) TimerEvent: {}
+[116.922683] (-) TimerEvent: {}
+[117.023662] (-) TimerEvent: {}
+[117.124785] (-) TimerEvent: {}
+[117.225912] (-) TimerEvent: {}
+[117.327068] (-) TimerEvent: {}
+[117.428240] (-) TimerEvent: {}
+[117.529549] (-) TimerEvent: {}
+[117.630922] (-) TimerEvent: {}
+[117.732446] (-) TimerEvent: {}
+[117.833893] (-) TimerEvent: {}
+[117.935230] (-) TimerEvent: {}
+[118.036745] (-) TimerEvent: {}
+[118.138099] (-) TimerEvent: {}
+[118.239372] (-) TimerEvent: {}
+[118.340578] (-) TimerEvent: {}
+[118.441824] (-) TimerEvent: {}
+[118.543025] (-) TimerEvent: {}
+[118.644238] (-) TimerEvent: {}
+[118.745567] (-) TimerEvent: {}
+[118.846752] (-) TimerEvent: {}
+[118.948175] (-) TimerEvent: {}
+[119.049581] (-) TimerEvent: {}
+[119.151047] (-) TimerEvent: {}
+[119.252289] (-) TimerEvent: {}
+[119.353611] (-) TimerEvent: {}
+[119.455041] (-) TimerEvent: {}
+[119.556223] (-) TimerEvent: {}
+[119.657596] (-) TimerEvent: {}
+[119.758725] (-) TimerEvent: {}
+[119.860010] (-) TimerEvent: {}
+[119.961403] (-) TimerEvent: {}
+[120.062548] (-) TimerEvent: {}
+[120.163784] (-) TimerEvent: {}
+[120.265157] (-) TimerEvent: {}
+[120.366385] (-) TimerEvent: {}
+[120.467659] (-) TimerEvent: {}
+[120.568892] (-) TimerEvent: {}
+[120.670283] (-) TimerEvent: {}
+[120.771537] (-) TimerEvent: {}
+[120.872861] (-) TimerEvent: {}
+[120.974248] (-) TimerEvent: {}
+[121.075578] (-) TimerEvent: {}
+[121.176952] (-) TimerEvent: {}
+[121.278394] (-) TimerEvent: {}
+[121.379754] (-) TimerEvent: {}
+[121.481101] (-) TimerEvent: {}
+[121.582341] (-) TimerEvent: {}
+[121.683531] (-) TimerEvent: {}
+[121.784663] (-) TimerEvent: {}
+[121.885791] (-) TimerEvent: {}
+[121.986820] (-) TimerEvent: {}
+[122.087893] (-) TimerEvent: {}
+[122.188952] (-) TimerEvent: {}
+[122.290136] (-) TimerEvent: {}
+[122.391232] (-) TimerEvent: {}
+[122.492332] (-) TimerEvent: {}
+[122.593591] (-) TimerEvent: {}
+[122.694994] (-) TimerEvent: {}
+[122.796159] (-) TimerEvent: {}
+[122.898751] (-) TimerEvent: {}
+[122.999980] (-) TimerEvent: {}
+[123.101519] (-) TimerEvent: {}
+[123.202782] (-) TimerEvent: {}
+[123.304131] (-) TimerEvent: {}
+[123.405553] (-) TimerEvent: {}
+[123.506654] (-) TimerEvent: {}
+[123.607922] (-) TimerEvent: {}
+[123.709210] (-) TimerEvent: {}
+[123.810511] (-) TimerEvent: {}
+[123.911928] (-) TimerEvent: {}
+[124.013783] (-) TimerEvent: {}
+[124.115002] (-) TimerEvent: {}
+[124.216234] (-) TimerEvent: {}
+[124.317622] (-) TimerEvent: {}
+[124.418894] (-) TimerEvent: {}
+[124.520089] (-) TimerEvent: {}
+[124.621552] (-) TimerEvent: {}
+[124.722749] (-) TimerEvent: {}
+[124.824021] (-) TimerEvent: {}
+[124.925463] (-) TimerEvent: {}
+[125.026716] (-) TimerEvent: {}
+[125.127970] (-) TimerEvent: {}
+[125.229540] (-) TimerEvent: {}
+[125.330869] (-) TimerEvent: {}
+[125.432211] (-) TimerEvent: {}
+[125.533571] (-) TimerEvent: {}
+[125.635363] (-) TimerEvent: {}
+[125.736728] (-) TimerEvent: {}
+[125.837956] (-) TimerEvent: {}
+[125.939165] (-) TimerEvent: {}
+[126.040529] (-) TimerEvent: {}
+[126.141782] (-) TimerEvent: {}
+[126.242996] (-) TimerEvent: {}
+[126.344206] (-) TimerEvent: {}
+[126.445721] (-) TimerEvent: {}
+[126.546885] (-) TimerEvent: {}
+[126.648023] (-) TimerEvent: {}
+[126.749400] (-) TimerEvent: {}
+[126.850569] (-) TimerEvent: {}
+[126.951988] (-) TimerEvent: {}
+[127.053487] (-) TimerEvent: {}
+[127.155049] (-) TimerEvent: {}
+[127.256419] (-) TimerEvent: {}
+[127.357758] (-) TimerEvent: {}
+[127.458975] (-) TimerEvent: {}
+[127.560275] (-) TimerEvent: {}
+[127.662063] (-) TimerEvent: {}
+[127.763390] (-) TimerEvent: {}
+[127.864536] (-) TimerEvent: {}
+[127.966202] (-) TimerEvent: {}
+[128.067605] (-) TimerEvent: {}
+[128.168897] (-) TimerEvent: {}
+[128.270105] (-) TimerEvent: {}
+[128.371357] (-) TimerEvent: {}
+[128.472739] (-) TimerEvent: {}
+[128.573967] (-) TimerEvent: {}
+[128.675379] (-) TimerEvent: {}
+[128.776800] (-) TimerEvent: {}
+[128.878394] (-) TimerEvent: {}
+[128.979701] (-) TimerEvent: {}
+[129.080875] (-) TimerEvent: {}
+[129.182313] (-) TimerEvent: {}
+[129.283633] (-) TimerEvent: {}
+[129.385021] (-) TimerEvent: {}
+[129.486222] (-) TimerEvent: {}
+[129.587477] (-) TimerEvent: {}
+[129.688627] (-) TimerEvent: {}
+[129.789916] (-) TimerEvent: {}
+[129.891180] (-) TimerEvent: {}
+[129.992429] (-) TimerEvent: {}
+[130.093730] (-) TimerEvent: {}
+[130.195092] (-) TimerEvent: {}
+[130.296543] (-) TimerEvent: {}
+[130.398032] (-) TimerEvent: {}
+[130.498995] (-) TimerEvent: {}
+[130.600051] (-) TimerEvent: {}
+[130.701031] (-) TimerEvent: {}
+[130.802185] (-) TimerEvent: {}
+[130.903153] (-) TimerEvent: {}
+[131.004135] (-) TimerEvent: {}
+[131.105150] (-) TimerEvent: {}
+[131.206238] (-) TimerEvent: {}
+[131.307236] (-) TimerEvent: {}
+[131.408268] (-) TimerEvent: {}
+[131.509369] (-) TimerEvent: {}
+[131.610514] (-) TimerEvent: {}
+[131.711622] (-) TimerEvent: {}
+[131.812692] (-) TimerEvent: {}
+[131.913878] (-) TimerEvent: {}
+[132.014905] (-) TimerEvent: {}
+[132.053704] (ouster_ros) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libos_image_component.so\x1b[0m\n'}
+[132.115111] (-) TimerEvent: {}
+[132.216209] (-) TimerEvent: {}
+[132.317361] (-) TimerEvent: {}
+[132.418374] (-) TimerEvent: {}
+[132.519447] (-) TimerEvent: {}
+[132.620564] (-) TimerEvent: {}
+[132.721796] (-) TimerEvent: {}
+[132.822891] (-) TimerEvent: {}
+[132.923988] (-) TimerEvent: {}
+[133.025128] (-) TimerEvent: {}
+[133.126356] (-) TimerEvent: {}
+[133.227385] (-) TimerEvent: {}
+[133.286031] (ouster_ros) StdoutLine: {'line': b'[ 94%] Built target os_image_component\n'}
+[133.327645] (-) TimerEvent: {}
+[133.428632] (-) TimerEvent: {}
+[133.529707] (-) TimerEvent: {}
+[133.630727] (-) TimerEvent: {}
+[133.731716] (-) TimerEvent: {}
+[133.832705] (-) TimerEvent: {}
+[133.933864] (-) TimerEvent: {}
+[134.034846] (-) TimerEvent: {}
+[134.135868] (-) TimerEvent: {}
+[134.236869] (-) TimerEvent: {}
+[134.337947] (-) TimerEvent: {}
+[134.438964] (-) TimerEvent: {}
+[134.540032] (-) TimerEvent: {}
+[134.641079] (-) TimerEvent: {}
+[134.742180] (-) TimerEvent: {}
+[134.843264] (-) TimerEvent: {}
+[134.944434] (-) TimerEvent: {}
+[135.045449] (-) TimerEvent: {}
+[135.146515] (-) TimerEvent: {}
+[135.247503] (-) TimerEvent: {}
+[135.348555] (-) TimerEvent: {}
+[135.449676] (-) TimerEvent: {}
+[135.550735] (-) TimerEvent: {}
+[135.651789] (-) TimerEvent: {}
+[135.752803] (-) TimerEvent: {}
+[135.853906] (-) TimerEvent: {}
+[135.954920] (-) TimerEvent: {}
+[136.055952] (-) TimerEvent: {}
+[136.157028] (-) TimerEvent: {}
+[136.258130] (-) TimerEvent: {}
+[136.359179] (-) TimerEvent: {}
+[136.460212] (-) TimerEvent: {}
+[136.561327] (-) TimerEvent: {}
+[136.662315] (-) TimerEvent: {}
+[136.763284] (-) TimerEvent: {}
+[136.864295] (-) TimerEvent: {}
+[136.965203] (-) TimerEvent: {}
+[137.066285] (-) TimerEvent: {}
+[137.167374] (-) TimerEvent: {}
+[137.268453] (-) TimerEvent: {}
+[137.369567] (-) TimerEvent: {}
+[137.470618] (-) TimerEvent: {}
+[137.571681] (-) TimerEvent: {}
+[137.672706] (-) TimerEvent: {}
+[137.773845] (-) TimerEvent: {}
+[137.874832] (-) TimerEvent: {}
+[137.975814] (-) TimerEvent: {}
+[138.076818] (-) TimerEvent: {}
+[138.177953] (-) TimerEvent: {}
+[138.278998] (-) TimerEvent: {}
+[138.380152] (-) TimerEvent: {}
+[138.481170] (-) TimerEvent: {}
+[138.582271] (-) TimerEvent: {}
+[138.683248] (-) TimerEvent: {}
+[138.784199] (-) TimerEvent: {}
+[138.885322] (-) TimerEvent: {}
+[138.986336] (-) TimerEvent: {}
+[139.087381] (-) TimerEvent: {}
+[139.188465] (-) TimerEvent: {}
+[139.289658] (-) TimerEvent: {}
+[139.390726] (-) TimerEvent: {}
+[139.491774] (-) TimerEvent: {}
+[139.592791] (-) TimerEvent: {}
+[139.693868] (-) TimerEvent: {}
+[139.794954] (-) TimerEvent: {}
+[139.895993] (-) TimerEvent: {}
+[139.997011] (-) TimerEvent: {}
+[140.098065] (-) TimerEvent: {}
+[140.199136] (-) TimerEvent: {}
+[140.300187] (-) TimerEvent: {}
+[140.401210] (-) TimerEvent: {}
+[140.502367] (-) TimerEvent: {}
+[140.603408] (-) TimerEvent: {}
+[140.704405] (-) TimerEvent: {}
+[140.805499] (-) TimerEvent: {}
+[140.906486] (-) TimerEvent: {}
+[141.007560] (-) TimerEvent: {}
+[141.108540] (-) TimerEvent: {}
+[141.209668] (-) TimerEvent: {}
+[141.310719] (-) TimerEvent: {}
+[141.337760] (ouster_ros) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library libos_cloud_component.so\x1b[0m\n'}
+[141.410958] (-) TimerEvent: {}
+[141.512095] (-) TimerEvent: {}
+[141.613128] (-) TimerEvent: {}
+[141.714516] (-) TimerEvent: {}
+[141.815553] (-) TimerEvent: {}
+[141.916582] (-) TimerEvent: {}
+[142.017720] (-) TimerEvent: {}
+[142.118741] (-) TimerEvent: {}
+[142.219820] (-) TimerEvent: {}
+[142.320874] (-) TimerEvent: {}
+[142.422006] (-) TimerEvent: {}
+[142.523067] (-) TimerEvent: {}
+[142.600776] (ouster_ros) StdoutLine: {'line': b'[100%] Built target os_cloud_component\n'}
+[142.623304] (-) TimerEvent: {}
+[142.675486] (ouster_ros) CommandEnded: {'returncode': 0}
+[142.724056] (-) TimerEvent: {}
+[142.826299] (-) TimerEvent: {}
+[142.927874] (-) TimerEvent: {}
+[143.028668] (-) TimerEvent: {}
+[143.040037] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'install'}
+[143.112117] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros-workspace/build/ouster_ros'], 'cwd': '/home/jetson/ros-workspace/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_AGENT_PID', '3047'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JOURNAL_STREAM', '7:57380'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3089,unix/ubuntu:/tmp/.ICE-unix/3089'), ('INVOCATION_ID', '7b0b8d80088c4cacbdb116b73069ff28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3977ee_d3cc_4e0b_8c30_7bd600b31a9b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jetson/ros-workspace/build/ouster_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy')]), 'shell': False}
+[143.130585] (-) TimerEvent: {}
+[143.174793] (ouster_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[143.180274] (ouster_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[143.186588] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/build.h\n'}
+[143.192541] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/buffered_udp_source.h\n'}
+[143.194633] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/client.h\n'}
+[143.196471] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/image_processing.h\n'}
+[143.198327] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/cartesian.h\n'}
+[143.200192] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h\n'}
+[143.202237] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/lidar_scan.h\n'}
+[143.203964] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/sensor_http.h\n'}
+[143.205676] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/types.h\n'}
+[143.207560] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/version.h\n'}
+[143.211282] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/optional-lite/nonstd/optional.hpp\n'}
+[143.214051] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake\n'}
+[143.215814] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake\n'}
+[143.218396] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/LICENSE\n'}
+[143.220256] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/LICENSE-bin\n'}
+[143.223775] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_sensor\n'}
+[143.226847] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_replay\n'}
+[143.229902] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_cloud\n'}
+[143.230656] (-) TimerEvent: {}
+[143.232988] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_image\n'}
+[143.236160] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libouster_ros_library.so\n'}
+[143.238406] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_sensor_component.so\n'}
+[143.240684] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_replay_component.so\n'}
+[143.243122] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_cloud_component.so\n'}
+[143.244986] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_image_component.so\n'}
+[143.250343] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h\n'}
+[143.252100] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h\n'}
+[143.253838] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h\n'}
+[143.255334] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h\n'}
+[143.257063] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h\n'}
+[143.262822] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp\n'}
+[143.264569] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h\n'}
+[143.266285] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/client.h\n'}
+[143.267843] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h\n'}
+[143.269820] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h\n'}
+[143.271864] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h\n'}
+[143.274790] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h\n'}
+[143.276684] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h\n'}
+[143.278240] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/types.h\n'}
+[143.279909] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/version.h\n'}
+[143.283806] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp\n'}
+[143.286314] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/LICENSE\n'}
+[143.291269] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.independent.launch.xml\n'}
+[143.293142] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.launch.xml\n'}
+[143.294712] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.independent.launch.xml\n'}
+[143.296328] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml\n'}
+[143.297838] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py\n'}
+[143.299363] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml\n'}
+[143.300838] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py\n'}
+[143.302611] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml\n'}
+[143.304153] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py\n'}
+[143.305729] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml\n'}
+[143.307468] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml\n'}
+[143.308851] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml\n'}
+[143.312317] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml\n'}
+[143.313994] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/parameters.yaml\n'}
+[143.315637] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/viz.rviz\n'}
+[143.318233] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.sh\n'}
+[143.320481] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.dsv\n'}
+[143.323207] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros\n'}
+[143.325955] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros\n'}
+[143.328247] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh\n'}
+[143.330395] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv\n'}
+[143.330800] (-) TimerEvent: {}
+[143.332655] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.sh\n'}
+[143.335016] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.dsv\n'}
+[143.337176] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.bash\n'}
+[143.339270] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.sh\n'}
+[143.341643] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.zsh\n'}
+[143.343975] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.dsv\n'}
+[143.345513] (ouster_ros) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv\n'}
+[143.401180] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros\n'}
+[143.403933] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros\n'}
+[143.406294] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[143.408681] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[143.411060] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[143.413572] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake\n'}
+[143.415179] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake\n'}
+[143.417321] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.xml\n'}
+[143.430120] (ouster_ros) CommandEnded: {'returncode': 0}
+[143.437015] (-) TimerEvent: {}
+[143.542057] (-) TimerEvent: {}
+[143.644136] (-) TimerEvent: {}
+[143.746482] (-) TimerEvent: {}
+[143.847513] (-) TimerEvent: {}
+[143.949322] (-) TimerEvent: {}
+[144.011232] (ouster_ros) JobEnded: {'identifier': 'ouster_ros', 'rc': 0}
+[144.046100] (-) EventReactorShutdown: {}

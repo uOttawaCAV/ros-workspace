@@ -1,0 +1,126 @@
+[0.170s] Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j4 -l4
+[0.481s] [  2%] Built target ouster_srvs__cpp
+[0.505s] [ 12%] Built target ouster_srvs__rosidl_generator_c
+[0.822s] [ 23%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp
+[0.832s] [ 34%] Built target ouster_srvs__rosidl_typesupport_cpp
+[0.902s] [ 44%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp
+[1.098s] [ 55%] Built target ouster_srvs__rosidl_typesupport_c
+[1.100s] [ 65%] Built target ouster_srvs__rosidl_typesupport_introspection_c
+[1.159s] [ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c
+[1.349s] [ 76%] Built target ouster_srvs
+[1.407s] [ 78%] Built target ouster_srvs__py
+[1.553s] [ 87%] Built target ouster_srvs__python
+[1.763s] [ 91%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext
+[1.789s] [ 95%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext
+[1.815s] [100%] Built target ouster_srvs__rosidl_typesupport_c__pyext
+[1.870s] Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j4 -l4
+[2.299s] Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_srvs
+[2.331s] -- Install configuration: "Release"
+[2.333s] -- Execute custom install script
+[2.335s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/rosidl_interfaces/ouster_srvs
+[2.339s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.340s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__functions.h
+[2.341s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.h
+[2.342s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__type_support.h
+[2.343s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__functions.h
+[2.344s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.h
+[2.345s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__type_support.h
+[2.346s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__functions.h
+[2.347s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.h
+[2.348s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__type_support.h
+[2.349s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.h
+[2.350s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.h
+[2.351s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.h
+[2.353s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.sh
+[2.354s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.dsv
+[2.358s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.359s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h
+[2.359s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h
+[2.360s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[2.362s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_c.so
+[2.367s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.367s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp
+[2.368s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[2.369s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[2.371s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_cpp.so
+[2.374s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.375s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_c.h
+[2.376s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h
+[2.377s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[2.380s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__builder.hpp
+[2.381s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.hpp
+[2.382s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__traits.hpp
+[2.383s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__builder.hpp
+[2.384s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.hpp
+[2.385s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__traits.hpp
+[2.386s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__builder.hpp
+[2.387s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.hpp
+[2.388s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__traits.hpp
+[2.389s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.hpp
+[2.390s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.hpp
+[2.391s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.hpp
+[2.394s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp
+[2.395s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp
+[2.396s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[2.397s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.sh
+[2.399s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.dsv
+[2.400s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/__init__.py
+[2.402s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/__init__.py
+[2.403s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_config.py
+[2.404s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_metadata.py
+[2.405s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_set_config.py
+[2.407s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[2.409s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[2.411s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[2.414s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__python.so
+[2.414s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.idl
+[2.415s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.idl
+[2.417s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.idl
+[2.418s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.srv
+[2.421s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Request.msg
+[2.422s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Response.msg
+[2.425s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.srv
+[2.426s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Request.msg
+[2.428s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Response.msg
+[2.428s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.srv
+[2.429s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Request.msg
+[2.430s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Response.msg
+[2.432s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/package_run_dependencies/ouster_srvs
+[2.433s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/parent_prefix_path/ouster_srvs
+[2.434s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.sh
+[2.436s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.dsv
+[2.437s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.sh
+[2.438s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.dsv
+[2.441s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.bash
+[2.441s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.sh
+[2.444s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.zsh
+[2.444s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.dsv
+[2.447s] -- Symlinking: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv
+[2.490s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/packages/ouster_srvs
+[2.491s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake-extras.cmake
+[2.497s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.499s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.499s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[2.501s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.502s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.504s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.505s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig.cmake
+[2.506s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig-version.cmake
+[2.506s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.xml
+[2.507s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_generator_c.so
+[2.508s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_c.so
+[2.509s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_c.so
+[2.510s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_cpp.so
+[2.512s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_cpp.so
+[2.652s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport.cmake
+[2.654s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport-release.cmake
+[2.655s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.655s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.657s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport.cmake
+[2.657s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport-release.cmake
+[2.657s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cppExport.cmake
+[2.658s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.658s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.658s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport.cmake
+[2.659s] -- Up-to-date: /home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport-release.cmake
+[2.678s] Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_srvs

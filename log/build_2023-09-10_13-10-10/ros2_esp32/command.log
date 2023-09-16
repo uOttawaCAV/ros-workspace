@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ros2_esp32 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ros2_esp32
+Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ros2_esp32 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ros2_esp32
+Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32
+Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32

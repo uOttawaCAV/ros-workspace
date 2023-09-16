@@ -1,0 +1,38 @@
+[0.324s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation
+[0.454s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.879s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.942s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.255s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.657s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.792s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.039s] -- Configuring done
+[6.111s] -- Generating done
+[6.124s] -- Build files have been written to: /home/jetson/ros-workspace/build/navigation
+[6.182s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/navigation -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/navigation
+[6.200s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j6 -l6
+[6.930s] [100%] Built target occupancy_pub
+[7.073s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j6 -l6
+[7.327s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation
+[7.414s] -- Install configuration: "Release"
+[7.419s] -- Execute custom install script
+[7.425s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+[7.432s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[7.437s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[7.442s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[7.446s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[7.453s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.sh
+[7.457s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.dsv
+[7.461s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.bash
+[7.464s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.sh
+[7.474s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.zsh
+[7.480s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.dsv
+[7.483s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/package.dsv
+[7.571s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/packages/navigation
+[7.577s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[7.579s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[7.582s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/share/navigation/package.xml
+[7.610s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation

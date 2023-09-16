@@ -1,0 +1,48 @@
+[0.127s] Invoking command in '/home/jetson/ros-workspace/build/ouster_ros': AMENT_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:.local/lib/python3.8/site-packages/:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_ros
+[0.212s] CMake Error at CMakeLists.txt:4 (include):
+[0.212s]   include could not find load file:
+[0.213s] 
+[0.213s]     DefaultBuildType
+[0.213s] 
+[0.214s] 
+[0.252s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.439s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.343s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.493s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.152s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.702s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.910s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[3.009s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.389s] -- Found ouster_msgs: 0.1.0 (/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)
+[3.418s] -- Found ouster_srvs: 0.1.0 (/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake)
+[3.447s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.483s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.584s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.629s] -- looking for PCL_COMMON
+[3.634s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[4.220s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[5.331s] CMake Error at CMakeLists.txt:49 (find_package):
+[5.332s]   By not providing "FindOusterSDK.cmake" in CMAKE_MODULE_PATH this project
+[5.332s]   has asked CMake to find a package configuration file provided by
+[5.332s]   "OusterSDK", but CMake did not find one.
+[5.332s] 
+[5.333s]   Could not find a package configuration file provided by "OusterSDK" with
+[5.333s]   any of the following names:
+[5.333s] 
+[5.334s]     OusterSDKConfig.cmake
+[5.334s]     oustersdk-config.cmake
+[5.334s] 
+[5.334s]   Add the installation prefix of "OusterSDK" to CMAKE_PREFIX_PATH or set
+[5.335s]   "OusterSDK_DIR" to a directory containing one of the above files.  If
+[5.335s]   "OusterSDK" provides a separate development package or SDK, be sure it has
+[5.335s]   been installed.
+[5.336s] 
+[5.337s] 
+[5.355s] -- Configuring incomplete, errors occurred!
+[5.356s] See also "/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/CMakeOutput.log".
+[5.356s] See also "/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/CMakeError.log".
+[5.404s] Invoked command in '/home/jetson/ros-workspace/build/ouster_ros' returned '1': AMENT_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:.local/lib/python3.8/site-packages/:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_ros

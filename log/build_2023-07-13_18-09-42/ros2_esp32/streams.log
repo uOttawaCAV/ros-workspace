@@ -1,0 +1,32 @@
+[0.105s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[0.366s] [35m[1mScanning dependencies of target string_publisher[0m
+[0.367s] [35m[1mScanning dependencies of target integer_publisher[0m
+[0.633s] [ 50%] [32mBuilding CXX object CMakeFiles/string_publisher.dir/src/string_publisher.cpp.o[0m
+[0.634s] [ 50%] [32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o[0m
+[15.043s] [ 75%] [32m[1mLinking CXX executable integer_publisher[0m
+[15.134s] [100%] [32m[1mLinking CXX executable string_publisher[0m
+[15.802s] [100%] Built target integer_publisher
+[15.897s] [100%] Built target string_publisher
+[15.966s] Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[16.219s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32
+[16.272s] -- Install configuration: ""
+[16.273s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher
+[16.283s] -- Set runtime path of "/home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher" to ""
+[16.284s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher
+[16.293s] -- Set runtime path of "/home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher" to ""
+[16.294s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/package_run_dependencies/ros2_esp32
+[16.295s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/parent_prefix_path/ros2_esp32
+[16.296s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.sh
+[16.297s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.dsv
+[16.298s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.sh
+[16.299s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.dsv
+[16.300s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.bash
+[16.301s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.sh
+[16.303s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.zsh
+[16.303s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.dsv
+[16.305s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv
+[16.306s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/packages/ros2_esp32
+[16.307s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config.cmake
+[16.308s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config-version.cmake
+[16.309s] -- Installing: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.xml
+[16.323s] Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32

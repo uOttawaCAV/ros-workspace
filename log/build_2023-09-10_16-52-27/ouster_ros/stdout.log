@@ -1,0 +1,9 @@
+[34m[1mGenerating build info header[0m
+[  5%] Built target os_cloud
+[ 11%] Built target os_sensor
+[ 17%] Built target os_replay
+[ 23%] Built target os_image
+[ 23%] Built target ouster_generate_header
+[ 58%] Built target ouster_client
+[35m[1mScanning dependencies of target ouster_ros_library[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m

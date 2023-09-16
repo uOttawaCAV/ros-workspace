@@ -1,0 +1,33 @@
+{
+  "package_name": "sbg_driver",
+  "non_idl_tuples": [
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsVelStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsPosStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgMagStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgShipMotionStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgUtcTimeStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgAirData.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgAirDataStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgEkfEuler.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsPos.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgMag.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgStatusCom.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgEkfNav.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsRaw.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgOdoVel.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgStatusGeneral.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgEkfQuat.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsVel.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgEvent.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgImuStatus.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgImuData.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgImuShort.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgShipMotion.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgUtcTime.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgGpsHdt.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgMagCalib.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgStatusAiding.msg",
+    "/home/jetson/ros-workspace/src/sbg_ros2_driver:msg/SbgEkfStatus.msg"
+  ]
+}

@@ -1,0 +1,25 @@
+[0.540s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[1.006s] [ 50%] Built target integer_publisher
+[1.034s] [100%] Built target string_publisher
+[2.156s] Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[2.499s] Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32
+[2.536s] -- Install configuration: "Release"
+[2.536s] -- Execute custom install script
+[2.542s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher
+[2.545s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher
+[2.547s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/package_run_dependencies/ros2_esp32
+[2.551s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/parent_prefix_path/ros2_esp32
+[2.551s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.sh
+[2.552s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.dsv
+[2.560s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.sh
+[2.566s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.dsv
+[2.571s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.bash
+[2.577s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.sh
+[2.583s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.zsh
+[2.587s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.dsv
+[2.588s] -- Symlinking: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv
+[2.624s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/packages/ros2_esp32
+[2.627s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config.cmake
+[2.631s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config-version.cmake
+[2.633s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.xml
+[2.667s] Invoked command in '/home/jetson/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ros2_esp32

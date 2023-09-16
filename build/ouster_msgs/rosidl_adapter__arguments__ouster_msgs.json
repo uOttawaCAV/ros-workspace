@@ -1,0 +1,6 @@
+{
+  "package_name": "ouster_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/ros-workspace/src/ouster-ros/ouster-msgs:msg/PacketMsg.msg"
+  ]
+}

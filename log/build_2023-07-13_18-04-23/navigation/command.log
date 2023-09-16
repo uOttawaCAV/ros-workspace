@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j6 -l6
+Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j6 -l6
+Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation
+Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation

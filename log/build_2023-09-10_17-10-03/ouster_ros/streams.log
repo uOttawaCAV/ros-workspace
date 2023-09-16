@@ -1,0 +1,95 @@
+[0.126s] Invoking command in '/home/jetson/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_ros -- -j6 -l6
+[0.452s] [34m[1mGenerating build info header[0m
+[0.509s] [  5%] Built target os_sensor
+[0.511s] [ 11%] Built target os_image
+[0.515s] [ 17%] Built target os_cloud
+[0.530s] [ 23%] Built target os_replay
+[0.607s] [ 23%] Built target ouster_generate_header
+[0.779s] [ 58%] Built target ouster_client
+[0.998s] [ 64%] Built target ouster_ros_library
+[1.233s] [ 73%] Built target os_replay_component
+[1.244s] [ 82%] Built target os_sensor_component
+[1.248s] [ 91%] Built target os_cloud_component
+[1.257s] [100%] Built target os_image_component
+[1.321s] Invoked command in '/home/jetson/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_ros -- -j6 -l6
+[1.756s] Invoking command in '/home/jetson/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_ros
+[1.807s] -- Install configuration: "Release"
+[1.811s] -- Execute custom install script
+[1.817s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/build.h
+[1.821s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/buffered_udp_source.h
+[1.823s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/client.h
+[1.824s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/image_processing.h
+[1.826s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/cartesian.h
+[1.827s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[1.829s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/lidar_scan.h
+[1.831s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/sensor_http.h
+[1.832s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/types.h
+[1.833s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster/version.h
+[1.838s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[1.840s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[1.841s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[1.843s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/LICENSE
+[1.845s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/LICENSE-bin
+[1.848s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_sensor
+[1.851s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_replay
+[1.853s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_cloud
+[1.856s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/ouster_ros/os_image
+[1.859s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libouster_ros_library.so
+[1.861s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_sensor_component.so
+[1.863s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_replay_component.so
+[1.864s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_cloud_component.so
+[1.866s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/lib/libos_image_component.so
+[1.870s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h
+[1.872s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h
+[1.873s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h
+[1.875s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h
+[1.876s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h
+[1.880s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[1.881s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h
+[1.883s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/client.h
+[1.884s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h
+[1.886s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h
+[1.887s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[1.888s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h
+[1.890s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h
+[1.891s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/types.h
+[1.893s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/version.h
+[1.896s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp
+[1.898s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/LICENSE
+[1.902s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.independent.launch.xml
+[1.903s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+[1.905s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.independent.launch.xml
+[1.906s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+[1.907s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+[1.908s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+[1.910s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+[1.911s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+[1.912s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+[1.914s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+[1.915s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+[1.917s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+[1.919s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+[1.921s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/parameters.yaml
+[1.922s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/config/viz.rviz
+[1.924s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+[1.926s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+[1.928s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+[1.930s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+[1.932s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+[1.934s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+[1.937s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.sh
+[1.940s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.dsv
+[1.941s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.bash
+[1.943s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.sh
+[1.945s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.zsh
+[1.947s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.dsv
+[1.949s] -- Symlinking: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv
+[2.001s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+[2.003s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+[2.005s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.007s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.009s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[2.011s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+[2.012s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+[2.014s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.xml
+[2.030s] Invoked command in '/home/jetson/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_ros

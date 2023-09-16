@@ -1,0 +1,1 @@
+/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.sh

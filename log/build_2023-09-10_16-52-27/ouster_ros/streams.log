@@ -1,0 +1,14 @@
+[0.121s] Invoking command in '/home/jetson/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_ros -- -j6 -l6
+[0.529s] [34m[1mGenerating build info header[0m
+[0.634s] [  5%] Built target os_cloud
+[0.674s] [ 11%] Built target os_sensor
+[0.689s] [ 17%] Built target os_replay
+[0.717s] [ 23%] Built target os_image
+[0.757s] [ 23%] Built target ouster_generate_header
+[0.939s] [ 58%] Built target ouster_client
+[1.041s] [35m[1mScanning dependencies of target ouster_ros_library[0m
+[1.515s] [ 61%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[4.324s] make[2]: *** [CMakeFiles/ouster_ros_library.dir/build.make:63: CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o] Interrupt
+[4.325s] make[1]: *** [CMakeFiles/Makefile2:439: CMakeFiles/ouster_ros_library.dir/all] Interrupt
+[4.326s] make: *** [Makefile:163: all] Interrupt
+[4.351s] Invoked command in '/home/jetson/ros-workspace/build/ouster_ros' returned '-2': CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/ros-workspace/install/ros2_esp32:/home/jetson/ros-workspace/install/pointcloud_to_laserscan:/home/jetson/ros-workspace/install/ouster_ros:/home/jetson/ros-workspace/install/navigation:/home/jetson/ros-workspace/install/micro_ros_setup:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib:/home/jetson/ros-workspace/install/ouster_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_ros -- -j6 -l6

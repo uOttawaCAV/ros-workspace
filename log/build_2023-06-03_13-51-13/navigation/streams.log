@@ -1,0 +1,23 @@
+[0.072s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j4 -l4
+[0.339s] [100%] Built target occupancy_pub
+[0.388s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/navigation -- -j4 -l4
+[0.552s] Invoking command in '/home/jetson/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation
+[0.589s] -- Install configuration: "Release"
+[0.590s] -- Execute custom install script
+[0.593s] -- Up-to-date symlink: /home/jetson/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+[0.596s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[0.638s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[0.678s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[0.717s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[0.758s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.sh
+[0.799s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/environment/path.dsv
+[0.841s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.bash
+[0.883s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.sh
+[0.923s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.zsh
+[0.965s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/local_setup.dsv
+[1.006s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/package.dsv
+[1.049s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/ament_index/resource_index/packages/navigation
+[1.091s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[1.130s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[1.171s] -- Symlinking: /home/jetson/ros-workspace/install/navigation/share/navigation/package.xml
+[1.225s] Invoked command in '/home/jetson/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/navigation

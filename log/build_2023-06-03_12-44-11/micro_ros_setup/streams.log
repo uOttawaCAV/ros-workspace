@@ -1,0 +1,212 @@
+[0.202s] Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup
+[0.614s] -- The C compiler identification is GNU 9.4.0
+[0.993s] -- The CXX compiler identification is GNU 9.4.0
+[1.026s] -- Check for working C compiler: /usr/bin/cc
+[1.402s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.409s] -- Detecting C compiler ABI info
+[1.812s] -- Detecting C compiler ABI info - done
+[1.884s] -- Detecting C compile features
+[1.886s] -- Detecting C compile features - done
+[1.900s] -- Check for working CXX compiler: /usr/bin/c++
+[2.324s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.331s] -- Detecting CXX compiler ABI info
+[2.820s] -- Detecting CXX compiler ABI info - done
+[2.891s] -- Detecting CXX compile features
+[2.893s] -- Detecting CXX compile features - done
+[2.905s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.034s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.027s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.483s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.500s] -- Added test 'lint_cmake' to check CMake code style
+[4.512s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.555s] -- Added test 'xmllint' to check XML markup files
+[4.570s] -- Configuring done
+[4.581s] -- Generating done
+[4.588s] -- Build files have been written to: /home/jetson/ros-workspace/build/micro_ros_setup
+[4.609s] Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup
+[4.627s] Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/micro_ros_setup -- -j4 -l4
+[4.842s] Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/micro_ros_setup -- -j4 -l4
+[5.052s] Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/micro_ros_setup
+[5.119s] -- Install configuration: ""
+[5.122s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[5.124s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[5.126s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[5.128s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[5.130s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[5.132s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[5.135s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[5.136s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[5.138s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[5.140s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[5.141s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[5.143s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[5.145s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[5.147s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[5.148s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[5.150s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config
+[5.151s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/client_uros_packages.repos
+[5.153s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/agent_uros_packages.repos
+[5.154s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host
+[5.156s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[5.158s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[5.159s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[5.160s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic
+[5.161s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/package.xml
+[5.163s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/flash.sh
+[5.165s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/create.sh
+[5.166s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[5.168s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[5.169s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/reset.sh
+[5.171s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/host/generic/build.sh
+[5.173s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos
+[5.174s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[5.175s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[5.178s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[5.179s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[5.180s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[5.182s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[5.183s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[5.185s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh
+[5.186s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[5.187s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[5.189s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[5.190s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21
+[5.191s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[5.193s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[5.194s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[5.196s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[5.197s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[5.200s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[5.201s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[5.203s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[5.204s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[5.206s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[5.207s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[5.208s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[5.210s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[5.211s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[5.212s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[5.214s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh
+[5.215s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[5.216s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[5.218s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[5.219s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[5.221s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[5.223s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[5.224s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[5.225s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[5.227s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[5.228s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh
+[5.229s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[5.231s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[5.232s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/list_apps.sh
+[5.233s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[5.235s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[5.236s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[5.237s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[5.238s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[5.240s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[5.241s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[5.243s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh
+[5.245s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[5.245s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[5.246s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[5.246s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[5.247s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[5.248s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[5.249s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[5.249s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[5.249s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[5.250s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[5.250s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh
+[5.251s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[5.252s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[5.252s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32
+[5.253s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[5.253s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[5.254s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[5.254s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[5.255s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[5.255s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[5.256s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/README.md
+[5.257s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[5.257s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[5.258s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[5.260s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx
+[5.262s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos
+[5.264s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt
+[5.266s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic
+[5.267s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos
+[5.267s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/package.xml
+[5.267s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/configure.sh
+[5.268s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/flash.sh
+[5.268s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/create.sh
+[5.268s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos
+[5.277s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/supported_platforms
+[5.277s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/reset.sh
+[5.277s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta
+[5.278s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/build.sh
+[5.278s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra
+[5.279s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[5.279s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[5.279s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[5.280s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[5.280s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[5.280s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[5.282s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[5.283s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[5.283s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[5.284s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[5.284s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[5.284s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib
+[5.289s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[5.289s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[5.289s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic
+[5.290s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[5.294s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[5.295s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[5.296s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[5.296s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[5.297s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[5.298s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[5.299s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr
+[5.300s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[5.301s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[5.304s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[5.306s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic
+[5.306s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[5.306s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[5.307s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[5.310s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[5.310s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[5.311s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[5.316s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[5.317s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/reset.sh
+[5.318s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[5.321s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[5.321s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/client_ros2_packages.txt
+[5.322s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/utils.sh
+[5.323s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian
+[5.323s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[5.323s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[5.325s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic
+[5.325s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[5.326s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[5.328s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[5.330s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[5.330s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[5.332s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[5.333s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[5.333s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[5.333s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[5.335s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[5.342s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[5.362s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[5.363s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh
+[5.364s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[5.365s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[5.366s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[5.366s] -- Installing: /home/jetson/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[5.367s] Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/micro_ros_setup

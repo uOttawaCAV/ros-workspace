@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target integer_publisher[0m
+[ 50%] Built target string_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable integer_publisher[0m
+[100%] Built target integer_publisher

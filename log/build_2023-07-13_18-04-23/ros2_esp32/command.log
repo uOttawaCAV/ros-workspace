@@ -1,0 +1,1 @@
+Invoking command in '/home/jetson/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ros2_esp32 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ros2_esp32

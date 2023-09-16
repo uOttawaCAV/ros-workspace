@@ -1,0 +1,8 @@
+{
+  "package_name": "ouster_srvs",
+  "non_idl_tuples": [
+    "/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs:srv/GetConfig.srv",
+    "/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs:srv/SetConfig.srv",
+    "/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs:srv/GetMetadata.srv"
+  ]
+}

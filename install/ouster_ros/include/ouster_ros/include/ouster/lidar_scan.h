@@ -1,0 +1,1 @@
+/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h

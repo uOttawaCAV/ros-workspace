@@ -1,0 +1,6 @@
+[  2%] Built target ouster_srvs__cpp
+[ 12%] Built target ouster_srvs__rosidl_generator_c
+[ 23%] Built target ouster_srvs__rosidl_typesupport_cpp
+[ 34%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp
+[ 44%] Built target ouster_srvs__rosidl_typesupport_c
+[ 55%] Built target ouster_srvs__rosidl_typesupport_introspection_c

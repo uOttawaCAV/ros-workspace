@@ -1,0 +1,461 @@
+[1.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[1.143s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1d59eb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1d59eb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa1d66460>)
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros-workspace'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ignore_ament_install'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['colcon_pkg']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'colcon_pkg'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['colcon_meta']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'colcon_meta'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['ros']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ros'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['cmake', 'python']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'cmake'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'python'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['python_setup_py']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'python_setup_py'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ignore'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ignore_ament_install'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['colcon_pkg']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'colcon_pkg'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['colcon_meta']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'colcon_meta'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ros'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['cmake', 'python']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'cmake'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'python'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['python_setup_py']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'python_setup_py'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ignore'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ignore_ament_install'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'colcon_pkg'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['colcon_meta']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'colcon_meta'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['ros']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ros'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['cmake', 'python']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'cmake'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'python'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['python_setup_py']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'python_setup_py'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ignore_ament_install'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['colcon_pkg']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'colcon_pkg'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['colcon_meta']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'colcon_meta'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['ros']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ros'
+[1.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-msgs' with type 'ros.ament_cmake' and name 'ouster_msgs'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ignore'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ignore_ament_install'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['colcon_pkg']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'colcon_pkg'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['colcon_meta']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'colcon_meta'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['ros']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ros'
+[1.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-ros' with type 'ros.ament_cmake' and name 'ouster_ros'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ignore_ament_install'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['colcon_pkg']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'colcon_pkg'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['colcon_meta']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'colcon_meta'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['ros']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ros'
+[1.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-srvs' with type 'ros.ament_cmake' and name 'ouster_srvs'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'colcon_pkg'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ros'
+[1.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laser' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[1.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.705s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.705s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[1.705s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.705s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.706s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.706s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.706s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.706s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.706s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.706s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros-workspace/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros-workspace/install/micro_ros_setup', 'merge_install': False, 'path': '/home/jetson/ros-workspace/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_target' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.711s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros-workspace/build/ouster_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros-workspace/install/ouster_msgs', 'merge_install': False, 'path': '/home/jetson/ros-workspace/src/ouster-ros/ouster-msgs', 'symlink_install': True, 'test_result_base': None}
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_target' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.715s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros-workspace/build/ouster_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros-workspace/install/ouster_srvs', 'merge_install': False, 'path': '/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs', 'symlink_install': True, 'test_result_base': None}
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.721s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.722s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.722s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros-workspace/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros-workspace/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/jetson/ros-workspace/src/pointcloud_to_laser', 'symlink_install': True, 'test_result_base': None}
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_target' from command line to 'None'
+[1.725s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.726s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros-workspace/build/ouster_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros-workspace/install/ouster_ros', 'merge_install': False, 'path': '/home/jetson/ros-workspace/src/ouster-ros/ouster-ros', 'symlink_install': True, 'test_result_base': None}
+[1.728s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-msgs' with build type 'ament_cmake'
+[1.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-msgs'
+[1.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs' with build type 'ament_cmake'
+[1.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-srvs'
+[1.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros-workspace/src/micro_ros_setup' with build type 'ament_cmake'
+[1.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros-workspace/src/micro_ros_setup'
+[1.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros-workspace/src/pointcloud_to_laser' with build type 'ament_cmake'
+[1.877s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros-workspace/src/pointcloud_to_laser'
+[1.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_msgs
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_srvs
+[2.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup
+[2.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/pointcloud_to_laserscan
+[3.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/micro_ros_setup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/micro_ros_setup
+[3.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/micro_ros_setup -- -j4 -l4
+[3.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/micro_ros_setup -- -j4 -l4
+[4.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/micro_ros_setup
+[4.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup' for CMake module files
+[4.423s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup' for CMake config files
+[4.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/micro_ros_setup
+[4.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[4.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[4.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[4.455s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/bin'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[4.457s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib/python3.8/site-packages'
+[4.458s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/bin'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[4.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[4.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[4.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[4.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup' for CMake module files
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup' for CMake config files
+[4.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[4.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[4.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib'
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/bin'
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/lib/python3.8/site-packages'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/micro_ros_setup/bin'
+[4.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[4.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[4.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[4.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[4.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[5.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_msgs
+[5.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j4 -l4
+[5.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_srvs
+[5.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j4 -l4
+[6.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_msgs -- -j4 -l4
+[6.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/ouster_srvs -- -j4 -l4
+[7.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_msgs
+[7.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_srvs
+[7.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/pointcloud_to_laserscan
+[7.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j4 -l4
+[7.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_msgs)
+[7.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_msgs
+[7.462s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs' for CMake module files
+[7.466s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs' for CMake config files
+[7.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'cmake_prefix_path')
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.ps1'
+[7.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.dsv'
+[7.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.sh'
+[7.485s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib'
+[7.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'ld_library_path_lib')
+[7.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.ps1'
+[7.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.dsv'
+[7.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.sh'
+[7.503s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/bin'
+[7.504s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib/pkgconfig/ouster_msgs.pc'
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages'
+[7.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'pythonpath')
+[7.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.ps1'
+[7.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.dsv'
+[7.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.sh'
+[7.522s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/bin'
+[7.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.ps1'
+[7.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv'
+[7.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.sh'
+[7.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.bash'
+[7.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.zsh'
+[7.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/ouster_msgs/share/colcon-core/packages/ouster_msgs)
+[7.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_srvs)
+[7.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/ouster_srvs
+[7.762s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs' for CMake module files
+[7.785s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs' for CMake config files
+[7.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'cmake_prefix_path')
+[7.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.ps1'
+[7.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.dsv'
+[7.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.sh'
+[7.805s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib'
+[7.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'ld_library_path_lib')
+[7.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.ps1'
+[7.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.dsv'
+[7.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.sh'
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/bin'
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib/pkgconfig/ouster_srvs.pc'
+[7.819s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages'
+[7.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'pythonpath')
+[7.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.ps1'
+[7.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.dsv'
+[7.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.sh'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/bin'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.ps1'
+[7.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv'
+[7.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.sh'
+[7.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.bash'
+[7.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.zsh'
+[7.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/ouster_srvs/share/colcon-core/packages/ouster_srvs)
+[7.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros-workspace/build/pointcloud_to_laserscan -- -j4 -l4
+[7.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_msgs)
+[7.990s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs' for CMake module files
+[7.994s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs' for CMake config files
+[8.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'cmake_prefix_path')
+[8.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.ps1'
+[8.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.dsv'
+[8.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.sh'
+[8.015s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib'
+[8.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'ld_library_path_lib')
+[8.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.ps1'
+[8.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.dsv'
+[8.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.sh'
+[8.027s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/bin'
+[8.027s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib/pkgconfig/ouster_msgs.pc'
+[8.028s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages'
+[8.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'pythonpath')
+[8.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.ps1'
+[8.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.dsv'
+[8.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.sh'
+[8.041s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_msgs/bin'
+[8.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.ps1'
+[8.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv'
+[8.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.sh'
+[8.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.bash'
+[8.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.zsh'
+[8.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/ouster_msgs/share/colcon-core/packages/ouster_msgs)
+[8.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/pointcloud_to_laserscan
+[8.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_srvs)
+[8.277s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs' for CMake module files
+[8.282s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs' for CMake config files
+[8.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'cmake_prefix_path')
+[8.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.ps1'
+[8.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.dsv'
+[8.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.sh'
+[8.298s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib'
+[8.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'ld_library_path_lib')
+[8.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.ps1'
+[8.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.dsv'
+[8.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.sh'
+[8.309s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/bin'
+[8.309s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib/pkgconfig/ouster_srvs.pc'
+[8.310s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages'
+[8.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'pythonpath')
+[8.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.ps1'
+[8.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.dsv'
+[8.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.sh'
+[8.319s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_srvs/bin'
+[8.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.ps1'
+[8.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv'
+[8.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.sh'
+[8.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.bash'
+[8.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.zsh'
+[8.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/ouster_srvs/share/colcon-core/packages/ouster_srvs)
+[8.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-ros' with build type 'ament_cmake'
+[8.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros-workspace/src/ouster-ros/ouster-ros'
+[8.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[8.388s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan' for CMake module files
+[8.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros-workspace/build/pointcloud_to_laserscan
+[8.392s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan' for CMake config files
+[8.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[8.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[8.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[8.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[8.409s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib'
+[8.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[8.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[8.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[8.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[8.419s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/bin'
+[8.419s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[8.422s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[8.422s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/bin'
+[8.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[8.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[8.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[8.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[8.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[8.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[8.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros-workspace/build/ouster_ros': AMENT_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/.local/lib/python3.8/site-packages/ouster:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_ros
+[8.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[8.606s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan' for CMake module files
+[8.611s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan' for CMake config files
+[8.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[8.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[8.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[8.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[8.625s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib'
+[8.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[8.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[8.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[8.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[8.637s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/bin'
+[8.637s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[8.638s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[8.639s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/bin'
+[8.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[8.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[8.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[8.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[8.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[8.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[12.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros-workspace/build/ouster_ros' returned '1': AMENT_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros-workspace/install/ouster_srvs:/home/jetson/ros-workspace/install/ouster_msgs:/home/jetson/.local/lib/python3.8/site-packages/ouster:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/ros-workspace/install/ouster_srvs/lib:/home/jetson/ros-workspace/install/ouster_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/jetson/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros-workspace/install/ouster_ros
+[12.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_ros)
+[13.004s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros' for CMake module files
+[13.008s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros' for CMake config files
+[13.010s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros/bin'
+[13.010s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros/lib/pkgconfig/ouster_ros.pc'
+[13.012s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros/lib/python3.8/site-packages'
+[13.013s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros-workspace/install/ouster_ros/bin'
+[13.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.ps1'
+[13.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv'
+[13.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.sh'
+[13.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.bash'
+[13.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros-workspace/install/ouster_ros/share/ouster_ros/package.zsh'
+[13.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros-workspace/install/ouster_ros/share/colcon-core/packages/ouster_ros)
+[13.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.046s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[13.047s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.086s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.086s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.144s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros-workspace/install/local_setup.ps1'
+[13.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros-workspace/install/_local_setup_util_ps1.py'
+[13.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros-workspace/install/setup.ps1'
+[13.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros-workspace/install/local_setup.sh'
+[13.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros-workspace/install/_local_setup_util_sh.py'
+[13.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros-workspace/install/setup.sh'
+[13.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros-workspace/install/local_setup.bash'
+[13.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros-workspace/install/setup.bash'
+[13.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros-workspace/install/local_setup.zsh'
+[13.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros-workspace/install/setup.zsh'

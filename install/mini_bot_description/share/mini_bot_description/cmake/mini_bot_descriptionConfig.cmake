@@ -1,0 +1,1 @@
+/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig.cmake

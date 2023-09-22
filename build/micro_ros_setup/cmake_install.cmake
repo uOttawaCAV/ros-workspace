@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson/ros-workspace/src/micro_ros_setup
+# Install script for directory: /home/uocav/ros-workspace/src/micro_ros_setup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson/ros-workspace/install/micro_ros_setup")
+  set(CMAKE_INSTALL_PREFIX "/home/uocav/ros-workspace/install/micro_ros_setup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/jetson/ros-workspace/src/micro_ros_setup/config" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/home/uocav/ros-workspace/src/micro_ros_setup/config" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetson/ros-workspace/build/micro_ros_setup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uocav/ros-workspace/build/micro_ros_setup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

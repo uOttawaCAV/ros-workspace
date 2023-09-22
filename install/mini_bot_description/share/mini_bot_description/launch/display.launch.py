@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/src/mini_bot_description/launch/display.launch.py
+/home/uocav/ros-workspace/src/mini_bot_description/launch/display.launch.py

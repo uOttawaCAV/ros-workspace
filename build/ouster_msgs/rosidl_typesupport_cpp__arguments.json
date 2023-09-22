@@ -1,9 +1,9 @@
 {
   "package_name": "ouster_msgs",
-  "output_dir": "/home/jetson/ros-workspace/build/ouster_msgs/rosidl_typesupport_cpp/ouster_msgs",
+  "output_dir": "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_cpp/ouster_msgs",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/jetson/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs:msg/PacketMsg.idl"
+    "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs:msg/PacketMsg.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -12,6 +12,6 @@
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/jetson/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/msg/PacketMsg.idl"
+    "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/msg/PacketMsg.idl"
   ]
 }

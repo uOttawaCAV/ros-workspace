@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_msgs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_msgs
 
 # Utility rule file for ouster_msgs_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_msgs
 include CMakeFiles/ouster_msgs_uninstall.dir/progress.make
 
 CMakeFiles/ouster_msgs_uninstall:
-	/usr/bin/cmake -P /home/jetson/ros-workspace/build/ouster_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ouster_msgs_uninstall: CMakeFiles/ouster_msgs_uninstall
 ouster_msgs_uninstall: CMakeFiles/ouster_msgs_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ouster_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/ouster_msgs_uninstall.dir/clean
 
 CMakeFiles/ouster_msgs_uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs/CMakeFiles/ouster_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs/CMakeFiles/ouster_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_msgs_uninstall.dir/depend
 

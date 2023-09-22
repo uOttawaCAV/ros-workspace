@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-ros
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_ros
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_ros
 
 # Utility rule file for EXAMPLE_INCLUDED.
 
@@ -67,6 +67,6 @@ CMakeFiles/EXAMPLE_INCLUDED.dir/clean:
 .PHONY : CMakeFiles/EXAMPLE_INCLUDED.dir/clean
 
 CMakeFiles/EXAMPLE_INCLUDED.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/EXAMPLE_INCLUDED.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/EXAMPLE_INCLUDED.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EXAMPLE_INCLUDED.dir/depend
 

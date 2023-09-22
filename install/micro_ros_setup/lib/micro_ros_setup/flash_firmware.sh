@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/src/micro_ros_setup/scripts/flash_firmware.sh
+/home/uocav/ros-workspace/src/micro_ros_setup/scripts/flash_firmware.sh

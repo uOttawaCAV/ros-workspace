@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jetson/ros-workspace/src/pointcloud_to_laser/src/dummy_pointcloud_publisher.cpp" "/home/jetson/ros-workspace/build/pointcloud_to_laserscan/CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o"
+  "/home/uocav/ros-workspace/src/pointcloud_to_laser/src/dummy_pointcloud_publisher.cpp" "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/jetson/ros-workspace/src/pointcloud_to_laser/include"
+  "/home/uocav/ros-workspace/src/pointcloud_to_laser/include"
   "/opt/ros/foxy/include"
   )
 

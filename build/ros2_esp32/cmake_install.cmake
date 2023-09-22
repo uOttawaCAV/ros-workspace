@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson/ros-workspace/src/ros2_esp32
+# Install script for directory: /home/uocav/ros-workspace/src/ros2_esp32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson/ros-workspace/install/ros2_esp32")
+  set(CMAKE_INSTALL_PREFIX "/home/uocav/ros-workspace/install/ros2_esp32")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetson/ros-workspace/build/ros2_esp32/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uocav/ros-workspace/build/ros2_esp32/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

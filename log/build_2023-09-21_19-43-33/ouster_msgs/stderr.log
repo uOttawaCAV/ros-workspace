@@ -1,0 +1,91 @@
+CMake Warning at /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rosidl_generator_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rosidl_generator_c/cmake/rosidl_generator_cConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:11 (find_package)
+  /opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:6 (find_package)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_c__pyext" links to target
+  "OpenSSL::SSL" but the target was not found.  Perhaps a find_package() call
+  is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_c__pyext" links to target
+  "OpenSSL::Crypto" but the target was not found.  Perhaps a find_package()
+  call is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake:105 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_cpp" links to target
+  "OpenSSL::SSL" but the target was not found.  Perhaps a find_package() call
+  is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake:105 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_cpp" links to target
+  "OpenSSL::Crypto" but the target was not found.  Perhaps a find_package()
+  call is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake:94 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_c" links to target
+  "OpenSSL::SSL" but the target was not found.  Perhaps a find_package() call
+  is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Error at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake:94 (add_library):
+  Target "ouster_msgs__rosidl_typesupport_fastrtps_c" links to target
+  "OpenSSL::Crypto" but the target was not found.  Perhaps a find_package()
+  call is missing for an IMPORTED target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  ouster_msgs__rosidl_typesupport_fastrtps_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libpython3.8.so] in /usr/lib/aarch64-linux-gnu may be hidden by files in:
+      /usr/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:8 (rosidl_generate_interfaces)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

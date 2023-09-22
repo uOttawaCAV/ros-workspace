@@ -1,0 +1,24 @@
+[5.299s] Invoking command in '/home/jetson/ros-workspace/build/urdf_tutorial_r2d2': PYTHONPATH=/home/jetson/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/build
+[7.052s] running develop
+[8.340s] Invoked command in '/home/jetson/ros-workspace/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/jetson/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/build
+[8.416s] Invoking command in '/home/jetson/ros-workspace/src/urdf_tutorial_r2d2': PYTHONPATH=/home/jetson/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/build install --record /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed
+[9.802s] running egg_info
+[9.808s] writing ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[9.810s] writing dependency_links to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[9.812s] writing entry points to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[9.814s] writing requirements to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[9.815s] writing top-level names to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[10.093s] reading manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[10.101s] writing manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[10.102s] running build
+[10.103s] running build_py
+[10.106s] running install
+[10.111s] running install_lib
+[10.122s] running install_data
+[10.126s] running install_egg_info
+[10.135s] removing '/home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2-0.0.0-py3.8.egg-info' (and everything under it)
+[10.138s] Copying ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2-0.0.0-py3.8.egg-info
+[10.146s] running install_scripts
+[10.247s] Installing state_publisher script to /home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[10.250s] writing list of installed files to '/home/jetson/ros-workspace/build/urdf_tutorial_r2d2/install.log'
+[10.371s] Invoked command in '/home/jetson/ros-workspace/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/jetson/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/jetson/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/build install --record /home/jetson/ros-workspace/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed

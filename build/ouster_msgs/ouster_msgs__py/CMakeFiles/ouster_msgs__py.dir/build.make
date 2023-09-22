@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_msgs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_msgs
 
 # Utility rule file for ouster_msgs__py.
 
@@ -75,8 +75,8 @@ rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ouster_msgs/msg/PacketMsg.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/ros-workspace/build/ouster_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/jetson/ros-workspace/build/ouster_msgs/ouster_msgs__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/jetson/ros-workspace/build/ouster_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/uocav/ros-workspace/build/ouster_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/uocav/ros-workspace/build/ouster_msgs/ouster_msgs__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -110,10 +110,10 @@ ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/build: ouster_msgs__py
 .PHONY : ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/build
 
 ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/clean:
-	cd /home/jetson/ros-workspace/build/ouster_msgs/ouster_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/ouster_msgs__py.dir/cmake_clean.cmake
+	cd /home/uocav/ros-workspace/build/ouster_msgs/ouster_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/ouster_msgs__py.dir/cmake_clean.cmake
 .PHONY : ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/clean
 
 ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/build/ouster_msgs/ouster_msgs__py /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs/ouster_msgs__py /home/jetson/ros-workspace/build/ouster_msgs/ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/build/ouster_msgs/ouster_msgs__py /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs/ouster_msgs__py /home/uocav/ros-workspace/build/ouster_msgs/ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ouster_msgs__py/CMakeFiles/ouster_msgs__py.dir/depend
 

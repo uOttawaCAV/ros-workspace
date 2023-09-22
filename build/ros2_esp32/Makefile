@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ros2_esp32
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ros2_esp32
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ros2_esp32
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ros2_esp32
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/ros-workspace/build/ros2_esp32/CMakeFiles /home/jetson/ros-workspace/build/ros2_esp32/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uocav/ros-workspace/build/ros2_esp32/CMakeFiles /home/uocav/ros-workspace/build/ros2_esp32/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/ros-workspace/build/ros2_esp32/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uocav/ros-workspace/build/ros2_esp32/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

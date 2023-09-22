@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ros2_esp32
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ros2_esp32
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ros2_esp32
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ros2_esp32
 
 # Utility rule file for ros2_esp32_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ros2_esp32
 include CMakeFiles/ros2_esp32_uninstall.dir/progress.make
 
 CMakeFiles/ros2_esp32_uninstall:
-	/usr/bin/cmake -P /home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros2_esp32_uninstall: CMakeFiles/ros2_esp32_uninstall
 ros2_esp32_uninstall: CMakeFiles/ros2_esp32_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ros2_esp32_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_esp32_uninstall.dir/clean
 
 CMakeFiles/ros2_esp32_uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/ros2_esp32 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ros2_esp32 /home/jetson/ros-workspace/src/ros2_esp32 /home/jetson/ros-workspace/build/ros2_esp32 /home/jetson/ros-workspace/build/ros2_esp32 /home/jetson/ros-workspace/build/ros2_esp32/CMakeFiles/ros2_esp32_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ros2_esp32 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ros2_esp32 /home/uocav/ros-workspace/src/ros2_esp32 /home/uocav/ros-workspace/build/ros2_esp32 /home/uocav/ros-workspace/build/ros2_esp32 /home/uocav/ros-workspace/build/ros2_esp32/CMakeFiles/ros2_esp32_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_esp32_uninstall.dir/depend
 

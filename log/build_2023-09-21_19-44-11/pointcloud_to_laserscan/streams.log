@@ -1,0 +1,112 @@
+[0.065s] Invoking command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/pointcloud_to_laserscan
+[1.432s] -- The C compiler identification is GNU 9.4.0
+[1.433s] -- The CXX compiler identification is GNU 9.4.0
+[1.433s] -- Check for working C compiler: /usr/bin/cc
+[1.433s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.433s] -- Detecting C compiler ABI info
+[1.433s] -- Detecting C compiler ABI info - done
+[1.433s] -- Detecting C compile features
+[1.433s] -- Detecting C compile features - done
+[1.433s] -- Check for working CXX compiler: /usr/bin/c++
+[1.434s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.434s] -- Detecting CXX compiler ABI info
+[1.434s] -- Detecting CXX compiler ABI info - done
+[1.434s] -- Detecting CXX compile features
+[1.434s] -- Detecting CXX compile features - done
+[1.434s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.434s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.434s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.435s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.435s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.570s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.615s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.871s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.877s] -- Looking for pthread.h
+[1.991s] -- Looking for pthread.h - found
+[1.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.133s] -- Looking for pthread_create in pthreads
+[2.222s] -- Looking for pthread_create in pthreads - not found
+[2.222s] -- Looking for pthread_create in pthread
+[2.339s] -- Looking for pthread_create in pthread - found
+[2.340s] -- Found Threads: TRUE  
+[2.640s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.746s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.972s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.013s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.000s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[4.141s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.382s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.383s] -- Configured cppcheck include dirs: /home/uocav/ros-workspace/src/pointcloud_to_laser/include
+[4.384s] -- Configured cppcheck exclude dirs and/or files: 
+[4.385s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.386s] -- Configured cpplint exclude dirs and/or files: 
+[4.387s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.388s] -- Added test 'lint_cmake' to check CMake code style
+[4.388s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.390s] -- Added test 'uncrustify' to check C / C++ code style
+[4.391s] -- Configured uncrustify additional arguments: 
+[4.403s] -- Added test 'xmllint' to check XML markup files
+[4.404s] -- Configuring done
+[4.519s] -- Generating done
+[4.531s] -- Build files have been written to: /home/uocav/ros-workspace/build/pointcloud_to_laserscan
+[4.551s] Invoked command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/pointcloud_to_laser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/pointcloud_to_laserscan
+[4.553s] Invoking command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[4.721s] [35m[1mScanning dependencies of target laserscan_to_pointcloud[0m
+[4.763s] [35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[4.781s] [35m[1mScanning dependencies of target laserscan_to_pointcloud_node[0m
+[4.784s] [35m[1mScanning dependencies of target pointcloud_to_laserscan_node[0m
+[4.808s] [35m[1mScanning dependencies of target dummy_pointcloud_publisher[0m
+[4.933s] [ 10%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[4.967s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[5.007s] [ 30%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[5.016s] [ 40%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[5.044s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[10.781s] [ 60%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[10.984s] [ 70%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[11.152s] [ 70%] Built target laserscan_to_pointcloud_node
+[11.335s] [ 70%] Built target pointcloud_to_laserscan_node
+[14.268s] [ 80%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[14.432s] [ 80%] Built target dummy_pointcloud_publisher
+[19.812s] [ 90%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[19.851s] [100%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[20.263s] [100%] Built target pointcloud_to_laserscan
+[20.331s] [100%] Built target laserscan_to_pointcloud
+[20.381s] Invoked command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[20.865s] Invoking command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/pointcloud_to_laserscan
+[20.893s] -- Install configuration: "Release"
+[20.894s] -- Execute custom install script
+[20.894s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[20.913s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[20.933s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[20.960s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[20.981s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[20.997s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[21.027s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[21.049s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h
+[21.069s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pcl_to_laser_launch.py
+[21.097s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[21.125s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[21.145s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[21.169s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[21.185s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[21.213s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[21.244s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[21.255s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[21.266s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[21.277s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[21.295s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[21.307s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[21.318s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[21.330s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[21.342s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[21.363s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[21.389s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[21.401s] -- Symlinking: /home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[21.424s] Invoked command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/pointcloud_to_laserscan

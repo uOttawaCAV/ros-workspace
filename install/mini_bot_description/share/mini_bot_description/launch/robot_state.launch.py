@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/src/mini_bot_description/launch/robot_state.launch.py
+/home/uocav/ros-workspace/src/mini_bot_description/launch/robot_state.launch.py

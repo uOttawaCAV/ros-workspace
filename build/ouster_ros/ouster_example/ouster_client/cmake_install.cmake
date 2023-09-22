@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client
+# Install script for directory: /home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson/ros-workspace/install/ouster_ros")
+  set(CMAKE_INSTALL_PREFIX "/home/uocav/ros-workspace/install/ouster_ros")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/jetson/ros-workspace/build/ouster_ros/ouster_example/ouster_client/libouster_client.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/libouster_client.a")
 endif()
 

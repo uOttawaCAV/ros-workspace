@@ -43,23 +43,23 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_srvs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_srvs
 
 # Utility rule file for ouster_srvs.
 
 # Include the progress variables for this target.
 include CMakeFiles/ouster_srvs.dir/progress.make
 
-CMakeFiles/ouster_srvs: /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs/srv/GetConfig.srv
+CMakeFiles/ouster_srvs: /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs/srv/GetConfig.srv
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/GetConfig_Request.msg
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/GetConfig_Response.msg
-CMakeFiles/ouster_srvs: /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs/srv/SetConfig.srv
+CMakeFiles/ouster_srvs: /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs/srv/SetConfig.srv
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/SetConfig_Request.msg
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/SetConfig_Response.msg
-CMakeFiles/ouster_srvs: /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs/srv/GetMetadata.srv
+CMakeFiles/ouster_srvs: /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs/srv/GetMetadata.srv
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/GetMetadata_Request.msg
 CMakeFiles/ouster_srvs: rosidl_cmake/srv/GetMetadata_Response.msg
 
@@ -79,6 +79,6 @@ CMakeFiles/ouster_srvs.dir/clean:
 .PHONY : CMakeFiles/ouster_srvs.dir/clean
 
 CMakeFiles/ouster_srvs.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs /home/jetson/ros-workspace/build/ouster_srvs /home/jetson/ros-workspace/build/ouster_srvs /home/jetson/ros-workspace/build/ouster_srvs/CMakeFiles/ouster_srvs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs /home/uocav/ros-workspace/build/ouster_srvs /home/uocav/ros-workspace/build/ouster_srvs /home/uocav/ros-workspace/build/ouster_srvs/CMakeFiles/ouster_srvs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_srvs.dir/depend
 

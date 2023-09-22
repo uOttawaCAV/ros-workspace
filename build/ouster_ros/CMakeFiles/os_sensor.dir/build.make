@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-ros
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_ros
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/os_sensor.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/os_sensor.dir/flags.make
 
 CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o: CMakeFiles/os_sensor.dir/flags.make
 CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o: rclcpp_components/node_main_os_sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o -c /home/jetson/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uocav/ros-workspace/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o -c /home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp
 
 CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp > CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp > CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.i
 
 CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp -o CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp -o CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.s
 
 # Object files for target os_sensor
 os_sensor_OBJECTS = \
@@ -96,7 +96,7 @@ os_sensor: /opt/ros/foxy/lib/librcl.so
 os_sensor: /opt/ros/foxy/lib/librmw_implementation.so
 os_sensor: /opt/ros/foxy/lib/librmw.so
 os_sensor: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-os_sensor: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
+os_sensor: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
 os_sensor: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
 os_sensor: /opt/ros/foxy/lib/libyaml.so
 os_sensor: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -111,7 +111,7 @@ os_sensor: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspectio
 os_sensor: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 os_sensor: /opt/ros/foxy/lib/libtracetools.so
 os_sensor: /opt/ros/foxy/lib/libclass_loader.so
-os_sensor: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
+os_sensor: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 os_sensor: /opt/ros/foxy/lib/libament_index_cpp.so
 os_sensor: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 os_sensor: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so
@@ -136,7 +136,7 @@ os_sensor: /opt/ros/foxy/lib/librcpputils.so
 os_sensor: /opt/ros/foxy/lib/librosidl_runtime_c.so
 os_sensor: /opt/ros/foxy/lib/librcutils.so
 os_sensor: CMakeFiles/os_sensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable os_sensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uocav/ros-workspace/build/ouster_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable os_sensor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/os_sensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +149,6 @@ CMakeFiles/os_sensor.dir/clean:
 .PHONY : CMakeFiles/os_sensor.dir/clean
 
 CMakeFiles/os_sensor.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/os_sensor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/os_sensor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/os_sensor.dir/depend
 

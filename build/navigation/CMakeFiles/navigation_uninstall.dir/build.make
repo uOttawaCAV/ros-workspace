@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/navigation
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/navigation
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/navigation
 
 # Utility rule file for navigation_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/navigation
 include CMakeFiles/navigation_uninstall.dir/progress.make
 
 CMakeFiles/navigation_uninstall:
-	/usr/bin/cmake -P /home/jetson/ros-workspace/build/navigation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/uocav/ros-workspace/build/navigation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 navigation_uninstall: CMakeFiles/navigation_uninstall
 navigation_uninstall: CMakeFiles/navigation_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/navigation_uninstall.dir/clean:
 .PHONY : CMakeFiles/navigation_uninstall.dir/clean
 
 CMakeFiles/navigation_uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/navigation /home/jetson/ros-workspace/src/navigation /home/jetson/ros-workspace/build/navigation /home/jetson/ros-workspace/build/navigation /home/jetson/ros-workspace/build/navigation/CMakeFiles/navigation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/navigation /home/uocav/ros-workspace/src/navigation /home/uocav/ros-workspace/build/navigation /home/uocav/ros-workspace/build/navigation /home/uocav/ros-workspace/build/navigation/CMakeFiles/navigation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigation_uninstall.dir/depend
 

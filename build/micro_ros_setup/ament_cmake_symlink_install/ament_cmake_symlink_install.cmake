@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/micro_ros_setup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jetson/ros-workspace/install/micro_ros_setup/${destination}")
+      set(destination "/home/uocav/ros-workspace/install/micro_ros_setup/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,47 +310,47 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/micro_ros_setup/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/micro_ros_setup/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/micro_ros_setup/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/micro_ros_setup/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/micro_ros_setup/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/micro_ros_setup/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/micro_ros_setup/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/micro_ros_setup")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/micro_ros_setup")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/micro_ros_setup")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/micro_ros_setup")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/micro_ros_setup")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/packages/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/packages/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/packages/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_index/share/ament_index/resource_index/packages/micro_ros_setup" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig.cmake" "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig-version.cmake" "DESTINATION" "share/micro_ros_setup/cmake")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig.cmake" "/home/jetson/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig-version.cmake" "DESTINATION" "share/micro_ros_setup/cmake")
+# install(FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig.cmake" "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig-version.cmake" "DESTINATION" "share/micro_ros_setup/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig.cmake" "/home/uocav/ros-workspace/build/micro_ros_setup/ament_cmake_core/micro_ros_setupConfig-version.cmake" "DESTINATION" "share/micro_ros_setup/cmake")
 
-# install(FILES "/home/jetson/ros-workspace/src/micro_ros_setup/package.xml" "DESTINATION" "share/micro_ros_setup")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/micro_ros_setup" FILES "/home/jetson/ros-workspace/src/micro_ros_setup/package.xml" "DESTINATION" "share/micro_ros_setup")
+# install(FILES "/home/uocav/ros-workspace/src/micro_ros_setup/package.xml" "DESTINATION" "share/micro_ros_setup")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/micro_ros_setup" FILES "/home/uocav/ros-workspace/src/micro_ros_setup/package.xml" "DESTINATION" "share/micro_ros_setup")
 
 # install(PROGRAMS "scripts/create_ws.sh" "scripts/create_agent_ws.sh" "scripts/create_firmware_ws.sh" "scripts/configure_firmware.sh" "scripts/flash_firmware.sh" "scripts/reset_firmware.sh" "scripts/build_firmware.sh" "scripts/build_agent.sh" "scripts/yaml_filter.py" "scripts/clean_env.sh" "DESTINATION" "lib/micro_ros_setup")
-ament_cmake_symlink_install_programs("/home/jetson/ros-workspace/src/micro_ros_setup" PROGRAMS "scripts/create_ws.sh" "scripts/create_agent_ws.sh" "scripts/create_firmware_ws.sh" "scripts/configure_firmware.sh" "scripts/flash_firmware.sh" "scripts/reset_firmware.sh" "scripts/build_firmware.sh" "scripts/build_agent.sh" "scripts/yaml_filter.py" "scripts/clean_env.sh" "DESTINATION" "lib/micro_ros_setup")
+ament_cmake_symlink_install_programs("/home/uocav/ros-workspace/src/micro_ros_setup" PROGRAMS "scripts/create_ws.sh" "scripts/create_agent_ws.sh" "scripts/create_firmware_ws.sh" "scripts/configure_firmware.sh" "scripts/flash_firmware.sh" "scripts/reset_firmware.sh" "scripts/build_firmware.sh" "scripts/build_agent.sh" "scripts/yaml_filter.py" "scripts/clean_env.sh" "DESTINATION" "lib/micro_ros_setup")

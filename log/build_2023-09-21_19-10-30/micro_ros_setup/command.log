@@ -1,0 +1,2 @@
+Invoking command in '/home/uocav/Documents/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/Documents/ros-workspace/build/micro_ros_setup -- -j6 -l6
+Invoked command in '/home/uocav/Documents/ros-workspace/build/micro_ros_setup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/Documents/ros-workspace/build/micro_ros_setup -- -j6 -l6

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/mini_bot_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jetson/ros-workspace/install/mini_bot_description/${destination}")
+      set(destination "/home/uocav/ros-workspace/install/mini_bot_description/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "src" "launch" "rviz" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_directory("/home/jetson/ros-workspace/src/mini_bot_description" DIRECTORY "src" "launch" "rviz" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/mini_bot_description" DIRECTORY "src" "launch" "rviz" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_bot_description/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_bot_description/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_bot_description/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_bot_description/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_bot_description/environment")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_bot_description/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_bot_description/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_bot_description/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_bot_description/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_bot_description/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_bot_description/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_bot_description/environment")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_bot_description/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_bot_description/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_bot_description")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/packages/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/packages/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/packages/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_index/share/ament_index/resource_index/packages/mini_bot_description" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig.cmake" "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig-version.cmake" "DESTINATION" "share/mini_bot_description/cmake")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig.cmake" "/home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig-version.cmake" "DESTINATION" "share/mini_bot_description/cmake")
+# install(FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig.cmake" "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig-version.cmake" "DESTINATION" "share/mini_bot_description/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig.cmake" "/home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_core/mini_bot_descriptionConfig-version.cmake" "DESTINATION" "share/mini_bot_description/cmake")
 
-# install(FILES "/home/jetson/ros-workspace/src/mini_bot_description/package.xml" "DESTINATION" "share/mini_bot_description")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/mini_bot_description" FILES "/home/jetson/ros-workspace/src/mini_bot_description/package.xml" "DESTINATION" "share/mini_bot_description")
+# install(FILES "/home/uocav/ros-workspace/src/mini_bot_description/package.xml" "DESTINATION" "share/mini_bot_description")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/mini_bot_description" FILES "/home/uocav/ros-workspace/src/mini_bot_description/package.xml" "DESTINATION" "share/mini_bot_description")

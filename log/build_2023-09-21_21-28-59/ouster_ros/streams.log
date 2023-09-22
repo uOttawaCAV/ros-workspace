@@ -1,0 +1,122 @@
+[0.028s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[0.049s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.097s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.352s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.670s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.879s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.958s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[0.998s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.165s] -- Found ouster_msgs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)
+[1.176s] -- Found ouster_srvs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake)
+[1.187s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.199s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.215s] -- Found Eigen3: /usr/lib/cmake/eigen3/Eigen3Config.cmake (found version "3.3.7") 
+[1.233s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.253s] -- looking for PCL_COMMON
+[1.254s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.508s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.925s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.196s] -- Configuring done
+[2.354s] -- Generating done
+[2.358s] -- Build files have been written to: /home/uocav/ros-workspace/build/ouster_ros
+[2.374s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[2.379s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[2.460s] [34m[1mGenerating build info header[0m
+[2.482s] [  5%] Built target os_image
+[2.483s] [ 11%] Built target os_cloud
+[2.487s] [ 17%] Built target os_replay
+[2.489s] [ 23%] Built target os_sensor
+[2.501s] [ 23%] Built target ouster_generate_header
+[2.547s] [ 58%] Built target ouster_client
+[2.611s] [ 64%] Built target ouster_ros_library
+[2.669s] [ 73%] Built target os_cloud_component
+[2.671s] [ 82%] Built target os_replay_component
+[2.672s] [ 91%] Built target os_image_component
+[2.676s] [100%] Built target os_sensor_component
+[2.692s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[2.777s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros
+[2.792s] -- Install configuration: "Release"
+[2.793s] -- Execute custom install script
+[2.794s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/build.h
+[2.794s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/buffered_udp_source.h
+[2.794s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/client.h
+[2.795s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/image_processing.h
+[2.795s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/cartesian.h
+[2.795s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[2.795s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/lidar_scan.h
+[2.795s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/sensor_http.h
+[2.796s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/types.h
+[2.796s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/version.h
+[2.796s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[2.797s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[2.797s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[2.797s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/LICENSE
+[2.797s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/LICENSE-bin
+[2.798s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_sensor
+[2.798s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_replay
+[2.799s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_cloud
+[2.799s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_image
+[2.800s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/libouster_ros_library.so
+[2.800s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_sensor_component.so
+[2.800s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_replay_component.so
+[2.800s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_cloud_component.so
+[2.801s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_image_component.so
+[2.801s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h
+[2.802s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h
+[2.802s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h
+[2.802s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h
+[2.802s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h
+[2.803s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[2.803s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h
+[2.803s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/client.h
+[2.803s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h
+[2.804s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h
+[2.804s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[2.804s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h
+[2.804s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h
+[2.804s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/types.h
+[2.805s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/version.h
+[2.805s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp
+[2.805s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/LICENSE
+[2.806s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.independent.launch.xml
+[2.806s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+[2.806s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.independent.launch.xml
+[2.807s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+[2.807s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+[2.807s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+[2.807s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+[2.807s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+[2.808s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+[2.808s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+[2.808s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+[2.808s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+[2.809s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+[2.809s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/parameters.yaml
+[2.809s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/viz.rviz
+[2.809s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+[2.810s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+[2.810s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+[2.810s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+[2.810s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+[2.811s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+[2.811s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.sh
+[2.812s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.dsv
+[2.812s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.bash
+[2.812s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.sh
+[2.813s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.zsh
+[2.813s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.dsv
+[2.813s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv
+[2.829s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+[2.830s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+[2.830s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.831s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.831s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[2.832s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+[2.832s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+[2.833s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.xml
+[2.840s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/build/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros

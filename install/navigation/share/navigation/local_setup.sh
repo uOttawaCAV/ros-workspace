@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/build/navigation/ament_cmake_environment_hooks/local_setup.sh
+/home/uocav/ros-workspace/build/navigation/ament_cmake_environment_hooks/local_setup.sh

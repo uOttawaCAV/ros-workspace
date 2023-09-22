@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/launch/rviz.launch.py
+/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/launch/rviz.launch.py

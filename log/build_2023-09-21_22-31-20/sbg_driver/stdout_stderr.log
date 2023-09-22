@@ -1,0 +1,82 @@
+[  0%] Built target sbg_driver__cpp
+[  9%] Built target sbg_driver__rosidl_generator_c
+[ 24%] Built target sbgECom
+[ 33%] Built target sbg_driver__rosidl_typesupport_cpp
+[ 43%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target sbg_driver__rosidl_typesupport_introspection_cpp
+[ 62%] Built target sbg_driver__rosidl_typesupport_introspection_c
+[ 72%] Built target sbg_driver__rosidl_typesupport_c
+[ 82%] Built target sbg_driver__rosidl_typesupport_fastrtps_c
+[ 82%] Built target sbg_driver
+[ 83%] Built target sbg_driver__py
+[35m[1mScanning dependencies of target sbg_device[0m
+[35m[1mScanning dependencies of target sbg_device_mag[0m
+[ 92%] Built target sbg_driver__python
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_utm.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o[0m
+[ 93%] Built target sbg_driver__rosidl_typesupport_c__pyext
+[ 93%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_ros_helpers.cpp.o[0m
+[ 94%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext
+[ 95%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/main_mag.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o[0m
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:[m[K In member function ‘[01m[Kconst Sentence sbg::MessageWrapper::createNmeaGGAMessageForNtrip(const SbgLogGpsPos&) const[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1123:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1123 |     float   latitude     = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.latitude), -90.0f, 90.0f);
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:[m[K In member function ‘[01m[Kconst Sentence sbg::MessageWrapper::createNmeaGGAMessageForNtrip(const SbgLogGpsPos&) const[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1123:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1123 |     float   latitude     = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.latitude), -90.0f, 90.0f);
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1129:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1129 |     float   longitude      = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.longitude), -180.0f, 180.0f);
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1129:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1129 |     float   longitude      = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.longitude), -180.0f, 180.0f);
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1135:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1135 |     float     h_dop           = std::[01;31m[Kclamp[m[K(std::hypot(ref_log_gps_pos.latitudeAccuracy, ref_log_gps_pos.longitudeAccuracy), 0.0f, 9.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1135:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1135 |     float     h_dop           = std::[01;31m[Kclamp[m[K(std::hypot(ref_log_gps_pos.latitudeAccuracy, ref_log_gps_pos.longitudeAccuracy), 0.0f, 9.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1136:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1136 |     float     diff_age        = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.differentialAge / 100.0f, 0.0f, 9.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1137:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1137 |     uint8_t   sv_used         = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.numSvUsed, static_cast<uint8_t>(0), static_cast<uint8_t>(99));
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1136:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1136 |     float     diff_age        = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.differentialAge / 100.0f, 0.0f, 9.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1138:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1138 |     float     altitude        = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.altitude), -99999.9f, 99999.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1139:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1139 |     int32_t   undulation      = std::[01;31m[Kclamp[m[K(static_cast<int32_t>(ref_log_gps_pos.undulation), -99999, 99999);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1137:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1137 |     uint8_t   sv_used         = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.numSvUsed, static_cast<uint8_t>(0), static_cast<uint8_t>(99));
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1140:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1140 |     uint16_t  base_station_id = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.baseStationId, static_cast<uint16_t>(0), static_cast<uint16_t>(9999));
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1138:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1138 |     float     altitude        = std::[01;31m[Kclamp[m[K(static_cast<float>(ref_log_gps_pos.altitude), -99999.9f, 99999.9f);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1139:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1139 |     int32_t   undulation      = std::[01;31m[Kclamp[m[K(static_cast<int32_t>(ref_log_gps_pos.undulation), -99999, 99999);
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:1140:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+ 1140 |     uint16_t  base_station_id = std::[01;31m[Kclamp[m[K(ref_log_gps_pos.baseStationId, static_cast<uint16_t>(0), static_cast<uint16_t>(9999));
+      |                                      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/sbg_device.dir/build.make:89: CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/sbg_device_mag.dir/build.make:89: CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/sbg_device_mag.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:555: CMakeFiles/sbg_device.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,25 @@
+[  0%] Built target sbg_driver__cpp
+[  9%] Built target sbg_driver__rosidl_generator_c
+[ 24%] Built target sbgECom
+[ 33%] Built target sbg_driver__rosidl_typesupport_cpp
+[ 43%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target sbg_driver__rosidl_typesupport_introspection_cpp
+[ 62%] Built target sbg_driver__rosidl_typesupport_introspection_c
+[ 72%] Built target sbg_driver__rosidl_typesupport_c
+[ 82%] Built target sbg_driver__rosidl_typesupport_fastrtps_c
+[ 82%] Built target sbg_driver
+[ 83%] Built target sbg_driver__py
+[35m[1mScanning dependencies of target sbg_device[0m
+[35m[1mScanning dependencies of target sbg_device_mag[0m
+[ 92%] Built target sbg_driver__python
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_utm.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o[0m
+[ 93%] Built target sbg_driver__rosidl_typesupport_c__pyext
+[ 93%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_ros_helpers.cpp.o[0m
+[ 94%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext
+[ 95%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/main_mag.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_utm.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_ros_helpers.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o[0m

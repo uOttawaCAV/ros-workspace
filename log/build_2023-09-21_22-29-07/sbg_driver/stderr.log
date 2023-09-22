@@ -1,0 +1,16 @@
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+    6 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/sbg_device_mag.dir/build.make:89: CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+    6 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/sbg_device.dir/build.make:89: CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/sbg_device_mag.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:555: CMakeFiles/sbg_device.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

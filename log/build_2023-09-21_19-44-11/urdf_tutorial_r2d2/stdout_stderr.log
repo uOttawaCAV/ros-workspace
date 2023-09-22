@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating urdf_tutorial_r2d2.egg-info
+writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+Installing state_publisher script to /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+
+Installed /home/uocav/ros-workspace/build/urdf_tutorial_r2d2
+running install_data
+copying resource/urdf_tutorial_r2d2 -> /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+copying package.xml -> /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+copying launch/demo.launch.py -> /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+copying urdf/r2d2.urdf.xml -> /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+copying urdf/r2d2.rviz -> /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2

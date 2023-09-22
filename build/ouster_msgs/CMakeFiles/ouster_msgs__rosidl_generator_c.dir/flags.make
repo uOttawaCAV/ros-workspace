@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"ouster_msgs\" -Douster_msgs__rosidl_generator_c_EXPORTS
 
-C_INCLUDES = -I/home/jetson/ros-workspace/build/ouster_msgs/rosidl_generator_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c -isystem /opt/ros/foxy/include 
 

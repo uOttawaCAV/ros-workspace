@@ -7,6 +7,8 @@ ros2 launch mini_bot_description display.launch.py
 ros2 launch sbg_driver sbg_device_launch.py
 ros2 launch ouster_ros sensor.launch.xml sensor_hostname:=os-122116000061.local
 
+// 
+
 // Launching pointcloud to laser scan node
 ros2 launch pointcloud_to_laserscan pcl_to_laser_launch.py
 
@@ -14,9 +16,11 @@ ros2 launch pointcloud_to_laserscan pcl_to_laser_launch.py
 ros2 run nav2_util lifecycle_bringup map_server
 
 // Launch robot localization package
-ros2 launch robot_localization ekf.launch.py ~/ros-workspace/src/mini_bot_description/config/ekf.yaml
+ros2 launch robot_localization ekf.launch.py 
 
 // map => odom, odom => base_link, base_link => base_laser (sensor base frame: doesn't have to be "base_laser")
 ros2 launch slam_toolbox online_sync_launch.py
 
 MEMO: look for mentions of 'os_sensor' in ouster-ros, as tower-link frame does not display lidar information
+
+Sept 20 - Figure out robot localization (Changed the matrix). Figure odom->base_link.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/mini_bot_description
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/mini_bot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/mini_bot_description
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/mini_bot_description
 
 # Utility rule file for mini_bot_description_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/mini_bot_description
 include CMakeFiles/mini_bot_description_uninstall.dir/progress.make
 
 CMakeFiles/mini_bot_description_uninstall:
-	/usr/bin/cmake -P /home/jetson/ros-workspace/build/mini_bot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/uocav/ros-workspace/build/mini_bot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 mini_bot_description_uninstall: CMakeFiles/mini_bot_description_uninstall
 mini_bot_description_uninstall: CMakeFiles/mini_bot_description_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/mini_bot_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/mini_bot_description_uninstall.dir/clean
 
 CMakeFiles/mini_bot_description_uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/mini_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/mini_bot_description /home/jetson/ros-workspace/src/mini_bot_description /home/jetson/ros-workspace/build/mini_bot_description /home/jetson/ros-workspace/build/mini_bot_description /home/jetson/ros-workspace/build/mini_bot_description/CMakeFiles/mini_bot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/mini_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/mini_bot_description /home/uocav/ros-workspace/src/mini_bot_description /home/uocav/ros-workspace/build/mini_bot_description /home/uocav/ros-workspace/build/mini_bot_description /home/uocav/ros-workspace/build/mini_bot_description/CMakeFiles/mini_bot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mini_bot_description_uninstall.dir/depend
 

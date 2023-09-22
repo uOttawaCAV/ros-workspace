@@ -1,0 +1,23 @@
+[0.046s] Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.143s] [100%] Built target occupancy_pub
+[0.161s] Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.218s] Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation
+[0.242s] -- Install configuration: "Release"
+[0.242s] -- Execute custom install script
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/path.sh
+[0.242s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/path.dsv
+[0.243s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.bash
+[0.243s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.sh
+[0.243s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.zsh
+[0.243s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.dsv
+[0.243s] -- Symlinking: /home/uocav/ros-workspace/install/navigation/share/navigation/package.dsv
+[0.251s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/packages/navigation
+[0.251s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[0.251s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[0.251s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/package.xml
+[0.290s] Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation

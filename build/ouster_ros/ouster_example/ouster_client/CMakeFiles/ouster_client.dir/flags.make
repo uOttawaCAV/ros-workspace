@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -std=gnu++17
 
 CXX_DEFINES = -DEIGEN_MPL2_ONLY -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include -I/home/jetson/ros-workspace/build/ouster_ros/ouster_example/generated -isystem /home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -isystem /usr/include/eigen3 -isystem /usr/include/jsoncpp 
+CXX_INCLUDES = -I/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include -I/home/uocav/ros-workspace/build/ouster_ros/ouster_example/generated -isystem /home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -isystem /usr/include/eigen3 -isystem /usr/include/jsoncpp 
 

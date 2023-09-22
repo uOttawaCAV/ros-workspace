@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jetson/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp" "/home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o"
+  "/home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_sensor.cpp" "/home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,9 +18,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include"
-  "/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include"
-  "/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
   "/opt/ros/foxy/include"
   )
 

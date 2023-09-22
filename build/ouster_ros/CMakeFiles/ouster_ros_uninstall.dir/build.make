@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-ros
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_ros
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_ros
 
 # Utility rule file for ouster_ros_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_ros
 include CMakeFiles/ouster_ros_uninstall.dir/progress.make
 
 CMakeFiles/ouster_ros_uninstall:
-	/usr/bin/cmake -P /home/jetson/ros-workspace/build/ouster_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/uocav/ros-workspace/build/ouster_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ouster_ros_uninstall: CMakeFiles/ouster_ros_uninstall
 ouster_ros_uninstall: CMakeFiles/ouster_ros_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ouster_ros_uninstall.dir/clean:
 .PHONY : CMakeFiles/ouster_ros_uninstall.dir/clean
 
 CMakeFiles/ouster_ros_uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/src/ouster-ros/ouster-ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros /home/jetson/ros-workspace/build/ouster_ros/CMakeFiles/ouster_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/src/ouster-ros/ouster-ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros /home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/ouster_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_ros_uninstall.dir/depend
 

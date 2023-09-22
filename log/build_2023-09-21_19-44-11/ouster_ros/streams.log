@@ -1,0 +1,880 @@
+[0.016s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.151s] -- The CXX compiler identification is GNU 9.4.0
+[0.160s] -- Check for working C compiler: /usr/bin/cc
+[0.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.238s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.342s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.435s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.552s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.583s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.779s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.002s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.143s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Looking for pthread.h
+[1.236s] -- Looking for pthread.h - found
+[1.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.336s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.336s] -- Looking for pthread_create in pthreads
+[1.416s] -- Looking for pthread_create in pthreads - not found
+[1.416s] -- Looking for pthread_create in pthread
+[1.521s] -- Looking for pthread_create in pthread - found
+[1.521s] -- Found Threads: TRUE  
+[1.669s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.733s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.772s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.890s] -- Found ouster_msgs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)
+[1.896s] -- Found ouster_srvs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake)
+[1.908s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.925s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.938s] -- Found Eigen3: /usr/lib/cmake/eigen3/Eigen3Config.cmake (found version "3.3.7") 
+[1.959s] -- Checking for module 'eigen3'
+[1.984s] --   Found eigen3, version 3.3.7
+[2.051s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.051s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.108s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.109s] -- looking for PCL_COMMON
+[2.111s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.112s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[2.114s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.280s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[2.562s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.570s] -- Found jsoncpp: /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake  
+[2.693s] -- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.68.0") 
+[2.864s] -- Configuring done
+[2.983s] -- Generating done
+[2.986s] -- Build files have been written to: /home/uocav/ros-workspace/build/ouster_ros
+[3.001s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[3.004s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[3.046s] [35m[1mScanning dependencies of target os_replay[0m
+[3.050s] [35m[1mScanning dependencies of target os_cloud[0m
+[3.050s] [35m[1mScanning dependencies of target os_sensor[0m
+[3.053s] [35m[1mScanning dependencies of target ouster_generate_header[0m
+[3.063s] [35m[1mScanning dependencies of target os_image[0m
+[3.078s] [34m[1mGenerating build info header[0m
+[3.095s] [  2%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[3.105s] [  5%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[3.115s] [  8%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[3.118s] [ 11%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[3.157s] [ 11%] Built target ouster_generate_header
+[3.214s] [35m[1mScanning dependencies of target ouster_client[0m
+[3.323s] [ 14%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[3.346s] [ 17%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[5.107s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kbool ouster::sensor::operator==(const ouster::sensor::sensor_info&, const ouster::sensor::sensor_info&)[m[K’:
+[5.107s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.107s]   156 |     return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[5.107s]       |                 [01;35m[K^~~~[m[K
+[5.108s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.108s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.108s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.108s]       |         [01;36m[K^~~~[m[K
+[5.108s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.108s]   156 |     return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[5.108s]       |                 [01;35m[K^~~~[m[K
+[5.108s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.108s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.109s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.109s]       |         [01;36m[K^~~~[m[K
+[5.109s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.109s]   156 |     return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[5.109s]       |                 [01;35m[K^~~~[m[K
+[5.109s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.109s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.109s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.109s]       |         [01;36m[K^~~~[m[K
+[5.109s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.109s]   156 |     return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[5.109s]       |                             [01;35m[K^~~~[m[K
+[5.109s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.109s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.109s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.109s]       |         [01;36m[K^~~~[m[K
+[5.109s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.109s]   156 |     return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[5.109s]       |                             [01;35m[K^~~~[m[K
+[5.110s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.110s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.110s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.110s]       |         [01;36m[K^~~~[m[K
+[5.110s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:156:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.110s]   156 |     return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[5.110s]       |                             [01;35m[K^~~~[m[K
+[5.110s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.110s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.110s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.110s]       |         [01;36m[K^~~~[m[K
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.153s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.153s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.153s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.153s]       |         [01;36m[K^~~~[m[K
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.153s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.153s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.153s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.153s]       |         [01;36m[K^~~~[m[K
+[5.153s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::default_sensor_info(ouster::sensor::lidar_mode)[m[K’:
+[5.154s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:281:33:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[5.154s]   281 |                                0[01;36m[K}[m[K;
+[5.154s]       |                                 [01;36m[K^[m[K
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::parse_legacy(const string&)[m[K’:
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:855:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.288s]   855 |     info.[01;35m[Kname[m[K = root["hostname"].asString();
+[5.288s]       |          [01;35m[K^~~~[m[K
+[5.288s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.288s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.288s]       |         [01;36m[K^~~~[m[K
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:855:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.288s]   855 |     info.[01;35m[Kname[m[K = root["hostname"].asString();
+[5.288s]       |          [01;35m[K^~~~[m[K
+[5.288s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.288s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.288s]       |         [01;36m[K^~~~[m[K
+[5.288s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:855:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.288s]   855 |     info.[01;35m[Kname[m[K = root["hostname"].asString();
+[5.289s]       |          [01;35m[K^~~~[m[K
+[5.289s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:6[m[K:
+[5.289s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.289s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.289s]       |         [01;36m[K^~~~[m[K
+[5.295s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’:
+[5.295s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.295s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.295s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.295s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.295s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.295s]       |         [01;36m[K^~~~[m[K
+[5.295s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.295s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.295s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.296s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.296s]       |         [01;36m[K^~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.296s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.296s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.296s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.296s]       |         [01;36m[K^~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.296s]   375 | struct [01;35m[Ksensor_info[m[K {
+[5.296s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.296s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[5.296s]       |         [01;36m[K^~~~[m[K
+[5.296s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::parse_legacy(const string&)[m[K’:
+[5.297s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp:1043:12:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’ first required here
+[5.297s]  1043 |     return [01;36m[Kinfo[m[K;
+[5.297s]       |            [01;36m[K^~~~[m[K
+[6.573s] [ 20%] [32m[1mLinking CXX executable os_replay[0m
+[6.640s] [ 23%] [32m[1mLinking CXX executable os_image[0m
+[6.685s] [ 26%] [32m[1mLinking CXX executable os_cloud[0m
+[6.744s] [ 29%] [32m[1mLinking CXX executable os_sensor[0m
+[6.785s] [ 29%] Built target os_replay
+[6.798s] [ 32%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[6.864s] [ 32%] Built target os_image
+[6.870s] [ 32%] Built target os_cloud
+[6.874s] [ 35%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[6.880s] [ 38%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[6.951s] [ 38%] Built target os_sensor
+[6.963s] [ 41%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o[0m
+[7.062s] [ 44%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[7.788s] [ 47%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o[0m
+[8.059s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::sensor_info&)[m[K’:
+[8.059s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:188:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.059s]   188 |       packet_footer_size{impl_->packet_footer_size[01;35m[K}[m[K {
+[8.059s]       |                                                   [01;35m[K^[m[K
+[8.059s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:17[m[K:
+[8.060s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.060s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[8.060s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.060s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:188:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.060s]   188 |       packet_footer_size{impl_->packet_footer_size[01;35m[K}[m[K {
+[8.060s]       |                                                   [01;35m[K^[m[K
+[8.060s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:17[m[K:
+[8.060s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.060s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[8.060s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.065s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint16_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[8.065s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:283:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated: Use frame_id instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.065s]   283 |         return col_frame_id(nth_col(0, lidar_buf)[01;35m[K)[m[K;
+[8.065s]       |                                                  [01;35m[K^[m[K
+[8.065s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:17[m[K:
+[8.065s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1007:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.065s]  1007 |     [[deprecated("Use frame_id instead")]] uint16_t [01;36m[Kcol_frame_id[m[K(
+[8.066s]       |                                                     [01;36m[K^~~~~~~~~~~~[m[K
+[8.308s] [ 50%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o[0m
+[8.869s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/lidar_scan.h:17[m[K,
+[8.869s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:6[m[K:
+[8.869s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In copy constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’:
+[8.869s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.869s]   830 | class [01;35m[Kpacket_format[m[K final {
+[8.870s]       |       [01;35m[K^~~~~~~~~~~~~[m[K
+[8.870s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.870s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[8.870s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.870s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.870s]   830 | class [01;35m[Kpacket_format[m[K final {
+[8.870s]       |       [01;35m[K^~~~~~~~~~~~~[m[K
+[8.870s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.870s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[8.870s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.870s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:[m[K In constructor ‘[01m[Kouster::ScanBatcher::ScanBatcher(size_t, const ouster::sensor::packet_format&)[m[K’:
+[8.870s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:404:12:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’ first required here
+[8.870s]   404 |       pf(pf[01;36m[K)[m[K {}
+[8.870s]       |            [01;36m[K^[m[K
+[8.871s] [ 52%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o[0m
+[9.254s] [ 55%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[14.830s] [ 58%] [32m[1mLinking CXX static library libouster_client.a[0m
+[14.897s] [ 58%] Built target ouster_client
+[14.913s] [35m[1mScanning dependencies of target ouster_ros_library[0m
+[15.010s] [ 61%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[22.970s] [ 64%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[23.181s] [ 64%] Built target ouster_ros_library
+[23.194s] [35m[1mScanning dependencies of target os_replay_component[0m
+[23.196s] [35m[1mScanning dependencies of target os_cloud_component[0m
+[23.198s] [35m[1mScanning dependencies of target os_sensor_component[0m
+[23.199s] [35m[1mScanning dependencies of target os_image_component[0m
+[23.257s] [ 67%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[23.260s] [ 70%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[23.271s] [ 76%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[23.271s] [ 76%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[23.276s] [ 79%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[23.287s] [ 82%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[25.195s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:10[m[K,
+[25.195s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[25.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.195s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.195s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.195s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.195s]       |         [01;36m[K^~~~[m[K
+[25.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.195s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.196s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.196s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.196s]       |         [01;36m[K^~~~[m[K
+[25.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.196s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.196s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.196s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.196s]       |         [01;36m[K^~~~[m[K
+[25.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.196s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.196s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.197s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.197s]       |         [01;36m[K^~~~[m[K
+[25.197s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[25.197s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[25.197s]       |                                     [01;36m[K^[m[K
+[25.197s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:10[m[K,
+[25.197s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.197s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.197s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.197s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.197s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.197s]       |         [01;36m[K^~~~[m[K
+[25.198s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.198s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.198s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.198s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.198s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.198s]       |         [01;36m[K^~~~[m[K
+[25.198s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.198s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.198s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[25.198s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[25.198s]       |                                     [01;36m[K^[m[K
+[25.251s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:10[m[K,
+[25.251s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.251s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[25.251s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.251s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.251s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.251s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.251s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.251s]       |         [01;36m[K^~~~[m[K
+[25.251s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.251s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.251s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.252s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.252s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.252s]       |         [01;36m[K^~~~[m[K
+[25.252s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.252s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.252s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.252s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.252s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.252s]       |         [01;36m[K^~~~[m[K
+[25.252s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.252s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.252s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.252s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.252s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.252s]       |         [01;36m[K^~~~[m[K
+[25.253s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[25.253s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[25.253s]       |                                     [01;36m[K^[m[K
+[25.253s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:10[m[K,
+[25.253s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.253s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.253s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.253s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.253s]       |         [01;36m[K^~~~[m[K
+[25.253s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.253s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.253s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.254s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.254s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.254s]       |         [01;36m[K^~~~[m[K
+[25.254s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_processing_node_base.cpp:9[m[K:
+[25.254s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.254s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[25.254s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[25.254s]       |                                     [01;36m[K^[m[K
+[25.384s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.384s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12[m[K:
+[25.384s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[25.384s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.384s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.384s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.384s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.384s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.384s]       |         [01;36m[K^~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.385s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.385s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.385s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.385s]       |         [01;36m[K^~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.385s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.385s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.385s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.385s]       |         [01;36m[K^~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.385s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.385s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.385s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.386s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.386s]       |         [01;36m[K^~~~[m[K
+[25.386s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12[m[K:
+[25.386s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.386s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[25.386s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.386s]       |                                                        [01;36m[K^[m[K
+[25.386s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.386s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12[m[K:
+[25.386s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[25.386s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.386s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.386s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.386s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.386s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.387s]       |         [01;36m[K^~~~[m[K
+[25.387s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.387s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.387s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.387s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.387s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.387s]       |         [01;36m[K^~~~[m[K
+[25.387s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_replay_node.cpp:12[m[K:
+[25.387s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.387s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[25.387s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.387s]       |                                                        [01;36m[K^[m[K
+[25.597s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.597s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[25.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.597s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.597s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.598s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.598s]       |         [01;36m[K^~~~[m[K
+[25.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.598s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.598s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.598s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.598s]       |         [01;36m[K^~~~[m[K
+[25.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.598s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.598s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.599s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.599s]       |         [01;36m[K^~~~[m[K
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.599s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.599s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.599s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.599s]       |         [01;36m[K^~~~[m[K
+[25.599s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[25.599s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.599s]       |                                                        [01;36m[K^[m[K
+[25.599s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.599s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[25.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.600s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.600s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.600s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.600s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.600s]       |         [01;36m[K^~~~[m[K
+[25.600s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.600s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.600s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.600s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.600s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.600s]       |         [01;36m[K^~~~[m[K
+[25.600s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.600s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.600s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[25.600s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.600s]       |                                                        [01;36m[K^[m[K
+[25.764s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.764s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.764s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[25.764s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.764s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.764s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.765s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.765s]       |         [01;36m[K^~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.765s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.765s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.765s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.765s]       |         [01;36m[K^~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.765s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.765s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.765s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.765s]       |         [01;36m[K^~~~[m[K
+[25.765s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.765s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.766s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.766s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.766s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.766s]       |         [01;36m[K^~~~[m[K
+[25.767s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.767s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.767s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[25.767s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.767s]       |                                                        [01;36m[K^[m[K
+[25.768s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:10[m[K,
+[25.768s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.768s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[25.768s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.768s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.768s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.768s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.768s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.768s]       |         [01;36m[K^~~~[m[K
+[25.768s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[25.768s]   375 | struct [01;35m[Ksensor_info[m[K {
+[25.768s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[25.768s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.768s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[25.768s]       |         [01;36m[K^~~~[m[K
+[25.769s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node_base.cpp:9[m[K:
+[25.769s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[25.769s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[25.769s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[25.769s]       |                                                        [01;36m[K^[m[K
+[26.575s] [ 85%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[27.897s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[27.897s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[27.897s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[27.897s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[27.897s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.897s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.897s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.897s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.897s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.897s]       |         [01;36m[K^~~~[m[K
+[27.897s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.897s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.897s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.897s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.897s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.897s]       |         [01;36m[K^~~~[m[K
+[27.898s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.898s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.898s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.898s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.898s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.898s]       |         [01;36m[K^~~~[m[K
+[27.898s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.898s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.898s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.898s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.898s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.898s]       |         [01;36m[K^~~~[m[K
+[27.904s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:28[m[K:
+[27.904s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[27.904s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[27.904s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[27.904s]       |                                                        [01;36m[K^[m[K
+[27.904s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[27.904s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[27.904s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[27.904s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[27.904s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.904s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.904s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.905s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.905s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.905s]       |         [01;36m[K^~~~[m[K
+[27.905s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[27.905s]   375 | struct [01;35m[Ksensor_info[m[K {
+[27.905s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[27.905s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.905s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[27.905s]       |         [01;36m[K^~~~[m[K
+[27.905s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:28[m[K:
+[27.905s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterSensorNodeBase::OusterSensorNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[27.905s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_sensor_node_base.h:24:56:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[27.905s]    24 |         : rclcpp_lifecycle::LifecycleNode(name, options[01;36m[K)[m[K {}
+[27.910s]       |                                                        [01;36m[K^[m[K
+[28.055s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterSensor::populate_metadata_defaults(ouster::sensor::sensor_info&, ouster::sensor::lidar_mode)[m[K’:
+[28.055s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.055s]   632 |         if (!info.[01;35m[Kname[m[K.size()) info.name = "UNKNOWN";
+[28.055s]       |                   [01;35m[K^~~~[m[K
+[28.055s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.055s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.055s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.055s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.056s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.056s]       |         [01;36m[K^~~~[m[K
+[28.056s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.056s]   632 |         if (!info.[01;35m[Kname[m[K.size()) info.name = "UNKNOWN";
+[28.056s]       |                   [01;35m[K^~~~[m[K
+[28.056s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.056s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.056s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.056s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.056s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.056s]       |         [01;36m[K^~~~[m[K
+[28.056s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.056s]   632 |         if (!info.[01;35m[Kname[m[K.size()) info.name = "UNKNOWN";
+[28.056s]       |                   [01;35m[K^~~~[m[K
+[28.056s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.056s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.057s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.057s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.057s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.057s]       |         [01;36m[K^~~~[m[K
+[28.057s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.057s]   632 |         if (!info.name.size()) info.[01;35m[Kname[m[K = "UNKNOWN";
+[28.057s]       |                                     [01;35m[K^~~~[m[K
+[28.057s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.057s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.057s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.057s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.057s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.057s]       |         [01;36m[K^~~~[m[K
+[28.057s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.057s]   632 |         if (!info.name.size()) info.[01;35m[Kname[m[K = "UNKNOWN";
+[28.057s]       |                                     [01;35m[K^~~~[m[K
+[28.057s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.058s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.058s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.058s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.058s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.058s]       |         [01;36m[K^~~~[m[K
+[28.058s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:632:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[28.058s]   632 |         if (!info.name.size()) info.[01;35m[Kname[m[K = "UNKNOWN";
+[28.058s]       |                                     [01;35m[K^~~~[m[K
+[28.058s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[28.058s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[28.058s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_sensor_node.cpp:12[m[K:
+[28.058s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.058s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[28.058s]       |         [01;36m[K^~~~[m[K
+[28.290s] [ 88%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[28.545s] [ 91%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[28.601s] [ 91%] Built target os_replay_component
+[32.189s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[32.189s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[32.190s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[32.190s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[32.190s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.190s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.190s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.190s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.190s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.190s]       |         [01;36m[K^~~~[m[K
+[32.190s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.191s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.191s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.191s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.191s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.191s]       |         [01;36m[K^~~~[m[K
+[32.191s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.191s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.191s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.191s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.192s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.192s]       |         [01;36m[K^~~~[m[K
+[32.192s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.192s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.192s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.192s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.192s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.193s]       |         [01;36m[K^~~~[m[K
+[32.193s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34[m[K:
+[32.193s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[32.193s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[32.193s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[32.193s]       |                                     [01;36m[K^[m[K
+[32.193s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[32.193s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[32.193s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:17[m[K:
+[32.194s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[32.194s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.194s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.194s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.194s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.194s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.194s]       |         [01;36m[K^~~~[m[K
+[32.194s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.194s]   375 | struct [01;35m[Ksensor_info[m[K {
+[32.195s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[32.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.195s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[32.195s]       |         [01;36m[K^~~~[m[K
+[32.195s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34[m[K:
+[32.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[32.195s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[32.195s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[32.195s]       |                                     [01;36m[K^[m[K
+[32.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:[m[K At global scope:
+[32.196s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:60:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.196s]    60 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+[32.196s]       |                                                                              [01;35m[K^[m[K
+[32.196s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[32.196s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+[32.196s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_image_node.cpp:34[m[K:
+[32.196s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:104:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.196s]   104 |     [01;36m[KConstPtr[m[K;
+[32.197s]       |     [01;36m[K^~~~~~~~[m[K
+[33.364s] [ 94%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[33.591s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[33.591s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[33.591s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[33.592s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’:
+[33.592s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.592s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.592s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.592s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.592s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.592s]       |         [01;36m[K^~~~[m[K
+[33.593s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.593s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.593s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.593s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.593s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.593s]       |         [01;36m[K^~~~[m[K
+[33.593s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.593s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.593s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.594s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.594s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.594s]       |         [01;36m[K^~~~[m[K
+[33.594s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.594s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.594s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.594s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.594s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.594s]       |         [01;36m[K^~~~[m[K
+[33.595s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:27[m[K:
+[33.595s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[33.595s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info()[m[K’ first required here
+[33.595s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[33.595s]       |                                     [01;36m[K^[m[K
+[33.595s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[33.595s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[33.595s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[33.595s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[33.596s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.596s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.596s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.596s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.596s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.596s]       |         [01;36m[K^~~~[m[K
+[33.596s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:375:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated: Will be removed in the next version [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.596s]   375 | struct [01;35m[Ksensor_info[m[K {
+[33.596s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[33.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:377:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.597s]   377 |         [01;36m[Kname[m[K;               ///< @deprecated Will be removed in the next version
+[33.597s]       |         [01;36m[K^~~~[m[K
+[33.597s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:27[m[K:
+[33.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:[m[K In constructor ‘[01m[Kouster_ros::OusterProcessingNodeBase::OusterProcessingNodeBase(const string&, const rclcpp::NodeOptions&)[m[K’:
+[33.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:22:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[33.597s]    22 |         : rclcpp::Node(name, options[01;36m[K)[m[K {}
+[33.597s]       |                                     [01;36m[K^[m[K
+[33.597s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:[m[K At global scope:
+[33.598s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:279:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.598s]   279 |     void lidar_handler_sensor_time(const PacketMsg::ConstPtr& packet[01;35m[K)[m[K {
+[33.598s]       |                                                                     [01;35m[K^[m[K
+[33.598s] In file included from [01m[K/home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp:7[m[K,
+[33.598s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:27[m[K,
+[33.598s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[33.598s] [01m[K/home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp:96:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.598s]    96 |     [01;36m[KConstPtr[m[K;
+[33.598s]       |     [01;36m[K^~~~~~~~[m[K
+[33.599s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:299:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.599s]   299 |     void lidar_handler_ros_time(const PacketMsg::ConstPtr& packet[01;35m[K)[m[K {
+[33.599s]       |                                                                  [01;35m[K^[m[K
+[33.599s] In file included from [01m[K/home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp:7[m[K,
+[33.599s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:27[m[K,
+[33.599s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[33.599s] [01m[K/home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp:96:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.599s]    96 |     [01;36m[KConstPtr[m[K;
+[33.599s]       |     [01;36m[K^~~~~~~~[m[K
+[33.613s] [ 94%] Built target os_sensor_component
+[33.700s] In file included from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/client.h:15[m[K,
+[33.700s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include/ouster_ros/os_ros.h:15[m[K,
+[33.700s]                  from [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:12[m[K:
+[33.700s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:[m[K In copy constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’:
+[33.700s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.700s]   830 | class [01;35m[Kpacket_format[m[K final {
+[33.700s]       |       [01;35m[K^~~~~~~~~~~~~[m[K
+[33.701s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.701s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[33.701s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[33.701s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:830:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[33.701s]   830 | class [01;35m[Kpacket_format[m[K final {
+[33.701s]       |       [01;35m[K^~~~~~~~~~~~~[m[K
+[33.701s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:854:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[33.701s]   854 |     [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[33.701s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[33.702s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:[m[K In member function ‘[01m[Kvoid ouster_ros::OusterCloud::imu_handler(ouster_msgs::msg::PacketMsg_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[33.702s] [01m[K/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/src/os_cloud_node.cpp:317:42:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’ first required here
+[33.702s]   317 |         auto pf = sensor::get_format(info[01;36m[K)[m[K;
+[33.702s]       |                                          [01;36m[K^[m[K
+[38.945s] [ 97%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[39.190s] [ 97%] Built target os_image_component
+[41.635s] [100%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[41.895s] [100%] Built target os_cloud_component
+[41.906s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[41.959s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros
+[41.968s] -- Install configuration: "Release"
+[41.968s] -- Execute custom install script
+[41.969s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/build.h
+[41.985s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/buffered_udp_source.h
+[41.994s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/client.h
+[42.002s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/image_processing.h
+[42.013s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/cartesian.h
+[42.027s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[42.041s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/lidar_scan.h
+[42.055s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/sensor_http.h
+[42.071s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/types.h
+[42.079s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster/version.h
+[42.087s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[42.101s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[42.115s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[42.123s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/LICENSE
+[42.131s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/LICENSE-bin
+[42.139s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_sensor
+[42.147s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_replay
+[42.156s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_cloud
+[42.164s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/ouster_ros/os_image
+[42.178s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/libouster_ros_library.so
+[42.187s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_sensor_component.so
+[42.195s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_replay_component.so
+[42.203s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_cloud_component.so
+[42.211s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/lib/libos_image_component.so
+[42.220s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_point.h
+[42.228s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_processing_node_base.h
+[42.236s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_ros.h
+[42.244s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/os_sensor_node_base.h
+[42.252s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster_ros/visibility_control.h
+[42.260s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[42.268s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/buffered_udp_source.h
+[42.276s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/client.h
+[42.284s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/image_processing.h
+[42.292s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/cartesian.h
+[42.307s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[42.320s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/lidar_scan.h
+[42.334s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/sensor_http.h
+[42.342s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/types.h
+[42.350s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/include/ouster/version.h
+[42.358s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/include/ouster_ros/optional-lite/nonstd/optional.hpp
+[42.366s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/LICENSE
+[42.375s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.independent.launch.xml
+[42.383s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+[42.394s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.independent.launch.xml
+[42.402s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+[42.410s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+[42.425s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+[42.436s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+[42.444s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+[42.452s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+[42.460s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+[42.468s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+[42.476s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+[42.490s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+[42.503s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/parameters.yaml
+[42.510s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/config/viz.rviz
+[42.523s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+[42.538s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+[42.546s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+[42.554s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+[42.561s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+[42.570s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+[42.580s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.sh
+[42.595s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/environment/path.dsv
+[42.603s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.bash
+[42.611s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.sh
+[42.619s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.zsh
+[42.627s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/local_setup.dsv
+[42.636s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv
+[42.644s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+[42.652s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+[42.660s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.669s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.677s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[42.685s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+[42.693s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+[42.706s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.xml
+[42.722s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros

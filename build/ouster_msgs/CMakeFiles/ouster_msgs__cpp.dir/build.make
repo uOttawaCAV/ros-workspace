@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_msgs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_msgs
 
 # Utility rule file for ouster_msgs__cpp.
 
@@ -81,8 +81,8 @@ rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp: /opt/ros/foxy/share/rosidl_
 rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp: rosidl_adapter/ouster_msgs/msg/PacketMsg.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/ros-workspace/build/ouster_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/jetson/ros-workspace/build/ouster_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/uocav/ros-workspace/build/ouster_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ouster_msgs/msg/detail/packet_msg__builder.hpp: rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ouster_msgs/msg/detail/packet_msg__builder.hpp
@@ -116,6 +116,6 @@ CMakeFiles/ouster_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/ouster_msgs__cpp.dir/clean
 
 CMakeFiles/ouster_msgs__cpp.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs/CMakeFiles/ouster_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs/CMakeFiles/ouster_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_msgs__cpp.dir/depend
 

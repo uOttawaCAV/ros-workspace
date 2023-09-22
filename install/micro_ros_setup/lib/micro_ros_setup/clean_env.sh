@@ -1,1 +1,1 @@
-/home/jetson/ros-workspace/src/micro_ros_setup/scripts/clean_env.sh
+/home/uocav/ros-workspace/src/micro_ros_setup/scripts/clean_env.sh

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jetson/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/uocav/ros-workspace/install/ros2_esp32/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jetson/ros-workspace/install/ros2_esp32/${destination}")
+      set(destination "/home/uocav/ros-workspace/install/ros2_esp32/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "integer_publisher" "DESTINATION" "lib/ros2_esp32")
-include("/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "string_publisher" "DESTINATION" "lib/ros2_esp32")
-include("/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros2_esp32")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros2_esp32")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros2_esp32")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros2_esp32")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros2_esp32")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/packages/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/packages/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/packages/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/packages/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config.cmake" "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config-version.cmake" "DESTINATION" "share/ros2_esp32/cmake")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config.cmake" "/home/jetson/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config-version.cmake" "DESTINATION" "share/ros2_esp32/cmake")
+# install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config.cmake" "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config-version.cmake" "DESTINATION" "share/ros2_esp32/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config.cmake" "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_core/ros2_esp32Config-version.cmake" "DESTINATION" "share/ros2_esp32/cmake")
 
-# install(FILES "/home/jetson/ros-workspace/src/ros2_esp32/package.xml" "DESTINATION" "share/ros2_esp32")
-ament_cmake_symlink_install_files("/home/jetson/ros-workspace/src/ros2_esp32" FILES "/home/jetson/ros-workspace/src/ros2_esp32/package.xml" "DESTINATION" "share/ros2_esp32")
+# install(FILES "/home/uocav/ros-workspace/src/ros2_esp32/package.xml" "DESTINATION" "share/ros2_esp32")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/src/ros2_esp32/package.xml" "DESTINATION" "share/ros2_esp32")

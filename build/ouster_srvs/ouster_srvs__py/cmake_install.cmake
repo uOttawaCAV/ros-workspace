@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson/ros-workspace/build/ouster_srvs/ouster_srvs__py
+# Install script for directory: /home/uocav/ros-workspace/build/ouster_srvs/ouster_srvs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson/ros-workspace/install/ouster_srvs")
+  set(CMAKE_INSTALL_PREFIX "/home/uocav/ros-workspace/install/ouster_srvs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_msgs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_msgs
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/src/ouster-ros/ouster-msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs /home/jetson/ros-workspace/build/ouster_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs /home/uocav/ros-workspace/build/ouster_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

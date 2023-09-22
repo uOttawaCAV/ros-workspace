@@ -1,8 +1,8 @@
-# Install script for directory: /home/jetson/ros-workspace/src/ouster-ros/ouster-ros
+# Install script for directory: /home/uocav/ros-workspace/src/ouster-ros/ouster-ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jetson/ros-workspace/install/ouster_ros")
+  set(CMAKE_INSTALL_PREFIX "/home/uocav/ros-workspace/install/ouster_ros")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jetson/ros-workspace/build/ouster_ros/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetson/ros-workspace/build/ouster_ros/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uocav/ros-workspace/build/ouster_ros/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

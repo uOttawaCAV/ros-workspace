@@ -1,0 +1,40 @@
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target ouster_msgs__cpp[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_generator_c[0m
+[  6%] Built target ouster_msgs__cpp
+[  9%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libouster_msgs__rosidl_generator_c.so[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_cpp[0m
+[ 22%] Built target ouster_msgs__rosidl_generator_c
+[ 25%] [32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_msgs/msg/packet_msg__type_support.cpp.o[0m
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_msgs/msg/detail/packet_msg__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_msgs/msg/detail/dds_fastrtps/packet_msg__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_c[0m
+[35m[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_introspection_c[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_msgs/msg/packet_msg__type_support.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_msgs/msg/detail/packet_msg__type_support.c.o[0m
+[ 48%] [32m[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_c.so[0m
+[ 51%] [32m[1mLinking C shared library libouster_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c
+[ 51%] Built target ouster_msgs__rosidl_typesupport_c
+[ 54%] [32m[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_cpp.so[0m
+[ 54%] Built target ouster_msgs__rosidl_typesupport_cpp
+[ 58%] [32m[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 58%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[ 61%] [32m[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+/usr/bin/ld: cannot find -lOpenSSL::SSL
+/usr/bin/ld: cannot find -lOpenSSL::Crypto
+/usr/bin/ld: cannot find -lOpenSSL::SSL
+/usr/bin/ld: cannot find -lOpenSSL::Crypto
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:108: libouster_msgs__rosidl_typesupport_fastrtps_cpp.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:274: CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

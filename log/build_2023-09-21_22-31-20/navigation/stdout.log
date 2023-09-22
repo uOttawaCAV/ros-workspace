@@ -1,0 +1,19 @@
+[100%] Built target occupancy_pub
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/path.sh
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/environment/path.dsv
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.bash
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.sh
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.zsh
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/local_setup.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/navigation/share/navigation/package.dsv
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/ament_index/resource_index/packages/navigation
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig.cmake
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/share/navigation/package.xml

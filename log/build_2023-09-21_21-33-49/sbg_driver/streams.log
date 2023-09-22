@@ -1,0 +1,35 @@
+[0.074s] Invoking command in '/home/uocav/ros-workspace/build/sbg_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/sbg_driver
+[0.413s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.414s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.414s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.419s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.801s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.020s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.195s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.208s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.222s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.343s] CMake Error at CMakeLists.txt:12 (find_package):
+[1.343s]   By not providing "Findrtcm_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.343s]   has asked CMake to find a package configuration file provided by
+[1.343s]   "rtcm_msgs", but CMake did not find one.
+[1.344s] 
+[1.344s]   Could not find a package configuration file provided by "rtcm_msgs" with
+[1.344s]   any of the following names:
+[1.344s] 
+[1.344s]     rtcm_msgsConfig.cmake
+[1.344s]     rtcm_msgs-config.cmake
+[1.344s] 
+[1.345s]   Add the installation prefix of "rtcm_msgs" to CMAKE_PREFIX_PATH or set
+[1.345s]   "rtcm_msgs_DIR" to a directory containing one of the above files.  If
+[1.345s]   "rtcm_msgs" provides a separate development package or SDK, be sure it has
+[1.345s]   been installed.
+[1.346s] 
+[1.346s] 
+[1.347s] -- Configuring incomplete, errors occurred!
+[1.347s] See also "/home/uocav/ros-workspace/build/sbg_driver/CMakeFiles/CMakeOutput.log".
+[1.347s] See also "/home/uocav/ros-workspace/build/sbg_driver/CMakeFiles/CMakeError.log".
+[1.363s] Invoked command in '/home/uocav/ros-workspace/build/sbg_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/sbg_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/sbg_driver

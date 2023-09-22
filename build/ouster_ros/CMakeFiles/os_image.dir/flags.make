@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIE   -Wall -Wextra -std=gnu++17
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DEIGEN_MPL2_ONLY -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/include -I/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include -I/home/jetson/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include -I/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include -I/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -isystem /opt/ros/foxy/include 
 

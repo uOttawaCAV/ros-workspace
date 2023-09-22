@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs
+CMAKE_SOURCE_DIR = /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/ros-workspace/build/ouster_srvs
+CMAKE_BINARY_DIR = /home/uocav/ros-workspace/build/ouster_srvs
 
 # Utility rule file for ouster_srvs__cpp.
 
@@ -93,8 +93,8 @@ rosidl_generator_cpp/ouster_srvs/srv/get_config.hpp: /opt/ros/foxy/share/rosidl_
 rosidl_generator_cpp/ouster_srvs/srv/get_config.hpp: rosidl_adapter/ouster_srvs/srv/GetConfig.idl
 rosidl_generator_cpp/ouster_srvs/srv/get_config.hpp: rosidl_adapter/ouster_srvs/srv/SetConfig.idl
 rosidl_generator_cpp/ouster_srvs/srv/get_config.hpp: rosidl_adapter/ouster_srvs/srv/GetMetadata.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/ros-workspace/build/ouster_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/jetson/ros-workspace/build/ouster_srvs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/uocav/ros-workspace/build/ouster_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/uocav/ros-workspace/build/ouster_srvs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/ouster_srvs/srv/detail/get_config__builder.hpp: rosidl_generator_cpp/ouster_srvs/srv/get_config.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ouster_srvs/srv/detail/get_config__builder.hpp
@@ -168,6 +168,6 @@ CMakeFiles/ouster_srvs__cpp.dir/clean:
 .PHONY : CMakeFiles/ouster_srvs__cpp.dir/clean
 
 CMakeFiles/ouster_srvs__cpp.dir/depend:
-	cd /home/jetson/ros-workspace/build/ouster_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs /home/jetson/ros-workspace/src/ouster-ros/ouster-srvs /home/jetson/ros-workspace/build/ouster_srvs /home/jetson/ros-workspace/build/ouster_srvs /home/jetson/ros-workspace/build/ouster_srvs/CMakeFiles/ouster_srvs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uocav/ros-workspace/build/ouster_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs /home/uocav/ros-workspace/src/ouster-ros/ouster-srvs /home/uocav/ros-workspace/build/ouster_srvs /home/uocav/ros-workspace/build/ouster_srvs /home/uocav/ros-workspace/build/ouster_srvs/CMakeFiles/ouster_srvs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ouster_srvs__cpp.dir/depend
 

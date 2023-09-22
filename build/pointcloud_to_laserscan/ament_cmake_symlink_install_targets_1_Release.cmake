@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/ros-workspace/build/pointcloud_to_laserscan/pointcloud_to_laserscan_node" "TARGETS" "pointcloud_to_laserscan_node" "DESTINATION" "lib/pointcloud_to_laserscan")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/pointcloud_to_laserscan_node" "TARGETS" "pointcloud_to_laserscan_node" "DESTINATION" "lib/pointcloud_to_laserscan")

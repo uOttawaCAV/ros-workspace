@@ -1,0 +1,8 @@
+/usr/bin/ld: cannot find -lOpenSSL::SSL
+/usr/bin/ld: cannot find -lOpenSSL::Crypto
+/usr/bin/ld: cannot find -lOpenSSL::SSL
+/usr/bin/ld: cannot find -lOpenSSL::Crypto
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:108: libouster_msgs__rosidl_typesupport_fastrtps_cpp.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:274: CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

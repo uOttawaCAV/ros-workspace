@@ -1,0 +1,92 @@
+[0.070s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.154s] [  3%] Built target ouster_msgs__cpp
+[0.156s] [ 12%] Built target ouster_msgs__rosidl_generator_c
+[0.187s] [ 22%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[0.202s] [ 32%] Built target ouster_msgs__rosidl_typesupport_cpp
+[0.215s] [ 41%] Built target ouster_msgs__rosidl_typesupport_fastrtps_cpp
+[0.239s] [ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c
+[0.264s] [ 64%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c
+[0.265s] [ 70%] Built target ouster_msgs__rosidl_typesupport_c
+[0.286s] [ 70%] Built target ouster_msgs
+[0.307s] [ 74%] Built target ouster_msgs__py
+[0.338s] [ 80%] Built target ouster_msgs__python
+[0.370s] [ 93%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.370s] [ 93%] Built target ouster_msgs__rosidl_typesupport_introspection_c__pyext
+[0.381s] [100%] Built target ouster_msgs__rosidl_typesupport_c__pyext
+[0.412s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.478s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_msgs
+[0.689s] -- Install configuration: "Release"
+[0.689s] -- Execute custom install script
+[0.689s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/rosidl_interfaces/ouster_msgs
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__functions.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__type_support.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.sh
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/library_path.dsv
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_c.h
+[0.690s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_c.so
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_c.h
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.691s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__builder.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__struct.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__traits.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__type_support.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/packet_msg.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/include/ouster_msgs/msg/detail/packet_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.sh
+[0.692s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/pythonpath.dsv
+[0.693s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/__init__.py
+[0.693s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/__init__.py
+[0.693s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/msg/_packet_msg.py
+[0.694s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.694s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.694s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages/ouster_msgs/ouster_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.694s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__python.so
+[0.694s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.idl
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/msg/PacketMsg.msg
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/package_run_dependencies/ouster_msgs
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/parent_prefix_path/ouster_msgs
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.sh
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/ament_prefix_path.dsv
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.sh
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/environment/path.dsv
+[0.695s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.bash
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.sh
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.zsh
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/local_setup.dsv
+[0.696s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ament_index/resource_index/packages/ouster_msgs
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake-extras.cmake
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.696s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgsConfig-version.cmake
+[0.697s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.xml
+[0.698s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_generator_c.so
+[0.698s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_c.so
+[0.698s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_c.so
+[0.698s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_introspection_cpp.so
+[0.698s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/lib/libouster_msgs__rosidl_typesupport_cpp.so
+[0.699s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport.cmake
+[0.699s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cExport-release.cmake
+[0.701s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cExport-release.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_generator_cppExport.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport.cmake
+[0.702s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake/ouster_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.745s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_msgs

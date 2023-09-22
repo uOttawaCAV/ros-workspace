@@ -1,0 +1,115 @@
+[0.053s] Invoking command in '/home/uocav/ros-workspace/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam
+[0.084s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.269s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.423s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.472s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.621s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.621s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.769s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.842s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.912s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[1.139s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.166s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.177s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.885s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[1.916s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.981s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.981s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.000s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.165s] -- The imported target "vtkParseOGLExt" references the file
+[2.165s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.165s] but this file does not exist.  Possible reasons include:
+[2.165s] * The file was deleted, renamed, or moved to another location.
+[2.165s] * An install or uninstall procedure did not complete successfully.
+[2.165s] * The installation package was faulty and contained
+[2.165s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.166s] but not all the files it references.
+[2.166s] 
+[2.166s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.166s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.166s] but this file does not exist.  Possible reasons include:
+[2.166s] * The file was deleted, renamed, or moved to another location.
+[2.166s] * An install or uninstall procedure did not complete successfully.
+[2.166s] * The installation package was faulty and contained
+[2.166s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.167s] but not all the files it references.
+[2.167s] 
+[2.167s] -- The imported target "vtk" references the file
+[2.167s]    "/usr/bin/vtk"
+[2.167s] but this file does not exist.  Possible reasons include:
+[2.167s] * The file was deleted, renamed, or moved to another location.
+[2.167s] * An install or uninstall procedure did not complete successfully.
+[2.167s] * The installation package was faulty and contained
+[2.167s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.167s] but not all the files it references.
+[2.167s] 
+[2.168s] -- The imported target "pvtk" references the file
+[2.168s]    "/usr/bin/pvtk"
+[2.168s] but this file does not exist.  Possible reasons include:
+[2.168s] * The file was deleted, renamed, or moved to another location.
+[2.168s] * An install or uninstall procedure did not complete successfully.
+[2.168s] * The installation package was faulty and contained
+[2.168s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.168s] but not all the files it references.
+[2.168s] 
+[2.217s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.234s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.234s] ** WARNING ** io features related to pcap will be disabled
+[2.234s] ** WARNING ** io features related to png will be disabled
+[2.261s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.274s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.289s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.324s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.358s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.374s] -- looking for PCL_COMMON
+[2.374s] -- looking for PCL_KDTREE
+[2.375s] -- looking for PCL_OCTREE
+[2.375s] -- looking for PCL_SEARCH
+[2.376s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.376s] -- looking for PCL_FILTERS
+[2.377s] -- looking for PCL_2D
+[2.385s] -- looking for PCL_GEOMETRY
+[2.385s] -- looking for PCL_IO
+[2.386s] -- looking for PCL_FEATURES
+[2.386s] -- looking for PCL_ML
+[2.387s] -- looking for PCL_SEGMENTATION
+[2.387s] -- looking for PCL_VISUALIZATION
+[2.388s] -- looking for PCL_SURFACE
+[2.401s] -- looking for PCL_REGISTRATION
+[2.402s] -- looking for PCL_KEYPOINTS
+[2.403s] -- looking for PCL_TRACKING
+[2.403s] -- looking for PCL_RECOGNITION
+[2.404s] -- looking for PCL_STEREO
+[2.404s] -- looking for PCL_APPS
+[2.405s] -- looking for PCL_IN_HAND_SCANNER
+[2.406s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.409s] -- looking for PCL_OUTOFCORE
+[2.410s] -- looking for PCL_PEOPLE
+[2.444s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[2.451s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[2.467s] -- Found Eigen: /usr/include/eigen3  
+[2.467s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.528s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.940s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.991s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.991s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.072s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.072s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.418s] CMake Error at CMakeLists.txt:43 (rosidl_get_typesupport_target):
+[4.418s]   Unknown CMake command "rosidl_get_typesupport_target".
+[4.418s] 
+[4.419s] 
+[4.423s] -- Configuring incomplete, errors occurred!
+[4.423s] See also "/home/uocav/ros-workspace/build/lio_sam/CMakeFiles/CMakeOutput.log".
+[4.423s] See also "/home/uocav/ros-workspace/build/lio_sam/CMakeFiles/CMakeError.log".
+[4.472s] Invoked command in '/home/uocav/ros-workspace/build/lio_sam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam

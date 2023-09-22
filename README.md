@@ -4,6 +4,10 @@ When adding new packages, please check the ros version and create a pull request
 # Colon build
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
+# Rosdep update
+rosdep update --rosdistro foxy
+
+
 #Additional dependencies
 LIO-SAM
 sudo apt install ros-foxy-perception-pcl \

@@ -1,0 +1,21 @@
+[0.029s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ros2_esp32
+[0.236s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.240s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.051s] -- Configuring done
+[1.079s] -- Generating done
+[1.081s] -- Build files have been written to: /home/uocav/ros-workspace/build/ros2_esp32
+[1.096s] Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ros2_esp32
+[1.097s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[2.269s] [ 25%] [32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o[0m
+[2.270s] [ 50%] [32mBuilding CXX object CMakeFiles/string_publisher.dir/src/string_publisher.cpp.o[0m
+[8.862s] [ 75%] [32m[1mLinking CXX executable integer_publisher[0m
+[9.049s] [ 75%] Built target integer_publisher
+[9.284s] [100%] [32m[1mLinking CXX executable string_publisher[0m
+[9.457s] [100%] Built target string_publisher

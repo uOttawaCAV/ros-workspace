@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[0.051s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.234s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.550s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.598s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[0.622s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.724s] -- Found ouster_msgs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)
+[0.730s] -- Found ouster_srvs: 0.1.0 (/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake)
+[0.736s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.744s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.754s] -- Found Eigen3: /usr/lib/cmake/eigen3/Eigen3Config.cmake (found version "3.3.7") 
+[0.771s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.783s] -- looking for PCL_COMMON
+[0.783s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.937s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.188s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.368s] -- Configuring done
+[1.466s] -- Generating done
+[1.469s] -- Build files have been written to: /home/uocav/ros-workspace/build/ouster_ros

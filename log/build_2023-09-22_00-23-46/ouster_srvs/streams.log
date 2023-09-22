@@ -1,0 +1,130 @@
+[0.055s] Invoking command in '/home/uocav/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_srvs -- -j6 -l6
+[0.127s] [ 10%] Built target ouster_srvs__rosidl_generator_c
+[0.148s] [ 12%] Built target ouster_srvs__cpp
+[0.155s] [ 27%] Built target ouster_srvs__rosidl_typesupport_c
+[0.156s] [ 34%] Built target ouster_srvs__rosidl_typesupport_introspection_c
+[0.176s] [ 44%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp
+[0.187s] [ 55%] Built target ouster_srvs__rosidl_typesupport_cpp
+[0.205s] [ 65%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp
+[0.238s] [ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c
+[0.252s] [ 76%] Built target ouster_srvs
+[0.274s] [ 78%] Built target ouster_srvs__py
+[0.309s] [ 87%] Built target ouster_srvs__python
+[0.335s] [ 97%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.335s] [ 97%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext
+[0.335s] [100%] Built target ouster_srvs__rosidl_typesupport_c__pyext
+[0.372s] Invoked command in '/home/uocav/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_srvs -- -j6 -l6
+[0.610s] Invoking command in '/home/uocav/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_srvs
+[0.621s] -- Install configuration: "RelWithDebInfo"
+[0.623s] -- Execute custom install script
+[0.623s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/rosidl_interfaces/ouster_srvs
+[0.623s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.623s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__functions.h
+[0.624s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.h
+[0.624s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__type_support.h
+[0.624s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__functions.h
+[0.624s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.h
+[0.625s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__type_support.h
+[0.625s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__functions.h
+[0.625s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.h
+[0.625s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__type_support.h
+[0.625s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.h
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.h
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.h
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.sh
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/library_path.dsv
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.626s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_c.h
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_c.h
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_c.so
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_fastrtps_cpp.hpp
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[0.627s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_c.h
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_c.h
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.628s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__builder.hpp
+[0.629s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__struct.hpp
+[0.629s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__traits.hpp
+[0.629s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__type_support.hpp
+[0.629s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__builder.hpp
+[0.630s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__struct.hpp
+[0.630s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__traits.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__type_support.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__builder.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__struct.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__traits.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__type_support.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_config.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/get_metadata.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/set_config.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_config__rosidl_typesupport_introspection_cpp.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/get_metadata__rosidl_typesupport_introspection_cpp.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/include/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.sh
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/pythonpath.dsv
+[0.634s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/__init__.py
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/__init__.py
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_config.py
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_get_metadata.py
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/srv/_set_config.py
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages/ouster_srvs/ouster_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__python.so
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.idl
+[0.635s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.idl
+[0.636s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.idl
+[0.636s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig.srv
+[0.636s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Request.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetConfig_Response.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig.srv
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Request.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/SetConfig_Response.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata.srv
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Request.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/srv/GetMetadata_Response.msg
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/package_run_dependencies/ouster_srvs
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/parent_prefix_path/ouster_srvs
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.sh
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/ament_prefix_path.dsv
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.sh
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/environment/path.dsv
+[0.637s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.bash
+[0.639s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.sh
+[0.639s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.zsh
+[0.643s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/local_setup.dsv
+[0.644s] -- Symlinking: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv
+[0.644s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ament_index/resource_index/packages/ouster_srvs
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvsConfig-version.cmake
+[0.645s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.xml
+[0.645s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_generator_c.so
+[0.645s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_c.so
+[0.645s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_c.so
+[0.645s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_introspection_cpp.so
+[0.645s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/lib/libouster_srvs__rosidl_typesupport_cpp.so
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cExport-relwithdebinfo.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_generator_cppExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport.cmake
+[0.680s] -- Up-to-date: /home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/cmake/ouster_srvs__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[0.689s] Invoked command in '/home/uocav/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_srvs

@@ -1,0 +1,784 @@
+[0.232s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.232s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f956bd91ca0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f956bd91ca0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f956bd19250>)
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uocav/ros-workspace'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LIO-SAM' with type 'ros.ament_cmake' and name 'lio_sam'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/configs) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_bot_description) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_bot_description' with type 'ros.ament_cmake' and name 'mini_bot_description'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_cmake' and name 'navigation'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/docs/images) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-msgs) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-msgs' with type 'ros.ament_cmake' and name 'ouster_msgs'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-ros) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-ros' with type 'ros.ament_cmake' and name 'ouster_ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/ouster-ros/ouster-srvs) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ouster-ros/ouster-srvs' with type 'ros.ament_cmake' and name 'ouster_srvs'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laser) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laser' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_esp32) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_esp32' with type 'ros.ament_cmake' and name 'ros2_esp32'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial_r2d2) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_tutorial_r2d2' with type 'ros.ament_python' and name 'urdf_tutorial_r2d2'
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/uocav/ros-workspace/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/foxy
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/lio_sam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/lio_sam', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/LIO-SAM', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/micro_ros_setup', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'mini_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'mini_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/mini_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/mini_bot_description', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/mini_bot_description', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/navigation', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/navigation', 'symlink_install': True, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/ouster_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/ouster_msgs', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs', 'symlink_install': True, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'ouster_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/ouster_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/ouster_srvs', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs', 'symlink_install': True, 'test_result_base': None}
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/pointcloud_to_laser', 'symlink_install': True, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'ros2_esp32' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_esp32' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/ros2_esp32', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/ros2_esp32', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/ros2_esp32', 'symlink_install': True, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial_r2d2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/urdf_tutorial_r2d2', 'symlink_install': True, 'test_result_base': None}
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_target' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.371s] Level 5:colcon.colcon_core.verb:set package 'ouster_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.371s] DEBUG:colcon.colcon_core.verb:Building package 'ouster_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uocav/ros-workspace/build/ouster_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uocav/ros-workspace/install/ouster_ros', 'merge_install': False, 'path': '/home/uocav/ros-workspace/src/ouster-ros/ouster-ros', 'symlink_install': True, 'test_result_base': None}
+[0.372s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs'
+[0.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/LIO-SAM' with build type 'ament_cmake'
+[0.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/LIO-SAM'
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.402s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/micro_ros_setup' with build type 'ament_cmake'
+[0.402s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/micro_ros_setup'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/mini_bot_description' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/mini_bot_description'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/navigation' with build type 'ament_cmake'
+[0.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/navigation'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_srvs -- -j6 -l6
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/micro_ros_setup -- -j6 -l6
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/mini_bot_description -- -j6 -l6
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/mini_bot_description -- -j6 -l6
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/micro_ros_setup -- -j6 -l6
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/mini_bot_description
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/micro_ros_setup
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_bot_description)
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/mini_bot_description
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description' for CMake module files
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description' for CMake config files
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_bot_description', 'cmake_prefix_path')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/bin'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/lib/pkgconfig/mini_bot_description.pc'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/lib/python3.8/site-packages'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.bash'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/mini_bot_description/share/colcon-core/packages/mini_bot_description)
+[0.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup' for CMake module files
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/micro_ros_setup
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup' for CMake config files
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/bin'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib/python3.8/site-packages'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/bin'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation
+[0.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_bot_description)
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description' for CMake module files
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description' for CMake config files
+[0.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_bot_description', 'cmake_prefix_path')
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.ps1'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/hook/cmake_prefix_path.sh'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/bin'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/lib/pkgconfig/mini_bot_description.pc'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/lib/python3.8/site-packages'
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/mini_bot_description/bin'
+[0.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.sh'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.bash'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.zsh'
+[0.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/mini_bot_description/share/colcon-core/packages/mini_bot_description)
+[0.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/pointcloud_to_laser' with build type 'ament_cmake'
+[0.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/pointcloud_to_laser'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup' for CMake module files
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup' for CMake config files
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/bin'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/lib/python3.8/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/micro_ros_setup/bin'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[0.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[0.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation' for CMake module files
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation' for CMake config files
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/bin'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib/pkgconfig/navigation.pc'
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib/python3.8/site-packages'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/bin'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/navigation/share/navigation/package.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.bash'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.zsh'
+[0.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/navigation/share/colcon-core/packages/navigation)
+[0.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/ros2_esp32' with build type 'ament_cmake'
+[0.714s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/ros2_esp32'
+[0.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_srvs -- -j6 -l6
+[0.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation' for CMake module files
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation' for CMake config files
+[0.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/bin'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib/pkgconfig/navigation.pc'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/lib/python3.8/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/navigation/bin'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/navigation/share/navigation/package.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.bash'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/navigation/share/navigation/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/navigation/share/colcon-core/packages/navigation)
+[0.770s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uocav/ros-workspace/src/urdf_tutorial_r2d2' with build type 'ament_python'
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'ament_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.sh'
+[0.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uocav/ros-workspace/src/urdf_tutorial_r2d2'
+[0.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_msgs
+[1.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_srvs
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/pointcloud_to_laserscan -- -j6 -l6
+[1.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ros2_esp32
+[1.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_msgs)
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs' for CMake module files
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs' for CMake config files
+[1.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'cmake_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib'
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'ld_library_path_lib')
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_msgs
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.sh'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/bin'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib/pkgconfig/ouster_msgs.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages'
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'pythonpath')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.sh'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.zsh'
+[1.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_msgs/share/colcon-core/packages/ouster_msgs)
+[1.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_esp32)
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ros2_esp32
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32' for CMake config files
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_esp32', 'cmake_prefix_path')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib/pkgconfig/ros2_esp32.pc'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib/python3.8/site-packages'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/bin'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.sh'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ros2_esp32/share/colcon-core/packages/ros2_esp32)
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/pointcloud_to_laserscan
+[1.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_srvs)
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs' for CMake config files
+[1.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'cmake_prefix_path')
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.ps1'
+[1.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_srvs
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.sh'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib'
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'ld_library_path_lib')
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.ps1'
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.dsv'
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.sh'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/bin'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib/pkgconfig/ouster_srvs.pc'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages'
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'pythonpath')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/bin'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.sh'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.bash'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.zsh'
+[1.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_srvs/share/colcon-core/packages/ouster_srvs)
+[1.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/pointcloud_to_laserscan
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan' for CMake module files
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan' for CMake config files
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib'
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/bin'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_esp32)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_esp32', 'cmake_prefix_path')
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/hook/cmake_prefix_path.sh'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/bin'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib/pkgconfig/ros2_esp32.pc'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/lib/python3.8/site-packages'
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ros2_esp32/bin'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.sh'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.bash'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.zsh'
+[1.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ros2_esp32/share/colcon-core/packages/ros2_esp32)
+[1.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_msgs)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs' for CMake config files
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'cmake_prefix_path')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib'
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'ld_library_path_lib')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/ld_library_path_lib.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/bin'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib/pkgconfig/ouster_msgs.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_msgs', 'pythonpath')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/hook/pythonpath.sh'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_msgs/bin'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_msgs/share/colcon-core/packages/ouster_msgs)
+[1.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan' for CMake module files
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib'
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/bin'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/bin'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_srvs)
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs' for CMake module files
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs' for CMake config files
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'cmake_prefix_path')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/cmake_prefix_path.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib'
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'ld_library_path_lib')
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/ld_library_path_lib.sh'
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/bin'
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib/pkgconfig/ouster_srvs.pc'
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages'
+[1.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_srvs', 'pythonpath')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/hook/pythonpath.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_srvs/bin'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.sh'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.bash'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_srvs/share/ouster_srvs/package.zsh'
+[1.237s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_srvs/share/colcon-core/packages/ouster_srvs)
+[1.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-ros' with build type 'ament_cmake'
+[1.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/uocav/ros-workspace/src/ouster-ros/ouster-ros'
+[1.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data
+[1.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_ros -- -j6 -l6
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros
+[1.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_ros)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros' for CMake module files
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/uocav/ros-workspace/build/ouster_ros
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros' for CMake config files
+[1.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_ros', 'cmake_prefix_path')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.sh'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib'
+[1.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_ros', 'ld_library_path_lib')
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.sh'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/bin'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib/pkgconfig/ouster_ros.pc'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib/python3.8/site-packages'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/bin'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.sh'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.bash'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.zsh'
+[1.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_ros/share/colcon-core/packages/ouster_ros)
+[1.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ouster_ros)
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros' for CMake module files
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros' for CMake config files
+[1.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_ros', 'cmake_prefix_path')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/cmake_prefix_path.sh'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib'
+[1.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('ouster_ros', 'ld_library_path_lib')
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/hook/ld_library_path_lib.sh'
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/bin'
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib/pkgconfig/ouster_ros.pc'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/lib/python3.8/site-packages'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/ouster_ros/bin'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.bash'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/ouster_ros/share/ouster_ros/package.zsh'
+[1.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/ouster_ros/share/colcon-core/packages/ouster_ros)
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'pythonpath_develop')
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.ps1'
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.dsv'
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath_develop.sh'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2' for CMake module files
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2' for CMake config files
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/bin'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/pkgconfig/urdf_tutorial_r2d2.pc'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages'
+[1.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'pythonpath')
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.ps1'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.sh'
+[1.737s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/bin'
+[1.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial_r2d2)
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.ps1'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.sh'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.bash'
+[1.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.zsh'
+[1.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/share/colcon-core/packages/urdf_tutorial_r2d2)
+[2.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uocav/ros-workspace/build/lio_sam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam
+[2.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam' for CMake module files
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam' for CMake config files
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam/bin'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam/lib/python3.8/site-packages'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/uocav/ros-workspace/install/lio_sam/bin'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.ps1'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.dsv'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.sh'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.bash'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uocav/ros-workspace/install/lio_sam/share/colcon-core/packages/lio_sam)
+[2.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.973s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uocav/ros-workspace/install/local_setup.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uocav/ros-workspace/install/_local_setup_util_ps1.py'
+[2.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uocav/ros-workspace/install/setup.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uocav/ros-workspace/install/local_setup.sh'
+[2.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uocav/ros-workspace/install/_local_setup_util_sh.py'
+[2.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uocav/ros-workspace/install/setup.sh'
+[2.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uocav/ros-workspace/install/local_setup.bash'
+[2.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uocav/ros-workspace/install/setup.bash'
+[2.989s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uocav/ros-workspace/install/local_setup.zsh'
+[2.990s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uocav/ros-workspace/install/setup.zsh'

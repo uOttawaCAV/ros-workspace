@@ -1,0 +1,17 @@
+[0.593s] Invoking command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data
+[0.769s] running develop
+[0.864s] running egg_info
+[0.864s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[0.864s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[0.864s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[0.864s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[0.864s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[0.890s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[0.919s] running build_ext
+[0.919s] Creating /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[0.920s] Installing state_publisher script to /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[0.920s] 
+[0.920s] Installed /home/uocav/ros-workspace/build/urdf_tutorial_r2d2
+[0.920s] running install_data
+[0.953s] Invoked command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data

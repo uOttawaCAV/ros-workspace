@@ -1,0 +1,25 @@
+[0.070s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[0.136s] [ 50%] Built target integer_publisher
+[0.146s] [100%] Built target string_publisher
+[0.307s] Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[0.348s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ros2_esp32
+[0.357s] -- Install configuration: "RelWithDebInfo"
+[0.358s] -- Execute custom install script
+[0.358s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher
+[0.358s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher
+[0.359s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/package_run_dependencies/ros2_esp32
+[0.359s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/parent_prefix_path/ros2_esp32
+[0.359s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.sh
+[0.359s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.dsv
+[0.359s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.sh
+[0.360s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.dsv
+[0.360s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.bash
+[0.360s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.sh
+[0.360s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.zsh
+[0.360s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.dsv
+[0.360s] -- Symlinking: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv
+[0.375s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/packages/ros2_esp32
+[0.375s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config.cmake
+[0.375s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config-version.cmake
+[0.376s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.xml
+[0.382s] Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/ros2_esp32

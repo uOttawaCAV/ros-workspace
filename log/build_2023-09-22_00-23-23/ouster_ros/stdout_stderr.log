@@ -1,0 +1,17 @@
+[34m[1mGenerating build info header[0m
+[  5%] Built target os_cloud
+[ 11%] Built target os_replay
+[ 17%] Built target os_image
+[ 23%] Built target os_sensor
+[ 23%] Built target ouster_generate_header
+[ 58%] Built target ouster_client
+[ 61%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[ 64%] Built target ouster_ros_library
+[ 73%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[ 73%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[ 73%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[ 76%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[ 82%] Built target os_replay_component
+[ 88%] Built target os_sensor_component
+[ 94%] Built target os_image_component
+[100%] Built target os_cloud_component

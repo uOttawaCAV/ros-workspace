@@ -1,0 +1,14 @@
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pointcloud_to_laserscan_node.dir/build.make:154: pointcloud_to_laserscan_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pointcloud_to_laserscan_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/laserscan_to_pointcloud_node.dir/build.make:154: laserscan_to_pointcloud_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/laserscan_to_pointcloud_node.dir/all] Error 2
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/dummy_pointcloud_publisher.dir/build.make:155: dummy_pointcloud_publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/dummy_pointcloud_publisher.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

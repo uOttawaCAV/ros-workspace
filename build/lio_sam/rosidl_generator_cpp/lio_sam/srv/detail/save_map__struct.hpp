@@ -5,13 +5,14 @@
 #ifndef LIO_SAM__SRV__DETAIL__SAVE_MAP__STRUCT_HPP_
 #define LIO_SAM__SRV__DETAIL__SAVE_MAP__STRUCT_HPP_
 
-#include <rosidl_runtime_cpp/bounded_vector.hpp>
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -58,7 +59,7 @@ struct SaveMap_Request_
     float;
   _resolution_type resolution;
   using _destination_type =
-    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _destination_type destination;
 
   // setters for named parameter idiom
@@ -69,7 +70,7 @@ struct SaveMap_Request_
     return *this;
   }
   Type & set__destination(
-    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->destination = _arg;
     return *this;

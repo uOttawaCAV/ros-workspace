@@ -334,14 +334,14 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_l
 # install(FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pointcloud_to_laserscan/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pointcloud_to_laserscan/environment")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pointcloud_to_laserscan/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pointcloud_to_laserscan/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/pointcloud_to_laser" FILES "/home/uocav/ros-workspace/build/pointcloud_to_laserscan/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pointcloud_to_laserscan/environment")

@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -179,7 +183,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -193,7 +197,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -208,7 +212,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def velocity(self):
         """Message field 'velocity'."""
         return self._velocity
@@ -222,7 +226,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
                 "The 'velocity' field must be a sub message of type 'Vector3'"
         self._velocity = value
 
-    @property
+    @builtins.property
     def velocity_accuracy(self):
         """Message field 'velocity_accuracy'."""
         return self._velocity_accuracy
@@ -236,7 +240,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
                 "The 'velocity_accuracy' field must be a sub message of type 'Vector3'"
         self._velocity_accuracy = value
 
-    @property
+    @builtins.property
     def latitude(self):
         """Message field 'latitude'."""
         return self._latitude
@@ -247,9 +251,11 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
             assert \
                 isinstance(value, float), \
                 "The 'latitude' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'latitude' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._latitude = value
 
-    @property
+    @builtins.property
     def longitude(self):
         """Message field 'longitude'."""
         return self._longitude
@@ -260,9 +266,11 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
             assert \
                 isinstance(value, float), \
                 "The 'longitude' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'longitude' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._longitude = value
 
-    @property
+    @builtins.property
     def altitude(self):
         """Message field 'altitude'."""
         return self._altitude
@@ -273,9 +281,11 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
             assert \
                 isinstance(value, float), \
                 "The 'altitude' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'altitude' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._altitude = value
 
-    @property
+    @builtins.property
     def undulation(self):
         """Message field 'undulation'."""
         return self._undulation
@@ -286,9 +296,11 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
             assert \
                 isinstance(value, float), \
                 "The 'undulation' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'undulation' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._undulation = value
 
-    @property
+    @builtins.property
     def position_accuracy(self):
         """Message field 'position_accuracy'."""
         return self._position_accuracy
@@ -302,7 +314,7 @@ class SbgEkfNav(metaclass=Metaclass_SbgEkfNav):
                 "The 'position_accuracy' field must be a sub message of type 'Vector3'"
         self._position_accuracy = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status

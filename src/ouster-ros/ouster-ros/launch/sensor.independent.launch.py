@@ -1,14 +1,14 @@
 # Copyright 2023 Ouster, Inc.
 #
 
-"""Launch a sensor node along with..."""
+"""Launch a sensor node along with os_cloud and os_"""
 
 from pathlib import Path
 import launch
 import lifecycle_msgs.msg
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node, LifecycleNode
-from launch.actions import (IncludeLaunchDescription, DeclareLaunchArgument,
+from launch.actions import (DeclareLaunchArgument, IncludeLaunchDescription,
                             RegisterEventHandler, EmitEvent, LogInfo)
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -25,7 +25,8 @@ def generate_launch_description():
     """
     ouster_ros_pkg_dir = get_package_share_directory('ouster_ros')
     default_params_file = \
-        Path(ouster_ros_pkg_dir) / 'config' / 'parameters.yaml'
+        Path(ouster_ros_pkg_dir) / 'config' / \
+        'os_sensor_cloud_image_params.yaml'
     params_file = LaunchConfiguration('params_file')
     params_file_arg = DeclareLaunchArgument('params_file',
                                             default_value=str(
@@ -69,19 +70,17 @@ def generate_launch_description():
         )
     )
 
-    # TODO: figure out why registering for on_shutdown event causes an exception
-    # and error handling
-    # shutdown_event = RegisterEventHandler(
-    #     OnShutdown(
-    #         on_shutdown=[
-    #             EmitEvent(event=ChangeState(
-    #               lifecycle_node_matcher=matches_node_name(node_name=F"/ouster/os_sensor"),
-    #               transition_id=lifecycle_msgs.msg.Transition.TRANSITION_ACTIVE_SHUTDOWN,
-    #             )),
-    #             LogInfo(msg="os_sensor node exiting..."),
-    #         ],
-    #     )
-    # )
+    sensor_finalized_event = RegisterEventHandler(
+        OnStateTransition(
+            target_lifecycle_node=os_sensor, goal_state='finalized',
+            entities=[
+                LogInfo(
+                    msg="Failed to communicate with the sensor in a timely manner."),
+                EmitEvent(event=launch.events.Shutdown(
+                    reason="Couldn't communicate with sensor"))
+            ],
+        )
+    )
 
     os_cloud = Node(
         package='ouster_ros',
@@ -112,11 +111,11 @@ def generate_launch_description():
         params_file_arg,
         ouster_ns_arg,
         rviz_enable_arg,
+        rviz_launch,
         os_sensor,
         os_cloud,
         os_image,
-        rviz_launch,
         sensor_configure_event,
         sensor_activate_event,
-        # shutdown_event
+        sensor_finalized_event
     ])

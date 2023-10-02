@@ -8,53 +8,53 @@
 module sbg_driver {
   module msg {
     @verbatim (language="comment", text=
-      " SBG Ellipse Messages")
+      "SBG Ellipse Messages")
     struct SbgUtcTime {
       std_msgs::msg::Header header;
 
       @verbatim (language="comment", text=
-        " Time since sensor is powered up (us)")
+        "Time since sensor is powered up (us)")
       uint32 time_stamp;
 
       @verbatim (language="comment", text=
-        " General UTC time and clock sync status")
+        "General UTC time and clock sync status")
       sbg_driver::msg::SbgUtcTimeStatus clock_status;
 
       @verbatim (language="comment", text=
-        " Year")
+        "Year")
       uint16 year;
 
       @verbatim (language="comment", text=
-        " Month in Year")
+        "Month in Year")
       @unit (value="1 ... 12")
       uint8 month;
 
       @verbatim (language="comment", text=
-        " Day in Month")
+        "Day in Month")
       @unit (value="1 ... 31")
       uint8 day;
 
       @verbatim (language="comment", text=
-        " Hour in day")
+        "Hour in day")
       @unit (value="0 ... 23")
       uint8 hour;
 
       @verbatim (language="comment", text=
-        " Minute in hour")
+        "Minute in hour")
       @unit (value="0 ... 59")
       uint8 min;
 
       @verbatim (language="comment", text=
-        " Second in minute, Note 60 is when a leap second is added.")
+        "Second in minute, Note 60 is when a leap second is added.")
       @unit (value="0 ... 60")
       uint8 sec;
 
       @verbatim (language="comment", text=
-        " Nanosecond of second.")
+        "Nanosecond of second.")
       uint32 nanosec;
 
       @verbatim (language="comment", text=
-        " GPS Time of week (ms)")
+        "GPS Time of week (ms)")
       uint32 gps_tow;
     };
   };

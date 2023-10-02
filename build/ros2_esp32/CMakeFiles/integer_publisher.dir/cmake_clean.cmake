@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o"
+  "CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o.d"
   "integer_publisher"
   "integer_publisher.pdb"
 )

@@ -1,0 +1,270 @@
+[0.426s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_msgs
+[0.544s] -- The C compiler identification is GNU 11.4.0
+[0.647s] -- The CXX compiler identification is GNU 11.4.0
+[0.653s] -- Detecting C compiler ABI info
+[0.746s] -- Detecting C compiler ABI info - done
+[0.785s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.785s] -- Detecting C compile features
+[0.785s] -- Detecting C compile features - done
+[0.785s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.889s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.890s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.930s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.007s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.024s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.143s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.271s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.309s] -- Found PythonInterp: /usr/bin/python3 (found version "3.10.12") 
+[1.466s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.5") 
+[1.723s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.753s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (Required is at least version "3.5") 
+[1.753s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.753s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.753s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.798s] -- Configuring done
+[1.817s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake:105 (add_library):
+[1.817s]   Cannot generate a safe runtime search path for target
+[1.817s]   ouster_msgs__rosidl_typesupport_fastrtps_cpp because there is a cycle in
+[1.817s]   the constraint graph:
+[1.817s] 
+[1.817s]     dir 0 is [/opt/ros/humble/lib]
+[1.817s]       dir 1 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.817s]     dir 1 is [/opt/ros/foxy/lib]
+[1.817s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_cpp.so]
+[1.817s] 
+[1.817s]   Some of these libraries may not be found correctly.
+[1.817s] Call Stack (most recent call first):
+[1.817s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.817s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.817s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.818s] 
+[1.818s] [0m
+[1.819s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:105 (add_library):
+[1.820s]   Cannot generate a safe runtime search path for target
+[1.820s]   ouster_msgs__rosidl_generator_c because there is a cycle in the constraint
+[1.820s]   graph:
+[1.820s] 
+[1.820s]     dir 0 is [/opt/ros/humble/lib]
+[1.820s]       dir 1 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.820s]     dir 1 is [/opt/ros/foxy/lib]
+[1.820s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.820s] 
+[1.820s]   Some of these libraries may not be found correctly.
+[1.820s] Call Stack (most recent call first):
+[1.820s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.820s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.820s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.820s] 
+[1.820s] [0m
+[1.823s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake:94 (add_library):
+[1.823s]   Cannot generate a safe runtime search path for target
+[1.823s]   ouster_msgs__rosidl_typesupport_fastrtps_c because there is a cycle in the
+[1.823s]   constraint graph:
+[1.823s] 
+[1.823s]     dir 0 is [/opt/ros/humble/lib]
+[1.824s]       dir 2 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.824s]     dir 1 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.824s]     dir 2 is [/opt/ros/foxy/lib]
+[1.824s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.824s] 
+[1.824s]   Some of these libraries may not be found correctly.
+[1.824s] Call Stack (most recent call first):
+[1.824s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.824s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.824s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.824s] 
+[1.824s] [0m
+[1.826s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake:97 (add_library):
+[1.826s]   Cannot generate a safe runtime search path for target
+[1.826s]   ouster_msgs__rosidl_typesupport_introspection_c because there is a cycle in
+[1.826s]   the constraint graph:
+[1.826s] 
+[1.826s]     dir 0 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.826s]     dir 1 is [/opt/ros/humble/lib]
+[1.826s]       dir 2 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.826s]     dir 2 is [/opt/ros/foxy/lib]
+[1.826s]       dir 1 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.826s] 
+[1.827s]   Some of these libraries may not be found correctly.
+[1.827s] Call Stack (most recent call first):
+[1.827s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.827s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.827s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.827s] 
+[1.827s] [0m
+[1.828s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake:94 (add_library):
+[1.829s]   Cannot generate a safe runtime search path for target
+[1.829s]   ouster_msgs__rosidl_typesupport_c because there is a cycle in the
+[1.829s]   constraint graph:
+[1.829s] 
+[1.829s]     dir 0 is [/opt/ros/humble/lib]
+[1.829s]       dir 1 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.829s]     dir 1 is [/opt/ros/foxy/lib]
+[1.829s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.829s] 
+[1.829s]   Some of these libraries may not be found correctly.
+[1.829s] Call Stack (most recent call first):
+[1.829s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.829s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.829s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.829s] 
+[1.829s] [0m
+[1.831s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:86 (add_library):
+[1.831s]   Cannot generate a safe runtime search path for target
+[1.831s]   ouster_msgs__rosidl_typesupport_introspection_cpp because there is a cycle
+[1.831s]   in the constraint graph:
+[1.831s] 
+[1.831s]     dir 0 is [/opt/ros/humble/lib]
+[1.831s]       dir 1 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.832s]     dir 1 is [/opt/ros/foxy/lib]
+[1.832s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.832s] 
+[1.832s]   Some of these libraries may not be found correctly.
+[1.832s] Call Stack (most recent call first):
+[1.832s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.832s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.832s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.832s] 
+[1.832s] [0m
+[1.834s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cpp_generate_interfaces.cmake:84 (add_library):
+[1.834s]   Cannot generate a safe runtime search path for target
+[1.834s]   ouster_msgs__rosidl_typesupport_cpp because there is a cycle in the
+[1.834s]   constraint graph:
+[1.834s] 
+[1.834s]     dir 0 is [/opt/ros/humble/lib]
+[1.834s]       dir 1 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.834s]     dir 1 is [/opt/ros/foxy/lib]
+[1.834s]       dir 0 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.834s] 
+[1.834s]   Some of these libraries may not be found correctly.
+[1.834s] Call Stack (most recent call first):
+[1.834s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.834s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.835s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.835s] 
+[1.835s] [0m
+[1.838s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:175 (add_library):
+[1.838s]   Cannot generate a safe runtime search path for target ouster_msgs__python
+[1.838s]   because there is a cycle in the constraint graph:
+[1.838s] 
+[1.838s]     dir 0 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.838s]     dir 1 is [/opt/ros/humble/share/std_msgs/cmake/../../../lib]
+[1.838s]       dir 4 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.838s]     dir 2 is [/opt/ros/humble/share/builtin_interfaces/cmake/../../../lib]
+[1.838s]       dir 4 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.838s]     dir 3 is [/opt/ros/humble/lib]
+[1.838s]       dir 4 must precede it due to runtime library [librosidl_typesupport_fastrtps_c.so]
+[1.838s]     dir 4 is [/opt/ros/foxy/lib]
+[1.838s]       dir 1 must precede it due to runtime library [libstd_msgs__python.so]
+[1.838s]       dir 2 must precede it due to runtime library [libbuiltin_interfaces__python.so]
+[1.838s]       dir 3 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.838s] 
+[1.838s]   Some of these libraries may not be found correctly.
+[1.839s] Call Stack (most recent call first):
+[1.839s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.839s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.839s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.839s] 
+[1.839s] [0m
+[1.843s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+[1.843s]   Cannot generate a safe runtime search path for target
+[1.843s]   ouster_msgs__rosidl_typesupport_fastrtps_c__pyext because there is a cycle
+[1.843s]   in the constraint graph:
+[1.843s] 
+[1.843s]     dir 0 is [/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs]
+[1.843s]     dir 1 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.843s]     dir 2 is [/opt/ros/foxy/lib]
+[1.843s]       dir 3 must precede it due to runtime library [libstd_msgs__python.so]
+[1.843s]       dir 4 must precede it due to runtime library [libbuiltin_interfaces__python.so]
+[1.843s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.843s]     dir 3 is [/opt/ros/humble/share/std_msgs/cmake/../../../lib]
+[1.843s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.843s]     dir 4 is [/opt/ros/humble/share/builtin_interfaces/cmake/../../../lib]
+[1.843s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.843s]     dir 5 is [/opt/ros/humble/lib]
+[1.843s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.843s] 
+[1.843s]   Some of these libraries may not be found correctly.
+[1.843s] Call Stack (most recent call first):
+[1.843s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.844s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.844s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.844s] 
+[1.844s] [0m
+[1.846s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+[1.846s]   Cannot generate a safe runtime search path for target
+[1.846s]   ouster_msgs__rosidl_typesupport_introspection_c__pyext because there is a
+[1.846s]   cycle in the constraint graph:
+[1.846s] 
+[1.846s]     dir 0 is [/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs]
+[1.846s]     dir 1 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.846s]     dir 2 is [/opt/ros/foxy/lib]
+[1.846s]       dir 3 must precede it due to runtime library [libstd_msgs__python.so]
+[1.846s]       dir 4 must precede it due to runtime library [libbuiltin_interfaces__python.so]
+[1.846s]       dir 5 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.846s]     dir 3 is [/opt/ros/humble/share/std_msgs/cmake/../../../lib]
+[1.846s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.846s]     dir 4 is [/opt/ros/humble/share/builtin_interfaces/cmake/../../../lib]
+[1.846s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.846s]     dir 5 is [/opt/ros/humble/lib]
+[1.846s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.846s] 
+[1.846s]   Some of these libraries may not be found correctly.
+[1.846s] Call Stack (most recent call first):
+[1.846s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.847s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.847s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.847s] 
+[1.847s] [0m
+[1.848s] [33mCMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+[1.849s]   Cannot generate a safe runtime search path for target
+[1.849s]   ouster_msgs__rosidl_typesupport_c__pyext because there is a cycle in the
+[1.849s]   constraint graph:
+[1.849s] 
+[1.849s]     dir 0 is [/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs]
+[1.849s]     dir 1 is [/home/uocav/ros-workspace/build/ouster_msgs]
+[1.849s]     dir 2 is [/opt/ros/foxy/lib]
+[1.849s]       dir 3 must precede it due to runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so]
+[1.849s]       dir 4 must precede it due to runtime library [libstd_msgs__python.so]
+[1.849s]       dir 5 must precede it due to runtime library [libbuiltin_interfaces__python.so]
+[1.849s]     dir 3 is [/opt/ros/humble/lib]
+[1.849s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.849s]     dir 4 is [/opt/ros/humble/share/std_msgs/cmake/../../../lib]
+[1.849s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.849s]     dir 5 is [/opt/ros/humble/share/builtin_interfaces/cmake/../../../lib]
+[1.849s]       dir 2 must precede it due to runtime library [librmw.so]
+[1.849s] 
+[1.849s]   Some of these libraries may not be found correctly.
+[1.849s] Call Stack (most recent call first):
+[1.849s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.850s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.850s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.850s] 
+[1.850s] [0m
+[1.855s] -- Generating done
+[1.858s] -- Build files have been written to: /home/uocav/ros-workspace/build/ouster_msgs
+[1.934s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_msgs
+[1.936s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[1.984s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.992s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.417s] ['/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/msg/detail/packet_msg__builder.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/msg/detail/packet_msg__struct.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/msg/detail/packet_msg__traits.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/get_config.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_config__builder.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_config__struct.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_config__traits.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/set_config.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/set_config__builder.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/set_config__struct.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/set_config__traits.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/get_metadata.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_metadata__builder.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_metadata__struct.hpp', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/srv/detail/get_metadata__traits.hpp']
+[2.479s] make[2]: *** [CMakeFiles/ouster_msgs__cpp.dir/build.make:147: rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp] Error 1
+[2.479s] make[2]: *** Deleting file 'rosidl_generator_cpp/ouster_msgs/msg/packet_msg.hpp'
+[2.479s] make[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/ouster_msgs__cpp.dir/all] Error 2
+[2.479s] make[1]: *** Waiting for unfinished jobs....
+[2.581s] ['/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/msg/packet_msg.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__functions.c', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__functions.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__struct.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__type_support.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/get_config.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_config__functions.c', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_config__functions.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_config__struct.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_config__type_support.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/set_config.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/set_config__functions.c', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/set_config__functions.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/set_config__struct.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/set_config__type_support.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/get_metadata.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_metadata__functions.c', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_metadata__functions.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_metadata__struct.h', '/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/srv/detail/get_metadata__type_support.h']
+[2.614s] make[2]: *** [CMakeFiles/ouster_msgs__rosidl_generator_c.dir/build.make:122: rosidl_generator_c/ouster_msgs/msg/packet_msg.h] Error 1
+[2.614s] make[2]: *** Deleting file 'rosidl_generator_c/ouster_msgs/msg/packet_msg.h'
+[2.614s] make[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/ouster_msgs__rosidl_generator_c.dir/all] Error 2
+[2.614s] make: *** [Makefile:146: all] Error 2
+[2.617s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6

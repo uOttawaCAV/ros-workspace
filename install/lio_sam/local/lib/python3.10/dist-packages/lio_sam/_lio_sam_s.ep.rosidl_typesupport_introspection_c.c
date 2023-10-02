@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c

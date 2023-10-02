@@ -57,6 +57,24 @@ void * get_function__CloudInfo__start_ring_index(void * untyped_member, size_t i
   return &member[index];
 }
 
+void fetch_function__CloudInfo__start_ring_index(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const int32_t *>(
+    get_const_function__CloudInfo__start_ring_index(untyped_member, index));
+  auto & value = *reinterpret_cast<int32_t *>(untyped_value);
+  value = item;
+}
+
+void assign_function__CloudInfo__start_ring_index(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<int32_t *>(
+    get_function__CloudInfo__start_ring_index(untyped_member, index));
+  const auto & value = *reinterpret_cast<const int32_t *>(untyped_value);
+  item = value;
+}
+
 void resize_function__CloudInfo__start_ring_index(void * untyped_member, size_t size)
 {
   auto * member =
@@ -82,6 +100,24 @@ void * get_function__CloudInfo__end_ring_index(void * untyped_member, size_t ind
   auto & member =
     *reinterpret_cast<std::vector<int32_t> *>(untyped_member);
   return &member[index];
+}
+
+void fetch_function__CloudInfo__end_ring_index(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const int32_t *>(
+    get_const_function__CloudInfo__end_ring_index(untyped_member, index));
+  auto & value = *reinterpret_cast<int32_t *>(untyped_value);
+  value = item;
+}
+
+void assign_function__CloudInfo__end_ring_index(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<int32_t *>(
+    get_function__CloudInfo__end_ring_index(untyped_member, index));
+  const auto & value = *reinterpret_cast<const int32_t *>(untyped_value);
+  item = value;
 }
 
 void resize_function__CloudInfo__end_ring_index(void * untyped_member, size_t size)
@@ -111,6 +147,24 @@ void * get_function__CloudInfo__point_col_ind(void * untyped_member, size_t inde
   return &member[index];
 }
 
+void fetch_function__CloudInfo__point_col_ind(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const int32_t *>(
+    get_const_function__CloudInfo__point_col_ind(untyped_member, index));
+  auto & value = *reinterpret_cast<int32_t *>(untyped_value);
+  value = item;
+}
+
+void assign_function__CloudInfo__point_col_ind(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<int32_t *>(
+    get_function__CloudInfo__point_col_ind(untyped_member, index));
+  const auto & value = *reinterpret_cast<const int32_t *>(untyped_value);
+  item = value;
+}
+
 void resize_function__CloudInfo__point_col_ind(void * untyped_member, size_t size)
 {
   auto * member =
@@ -138,6 +192,24 @@ void * get_function__CloudInfo__point_range(void * untyped_member, size_t index)
   return &member[index];
 }
 
+void fetch_function__CloudInfo__point_range(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const float *>(
+    get_const_function__CloudInfo__point_range(untyped_member, index));
+  auto & value = *reinterpret_cast<float *>(untyped_value);
+  value = item;
+}
+
+void assign_function__CloudInfo__point_range(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<float *>(
+    get_function__CloudInfo__point_range(untyped_member, index));
+  const auto & value = *reinterpret_cast<const float *>(untyped_value);
+  item = value;
+}
+
 void resize_function__CloudInfo__point_range(void * untyped_member, size_t size)
 {
   auto * member =
@@ -159,6 +231,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -174,6 +248,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     size_function__CloudInfo__start_ring_index,  // size() function pointer
     get_const_function__CloudInfo__start_ring_index,  // get_const(index) function pointer
     get_function__CloudInfo__start_ring_index,  // get(index) function pointer
+    fetch_function__CloudInfo__start_ring_index,  // fetch(index, &value) function pointer
+    assign_function__CloudInfo__start_ring_index,  // assign(index, value) function pointer
     resize_function__CloudInfo__start_ring_index  // resize(index) function pointer
   },
   {
@@ -189,6 +265,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     size_function__CloudInfo__end_ring_index,  // size() function pointer
     get_const_function__CloudInfo__end_ring_index,  // get_const(index) function pointer
     get_function__CloudInfo__end_ring_index,  // get(index) function pointer
+    fetch_function__CloudInfo__end_ring_index,  // fetch(index, &value) function pointer
+    assign_function__CloudInfo__end_ring_index,  // assign(index, value) function pointer
     resize_function__CloudInfo__end_ring_index  // resize(index) function pointer
   },
   {
@@ -204,6 +282,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     size_function__CloudInfo__point_col_ind,  // size() function pointer
     get_const_function__CloudInfo__point_col_ind,  // get_const(index) function pointer
     get_function__CloudInfo__point_col_ind,  // get(index) function pointer
+    fetch_function__CloudInfo__point_col_ind,  // fetch(index, &value) function pointer
+    assign_function__CloudInfo__point_col_ind,  // assign(index, value) function pointer
     resize_function__CloudInfo__point_col_ind  // resize(index) function pointer
   },
   {
@@ -219,6 +299,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     size_function__CloudInfo__point_range,  // size() function pointer
     get_const_function__CloudInfo__point_range,  // get_const(index) function pointer
     get_function__CloudInfo__point_range,  // get(index) function pointer
+    fetch_function__CloudInfo__point_range,  // fetch(index, &value) function pointer
+    assign_function__CloudInfo__point_range,  // assign(index, value) function pointer
     resize_function__CloudInfo__point_range  // resize(index) function pointer
   },
   {
@@ -234,6 +316,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -249,6 +333,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -264,6 +350,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -279,6 +367,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -294,6 +384,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -309,6 +401,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -324,6 +418,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -339,6 +435,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -354,6 +452,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -369,6 +469,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -384,6 +486,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -399,6 +503,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -414,6 +520,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -429,6 +537,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CloudInfo_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };

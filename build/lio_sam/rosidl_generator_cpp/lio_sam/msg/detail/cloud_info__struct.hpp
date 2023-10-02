@@ -5,13 +5,14 @@
 #ifndef LIO_SAM__MSG__DETAIL__CLOUD_INFO__STRUCT_HPP_
 #define LIO_SAM__MSG__DETAIL__CLOUD_INFO__STRUCT_HPP_
 
-#include <rosidl_runtime_cpp/bounded_vector.hpp>
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 // Include directives for member types
@@ -91,16 +92,16 @@ struct CloudInfo_
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
   using _start_ring_index_type =
-    std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other>;
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
   _start_ring_index_type start_ring_index;
   using _end_ring_index_type =
-    std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other>;
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
   _end_ring_index_type end_ring_index;
   using _point_col_ind_type =
-    std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other>;
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
   _point_col_ind_type point_col_ind;
   using _point_range_type =
-    std::vector<float, typename ContainerAllocator::template rebind<float>::other>;
+    std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>>;
   _point_range_type point_range;
   using _imu_available_type =
     int64_t;
@@ -153,25 +154,25 @@ struct CloudInfo_
     return *this;
   }
   Type & set__start_ring_index(
-    const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
     this->start_ring_index = _arg;
     return *this;
   }
   Type & set__end_ring_index(
-    const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
     this->end_ring_index = _arg;
     return *this;
   }
   Type & set__point_col_ind(
-    const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
     this->point_col_ind = _arg;
     return *this;
   }
   Type & set__point_range(
-    const std::vector<float, typename ContainerAllocator::template rebind<float>::other> & _arg)
+    const std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> & _arg)
   {
     this->point_range = _arg;
     return *this;

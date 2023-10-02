@@ -8,6 +8,8 @@
 # Member 'buf'
 import array  # noqa: E402, I100
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -111,7 +113,7 @@ class PacketMsg(metaclass=Metaclass_PacketMsg):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def buf(self):
         """Message field 'buf'."""
         return self._buf

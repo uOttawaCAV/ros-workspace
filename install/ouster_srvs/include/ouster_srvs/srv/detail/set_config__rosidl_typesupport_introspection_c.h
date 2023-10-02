@@ -1,1 +1,0 @@
-/home/uocav/ros-workspace/build/ouster_srvs/rosidl_typesupport_introspection_c/ouster_srvs/srv/detail/set_config__rosidl_typesupport_introspection_c.h

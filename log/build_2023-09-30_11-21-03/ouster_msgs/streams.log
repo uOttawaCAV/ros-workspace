@@ -1,0 +1,36 @@
+[0.271s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_msgs
+[0.293s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.440s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.463s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.801s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.243s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.263s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.263s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.294s] -- Configuring done
+[1.327s] -- Generating done
+[1.330s] -- Build files have been written to: /home/uocav/ros-workspace/build/ouster_msgs
+[1.342s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_msgs
+[1.343s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[1.385s] failed to create symbolic link '/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_python/ouster_msgs/ouster_msgs' because existing path cannot be removed: Is a directory
+[1.386s] [35m[1mConsolidate compiler generated dependencies of target ouster_msgs__rosidl_generator_c[0m
+[1.386s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ouster_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ouster_msgs] Error 1
+[1.387s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ouster_msgs.dir/all] Error 2
+[1.387s] gmake[1]: *** Waiting for unfinished jobs....
+[1.392s] [  1%] Built target ouster_msgs__cpp
+[1.398s] [  5%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/srv/detail/get_config__functions.c.o[0m
+[1.398s] [  5%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__functions.c.o[0m
+[1.403s] [  7%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/srv/detail/get_metadata__functions.c.o[0m
+[1.405s] [  9%] [32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/srv/detail/set_config__functions.c.o[0m
+[1.621s] [ 10%] [32m[1mLinking C shared library libouster_msgs__rosidl_generator_c.so[0m
+[1.764s] [ 12%] Built target ouster_msgs__rosidl_generator_c
+[1.765s] gmake: *** [Makefile:146: all] Error 2
+[1.780s] Invoked command in '/home/uocav/ros-workspace/build/ouster_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6

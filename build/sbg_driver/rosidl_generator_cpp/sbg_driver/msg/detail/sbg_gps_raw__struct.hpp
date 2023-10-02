@@ -5,13 +5,14 @@
 #ifndef SBG_DRIVER__MSG__DETAIL__SBG_GPS_RAW__STRUCT_HPP_
 #define SBG_DRIVER__MSG__DETAIL__SBG_GPS_RAW__STRUCT_HPP_
 
-#include <rosidl_runtime_cpp/bounded_vector.hpp>
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 // Include directives for member types
@@ -53,7 +54,7 @@ struct SbgGpsRaw_
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
   using _data_type =
-    std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other>;
+    std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>>;
   _data_type data;
 
   // setters for named parameter idiom
@@ -64,7 +65,7 @@ struct SbgGpsRaw_
     return *this;
   }
   Type & set__data(
-    const std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other> & _arg)
+    const std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> & _arg)
   {
     this->data = _arg;
     return *this;

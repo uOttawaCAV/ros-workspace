@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/sbg_driver/rosidl_generator_c/sbg_driver/msg/sbg_status_com.h

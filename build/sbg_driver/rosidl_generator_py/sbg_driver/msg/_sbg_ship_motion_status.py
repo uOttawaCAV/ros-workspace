@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -126,7 +128,7 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def heave_valid(self):
         """Message field 'heave_valid'."""
         return self._heave_valid
@@ -139,7 +141,7 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
                 "The 'heave_valid' field must be of type 'bool'"
         self._heave_valid = value
 
-    @property
+    @builtins.property
     def heave_vel_aided(self):
         """Message field 'heave_vel_aided'."""
         return self._heave_vel_aided
@@ -152,7 +154,7 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
                 "The 'heave_vel_aided' field must be of type 'bool'"
         self._heave_vel_aided = value
 
-    @property
+    @builtins.property
     def period_available(self):
         """Message field 'period_available'."""
         return self._period_available
@@ -165,7 +167,7 @@ class SbgShipMotionStatus(metaclass=Metaclass_SbgShipMotionStatus):
                 "The 'period_available' field must be of type 'bool'"
         self._period_available = value
 
-    @property
+    @builtins.property
     def period_valid(self):
         """Message field 'period_valid'."""
         return self._period_valid

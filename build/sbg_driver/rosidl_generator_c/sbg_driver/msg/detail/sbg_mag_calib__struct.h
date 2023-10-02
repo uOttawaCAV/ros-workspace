@@ -21,7 +21,10 @@ extern "C"
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.h"
 
-// Struct defined in msg/SbgMagCalib in the package sbg_driver.
+/// Struct defined in msg/SbgMagCalib in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgMagCalib
 {
   std_msgs__msg__Header header;

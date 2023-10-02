@@ -27,13 +27,22 @@ extern "C"
 // Member 'status'
 #include "sbg_driver/msg/detail/sbg_ekf_status__struct.h"
 
-// Struct defined in msg/SbgEkfQuat in the package sbg_driver.
+/// Struct defined in msg/SbgEkfQuat in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgEkfQuat
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up
   uint32_t time_stamp;
+  ///  Quaternion parameter (ROS order X, Y, Z, W)
+  /// The rotation definition depends on the driver NED/ENU configuration
+  /// Please read the message SbgEkfEuler for more information
   geometry_msgs__msg__Quaternion quaternion;
+  /// Angle accuracy (Roll, Pitch, Yaw (heading)) (1 sigma)
   geometry_msgs__msg__Vector3 accuracy;
+  /// Global solution status
   sbg_driver__msg__SbgEkfStatus status;
 } sbg_driver__msg__SbgEkfQuat;
 

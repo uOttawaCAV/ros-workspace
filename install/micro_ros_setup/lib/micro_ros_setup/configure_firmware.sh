@@ -1,1 +1,0 @@
-/home/uocav/ros-workspace/src/micro_ros_setup/scripts/configure_firmware.sh

@@ -34,6 +34,7 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_Header(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
@@ -57,6 +58,7 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_Quaternion(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
@@ -80,6 +82,7 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_Vector3(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
@@ -103,6 +106,7 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_SbgEkfStatus(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
@@ -220,6 +224,7 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_sbg_driver
 max_serialized_size_SbgEkfQuat(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
@@ -228,7 +233,9 @@ max_serialized_size_SbgEkfQuat(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: header
@@ -237,9 +244,13 @@ max_serialized_size_SbgEkfQuat(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Header(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -257,9 +268,13 @@ max_serialized_size_SbgEkfQuat(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Quaternion(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -269,9 +284,13 @@ max_serialized_size_SbgEkfQuat(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Vector3(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -281,9 +300,13 @@ max_serialized_size_SbgEkfQuat(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         sbg_driver::msg::typesupport_fastrtps_cpp::max_serialized_size_SbgEkfStatus(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -319,9 +342,18 @@ static uint32_t _SbgEkfQuat__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _SbgEkfQuat__max_serialized_size(bool & full_bounded)
+static size_t _SbgEkfQuat__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_SbgEkfQuat(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_SbgEkfQuat(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _SbgEkfQuat__callbacks = {

@@ -8,6 +8,8 @@
 # Member 'data'
 import array  # noqa: E402, I100
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -122,7 +124,7 @@ class SbgGpsRaw(metaclass=Metaclass_SbgGpsRaw):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -136,7 +138,7 @@ class SbgGpsRaw(metaclass=Metaclass_SbgGpsRaw):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def data(self):
         """Message field 'data'."""
         return self._data

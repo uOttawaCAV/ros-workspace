@@ -26,13 +26,40 @@ extern "C"
 // Member 'status'
 #include "sbg_driver/msg/detail/sbg_mag_status__struct.h"
 
-// Struct defined in msg/SbgMag in the package sbg_driver.
+/// Struct defined in msg/SbgMag in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgMag
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up (us)
   uint32_t time_stamp;
+  /// Magnetometer output
+  ///
+  /// NED convention:
+  ///   x: X axis of the device frame
+  ///   y: Y axis of the device frame
+  ///   z: Z axis of the device frame
+  ///
+  /// ENU convention:
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
+  ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 mag;
+  /// Accelerometer output
+  ///
+  /// NED convention:
+  ///   x: X axis of the device frame
+  ///   y: Y axis of the device frame
+  ///   z: Z axis of the device frame
+  ///
+  /// ENU convention:
+  ///   x: X axis of the device frame
+  ///   y: -Y axis of the device frame
+  ///   z: -Z axis of the device frame
   geometry_msgs__msg__Vector3 accel;
+  /// Status
   sbg_driver__msg__SbgMagStatus status;
 } sbg_driver__msg__SbgMag;
 

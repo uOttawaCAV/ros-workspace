@@ -5,6 +5,13 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/ouster_msgs/msg/__init__.py"
   "../rosidl_generator_py/ouster_msgs/msg/_packet_msg.py"
   "../rosidl_generator_py/ouster_msgs/msg/_packet_msg_s.c"
+  "../rosidl_generator_py/ouster_msgs/srv/__init__.py"
+  "../rosidl_generator_py/ouster_msgs/srv/_get_config.py"
+  "../rosidl_generator_py/ouster_msgs/srv/_get_config_s.c"
+  "../rosidl_generator_py/ouster_msgs/srv/_get_metadata.py"
+  "../rosidl_generator_py/ouster_msgs/srv/_get_metadata_s.c"
+  "../rosidl_generator_py/ouster_msgs/srv/_set_config.py"
+  "../rosidl_generator_py/ouster_msgs/srv/_set_config_s.c"
   "CMakeFiles/ouster_msgs__py"
 )
 

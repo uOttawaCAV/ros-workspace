@@ -1,36 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/buffered_udp_source.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/client.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/image_processing.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/logging.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/netcompat.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_http.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_http_imp.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_tcp_imp.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp" "/home/uocav/ros-workspace/build/ouster_ros/ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "EIGEN_MPL2_ONLY"
-  "SPDLOG_COMPILED_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include"
-  "ouster_example/generated"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
-  "/usr/include/eigen3"
-  "/usr/include/jsoncpp"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/buffered_udp_source.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/client.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/image_processing.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/logging.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/netcompat.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_http.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_http_imp.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/sensor_tcp_imp.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o.d"
+  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/types.cpp" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o" "gcc" "ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o.d"
   )
 
 # Targets to which this target links.

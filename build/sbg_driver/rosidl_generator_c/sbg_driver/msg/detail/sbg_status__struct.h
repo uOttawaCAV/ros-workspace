@@ -27,13 +27,20 @@ extern "C"
 // Member 'status_aiding'
 #include "sbg_driver/msg/detail/sbg_status_aiding__struct.h"
 
-// Struct defined in msg/SbgStatus in the package sbg_driver.
+/// Struct defined in msg/SbgStatus in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgStatus
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up (in us)
   uint32_t time_stamp;
+  /// General status bitmask and enums
   sbg_driver__msg__SbgStatusGeneral status_general;
+  /// Communication status bitmask and enums.
   sbg_driver__msg__SbgStatusCom status_com;
+  /// Aiding equipments status bitmask and enums.
   sbg_driver__msg__SbgStatusAiding status_aiding;
 } sbg_driver__msg__SbgStatus;
 

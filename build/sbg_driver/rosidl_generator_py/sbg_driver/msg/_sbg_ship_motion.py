@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -161,7 +163,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -175,7 +177,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -190,7 +192,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def heave_period(self):
         """Message field 'heave_period'."""
         return self._heave_period
@@ -205,7 +207,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'heave_period' field must be an unsigned integer in [0, 65535]"
         self._heave_period = value
 
-    @property
+    @builtins.property
     def ship_motion(self):
         """Message field 'ship_motion'."""
         return self._ship_motion
@@ -219,7 +221,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'ship_motion' field must be a sub message of type 'Vector3'"
         self._ship_motion = value
 
-    @property
+    @builtins.property
     def acceleration(self):
         """Message field 'acceleration'."""
         return self._acceleration
@@ -233,7 +235,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'acceleration' field must be a sub message of type 'Vector3'"
         self._acceleration = value
 
-    @property
+    @builtins.property
     def velocity(self):
         """Message field 'velocity'."""
         return self._velocity
@@ -247,7 +249,7 @@ class SbgShipMotion(metaclass=Metaclass_SbgShipMotion):
                 "The 'velocity' field must be a sub message of type 'Vector3'"
         self._velocity = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status

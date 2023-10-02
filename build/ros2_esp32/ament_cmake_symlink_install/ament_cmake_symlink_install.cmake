@@ -322,14 +322,14 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FIL
 # install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_esp32" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_esp32/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros2_esp32/environment")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros2_esp32/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ros2_esp32" FILES "/home/uocav/ros-workspace/build/ros2_esp32/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros2_esp32/environment")

@@ -30,27 +30,38 @@ extern "C"
 // Member 'cloud_surface'
 #include "sensor_msgs/msg/detail/point_cloud2__struct.h"
 
-// Struct defined in msg/CloudInfo in the package lio_sam.
+/// Struct defined in msg/CloudInfo in the package lio_sam.
+/**
+  * Cloud Info
+ */
 typedef struct lio_sam__msg__CloudInfo
 {
   std_msgs__msg__Header header;
   rosidl_runtime_c__int32__Sequence start_ring_index;
   rosidl_runtime_c__int32__Sequence end_ring_index;
+  /// point column index in range image
   rosidl_runtime_c__int32__Sequence point_col_ind;
+  /// point range
   rosidl_runtime_c__float__Sequence point_range;
   int64_t imu_available;
   int64_t odom_available;
+  /// Attitude for LOAM initialization
   float imu_roll_init;
   float imu_pitch_init;
   float imu_yaw_init;
+  /// Initial guess from imu pre-integration
   float initial_guess_x;
   float initial_guess_y;
   float initial_guess_z;
   float initial_guess_roll;
   float initial_guess_pitch;
   float initial_guess_yaw;
+  /// Point cloud messages
+  /// original cloud deskewed
   sensor_msgs__msg__PointCloud2 cloud_deskewed;
+  /// extracted corner feature
   sensor_msgs__msg__PointCloud2 cloud_corner;
+  /// extracted surface feature
   sensor_msgs__msg__PointCloud2 cloud_surface;
 } lio_sam__msg__CloudInfo;
 

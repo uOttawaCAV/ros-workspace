@@ -1,0 +1,1199 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/uocav/ros-workspace/build/sbg_driver
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDepth.c.o[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDebug.c.o[0m
+[  0%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogAirData.c.o[0m
+[  0%] Built target ament_cmake_python_symlink_sbg_driver
+[  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDiag.c.o[0m
+[  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogDvl.c.o[0m
+[  1%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEkf.c.o[0m
+[  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogEvent.c.o[0m
+[  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogGps.c.o[0m
+[  2%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImu.c.o[0m
+running egg_info
+creating sbg_driver.egg-info
+writing sbg_driver.egg-info/PKG-INFO
+writing dependency_links to sbg_driver.egg-info/dependency_links.txt
+writing top-level names to sbg_driver.egg-info/top_level.txt
+writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+reading manifest file 'sbg_driver.egg-info/SOURCES.txt'
+writing manifest file 'sbg_driver.egg-info/SOURCES.txt'
+[  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogImuRaw.c.o[0m
+[  3%] Built target ament_cmake_python_build_sbg_driver_egg
+[  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogMag.c.o[0m
+[  3%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogOdometer.c.o[0m
+[  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogShipMotion.c.o[0m
+[  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogStatus.c.o[0m
+[  4%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUsbl.c.o[0m
+[  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogUtc.c.o[0m
+[  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/binaryLogs/sbgEComBinaryLogs.c.o[0m
+[  5%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmd.c.o[0m
+[  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o[0m
+[  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o[0m
+[  6%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o[0m
+[  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o[0m
+[  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o[0m
+[  7%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o[0m
+[  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o[0m
+[  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o[0m
+[  8%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o[0m
+[  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o[0m
+[  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o[0m
+[  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o[0m
+[  9%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o[0m
+[ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o[0m
+[ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o[0m
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:[m[K In function ‘[01m[KsbgEComCmdMagSetCalibData[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[Koffset[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:53:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+   53 |         [01;36m[Kassert[m[K(offset);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:44:76:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 | SbgErrorCode sbgEComCmdMagSetCalibData(SbgEComHandle *pHandle, [01;36m[Kconst float offset[3][m[K, const float matrix[9])
+      |                                                                [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[Kmatrix[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:54:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+   54 |         [01;36m[Kassert[m[K(matrix);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:44:99:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 | SbgErrorCode sbgEComCmdMagSetCalibData(SbgEComHandle *pHandle, const float offset[3], [01;36m[Kconst float matrix[9][m[K)
+      |                                                                                       [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:30[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:[m[K In function ‘[01m[KsbgEComCmdOdoGetLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kfloat *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:177:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  177 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:168:69:[m[K [01;36m[Knote: [m[Kdeclared here
+  168 | SbgErrorCode sbgEComCmdOdoGetLeverArm(SbgEComHandle *pHandle, [01;36m[Kfloat leverArm[3][m[K)
+      |                                                               [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:30[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:[m[K In function ‘[01m[KsbgEComCmdOdoSetLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:242:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  242 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:234:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  234 | SbgErrorCode sbgEComCmdOdoSetLeverArm(SbgEComHandle *pHandle, [01;36m[Kconst float leverArm[3][m[K)
+      |                                                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:[m[K In function ‘[01m[KsbgEComCmdOutputGetNmeaTalkerId[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KnmeaTalkerId[m[K’ will return size of ‘[01m[Kchar *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:714:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  714 |         [01;36m[Kassert[m[K(nmeaTalkerId);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:703:105:[m[K [01;36m[Knote: [m[Kdeclared here
+  703 | SbgErrorCode sbgEComCmdOutputGetNmeaTalkerId(SbgEComHandle *pHandle, SbgEComOutputPort outputPort, [01;36m[Kchar nmeaTalkerId[2][m[K)
+      |                                                                                                    [01;36m[K~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:[m[K In function ‘[01m[KsbgEComCmdOutputSetNmeaTalkerId[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KnmeaTalkerId[m[K’ will return size of ‘[01m[Kconst char *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:788:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  788 |         [01;36m[Kassert[m[K(nmeaTalkerId);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:780:111:[m[K [01;36m[Knote: [m[Kdeclared here
+  780 | SbgErrorCode sbgEComCmdOutputSetNmeaTalkerId(SbgEComHandle *pHandle, SbgEComOutputPort outputPort, [01;36m[Kconst char nmeaTalkerId[2][m[K)
+      |                                                                                                    [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:[m[K In function ‘[01m[KsbgEComCmdSensorGetAlignmentAndLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kfloat *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:368:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  368 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:358:124:[m[K [01;36m[Knote: [m[Kdeclared here
+  358 | SbgErrorCode sbgEComCmdSensorGetAlignmentAndLeverArm(SbgEComHandle *pHandle, SbgEComSensorAlignmentInfo *pAlignConf, [01;36m[Kfloat leverArm[3][m[K)
+      |                                                                                                                      [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:[m[K In function ‘[01m[KsbgEComCmdSensorSetAlignmentAndLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:446:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  446 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:437:136:[m[K [01;36m[Knote: [m[Kdeclared here
+  437 | SbgErrorCode sbgEComCmdSensorSetAlignmentAndLeverArm(SbgEComHandle *pHandle, const SbgEComSensorAlignmentInfo *pAlignConf, [01;36m[Kconst float leverArm[3][m[K)
+      |                                                                                                                            [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[ 10%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o[0m
+[ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/commands/transfer/sbgEComTransfer.c.o[0m
+[ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o[0m
+[ 11%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgECom.c.o[0m
+[ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o[0m
+[ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o[0m
+[ 12%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o[0m
+[ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o[0m
+[ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o[0m
+[ 13%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o[0m
+[ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o[0m
+[ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o[0m
+[ 14%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o[0m
+[ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o[0m
+[ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o[0m
+[ 15%] [32mBuilding C object external/sbgECom/CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o[0m
+[ 16%] [32m[1mLinking C static library /home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/bin/libsbgECom.a[0m
+[ 16%] Built target sbgECom
+[ 16%] Built target sbg_driver__cpp
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 16%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel_status__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_status__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos_status__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion_status__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time_status__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_air_data_status__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_euler__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_pos__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_com__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_nav__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_raw__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_odo_vel__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_general__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_quat__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_vel__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_event__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_status__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_data__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_imu_short__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ship_motion__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_utc_time__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_gps_hdt__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_mag_calib__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_status_aiding__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_c.dir/rosidl_generator_c/sbg_driver/msg/detail/sbg_ekf_status__functions.c.o[0m
+[ 25%] [32m[1mLinking C shared library libsbg_driver__rosidl_generator_c.so[0m
+[ 25%] Built target sbg_driver__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel_status__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_air_data_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.c.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_status__type_support.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_euler__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion_status__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.c.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel_status__type_support_c.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support.c.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data__type_support.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_air_data_status__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_pos__type_support.c.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag__type_support.c.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_pos__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_com__type_support.c.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_raw__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos_status__type_support_c.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_c.so[0m
+[ 46%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_odo_vel__type_support.c.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time_status__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data__type_support.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_general__type_support.c.o[0m
+[ 47%] Built target sbg_driver__rosidl_typesupport_c
+[ 47%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_vel__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_event__type_support.c.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_com__type_support.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_status__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_data__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_imu_short__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ship_motion__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_utc_time__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_status__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_mag_calib__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_nav__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_air_data_status__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_raw__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_status_aiding__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sbg_driver/msg/detail/sbg_ekf_status__type_support.c.o[0m
+[ 52%] [32m[1mLinking C shared library libsbg_driver__rosidl_typesupport_introspection_c.so[0m
+[ 52%] Built target sbg_driver__rosidl_typesupport_introspection_c
+[ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_air_data_status__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion_status__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_odo_vel__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_general__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_euler__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_euler__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_quat__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_pos__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_vel__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time_status__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_pos__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_event__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_com__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_status__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_data__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_nav__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data_status__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_imu_short__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ship_motion__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_raw__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_com__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_utc_time__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_gps_hdt__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_euler__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_odo_vel__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_mag_calib__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_general__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_status_aiding__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_nav__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_pos__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_quat__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sbg_driver/msg/sbg_ekf_status__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_vel__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_raw__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag__type_support_c.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target sbg_driver__rosidl_typesupport_cpp
+[ 66%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_com__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_event__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_status__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_data__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_nav__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_odo_vel__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_raw__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_imu_short__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ship_motion__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_odo_vel__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_general__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_utc_time__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_general__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_gps_hdt__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_mag_calib__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_quat__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_vel__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_quat__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_status_aiding__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sbg_driver/msg/detail/dds_fastrtps/sbg_ekf_status__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_event__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_status__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_vel__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_data__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_imu_short__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ship_motion__type_support_c.cpp.o[0m
+[ 76%] Built target sbg_driver__rosidl_typesupport_fastrtps_cpp
+[ 77%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_utc_time__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_event__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_status__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_gps_hdt__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_mag_calib__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_status_aiding__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_ekf_status__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_data__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_imu_short__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ship_motion__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_utc_time__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_gps_hdt__type_support.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_fastrtps_c.so[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_mag_calib__type_support.cpp.o[0m
+[ 81%] Built target sbg_driver__rosidl_typesupport_fastrtps_c
+[ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_status_aiding__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sbg_driver/msg/detail/sbg_ekf_status__type_support.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libsbg_driver__rosidl_typesupport_introspection_cpp.so[0m
+[ 82%] Built target sbg_driver__rosidl_typesupport_introspection_cpp
+[ 82%] Built target sbg_driver
+[ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_applier.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_publisher.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_wrapper.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_applier.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/message_publisher.cpp.o[0m
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:124:79:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:124:79:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[ 85%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/message_wrapper.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/config_store.cpp.o[0m
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[ 85%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/sbg_device.cpp.o[0m
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:95:62:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[ 86%] [32mBuilding CXX object CMakeFiles/sbg_device_mag.dir/src/main_mag.cpp.o[0m
+[ 86%] Built target sbg_driver__py
+[ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_status_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_status_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_air_data_status_s.c.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/config_store.cpp.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_euler_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_pos_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_com_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_nav_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_raw_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_odo_vel_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_general_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_quat_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_vel_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_event_s.c.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:12:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   12 |     RCLCPP_INFO(node_handle->get_logger[01;35m[K([m[K), "SBG DRIVER - Init node, load params and connect to the device");
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:12:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   12 |     RCLCPP_INFO(node_handle->get_logger[01;35m[K([m[K), "SBG DRIVER - Init node, load params and connect to the device");
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_data_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_imu_short_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ship_motion_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_utc_time_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_gps_hdt_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_mag_calib_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_status_aiding_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_generator_py.dir/rosidl_generator_py/sbg_driver/msg/_sbg_ekf_status_s.c.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/sbg_device.cpp.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/libsbg_driver__rosidl_generator_py.so[0m
+[ 96%] Built target sbg_driver__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:95:62:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target sbg_driver__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] Built target sbg_driver__rosidl_typesupport_introspection_c__pyext
+[ 99%] [32mBuilding C object CMakeFiles/sbg_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[ 99%] [32m[1mLinking C shared library rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 99%] Built target sbg_driver__rosidl_typesupport_c__pyext
+[100%] [32mBuilding CXX object CMakeFiles/sbg_device.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sbg_device[0m
+[100%] Built target sbg_device
+[100%] [32m[1mLinking CXX executable sbg_device_mag[0m
+[100%] Built target sbg_device_mag
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/ament_index/resource_index/rosidl_interfaces/sbg_driver
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__functions.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__type_support.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/library_path.sh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/library_path.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__builder.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__struct.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__traits.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_air_data_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_euler.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_nav.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_quat.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ekf_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_event.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_hdt.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_pos_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_raw.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_gps_vel_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_data.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_short.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_imu_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_calib.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_mag_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_odo_vel.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_ship_motion_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_aiding.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_com.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_status_general.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/sbg_utc_time_status.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_euler__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_nav__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_quat__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ekf_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_event__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_hdt__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_pos_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_raw__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_gps_vel_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_short__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_imu_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_calib__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_mag_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_odo_vel__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_ship_motion_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_aiding__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_com__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_status_general__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_driver/msg/detail/sbg_utc_time_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/pythonpath.sh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/pythonpath.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver-3.1.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/libsbg_driver__rosidl_generator_py.so
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status_s.c
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgAirData.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMag.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEvent.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuData.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.idl
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsVelStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsPosStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMagStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgShipMotionStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgUtcTimeStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgAirData.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgAirDataStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfEuler.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsPos.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMag.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusCom.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfNav.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsRaw.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgOdoVel.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusGeneral.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfQuat.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsVel.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEvent.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuData.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgImuShort.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgShipMotion.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgUtcTime.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgGpsHdt.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgMagCalib.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgStatusAiding.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/msg/SbgEkfStatus.msg
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/lib/sbg_driver/sbg_device
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/lib/sbg_driver/sbg_device_mag
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseA.launch
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseE.launch
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/examples/sbg_ellipseN.launch
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/sbg_device.launch
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/sbg_device_launch.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration.launch
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/launch/sbg_device_mag_calibration_launch.py
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/example/ellipse_A_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/example/ellipse_D_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/example/ellipse_E_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/example/ellipse_N_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/sbg_device_uart_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/config/sbg_device_udp_default.yaml
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/ament_index/resource_index/package_run_dependencies/sbg_driver
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/ament_index/resource_index/parent_prefix_path/sbg_driver
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/path.sh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/environment/path.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/local_setup.bash
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/local_setup.sh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/local_setup.zsh
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/local_setup.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/package.dsv
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/ament_index/resource_index/packages/sbg_driver
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driverConfig-version.cmake
+-- Symlinking: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/package.xml
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_generator_c.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_c.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_typesupport_cpp.so" to ""
+Listing '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/__init__.py'...
+Listing '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/__init__.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_air_data_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_euler.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_nav.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_quat.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ekf_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_event.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_hdt.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_pos_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_raw.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_gps_vel_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_data.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_short.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_imu_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_calib.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_mag_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_odo_vel.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_ship_motion_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_aiding.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_com.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_status_general.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time.py'...
+Compiling '/home/uocav/ros-workspace/install/sbg_driver/local/lib/python3.10/dist-packages/sbg_driver/msg/_sbg_utc_time_status.py'...
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so
+-- Set runtime path of "/home/uocav/ros-workspace/install/sbg_driver/lib/libsbg_driver__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/config_store.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_matrix3.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/message_wrapper.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/config_applier.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/message_publisher.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_vector3.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/include/sbg_driver/sbg_device.h
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_cppExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/sbg_driver__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport.cmake
+-- Installing: /home/uocav/ros-workspace/install/sbg_driver/share/sbg_driver/cmake/export_sbg_driver__rosidl_generator_pyExport-release.cmake

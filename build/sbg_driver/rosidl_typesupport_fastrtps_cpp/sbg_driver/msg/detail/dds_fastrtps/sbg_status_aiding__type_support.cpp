@@ -170,6 +170,7 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_sbg_driver
 max_serialized_size_SbgStatusAiding(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
@@ -178,7 +179,9 @@ max_serialized_size_SbgStatusAiding(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: gps1_pos_recv
@@ -262,9 +265,18 @@ static uint32_t _SbgStatusAiding__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _SbgStatusAiding__max_serialized_size(bool & full_bounded)
+static size_t _SbgStatusAiding__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_SbgStatusAiding(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_SbgStatusAiding(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _SbgStatusAiding__callbacks = {

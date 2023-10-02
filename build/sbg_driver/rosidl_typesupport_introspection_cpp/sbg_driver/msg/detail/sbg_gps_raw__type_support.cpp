@@ -57,6 +57,24 @@ void * get_function__SbgGpsRaw__data(void * untyped_member, size_t index)
   return &member[index];
 }
 
+void fetch_function__SbgGpsRaw__data(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const uint8_t *>(
+    get_const_function__SbgGpsRaw__data(untyped_member, index));
+  auto & value = *reinterpret_cast<uint8_t *>(untyped_value);
+  value = item;
+}
+
+void assign_function__SbgGpsRaw__data(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<uint8_t *>(
+    get_function__SbgGpsRaw__data(untyped_member, index));
+  const auto & value = *reinterpret_cast<const uint8_t *>(untyped_value);
+  item = value;
+}
+
 void resize_function__SbgGpsRaw__data(void * untyped_member, size_t size)
 {
   auto * member =
@@ -78,6 +96,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgGpsRaw_mes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -93,6 +113,8 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SbgGpsRaw_mes
     size_function__SbgGpsRaw__data,  // size() function pointer
     get_const_function__SbgGpsRaw__data,  // get_const(index) function pointer
     get_function__SbgGpsRaw__data,  // get(index) function pointer
+    fetch_function__SbgGpsRaw__data,  // fetch(index, &value) function pointer
+    assign_function__SbgGpsRaw__data,  // assign(index, value) function pointer
     resize_function__SbgGpsRaw__data  // resize(index) function pointer
   }
 };

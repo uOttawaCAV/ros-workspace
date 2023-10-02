@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -161,7 +165,7 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -175,7 +179,7 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -190,7 +194,7 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -205,7 +209,7 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
                 "The 'status' field must be an unsigned integer in [0, 65535]"
         self._status = value
 
-    @property
+    @builtins.property
     def tow(self):
         """Message field 'tow'."""
         return self._tow
@@ -220,7 +224,7 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
                 "The 'tow' field must be an unsigned integer in [0, 4294967295]"
         self._tow = value
 
-    @property
+    @builtins.property
     def true_heading(self):
         """Message field 'true_heading'."""
         return self._true_heading
@@ -231,9 +235,11 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert \
                 isinstance(value, float), \
                 "The 'true_heading' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'true_heading' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._true_heading = value
 
-    @property
+    @builtins.property
     def true_heading_acc(self):
         """Message field 'true_heading_acc'."""
         return self._true_heading_acc
@@ -244,9 +250,11 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert \
                 isinstance(value, float), \
                 "The 'true_heading_acc' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'true_heading_acc' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._true_heading_acc = value
 
-    @property
+    @builtins.property
     def pitch(self):
         """Message field 'pitch'."""
         return self._pitch
@@ -257,9 +265,11 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert \
                 isinstance(value, float), \
                 "The 'pitch' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'pitch' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._pitch = value
 
-    @property
+    @builtins.property
     def pitch_acc(self):
         """Message field 'pitch_acc'."""
         return self._pitch_acc
@@ -270,9 +280,11 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert \
                 isinstance(value, float), \
                 "The 'pitch_acc' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'pitch_acc' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._pitch_acc = value
 
-    @property
+    @builtins.property
     def baseline(self):
         """Message field 'baseline'."""
         return self._baseline
@@ -283,4 +295,6 @@ class SbgGpsHdt(metaclass=Metaclass_SbgGpsHdt):
             assert \
                 isinstance(value, float), \
                 "The 'baseline' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'baseline' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._baseline = value

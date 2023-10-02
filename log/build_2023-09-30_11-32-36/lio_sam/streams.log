@@ -1,0 +1,870 @@
+[0.267s] Invoking command in '/home/uocav/ros-workspace/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam
+[0.340s] -- The C compiler identification is GNU 11.4.0
+[0.400s] -- The CXX compiler identification is GNU 11.4.0
+[0.405s] -- Detecting C compiler ABI info
+[0.464s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.472s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.474s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.735s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.785s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.833s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.841s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.978s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.983s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.063s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.099s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.154s] -- Looking for pthread.h
+[1.212s] -- Looking for pthread.h - found
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.272s] -- Found Threads: TRUE  
+[1.419s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[1.420s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.559s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.635s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.743s] -- Found pcl_msgs: 1.0.0 (/opt/ros/humble/share/pcl_msgs/cmake)
+[1.818s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[1.828s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.835s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.843s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.845s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.154s] -- Found tf2_sensor_msgs: 0.25.4 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[2.173s] -- Found tf2_eigen: 0.25.4 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.180s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.193s] -- Checking for module 'eigen3'
+[2.207s] --   Found eigen3, version 3.4.0
+[2.244s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.245s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.292s] -- Found Boost: /usr/include (found suitable version "1.74.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.315s] -- Checking for module 'flann'
+[2.335s] --   Found flann, version 1.9.1
+[2.382s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.410s] -- The imported target "vtkParseOGLExt" references the file
+[2.411s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.411s] but this file does not exist.  Possible reasons include:
+[2.411s] * The file was deleted, renamed, or moved to another location.
+[2.411s] * An install or uninstall procedure did not complete successfully.
+[2.411s] * The installation package was faulty and contained
+[2.411s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.412s] but not all the files it references.
+[2.412s] 
+[2.412s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.412s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.412s] but this file does not exist.  Possible reasons include:
+[2.412s] * The file was deleted, renamed, or moved to another location.
+[2.412s] * An install or uninstall procedure did not complete successfully.
+[2.412s] * The installation package was faulty and contained
+[2.413s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.413s] but not all the files it references.
+[2.413s] 
+[2.413s] -- The imported target "vtk" references the file
+[2.413s]    "/usr/bin/vtk"
+[2.413s] but this file does not exist.  Possible reasons include:
+[2.413s] * The file was deleted, renamed, or moved to another location.
+[2.413s] * An install or uninstall procedure did not complete successfully.
+[2.413s] * The installation package was faulty and contained
+[2.413s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.413s] but not all the files it references.
+[2.413s] 
+[2.413s] -- The imported target "pvtk" references the file
+[2.413s]    "/usr/bin/pvtk"
+[2.413s] but this file does not exist.  Possible reasons include:
+[2.413s] * The file was deleted, renamed, or moved to another location.
+[2.413s] * An install or uninstall procedure did not complete successfully.
+[2.413s] * The installation package was faulty and contained
+[2.414s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.414s] but not all the files it references.
+[2.414s] 
+[2.432s] -- Checking for module 'libusb-1.0'
+[2.448s] --   Found libusb-1.0, version 1.0.25
+[2.495s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.495s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.496s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.496s]   problems in calling code that expects `find_package` result variables
+[2.496s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.496s] Call Stack (most recent call first):
+[2.496s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.496s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.496s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.496s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.497s]   CMakeLists.txt:28 (find_package)
+[2.497s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.497s] [0m
+[2.497s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.559s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.559s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.564s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.564s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.564s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[2.564s]   problems in calling code that expects `find_package` result variables
+[2.564s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.564s] Call Stack (most recent call first):
+[2.564s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[2.564s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[2.564s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[2.565s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.565s]   CMakeLists.txt:28 (find_package)
+[2.565s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.565s] [0m
+[2.627s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so  
+[2.627s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+[2.628s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.628s] [0m** WARNING ** io features related to png will be disabled[0m
+[2.653s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.654s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[2.654s]   does not match the name of the calling package (PCL).  This can lead to
+[2.654s]   problems in calling code that expects `find_package` result variables
+[2.654s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.654s] Call Stack (most recent call first):
+[2.654s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[2.654s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[2.655s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.655s]   CMakeLists.txt:28 (find_package)
+[2.655s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.655s] [0m
+[2.655s] [0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[2.655s] -- Found libusb-1.0: /usr/include  
+[2.661s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.661s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.661s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.661s]   problems in calling code that expects `find_package` result variables
+[2.662s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.662s] Call Stack (most recent call first):
+[2.662s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.662s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.662s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.662s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.662s]   CMakeLists.txt:28 (find_package)
+[2.662s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.662s] [0m
+[2.663s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.669s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.669s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.670s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[2.670s]   problems in calling code that expects `find_package` result variables
+[2.670s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.670s] Call Stack (most recent call first):
+[2.670s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[2.670s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[2.670s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[2.670s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.670s]   CMakeLists.txt:28 (find_package)
+[2.670s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.670s] [0m
+[2.671s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+[2.698s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.698s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.703s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.703s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.703s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.703s]   problems in calling code that expects `find_package` result variables
+[2.703s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.703s] Call Stack (most recent call first):
+[2.703s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.703s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.704s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.704s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.704s]   CMakeLists.txt:28 (find_package)
+[2.704s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.704s] [0m
+[2.704s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.712s] -- looking for PCL_COMMON
+[2.713s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.714s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[2.714s]   does not match the name of the calling package (PCL).  This can lead to
+[2.714s]   problems in calling code that expects `find_package` result variables
+[2.714s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.714s] Call Stack (most recent call first):
+[2.714s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.715s]   CMakeLists.txt:28 (find_package)
+[2.715s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.715s] [0m
+[2.715s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.715s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.715s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[2.715s]   does not match the name of the calling package (PCL).  This can lead to
+[2.715s]   problems in calling code that expects `find_package` result variables
+[2.716s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.716s] Call Stack (most recent call first):
+[2.716s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.716s]   CMakeLists.txt:28 (find_package)
+[2.716s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.716s] [0m
+[2.716s] -- looking for PCL_KDTREE
+[2.716s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.716s] -- looking for PCL_OCTREE
+[2.717s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.717s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[2.717s]   does not match the name of the calling package (PCL).  This can lead to
+[2.717s]   problems in calling code that expects `find_package` result variables
+[2.717s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.717s] Call Stack (most recent call first):
+[2.717s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.717s]   CMakeLists.txt:28 (find_package)
+[2.717s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.718s] [0m
+[2.718s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.718s] -- looking for PCL_SEARCH
+[2.718s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.718s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[2.718s]   does not match the name of the calling package (PCL).  This can lead to
+[2.718s]   problems in calling code that expects `find_package` result variables
+[2.719s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.719s] Call Stack (most recent call first):
+[2.719s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.719s]   CMakeLists.txt:28 (find_package)
+[2.719s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.719s] [0m
+[2.719s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.719s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.719s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.720s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.720s]   The package name passed to `find_package_handle_standard_args`
+[2.720s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[2.720s]   (PCL).  This can lead to problems in calling code that expects
+[2.720s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[2.720s]   pattern.
+[2.720s] Call Stack (most recent call first):
+[2.720s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.720s]   CMakeLists.txt:28 (find_package)
+[2.721s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.721s] [0m
+[2.721s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.721s]   The package name passed to `find_package_handle_standard_args`
+[2.721s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[2.721s]   can lead to problems in calling code that expects `find_package` result
+[2.721s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.721s] Call Stack (most recent call first):
+[2.721s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.722s]   CMakeLists.txt:28 (find_package)
+[2.722s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.722s] [0m
+[2.722s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.722s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[2.722s]   does not match the name of the calling package (PCL).  This can lead to
+[2.722s]   problems in calling code that expects `find_package` result variables
+[2.722s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.722s] Call Stack (most recent call first):
+[2.722s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.723s]   CMakeLists.txt:28 (find_package)
+[2.723s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.723s] [0m
+[2.723s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.723s]   The package name passed to `find_package_handle_standard_args`
+[2.723s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[2.723s]   can lead to problems in calling code that expects `find_package` result
+[2.723s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.723s] Call Stack (most recent call first):
+[2.723s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.724s]   CMakeLists.txt:28 (find_package)
+[2.724s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.724s] [0m
+[2.724s] -- looking for PCL_FILTERS
+[2.724s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.724s] -- looking for PCL_2D
+[2.724s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.724s] -- looking for PCL_GEOMETRY
+[2.724s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.725s] -- looking for PCL_IO
+[2.725s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.725s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[2.725s]   does not match the name of the calling package (PCL).  This can lead to
+[2.725s]   problems in calling code that expects `find_package` result variables
+[2.725s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.725s] Call Stack (most recent call first):
+[2.725s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.725s]   CMakeLists.txt:28 (find_package)
+[2.726s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.726s] [0m
+[2.726s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.726s] -- looking for PCL_FEATURES
+[2.726s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.726s] -- looking for PCL_ML
+[2.726s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.726s] -- looking for PCL_SEGMENTATION
+[2.726s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.727s] -- looking for PCL_VISUALIZATION
+[2.727s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.727s]   The package name passed to `find_package_handle_standard_args`
+[2.727s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[2.727s]   can lead to problems in calling code that expects `find_package` result
+[2.727s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.727s] Call Stack (most recent call first):
+[2.727s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.727s]   CMakeLists.txt:28 (find_package)
+[2.728s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.728s] [0m
+[2.728s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.728s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[2.728s]   does not match the name of the calling package (PCL).  This can lead to
+[2.728s]   problems in calling code that expects `find_package` result variables
+[2.728s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.728s] Call Stack (most recent call first):
+[2.728s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.728s]   CMakeLists.txt:28 (find_package)
+[2.729s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.729s] [0m
+[2.729s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.729s]   The package name passed to `find_package_handle_standard_args`
+[2.729s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[2.729s]   This can lead to problems in calling code that expects `find_package`
+[2.729s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.729s] Call Stack (most recent call first):
+[2.729s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.730s]   CMakeLists.txt:28 (find_package)
+[2.730s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.730s] [0m
+[2.730s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.730s]   The package name passed to `find_package_handle_standard_args`
+[2.730s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[2.730s]   This can lead to problems in calling code that expects `find_package`
+[2.730s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.730s] Call Stack (most recent call first):
+[2.731s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.731s]   CMakeLists.txt:28 (find_package)
+[2.731s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.731s] [0m
+[2.731s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.731s]   The package name passed to `find_package_handle_standard_args`
+[2.731s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[2.731s]   can lead to problems in calling code that expects `find_package` result
+[2.731s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.732s] Call Stack (most recent call first):
+[2.732s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.732s]   CMakeLists.txt:28 (find_package)
+[2.732s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.732s] [0m
+[2.732s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.732s] -- looking for PCL_SURFACE
+[2.732s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.732s] -- looking for PCL_REGISTRATION
+[2.733s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.733s] -- looking for PCL_KEYPOINTS
+[2.733s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.733s]   The package name passed to `find_package_handle_standard_args`
+[2.733s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[2.733s]   This can lead to problems in calling code that expects `find_package`
+[2.733s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.733s] Call Stack (most recent call first):
+[2.734s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.734s]   CMakeLists.txt:28 (find_package)
+[2.734s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.734s] [0m
+[2.734s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.734s]   The package name passed to `find_package_handle_standard_args`
+[2.734s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[2.734s]   can lead to problems in calling code that expects `find_package` result
+[2.734s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.734s] Call Stack (most recent call first):
+[2.735s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.735s]   CMakeLists.txt:28 (find_package)
+[2.735s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.735s] [0m
+[2.735s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.735s]   The package name passed to `find_package_handle_standard_args`
+[2.735s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[2.735s]   can lead to problems in calling code that expects `find_package` result
+[2.735s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.735s] Call Stack (most recent call first):
+[2.736s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.736s]   CMakeLists.txt:28 (find_package)
+[2.736s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.736s] [0m
+[2.736s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.736s]   The package name passed to `find_package_handle_standard_args`
+[2.736s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[2.736s]   This can lead to problems in calling code that expects `find_package`
+[2.736s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.737s] Call Stack (most recent call first):
+[2.737s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.737s]   CMakeLists.txt:28 (find_package)
+[2.737s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.737s] [0m
+[2.737s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.737s] -- looking for PCL_TRACKING
+[2.738s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.738s] -- looking for PCL_RECOGNITION
+[2.738s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.738s] -- looking for PCL_STEREO
+[2.738s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.738s] -- looking for PCL_APPS
+[2.738s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.738s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[2.738s]   does not match the name of the calling package (PCL).  This can lead to
+[2.739s]   problems in calling code that expects `find_package` result variables
+[2.739s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.739s] Call Stack (most recent call first):
+[2.739s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.739s]   CMakeLists.txt:28 (find_package)
+[2.739s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.739s] [0m
+[2.739s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.740s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[2.740s]   does not match the name of the calling package (PCL).  This can lead to
+[2.740s]   problems in calling code that expects `find_package` result variables
+[2.740s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.740s] Call Stack (most recent call first):
+[2.740s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.740s]   CMakeLists.txt:28 (find_package)
+[2.740s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.741s] [0m
+[2.741s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.741s]   The package name passed to `find_package_handle_standard_args`
+[2.741s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[2.741s]   This can lead to problems in calling code that expects `find_package`
+[2.741s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.741s] Call Stack (most recent call first):
+[2.741s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.742s]   CMakeLists.txt:28 (find_package)
+[2.742s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.742s] [0m
+[2.742s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.742s]   The package name passed to `find_package_handle_standard_args`
+[2.742s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[2.742s]   (PCL).  This can lead to problems in calling code that expects
+[2.743s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[2.743s]   pattern.
+[2.743s] Call Stack (most recent call first):
+[2.743s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.743s]   CMakeLists.txt:28 (find_package)
+[2.743s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.743s] [0m
+[2.743s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.744s] -- looking for PCL_IN_HAND_SCANNER
+[2.744s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.744s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.744s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.744s] -- looking for PCL_OUTOFCORE
+[2.744s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.744s]   The package name passed to `find_package_handle_standard_args`
+[2.744s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[2.745s]   can lead to problems in calling code that expects `find_package` result
+[2.745s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.745s] Call Stack (most recent call first):
+[2.745s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.745s]   CMakeLists.txt:28 (find_package)
+[2.745s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.745s] [0m
+[2.745s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.746s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[2.746s]   does not match the name of the calling package (PCL).  This can lead to
+[2.746s]   problems in calling code that expects `find_package` result variables
+[2.746s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.746s] Call Stack (most recent call first):
+[2.746s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.746s]   CMakeLists.txt:28 (find_package)
+[2.747s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.747s] [0m
+[2.747s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.747s] -- looking for PCL_PEOPLE
+[2.747s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.747s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.773s] -- Found Boost: /usr/include (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[2.774s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[2.783s] -- Found Eigen: /usr/include/eigen3  
+[2.783s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.044s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.166s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.166s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.682s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.877s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.880s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.932s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.932s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.932s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.932s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.974s] -- Found PythonExtra: .so  
+[5.313s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.330s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.333s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.336s] -- Configured cppcheck include dirs: /home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam
+[5.336s] -- Configured cppcheck exclude dirs and/or files: 
+[5.339s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.339s] -- Configured cpplint exclude dirs and/or files: 
+[5.339s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.340s] -- Added test 'lint_cmake' to check CMake code style
+[5.341s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.343s] -- Added test 'uncrustify' to check C / C++ code style
+[5.344s] -- Configured uncrustify additional arguments: 
+[5.344s] -- Added test 'xmllint' to check XML markup files
+[5.347s] -- Configuring done
+[5.488s] -- Generating done
+[5.491s] -- Build files have been written to: /home/uocav/ros-workspace/build/lio_sam
+[5.510s] Invoked command in '/home/uocav/ros-workspace/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/LIO-SAM -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/lio_sam
+[5.512s] Invoking command in '/home/uocav/ros-workspace/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/lio_sam -- -j6 -l6
+[5.574s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.593s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.593s] [  4%] Built target ament_cmake_python_symlink_lio_sam
+[5.825s] running egg_info
+[5.825s] creating lio_sam.egg-info
+[5.825s] writing lio_sam.egg-info/PKG-INFO
+[5.826s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[5.826s] writing top-level names to lio_sam.egg-info/top_level.txt
+[5.827s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.828s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.828s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.862s] [  4%] Built target ament_cmake_python_build_lio_sam_egg
+[5.948s] [  4%] Built target lio_sam__cpp
+[5.953s] [  8%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[5.953s] [  8%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[5.958s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.958s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.959s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.071s] [ 17%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[6.110s] [ 17%] Built target lio_sam__rosidl_generator_c
+[6.119s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.120s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.123s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.281s] [ 25%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[6.318s] [ 27%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[6.350s] [ 29%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[6.448s] [ 31%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[6.480s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[6.511s] [ 36%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[6.511s] [ 38%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[6.514s] [ 40%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[6.532s] [ 42%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[6.552s] [ 42%] Built target lio_sam__rosidl_typesupport_c
+[6.570s] [ 44%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[6.584s] [ 46%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[6.624s] [ 48%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[6.653s] [ 48%] Built target lio_sam__rosidl_typesupport_introspection_c
+[6.661s] [ 51%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[6.780s] [ 53%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[6.818s] [ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[6.839s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[6.841s] [ 57%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[6.868s] [ 59%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[6.871s] [ 61%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[6.924s] [ 63%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[7.021s] [ 63%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[7.041s] [ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[7.062s] [ 68%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.161s] [ 68%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[7.211s] [ 70%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[7.325s] [ 70%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[7.347s] [ 70%] Built target lio_sam
+[7.366s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.017s] [ 72%] Built target lio_sam__py
+[8.036s] [ 74%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[8.039s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[8.266s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__rosidl_generator_py.so[0m
+[8.313s] [ 78%] Built target lio_sam__rosidl_generator_py
+[8.331s] [ 80%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.338s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.458s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.462s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.493s] [ 87%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[8.501s] [ 87%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[8.511s] [ 89%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[8.639s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.696s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[15.177s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.177s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.177s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.177s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.177s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.177s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.178s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.178s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.178s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.178s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.178s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.178s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.178s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:14:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.178s]    14 |     ([01;35m[Kuint16_t[m[K, ring, ring) (float, time, time)
+[15.178s]       |      [01;35m[K^~~~~~~~[m[K
+[15.179s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.179s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.179s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.179s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.179s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.179s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.179s]       |         [01;36m[K^~~~~~~~[m[K
+[15.184s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.184s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.184s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.184s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.184s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.184s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.185s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.185s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.185s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.185s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.185s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.185s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.185s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:29:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.186s]    29 |     ([01;35m[Kuint32_t[m[K, t, t) (uint16_t, reflectivity, reflectivity)
+[15.186s]       |      [01;35m[K^~~~~~~~[m[K
+[15.186s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.186s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.186s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.186s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.186s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.186s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[15.187s]       |         [01;36m[K^~~~~~~~[m[K
+[15.187s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.187s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.187s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.187s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.187s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.187s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.187s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.187s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.187s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.188s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.188s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.188s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.188s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:29:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.188s]    29 |     (uint32_t, t, t) ([01;35m[Kuint16_t[m[K, reflectivity, reflectivity)
+[15.188s]       |                       [01;35m[K^~~~~~~~[m[K
+[15.188s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.188s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.188s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.188s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.189s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.189s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.189s]       |         [01;36m[K^~~~~~~~[m[K
+[15.189s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.189s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.189s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.189s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.189s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.189s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.189s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.190s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.190s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.190s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.190s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.190s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.190s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:30:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.190s]    30 |     ([01;35m[Kuint8_t[m[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[15.190s]       |      [01;35m[K^~~~~~~[m[K
+[15.190s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.190s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.191s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.191s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.191s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.191s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[15.191s]       |         [01;36m[K^~~~~~~[m[K
+[15.191s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.191s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.191s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.192s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.192s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.192s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.192s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.192s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.192s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.192s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.193s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.193s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.193s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:30:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.193s]    30 |     (uint8_t, ring, ring) ([01;35m[Kuint16_t[m[K, noise, noise) (uint32_t, range, range)
+[15.193s]       |                            [01;35m[K^~~~~~~~[m[K
+[15.193s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.193s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.193s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.193s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.193s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.194s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.194s]       |         [01;36m[K^~~~~~~~[m[K
+[15.194s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[15.194s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[15.194s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[15.194s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[15.194s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[15.194s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[15.194s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[15.194s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[15.195s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[15.195s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.195s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.195s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.195s] [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:30:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.195s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) ([01;35m[Kuint32_t[m[K, range, range)
+[15.195s]       |                                                     [01;35m[K^~~~~~~~[m[K
+[15.195s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[15.195s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[15.195s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[15.196s]                  from [01m[K/home/uocav/ros-workspace/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[15.196s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.196s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[15.196s]       |         [01;36m[K^~~~~~~~[m[K
+[35.252s] [ 93%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[35.887s] [ 93%] Built target lio_sam_featureExtraction
+[42.020s] [ 95%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[42.612s] [ 95%] Built target lio_sam_imageProjection
+[50.603s] [ 97%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[51.218s] [ 97%] Built target lio_sam_imuPreintegration
+[75.799s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[76.499s] /usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+[76.729s] [100%] Built target lio_sam_mapOptimization
+[76.748s] Invoked command in '/home/uocav/ros-workspace/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/lio_sam -- -j6 -l6
+[76.902s] Invoking command in '/home/uocav/ros-workspace/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/lio_sam
+[76.915s] -- Install configuration: "Release"
+[76.917s] -- Execute custom install script
+[76.917s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[76.932s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[76.946s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[76.954s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[76.968s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[76.982s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[76.996s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[77.010s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[77.024s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[77.038s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[77.052s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/library_path.sh
+[77.066s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[77.081s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[77.095s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[77.110s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[77.124s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[77.139s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[77.152s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[77.167s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[77.181s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[77.195s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[77.209s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[77.224s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[77.238s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[77.249s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[77.256s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[77.263s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[77.271s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[77.277s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[77.285s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[77.296s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[77.306s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[77.321s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[77.329s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[77.335s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[77.342s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[77.349s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[77.358s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[77.366s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[77.381s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[77.394s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[77.409s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[77.417s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[77.424s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[77.431s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[77.446s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[77.454s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[77.462s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[77.470s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[77.485s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[77.493s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[77.509s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[77.509s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[77.509s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[77.510s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[77.518s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[77.526s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[77.533s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[77.541s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[77.549s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[77.558s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//launch/run.launch.py
+[77.566s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[77.575s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[77.582s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[77.591s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[77.607s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[77.615s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[77.623s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[77.638s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[77.645s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[77.661s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[77.677s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[77.693s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[77.709s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[77.724s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[77.739s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[77.754s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[77.762s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[77.771s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/doc/system.png
+[77.778s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/params.yaml
+[77.787s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[77.795s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[77.803s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[77.811s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[77.818s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[77.834s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[77.849s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/include/lio_sam/utility.hpp
+[77.858s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[77.865s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[77.880s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[77.894s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[77.907s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/path.sh
+[77.921s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/environment/path.dsv
+[77.934s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/local_setup.bash
+[77.948s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/local_setup.sh
+[77.956s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/local_setup.zsh
+[77.963s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/local_setup.dsv
+[77.972s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.dsv
+[77.979s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[77.986s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[78.000s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[78.010s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.017s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[78.025s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[78.032s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[78.045s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[78.060s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[78.073s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[78.087s] -- Symlinking: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/package.xml
+[78.101s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[78.101s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[78.101s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[78.102s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[78.102s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[78.102s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[78.102s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[78.102s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[78.102s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[78.103s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[78.103s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[78.103s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[78.103s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[78.103s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[78.153s] Listing '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[78.153s] Compiling '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...
+[78.153s] Listing '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[78.153s] Compiling '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py'...
+[78.153s] Compiling '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py'...
+[78.153s] Listing '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[78.153s] Compiling '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py'...
+[78.153s] Compiling '/home/uocav/ros-workspace/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py'...
+[78.158s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[78.158s] -- Set runtime path of "/home/uocav/ros-workspace/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[78.158s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[78.158s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[78.158s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[78.158s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[78.159s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[78.160s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[78.160s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[78.160s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[78.160s] -- Installing: /home/uocav/ros-workspace/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[78.162s] Invoked command in '/home/uocav/ros-workspace/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/lio_sam

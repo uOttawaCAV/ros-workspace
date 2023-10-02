@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -210,7 +212,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def port_a(self):
         """Message field 'port_a'."""
         return self._port_a
@@ -223,7 +225,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_a' field must be of type 'bool'"
         self._port_a = value
 
-    @property
+    @builtins.property
     def port_b(self):
         """Message field 'port_b'."""
         return self._port_b
@@ -236,7 +238,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_b' field must be of type 'bool'"
         self._port_b = value
 
-    @property
+    @builtins.property
     def port_c(self):
         """Message field 'port_c'."""
         return self._port_c
@@ -249,7 +251,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_c' field must be of type 'bool'"
         self._port_c = value
 
-    @property
+    @builtins.property
     def port_d(self):
         """Message field 'port_d'."""
         return self._port_d
@@ -262,7 +264,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_d' field must be of type 'bool'"
         self._port_d = value
 
-    @property
+    @builtins.property
     def port_e(self):
         """Message field 'port_e'."""
         return self._port_e
@@ -275,7 +277,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_e' field must be of type 'bool'"
         self._port_e = value
 
-    @property
+    @builtins.property
     def port_a_rx(self):
         """Message field 'port_a_rx'."""
         return self._port_a_rx
@@ -288,7 +290,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_a_rx' field must be of type 'bool'"
         self._port_a_rx = value
 
-    @property
+    @builtins.property
     def port_a_tx(self):
         """Message field 'port_a_tx'."""
         return self._port_a_tx
@@ -301,7 +303,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_a_tx' field must be of type 'bool'"
         self._port_a_tx = value
 
-    @property
+    @builtins.property
     def port_b_rx(self):
         """Message field 'port_b_rx'."""
         return self._port_b_rx
@@ -314,7 +316,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_b_rx' field must be of type 'bool'"
         self._port_b_rx = value
 
-    @property
+    @builtins.property
     def port_b_tx(self):
         """Message field 'port_b_tx'."""
         return self._port_b_tx
@@ -327,7 +329,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_b_tx' field must be of type 'bool'"
         self._port_b_tx = value
 
-    @property
+    @builtins.property
     def port_c_rx(self):
         """Message field 'port_c_rx'."""
         return self._port_c_rx
@@ -340,7 +342,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_c_rx' field must be of type 'bool'"
         self._port_c_rx = value
 
-    @property
+    @builtins.property
     def port_c_tx(self):
         """Message field 'port_c_tx'."""
         return self._port_c_tx
@@ -353,7 +355,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_c_tx' field must be of type 'bool'"
         self._port_c_tx = value
 
-    @property
+    @builtins.property
     def port_d_rx(self):
         """Message field 'port_d_rx'."""
         return self._port_d_rx
@@ -366,7 +368,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_d_rx' field must be of type 'bool'"
         self._port_d_rx = value
 
-    @property
+    @builtins.property
     def port_d_tx(self):
         """Message field 'port_d_tx'."""
         return self._port_d_tx
@@ -379,7 +381,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_d_tx' field must be of type 'bool'"
         self._port_d_tx = value
 
-    @property
+    @builtins.property
     def port_e_rx(self):
         """Message field 'port_e_rx'."""
         return self._port_e_rx
@@ -392,7 +394,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_e_rx' field must be of type 'bool'"
         self._port_e_rx = value
 
-    @property
+    @builtins.property
     def port_e_tx(self):
         """Message field 'port_e_tx'."""
         return self._port_e_tx
@@ -405,7 +407,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'port_e_tx' field must be of type 'bool'"
         self._port_e_tx = value
 
-    @property
+    @builtins.property
     def can_rx(self):
         """Message field 'can_rx'."""
         return self._can_rx
@@ -418,7 +420,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'can_rx' field must be of type 'bool'"
         self._can_rx = value
 
-    @property
+    @builtins.property
     def can_tx(self):
         """Message field 'can_tx'."""
         return self._can_tx
@@ -431,7 +433,7 @@ class SbgStatusCom(metaclass=Metaclass_SbgStatusCom):
                 "The 'can_tx' field must be of type 'bool'"
         self._can_tx = value
 
-    @property
+    @builtins.property
     def can_status(self):
         """Message field 'can_status'."""
         return self._can_status

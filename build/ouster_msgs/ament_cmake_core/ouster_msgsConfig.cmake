@@ -16,7 +16,7 @@ set(_ouster_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ouster_msgs_FIND_QUIETLY)
-  message(STATUS "Found ouster_msgs: 0.1.0 (${ouster_msgs_DIR})")
+  message(STATUS "Found ouster_msgs: 0.2.0 (${ouster_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package
@@ -36,7 +36,7 @@ endif()
 set(ouster_msgs_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "rosidl_cmake-extras.cmake;ament_cmake_export_dependencies-extras.cmake;ament_cmake_export_libraries-extras.cmake;ament_cmake_export_targets-extras.cmake;ament_cmake_export_include_directories-extras.cmake;rosidl_cmake_export_typesupport_libraries-extras.cmake;rosidl_cmake_export_typesupport_targets-extras.cmake")
+set(_extras "rosidl_cmake-extras.cmake;ament_cmake_export_dependencies-extras.cmake;ament_cmake_export_include_directories-extras.cmake;ament_cmake_export_libraries-extras.cmake;ament_cmake_export_targets-extras.cmake;rosidl_cmake_export_typesupport_targets-extras.cmake;rosidl_cmake_export_typesupport_libraries-extras.cmake")
 foreach(_extra ${_extras})
   include("${ouster_msgs_DIR}/${_extra}")
 endforeach()

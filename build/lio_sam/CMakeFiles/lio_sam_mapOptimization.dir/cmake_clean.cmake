@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o"
+  "CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o.d"
   "lio_sam_mapOptimization"
   "lio_sam_mapOptimization.pdb"
 )

@@ -1,8 +1,0 @@
-{
-  "package_name": "ouster_srvs",
-  "non_idl_tuples": [
-    "/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs:srv/GetConfig.srv",
-    "/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs:srv/SetConfig.srv",
-    "/home/uocav/ros-workspace/src/ouster-ros/ouster-srvs:srv/GetMetadata.srv"
-  ]
-}

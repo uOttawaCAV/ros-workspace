@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/sbg_driver/rosidl_typesupport_fastrtps_c/sbg_driver/msg/detail/sbg_air_data_status__rosidl_typesupport_fastrtps_c.h

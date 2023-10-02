@@ -21,7 +21,7 @@ extern "C"
 // Member 'destination'
 #include "rosidl_runtime_c/string.h"
 
-// Struct defined in srv/SaveMap in the package lio_sam.
+/// Struct defined in srv/SaveMap in the package lio_sam.
 typedef struct lio_sam__srv__SaveMap_Request
 {
   float resolution;
@@ -41,7 +41,7 @@ typedef struct lio_sam__srv__SaveMap_Request__Sequence
 
 // Constants defined in the message
 
-// Struct defined in srv/SaveMap in the package lio_sam.
+/// Struct defined in srv/SaveMap in the package lio_sam.
 typedef struct lio_sam__srv__SaveMap_Response
 {
   bool success;

@@ -80,14 +80,15 @@ static bool _PacketMsg__cdr_deserialize(
       rosidl_runtime_c__uint8__Sequence__fini(&ros_message->buf);
     }
     if (!rosidl_runtime_c__uint8__Sequence__init(&ros_message->buf, size)) {
-      return "failed to create array for field 'buf'";
+      fprintf(stderr, "failed to create array for field 'buf'");
+      return false;
     }
     auto array_ptr = ros_message->buf.data;
     cdr.deserializeArray(array_ptr, size);
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ouster_msgs
 size_t get_serialized_size_ouster_msgs__msg__PacketMsg(
@@ -128,6 +129,7 @@ static uint32_t _PacketMsg__get_serialized_size(const void * untyped_ros_message
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ouster_msgs
 size_t max_serialized_size_ouster_msgs__msg__PacketMsg(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
@@ -136,12 +138,15 @@ size_t max_serialized_size_ouster_msgs__msg__PacketMsg(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
   // member: buf
   {
     size_t array_size = 0;
     full_bounded = false;
+    is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
@@ -151,10 +156,19 @@ size_t max_serialized_size_ouster_msgs__msg__PacketMsg(
   return current_alignment - initial_alignment;
 }
 
-static size_t _PacketMsg__max_serialized_size(bool & full_bounded)
+static size_t _PacketMsg__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_ouster_msgs__msg__PacketMsg(
-    full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_ouster_msgs__msg__PacketMsg(
+    full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 

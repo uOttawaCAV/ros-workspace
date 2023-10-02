@@ -23,6 +23,7 @@ size_t get_serialized_size_sbg_driver__msg__SbgMagCalib(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_sbg_driver
 size_t max_serialized_size_sbg_driver__msg__SbgMagCalib(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_sbg_driver

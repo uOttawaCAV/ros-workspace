@@ -1,27 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_cloud.cpp" "/home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
-  "EIGEN_MPL2_ONLY"
-  "RCUTILS_ENABLE_FAULT_INJECTION"
-  "SPDLOG_COMPILED_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/include"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include"
-  "/home/uocav/ros-workspace/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
-  "/opt/ros/foxy/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/uocav/ros-workspace/build/ouster_ros/rclcpp_components/node_main_os_cloud.cpp" "CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o" "gcc" "CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o.d"
   )
 
 # Targets to which this target links.

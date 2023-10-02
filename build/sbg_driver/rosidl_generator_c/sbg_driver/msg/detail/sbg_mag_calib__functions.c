@@ -216,22 +216,27 @@ sbg_driver__msg__SbgMagCalib__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(sbg_driver__msg__SbgMagCalib);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     sbg_driver__msg__SbgMagCalib * data =
-      (sbg_driver__msg__SbgMagCalib *)realloc(output->data, allocation_size);
+      (sbg_driver__msg__SbgMagCalib *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
     if (!data) {
       return false;
     }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!sbg_driver__msg__SbgMagCalib__init(&data[i])) {
-        /* free currently allocated and return false */
+      if (!sbg_driver__msg__SbgMagCalib__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
         for (; i-- > output->capacity; ) {
-          sbg_driver__msg__SbgMagCalib__fini(&data[i]);
+          sbg_driver__msg__SbgMagCalib__fini(&output->data[i]);
         }
-        free(data);
         return false;
       }
     }
-    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rosidl_default_runtime;rclcpp;sensor_msgs;geometry_msgs;ouster_msgs;ouster_srvs;pcl_conversions;tf2;tf2_eigen")
+set(_exported_dependencies "rosidl_default_runtime;rclcpp;sensor_msgs;geometry_msgs;ouster_msgs;pcl_conversions;tf2;tf2_eigen")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 
@@ -56,7 +56,7 @@ if(NOT _exported_dependencies STREQUAL "")
                   list(APPEND _libraries "${_imported_location}")
                 endif()
               endif()
-            endforeach() 
+            endforeach()
           endif()
 
           get_target_property(_link_libraries ${_target} INTERFACE_LINK_LIBRARIES)

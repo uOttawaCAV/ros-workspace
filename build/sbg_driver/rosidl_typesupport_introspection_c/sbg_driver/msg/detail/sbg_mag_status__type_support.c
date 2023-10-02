@@ -17,7 +17,7 @@ extern "C"
 {
 #endif
 
-void SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_init_function(
+void sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -26,12 +26,12 @@ void SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_init_functio
   sbg_driver__msg__SbgMagStatus__init(message_memory);
 }
 
-void SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_fini_function(void * message_memory)
+void sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_fini_function(void * message_memory)
 {
   sbg_driver__msg__SbgMagStatus__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_member_array[9] = {
+static rosidl_typesupport_introspection_c__MessageMember sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_member_array[9] = {
   {
     "mag_x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -45,6 +45,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -60,6 +62,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -75,6 +79,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -90,6 +96,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -105,6 +113,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -120,6 +130,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -135,6 +147,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -150,6 +164,8 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -165,36 +181,38 @@ static rosidl_typesupport_introspection_c__MessageMember SbgMagStatus__rosidl_ty
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_members = {
   "sbg_driver__msg",  // message namespace
   "SbgMagStatus",  // message name
   9,  // number of fields
   sizeof(sbg_driver__msg__SbgMagStatus),
-  SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_member_array,  // message members
-  SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_init_function,  // function to initialize message memory (memory has to be allocated)
-  SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_fini_function  // function to terminate message instance (will not free memory)
+  sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_member_array,  // message members
+  sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_init_function,  // function to initialize message memory (memory has to be allocated)
+  sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle = {
+static rosidl_message_type_support_t sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle = {
   0,
-  &SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_members,
+  &sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_sbg_driver
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, sbg_driver, msg, SbgMagStatus)() {
-  if (!SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle.typesupport_identifier) {
-    SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle.typesupport_identifier =
+  if (!sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle.typesupport_identifier) {
+    sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle;
+  return &sbg_driver__msg__SbgMagStatus__rosidl_typesupport_introspection_c__SbgMagStatus_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

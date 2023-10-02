@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ouster_ros_test.dir/test/ring_buffer_test.cpp.o -o ouster_ros_test  gtest/libgtest_main.a gtest/libgtest.a -pthread 

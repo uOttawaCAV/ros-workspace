@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -178,7 +180,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -192,7 +194,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -207,7 +209,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def clock_status(self):
         """Message field 'clock_status'."""
         return self._clock_status
@@ -221,7 +223,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'clock_status' field must be a sub message of type 'SbgUtcTimeStatus'"
         self._clock_status = value
 
-    @property
+    @builtins.property
     def year(self):
         """Message field 'year'."""
         return self._year
@@ -236,7 +238,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'year' field must be an unsigned integer in [0, 65535]"
         self._year = value
 
-    @property
+    @builtins.property
     def month(self):
         """Message field 'month'."""
         return self._month
@@ -251,7 +253,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'month' field must be an unsigned integer in [0, 255]"
         self._month = value
 
-    @property
+    @builtins.property
     def day(self):
         """Message field 'day'."""
         return self._day
@@ -266,7 +268,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'day' field must be an unsigned integer in [0, 255]"
         self._day = value
 
-    @property
+    @builtins.property
     def hour(self):
         """Message field 'hour'."""
         return self._hour
@@ -281,7 +283,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'hour' field must be an unsigned integer in [0, 255]"
         self._hour = value
 
-    @property  # noqa: A003
+    @builtins.property  # noqa: A003
     def min(self):  # noqa: A003
         """Message field 'min'."""
         return self._min
@@ -296,7 +298,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'min' field must be an unsigned integer in [0, 255]"
         self._min = value
 
-    @property
+    @builtins.property
     def sec(self):
         """Message field 'sec'."""
         return self._sec
@@ -311,7 +313,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'sec' field must be an unsigned integer in [0, 255]"
         self._sec = value
 
-    @property
+    @builtins.property
     def nanosec(self):
         """Message field 'nanosec'."""
         return self._nanosec
@@ -326,7 +328,7 @@ class SbgUtcTime(metaclass=Metaclass_SbgUtcTime):
                 "The 'nanosec' field must be an unsigned integer in [0, 4294967295]"
         self._nanosec = value
 
-    @property
+    @builtins.property
     def gps_tow(self):
         """Message field 'gps_tow'."""
         return self._gps_tow

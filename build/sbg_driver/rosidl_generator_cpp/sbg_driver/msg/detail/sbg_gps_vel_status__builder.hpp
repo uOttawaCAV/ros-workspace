@@ -5,10 +5,11 @@
 #ifndef SBG_DRIVER__MSG__DETAIL__SBG_GPS_VEL_STATUS__BUILDER_HPP_
 #define SBG_DRIVER__MSG__DETAIL__SBG_GPS_VEL_STATUS__BUILDER_HPP_
 
-#include "sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "sbg_driver/msg/detail/sbg_gps_vel_status__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace sbg_driver

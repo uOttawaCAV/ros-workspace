@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -131,7 +135,7 @@ class SbgOdoVel(metaclass=Metaclass_SbgOdoVel):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -145,7 +149,7 @@ class SbgOdoVel(metaclass=Metaclass_SbgOdoVel):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -160,7 +164,7 @@ class SbgOdoVel(metaclass=Metaclass_SbgOdoVel):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -173,7 +177,7 @@ class SbgOdoVel(metaclass=Metaclass_SbgOdoVel):
                 "The 'status' field must be of type 'bool'"
         self._status = value
 
-    @property
+    @builtins.property
     def vel(self):
         """Message field 'vel'."""
         return self._vel
@@ -184,4 +188,6 @@ class SbgOdoVel(metaclass=Metaclass_SbgOdoVel):
             assert \
                 isinstance(value, float), \
                 "The 'vel' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'vel' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._vel = value

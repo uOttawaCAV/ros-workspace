@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -132,7 +134,7 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def main_power(self):
         """Message field 'main_power'."""
         return self._main_power
@@ -145,7 +147,7 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
                 "The 'main_power' field must be of type 'bool'"
         self._main_power = value
 
-    @property
+    @builtins.property
     def imu_power(self):
         """Message field 'imu_power'."""
         return self._imu_power
@@ -158,7 +160,7 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
                 "The 'imu_power' field must be of type 'bool'"
         self._imu_power = value
 
-    @property
+    @builtins.property
     def gps_power(self):
         """Message field 'gps_power'."""
         return self._gps_power
@@ -171,7 +173,7 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
                 "The 'gps_power' field must be of type 'bool'"
         self._gps_power = value
 
-    @property
+    @builtins.property
     def settings(self):
         """Message field 'settings'."""
         return self._settings
@@ -184,7 +186,7 @@ class SbgStatusGeneral(metaclass=Metaclass_SbgStatusGeneral):
                 "The 'settings' field must be of type 'bool'"
         self._settings = value
 
-    @property
+    @builtins.property
     def temperature(self):
         """Message field 'temperature'."""
         return self._temperature

@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -173,7 +175,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -187,7 +189,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -202,7 +204,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def overflow(self):
         """Message field 'overflow'."""
         return self._overflow
@@ -215,7 +217,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'overflow' field must be of type 'bool'"
         self._overflow = value
 
-    @property
+    @builtins.property
     def offset_0_valid(self):
         """Message field 'offset_0_valid'."""
         return self._offset_0_valid
@@ -228,7 +230,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'offset_0_valid' field must be of type 'bool'"
         self._offset_0_valid = value
 
-    @property
+    @builtins.property
     def offset_1_valid(self):
         """Message field 'offset_1_valid'."""
         return self._offset_1_valid
@@ -241,7 +243,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'offset_1_valid' field must be of type 'bool'"
         self._offset_1_valid = value
 
-    @property
+    @builtins.property
     def offset_2_valid(self):
         """Message field 'offset_2_valid'."""
         return self._offset_2_valid
@@ -254,7 +256,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'offset_2_valid' field must be of type 'bool'"
         self._offset_2_valid = value
 
-    @property
+    @builtins.property
     def offset_3_valid(self):
         """Message field 'offset_3_valid'."""
         return self._offset_3_valid
@@ -267,7 +269,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'offset_3_valid' field must be of type 'bool'"
         self._offset_3_valid = value
 
-    @property
+    @builtins.property
     def time_offset_0(self):
         """Message field 'time_offset_0'."""
         return self._time_offset_0
@@ -282,7 +284,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'time_offset_0' field must be an unsigned integer in [0, 65535]"
         self._time_offset_0 = value
 
-    @property
+    @builtins.property
     def time_offset_1(self):
         """Message field 'time_offset_1'."""
         return self._time_offset_1
@@ -297,7 +299,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'time_offset_1' field must be an unsigned integer in [0, 65535]"
         self._time_offset_1 = value
 
-    @property
+    @builtins.property
     def time_offset_2(self):
         """Message field 'time_offset_2'."""
         return self._time_offset_2
@@ -312,7 +314,7 @@ class SbgEvent(metaclass=Metaclass_SbgEvent):
                 "The 'time_offset_2' field must be an unsigned integer in [0, 65535]"
         self._time_offset_2 = value
 
-    @property
+    @builtins.property
     def time_offset_3(self):
         """Message field 'time_offset_3'."""
         return self._time_offset_3

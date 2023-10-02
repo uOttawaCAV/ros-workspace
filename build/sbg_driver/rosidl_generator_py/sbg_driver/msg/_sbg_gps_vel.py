@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -166,7 +170,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -180,7 +184,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -195,7 +199,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -209,7 +213,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'status' field must be a sub message of type 'SbgGpsVelStatus'"
         self._status = value
 
-    @property
+    @builtins.property
     def gps_tow(self):
         """Message field 'gps_tow'."""
         return self._gps_tow
@@ -224,7 +228,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'gps_tow' field must be an unsigned integer in [0, 4294967295]"
         self._gps_tow = value
 
-    @property
+    @builtins.property
     def velocity(self):
         """Message field 'velocity'."""
         return self._velocity
@@ -238,7 +242,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'velocity' field must be a sub message of type 'Vector3'"
         self._velocity = value
 
-    @property
+    @builtins.property
     def velocity_accuracy(self):
         """Message field 'velocity_accuracy'."""
         return self._velocity_accuracy
@@ -252,7 +256,7 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
                 "The 'velocity_accuracy' field must be a sub message of type 'Vector3'"
         self._velocity_accuracy = value
 
-    @property
+    @builtins.property
     def course(self):
         """Message field 'course'."""
         return self._course
@@ -263,9 +267,11 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
             assert \
                 isinstance(value, float), \
                 "The 'course' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'course' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._course = value
 
-    @property
+    @builtins.property
     def course_acc(self):
         """Message field 'course_acc'."""
         return self._course_acc
@@ -276,4 +282,6 @@ class SbgGpsVel(metaclass=Metaclass_SbgGpsVel):
             assert \
                 isinstance(value, float), \
                 "The 'course_acc' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'course_acc' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._course_acc = value

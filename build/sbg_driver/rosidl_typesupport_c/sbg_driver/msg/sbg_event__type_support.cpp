@@ -4,8 +4,8 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
-#include "sbg_driver/msg/rosidl_typesupport_c__visibility_control.h"
 #include "sbg_driver/msg/detail/sbg_event__struct.h"
+#include "sbg_driver/msg/detail/sbg_event__type_support.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -85,7 +85,6 @@ extern "C"
 {
 #endif
 
-ROSIDL_TYPESUPPORT_C_EXPORT_sbg_driver
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, sbg_driver, msg, SbgEvent)() {
   return &::sbg_driver::msg::rosidl_typesupport_c::SbgEvent_message_type_support_handle;

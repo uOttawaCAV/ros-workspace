@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -162,7 +164,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def imu_com(self):
         """Message field 'imu_com'."""
         return self._imu_com
@@ -175,7 +177,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_com' field must be of type 'bool'"
         self._imu_com = value
 
-    @property
+    @builtins.property
     def imu_status(self):
         """Message field 'imu_status'."""
         return self._imu_status
@@ -188,7 +190,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_status' field must be of type 'bool'"
         self._imu_status = value
 
-    @property
+    @builtins.property
     def imu_accel_x(self):
         """Message field 'imu_accel_x'."""
         return self._imu_accel_x
@@ -201,7 +203,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_accel_x' field must be of type 'bool'"
         self._imu_accel_x = value
 
-    @property
+    @builtins.property
     def imu_accel_y(self):
         """Message field 'imu_accel_y'."""
         return self._imu_accel_y
@@ -214,7 +216,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_accel_y' field must be of type 'bool'"
         self._imu_accel_y = value
 
-    @property
+    @builtins.property
     def imu_accel_z(self):
         """Message field 'imu_accel_z'."""
         return self._imu_accel_z
@@ -227,7 +229,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_accel_z' field must be of type 'bool'"
         self._imu_accel_z = value
 
-    @property
+    @builtins.property
     def imu_gyro_x(self):
         """Message field 'imu_gyro_x'."""
         return self._imu_gyro_x
@@ -240,7 +242,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_gyro_x' field must be of type 'bool'"
         self._imu_gyro_x = value
 
-    @property
+    @builtins.property
     def imu_gyro_y(self):
         """Message field 'imu_gyro_y'."""
         return self._imu_gyro_y
@@ -253,7 +255,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_gyro_y' field must be of type 'bool'"
         self._imu_gyro_y = value
 
-    @property
+    @builtins.property
     def imu_gyro_z(self):
         """Message field 'imu_gyro_z'."""
         return self._imu_gyro_z
@@ -266,7 +268,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_gyro_z' field must be of type 'bool'"
         self._imu_gyro_z = value
 
-    @property
+    @builtins.property
     def imu_accels_in_range(self):
         """Message field 'imu_accels_in_range'."""
         return self._imu_accels_in_range
@@ -279,7 +281,7 @@ class SbgImuStatus(metaclass=Metaclass_SbgImuStatus):
                 "The 'imu_accels_in_range' field must be of type 'bool'"
         self._imu_accels_in_range = value
 
-    @property
+    @builtins.property
     def imu_gyros_in_range(self):
         """Message field 'imu_gyros_in_range'."""
         return self._imu_gyros_in_range

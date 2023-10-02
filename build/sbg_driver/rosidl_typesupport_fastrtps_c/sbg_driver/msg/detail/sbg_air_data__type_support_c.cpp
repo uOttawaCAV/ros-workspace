@@ -44,6 +44,7 @@ size_t get_serialized_size_sbg_driver__msg__SbgAirDataStatus(
 
 size_t max_serialized_size_sbg_driver__msg__SbgAirDataStatus(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 const rosidl_message_type_support_t *
@@ -56,6 +57,7 @@ size_t get_serialized_size_std_msgs__msg__Header(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_sbg_driver
 size_t max_serialized_size_std_msgs__msg__Header(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_sbg_driver
@@ -203,7 +205,7 @@ static bool _SbgAirData__cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_sbg_driver
 size_t get_serialized_size_sbg_driver__msg__SbgAirData(
@@ -277,6 +279,7 @@ static uint32_t _SbgAirData__get_serialized_size(const void * untyped_ros_messag
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_sbg_driver
 size_t max_serialized_size_sbg_driver__msg__SbgAirData(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
@@ -285,7 +288,9 @@ size_t max_serialized_size_sbg_driver__msg__SbgAirData(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
   // member: header
   {
@@ -293,9 +298,13 @@ size_t max_serialized_size_sbg_driver__msg__SbgAirData(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         max_serialized_size_std_msgs__msg__Header(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
   // member: time_stamp
@@ -311,9 +320,13 @@ size_t max_serialized_size_sbg_driver__msg__SbgAirData(
 
 
     for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
       current_alignment +=
         max_serialized_size_sbg_driver__msg__SbgAirDataStatus(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
   // member: pressure_abs
@@ -355,10 +368,19 @@ size_t max_serialized_size_sbg_driver__msg__SbgAirData(
   return current_alignment - initial_alignment;
 }
 
-static size_t _SbgAirData__max_serialized_size(bool & full_bounded)
+static size_t _SbgAirData__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_sbg_driver__msg__SbgAirData(
-    full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_sbg_driver__msg__SbgAirData(
+    full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 

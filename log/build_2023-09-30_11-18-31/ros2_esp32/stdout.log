@@ -1,0 +1,20 @@
+[ 50%] Built target integer_publisher
+[100%] Built target string_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/lib/ros2_esp32/integer_publisher
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/lib/ros2_esp32/string_publisher
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/package_run_dependencies/ros2_esp32
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/parent_prefix_path/ros2_esp32
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.sh
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.sh
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/environment/path.dsv
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.bash
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.sh
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.zsh
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/local_setup.dsv
+-- Installing: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.dsv
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ament_index/resource_index/packages/ros2_esp32
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config.cmake
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/cmake/ros2_esp32Config-version.cmake
+-- Up-to-date: /home/uocav/ros-workspace/install/ros2_esp32/share/ros2_esp32/package.xml

@@ -313,35 +313,29 @@ message(STATUS "Execute custom install script")
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/lio_sam" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.h")
 
-# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/lio_sam/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/lio_sam/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/lio_sam/environment")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
 
-# install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.hpp")
 
-# install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_c/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.h")
-
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
-
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_typesupport_introspection_cpp/lio_sam/" "DESTINATION" "include/lio_sam/lio_sam" "PATTERN" "*.hpp")
 
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/lio_sam/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/lio_sam/environment")
@@ -349,26 +343,20 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES 
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/lio_sam/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/lio_sam/environment")
 
-# install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/__init__.py" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_python/lio_sam/lio_sam.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/msg/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/msg" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/msg/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/msg" "PATTERN" "*.py")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/srv/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/srv" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "/home/uocav/ros-workspace/build/lio_sam/rosidl_generator_py/lio_sam/srv/" "DESTINATION" "lib/python3.8/site-packages/lio_sam/srv" "PATTERN" "*.py")
+# install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "lio_sam__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
+# install("TARGETS" "lio_sam__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "lio_sam__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/lio_sam")
 include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "lio_sam__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
-include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "lio_sam__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam")
-include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "lio_sam__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl" "DESTINATION" "share/lio_sam/msg")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_adapter/lio_sam/msg/CloudInfo.idl" "DESTINATION" "share/lio_sam/msg")
@@ -387,3 +375,87 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES 
 
 # install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg" "DESTINATION" "share/lio_sam/srv")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/srv/SaveMap_Response.msg" "DESTINATION" "share/lio_sam/srv")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/lio_sam/")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "launch" "DESTINATION" "share/lio_sam/")
+
+# install(DIRECTORY "config" "DESTINATION" "share/lio_sam/")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "config" "DESTINATION" "share/lio_sam/")
+
+# install("TARGETS" "lio_sam_imageProjection" "DESTINATION" "lib/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "lio_sam_imuPreintegration" "DESTINATION" "lib/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "lio_sam_featureExtraction" "DESTINATION" "lib/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "lio_sam_mapOptimization" "DESTINATION" "lib/lio_sam")
+include("/home/uocav/ros-workspace/build/lio_sam/ament_cmake_symlink_install_targets_6_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/LIO-SAM" DIRECTORY "include/" "DESTINATION" "include")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lio_sam" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lio_sam" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/lio_sam/environment")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/lio_sam/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/lio_sam/environment")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lio_sam/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/lio_sam/environment")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/lio_sam")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/lio_sam")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/lio_sam")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/lio_sam")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/lio_sam")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_index/share/ament_index/resource_index/packages/lio_sam" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_core/lio_samConfig.cmake" "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake" "DESTINATION" "share/lio_sam/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_core/lio_samConfig.cmake" "/home/uocav/ros-workspace/build/lio_sam/ament_cmake_core/lio_samConfig-version.cmake" "DESTINATION" "share/lio_sam/cmake")
+
+# install(FILES "/home/uocav/ros-workspace/src/LIO-SAM/package.xml" "DESTINATION" "share/lio_sam")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/LIO-SAM" FILES "/home/uocav/ros-workspace/src/LIO-SAM/package.xml" "DESTINATION" "share/lio_sam")

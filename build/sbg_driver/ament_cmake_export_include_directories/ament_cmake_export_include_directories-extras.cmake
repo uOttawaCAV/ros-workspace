@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
 
-set(_exported_include_dirs "${sbg_driver_DIR}/../../../include")
+set(_exported_include_dirs "${sbg_driver_DIR}/../../../include/sbg_driver;${sbg_driver_DIR}/../../../include")
 
 # append include directories to sbg_driver_INCLUDE_DIRS
 # warn about not existing paths

@@ -5,13 +5,14 @@
 #ifndef OUSTER_MSGS__MSG__DETAIL__PACKET_MSG__STRUCT_HPP_
 #define OUSTER_MSGS__MSG__DETAIL__PACKET_MSG__STRUCT_HPP_
 
-#include <rosidl_runtime_cpp/bounded_vector.hpp>
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -45,12 +46,12 @@ struct PacketMsg_
 
   // field types and members
   using _buf_type =
-    std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other>;
+    std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>>;
   _buf_type buf;
 
   // setters for named parameter idiom
   Type & set__buf(
-    const std::vector<uint8_t, typename ContainerAllocator::template rebind<uint8_t>::other> & _arg)
+    const std::vector<uint8_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint8_t>> & _arg)
   {
     this->buf = _arg;
     return *this;

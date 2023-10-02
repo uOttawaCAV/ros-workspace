@@ -7,7 +7,7 @@
 module sbg_driver {
   module msg {
     @verbatim (language="comment", text=
-      " SBG Ellipse Messages")
+      "SBG Ellipse Messages")
     struct SbgMagCalib {
       std_msgs::msg::Header header;
     };

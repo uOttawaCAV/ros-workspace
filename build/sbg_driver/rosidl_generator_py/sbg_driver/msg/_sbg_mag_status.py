@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -156,7 +158,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def mag_x(self):
         """Message field 'mag_x'."""
         return self._mag_x
@@ -169,7 +171,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'mag_x' field must be of type 'bool'"
         self._mag_x = value
 
-    @property
+    @builtins.property
     def mag_y(self):
         """Message field 'mag_y'."""
         return self._mag_y
@@ -182,7 +184,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'mag_y' field must be of type 'bool'"
         self._mag_y = value
 
-    @property
+    @builtins.property
     def mag_z(self):
         """Message field 'mag_z'."""
         return self._mag_z
@@ -195,7 +197,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'mag_z' field must be of type 'bool'"
         self._mag_z = value
 
-    @property
+    @builtins.property
     def accel_x(self):
         """Message field 'accel_x'."""
         return self._accel_x
@@ -208,7 +210,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'accel_x' field must be of type 'bool'"
         self._accel_x = value
 
-    @property
+    @builtins.property
     def accel_y(self):
         """Message field 'accel_y'."""
         return self._accel_y
@@ -221,7 +223,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'accel_y' field must be of type 'bool'"
         self._accel_y = value
 
-    @property
+    @builtins.property
     def accel_z(self):
         """Message field 'accel_z'."""
         return self._accel_z
@@ -234,7 +236,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'accel_z' field must be of type 'bool'"
         self._accel_z = value
 
-    @property
+    @builtins.property
     def mags_in_range(self):
         """Message field 'mags_in_range'."""
         return self._mags_in_range
@@ -247,7 +249,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'mags_in_range' field must be of type 'bool'"
         self._mags_in_range = value
 
-    @property
+    @builtins.property
     def accels_in_range(self):
         """Message field 'accels_in_range'."""
         return self._accels_in_range
@@ -260,7 +262,7 @@ class SbgMagStatus(metaclass=Metaclass_SbgMagStatus):
                 "The 'accels_in_range' field must be of type 'bool'"
         self._accels_in_range = value
 
-    @property
+    @builtins.property
     def calibration(self):
         """Message field 'calibration'."""
         return self._calibration

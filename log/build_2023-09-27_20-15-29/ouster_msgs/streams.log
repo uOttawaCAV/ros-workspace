@@ -1,0 +1,15 @@
+[0.076s] Invoking command in '/home/uocav/ros-workspace/build/ouster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_msgs -- -j6 -l6
+[0.145s] [  3%] Built target ouster_msgs__cpp
+[0.164s] [ 12%] Built target ouster_msgs__rosidl_generator_c
+[0.195s] [ 22%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp
+[0.204s] [ 32%] Built target ouster_msgs__rosidl_typesupport_cpp
+[0.204s] [ 41%] Built target ouster_msgs__rosidl_typesupport_fastrtps_cpp
+[0.222s] [ 51%] Built target ouster_msgs__rosidl_typesupport_introspection_c
+[0.232s] [ 61%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c
+[0.233s] [ 70%] Built target ouster_msgs__rosidl_typesupport_c
+[0.253s] [ 70%] Built target ouster_msgs
+[0.278s] [ 74%] Built target ouster_msgs__py
+[0.312s] [ 80%] Built target ouster_msgs__python
+[0.340s] [ 87%] Built target ouster_msgs__rosidl_typesupport_introspection_c__pyext
+[0.346s] [ 93%] Built target ouster_msgs__rosidl_typesupport_c__pyext
+[0.349s] [100%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext

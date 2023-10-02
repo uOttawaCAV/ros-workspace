@@ -1,0 +1,5 @@
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/occupancy_pub.dir/build.make:155: occupancy_pub] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/occupancy_pub.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

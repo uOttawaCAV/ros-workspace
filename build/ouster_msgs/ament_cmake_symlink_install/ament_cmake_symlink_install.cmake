@@ -313,35 +313,29 @@ message(STATUS "Execute custom install script")
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.h")
 
-# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_msgs/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_msgs/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_msgs/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_msgs/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ouster_msgs/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ouster_msgs/environment")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install("TARGETS" "ouster_msgs__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_fastrtps_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install("TARGETS" "ouster_msgs__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_c/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.h")
-
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.hpp")
-
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_typesupport_introspection_cpp/ouster_msgs/" "DESTINATION" "include/ouster_msgs/ouster_msgs" "PATTERN" "*.hpp")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ouster_msgs/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/ouster_msgs/environment")
@@ -349,29 +343,62 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/oust
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ouster_msgs/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ouster_msgs/environment")
 
-# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/__init__.py" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/__init__.py" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_python/ouster_msgs/ouster_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs-0.2.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_python/ouster_msgs/ouster_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs-0.2.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/msg/" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs/msg" "PATTERN" "*.py")
-ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/msg/" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs/msg" "PATTERN" "*.py")
+# install(DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" DIRECTORY "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "ouster_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs")
+# install("TARGETS" "ouster_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs")
+include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "ouster_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs")
+include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "ouster_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ouster_msgs")
 include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "ouster_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs")
-include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "ouster_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ouster_msgs")
-include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "ouster_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/msg/PacketMsg.idl" "DESTINATION" "share/ouster_msgs/msg")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/msg/PacketMsg.idl" "DESTINATION" "share/ouster_msgs/msg")
 
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/GetConfig.idl" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/GetConfig.idl" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/SetConfig.idl" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/SetConfig.idl" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/GetMetadata.idl" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_adapter/ouster_msgs/srv/GetMetadata.idl" "DESTINATION" "share/ouster_msgs/srv")
+
 # install(FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/msg/PacketMsg.msg" "DESTINATION" "share/ouster_msgs/msg")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/msg/PacketMsg.msg" "DESTINATION" "share/ouster_msgs/msg")
+
+# install(FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/GetConfig.srv" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/GetConfig.srv" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetConfig_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetConfig_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetConfig_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetConfig_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/SetConfig.srv" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/SetConfig.srv" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/SetConfig_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/SetConfig_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/SetConfig_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/SetConfig_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/GetMetadata.srv" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs/srv/GetMetadata.srv" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetMetadata_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetMetadata_Request.msg" "DESTINATION" "share/ouster_msgs/srv")
+
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetMetadata_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetMetadata_Response.msg" "DESTINATION" "share/ouster_msgs/srv")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -379,14 +406,14 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/oust
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ouster_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_msgs/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_msgs/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_msgs/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_msgs/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ouster_msgs/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ouster_msgs/environment")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_msgs/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_msgs/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_msgs/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_msgs/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ouster_msgs/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ouster_msgs/environment")
@@ -415,20 +442,20 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/oust
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
+
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 
-# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
+# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
-
-# install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_core/ouster_msgsConfig.cmake" "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_core/ouster_msgsConfig-version.cmake" "DESTINATION" "share/ouster_msgs/cmake")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-msgs" FILES "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_core/ouster_msgsConfig.cmake" "/home/uocav/ros-workspace/build/ouster_msgs/ament_cmake_core/ouster_msgsConfig-version.cmake" "DESTINATION" "share/ouster_msgs/cmake")

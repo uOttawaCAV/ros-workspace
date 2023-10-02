@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -152,7 +154,7 @@ class SbgStatus(metaclass=Metaclass_SbgStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -166,7 +168,7 @@ class SbgStatus(metaclass=Metaclass_SbgStatus):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -181,7 +183,7 @@ class SbgStatus(metaclass=Metaclass_SbgStatus):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def status_general(self):
         """Message field 'status_general'."""
         return self._status_general
@@ -195,7 +197,7 @@ class SbgStatus(metaclass=Metaclass_SbgStatus):
                 "The 'status_general' field must be a sub message of type 'SbgStatusGeneral'"
         self._status_general = value
 
-    @property
+    @builtins.property
     def status_com(self):
         """Message field 'status_com'."""
         return self._status_com
@@ -209,7 +211,7 @@ class SbgStatus(metaclass=Metaclass_SbgStatus):
                 "The 'status_com' field must be a sub message of type 'SbgStatusCom'"
         self._status_com = value
 
-    @property
+    @builtins.property
     def status_aiding(self):
         """Message field 'status_aiding'."""
         return self._status_aiding

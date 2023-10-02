@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -168,7 +172,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -182,7 +186,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -197,7 +201,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def imu_status(self):
         """Message field 'imu_status'."""
         return self._imu_status
@@ -211,7 +215,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'imu_status' field must be a sub message of type 'SbgImuStatus'"
         self._imu_status = value
 
-    @property
+    @builtins.property
     def accel(self):
         """Message field 'accel'."""
         return self._accel
@@ -225,7 +229,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'accel' field must be a sub message of type 'Vector3'"
         self._accel = value
 
-    @property
+    @builtins.property
     def gyro(self):
         """Message field 'gyro'."""
         return self._gyro
@@ -239,7 +243,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'gyro' field must be a sub message of type 'Vector3'"
         self._gyro = value
 
-    @property
+    @builtins.property
     def temp(self):
         """Message field 'temp'."""
         return self._temp
@@ -250,9 +254,11 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
             assert \
                 isinstance(value, float), \
                 "The 'temp' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'temp' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._temp = value
 
-    @property
+    @builtins.property
     def delta_vel(self):
         """Message field 'delta_vel'."""
         return self._delta_vel
@@ -266,7 +272,7 @@ class SbgImuData(metaclass=Metaclass_SbgImuData):
                 "The 'delta_vel' field must be a sub message of type 'Vector3'"
         self._delta_vel = value
 
-    @property
+    @builtins.property
     def delta_angle(self):
         """Message field 'delta_angle'."""
         return self._delta_angle

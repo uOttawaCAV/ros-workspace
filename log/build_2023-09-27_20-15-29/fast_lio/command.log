@@ -1,0 +1,2 @@
+Invoking command in '/home/uocav/ros-workspace/build/fast_lio': /usr/bin/cmake /home/uocav/ros-workspace/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/fast_lio
+Invoked command in '/home/uocav/ros-workspace/build/fast_lio' returned '1': /usr/bin/cmake /home/uocav/ros-workspace/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/fast_lio

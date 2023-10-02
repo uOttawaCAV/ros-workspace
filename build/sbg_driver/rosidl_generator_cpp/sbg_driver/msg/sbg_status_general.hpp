@@ -7,6 +7,5 @@
 #include "sbg_driver/msg/detail/sbg_status_general__struct.hpp"
 #include "sbg_driver/msg/detail/sbg_status_general__builder.hpp"
 #include "sbg_driver/msg/detail/sbg_status_general__traits.hpp"
-#include "sbg_driver/msg/detail/sbg_status_general__type_support.hpp"
 
 #endif  // SBG_DRIVER__MSG__SBG_STATUS_GENERAL_HPP_

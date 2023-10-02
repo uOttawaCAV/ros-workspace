@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -126,7 +128,7 @@ class SbgUtcTimeStatus(metaclass=Metaclass_SbgUtcTimeStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def clock_stable(self):
         """Message field 'clock_stable'."""
         return self._clock_stable
@@ -139,7 +141,7 @@ class SbgUtcTimeStatus(metaclass=Metaclass_SbgUtcTimeStatus):
                 "The 'clock_stable' field must be of type 'bool'"
         self._clock_stable = value
 
-    @property
+    @builtins.property
     def clock_status(self):
         """Message field 'clock_status'."""
         return self._clock_status
@@ -154,7 +156,7 @@ class SbgUtcTimeStatus(metaclass=Metaclass_SbgUtcTimeStatus):
                 "The 'clock_status' field must be an unsigned integer in [0, 255]"
         self._clock_status = value
 
-    @property
+    @builtins.property
     def clock_utc_sync(self):
         """Message field 'clock_utc_sync'."""
         return self._clock_utc_sync
@@ -167,7 +169,7 @@ class SbgUtcTimeStatus(metaclass=Metaclass_SbgUtcTimeStatus):
                 "The 'clock_utc_sync' field must be of type 'bool'"
         self._clock_utc_sync = value
 
-    @property
+    @builtins.property
     def clock_utc_status(self):
         """Message field 'clock_utc_status'."""
         return self._clock_utc_status

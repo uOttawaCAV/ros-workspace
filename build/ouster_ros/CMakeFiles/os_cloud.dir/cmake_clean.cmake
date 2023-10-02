@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o"
+  "CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o.d"
   "os_cloud"
   "os_cloud.pdb"
 )

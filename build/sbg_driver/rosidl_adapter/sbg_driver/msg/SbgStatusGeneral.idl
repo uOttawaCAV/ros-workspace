@@ -6,32 +6,32 @@
 module sbg_driver {
   module msg {
     @verbatim (language="comment", text=
-      " SBG Ellipse Messages" "\n"
-      " SbgStatus submessage")
+      "SBG Ellipse Messages" "\n"
+      "SbgStatus submessage")
     struct SbgStatusGeneral {
       @verbatim (language="comment", text=
-        " General main power" "\n"
-        " True when main power supply is OK.")
+        "General main power" "\n"
+        "True when main power supply is OK.")
       boolean main_power;
 
       @verbatim (language="comment", text=
-        " General imu power" "\n"
-        " True when IMU power supply is OK.")
+        "General imu power" "\n"
+        "True when IMU power supply is OK.")
       boolean imu_power;
 
       @verbatim (language="comment", text=
-        " General gps power" "\n"
-        " Set to True when GPS power supply is OK.")
+        "General gps power" "\n"
+        "Set to True when GPS power supply is OK.")
       boolean gps_power;
 
       @verbatim (language="comment", text=
-        " General Settings" "\n"
-        " True if settings were correctly loaded")
+        "General Settings" "\n"
+        "True if settings were correctly loaded")
       boolean settings;
 
       @verbatim (language="comment", text=
-        " General Temperature" "\n"
-        " True when temperature is within specified limits.")
+        "General Temperature" "\n"
+        "True when temperature is within specified limits.")
       boolean temperature;
     };
   };

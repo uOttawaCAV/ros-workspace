@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -198,7 +200,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def solution_mode(self):
         """Message field 'solution_mode'."""
         return self._solution_mode
@@ -213,7 +215,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'solution_mode' field must be an unsigned integer in [0, 255]"
         self._solution_mode = value
 
-    @property
+    @builtins.property
     def attitude_valid(self):
         """Message field 'attitude_valid'."""
         return self._attitude_valid
@@ -226,7 +228,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'attitude_valid' field must be of type 'bool'"
         self._attitude_valid = value
 
-    @property
+    @builtins.property
     def heading_valid(self):
         """Message field 'heading_valid'."""
         return self._heading_valid
@@ -239,7 +241,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'heading_valid' field must be of type 'bool'"
         self._heading_valid = value
 
-    @property
+    @builtins.property
     def velocity_valid(self):
         """Message field 'velocity_valid'."""
         return self._velocity_valid
@@ -252,7 +254,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'velocity_valid' field must be of type 'bool'"
         self._velocity_valid = value
 
-    @property
+    @builtins.property
     def position_valid(self):
         """Message field 'position_valid'."""
         return self._position_valid
@@ -265,7 +267,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'position_valid' field must be of type 'bool'"
         self._position_valid = value
 
-    @property
+    @builtins.property
     def vert_ref_used(self):
         """Message field 'vert_ref_used'."""
         return self._vert_ref_used
@@ -278,7 +280,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'vert_ref_used' field must be of type 'bool'"
         self._vert_ref_used = value
 
-    @property
+    @builtins.property
     def mag_ref_used(self):
         """Message field 'mag_ref_used'."""
         return self._mag_ref_used
@@ -291,7 +293,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'mag_ref_used' field must be of type 'bool'"
         self._mag_ref_used = value
 
-    @property
+    @builtins.property
     def gps1_vel_used(self):
         """Message field 'gps1_vel_used'."""
         return self._gps1_vel_used
@@ -304,7 +306,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps1_vel_used' field must be of type 'bool'"
         self._gps1_vel_used = value
 
-    @property
+    @builtins.property
     def gps1_pos_used(self):
         """Message field 'gps1_pos_used'."""
         return self._gps1_pos_used
@@ -317,7 +319,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps1_pos_used' field must be of type 'bool'"
         self._gps1_pos_used = value
 
-    @property
+    @builtins.property
     def gps1_course_used(self):
         """Message field 'gps1_course_used'."""
         return self._gps1_course_used
@@ -330,7 +332,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps1_course_used' field must be of type 'bool'"
         self._gps1_course_used = value
 
-    @property
+    @builtins.property
     def gps1_hdt_used(self):
         """Message field 'gps1_hdt_used'."""
         return self._gps1_hdt_used
@@ -343,7 +345,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps1_hdt_used' field must be of type 'bool'"
         self._gps1_hdt_used = value
 
-    @property
+    @builtins.property
     def gps2_vel_used(self):
         """Message field 'gps2_vel_used'."""
         return self._gps2_vel_used
@@ -356,7 +358,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps2_vel_used' field must be of type 'bool'"
         self._gps2_vel_used = value
 
-    @property
+    @builtins.property
     def gps2_pos_used(self):
         """Message field 'gps2_pos_used'."""
         return self._gps2_pos_used
@@ -369,7 +371,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps2_pos_used' field must be of type 'bool'"
         self._gps2_pos_used = value
 
-    @property
+    @builtins.property
     def gps2_course_used(self):
         """Message field 'gps2_course_used'."""
         return self._gps2_course_used
@@ -382,7 +384,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps2_course_used' field must be of type 'bool'"
         self._gps2_course_used = value
 
-    @property
+    @builtins.property
     def gps2_hdt_used(self):
         """Message field 'gps2_hdt_used'."""
         return self._gps2_hdt_used
@@ -395,7 +397,7 @@ class SbgEkfStatus(metaclass=Metaclass_SbgEkfStatus):
                 "The 'gps2_hdt_used' field must be of type 'bool'"
         self._gps2_hdt_used = value
 
-    @property
+    @builtins.property
     def odo_used(self):
         """Message field 'odo_used'."""
         return self._odo_used

@@ -1,0 +1,10 @@
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/string_publisher.dir/build.make:145: string_publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/string_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/integer_publisher.dir/build.make:145: integer_publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/integer_publisher.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

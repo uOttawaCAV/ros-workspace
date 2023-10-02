@@ -16,7 +16,7 @@ set(_ouster_ros_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ouster_ros_FIND_QUIETLY)
-  message(STATUS "Found ouster_ros: 0.8.6 (${ouster_ros_DIR})")
+  message(STATUS "Found ouster_ros: 0.10.3 (${ouster_ros_DIR})")
 endif()
 
 # warn when using a deprecated package

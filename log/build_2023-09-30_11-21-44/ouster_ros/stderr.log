@@ -1,0 +1,33 @@
+[31mCMake Error at CMakeLists.txt:4 (include):
+  include could not find requested file:
+
+    DefaultBuildType
+
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+  does not match the name of the calling package (PCL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at CMakeLists.txt:48 (find_package):
+  By not providing "FindOusterSDK.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "OusterSDK", but CMake did not find one.
+
+  Could not find a package configuration file provided by "OusterSDK" with
+  any of the following names:
+
+    OusterSDKConfig.cmake
+    oustersdk-config.cmake
+
+  Add the installation prefix of "OusterSDK" to CMAKE_PREFIX_PATH or set
+  "OusterSDK_DIR" to a directory containing one of the above files.  If
+  "OusterSDK" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

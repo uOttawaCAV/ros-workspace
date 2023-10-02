@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o"
+  "CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o.d"
   "os_replay"
   "os_replay.pdb"
 )

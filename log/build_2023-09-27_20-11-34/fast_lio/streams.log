@@ -1,0 +1,39 @@
+[0.048s] Invoking command in '/home/uocav/ros-workspace/build/fast_lio': /usr/bin/cmake /home/uocav/ros-workspace/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/fast_lio
+[0.263s] -- The C compiler identification is GNU 9.4.0
+[0.396s] -- The CXX compiler identification is GNU 9.4.0
+[0.403s] -- Check for working C compiler: /usr/bin/cc
+[0.475s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.482s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.572s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.687s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.783s] -- Detecting CXX compile features
+[0.784s] -- Detecting CXX compile features - done
+[0.785s] Current CPU archtecture: x86_64
+[0.791s] Processer number:  6
+[0.791s] core for MP: 3
+[1.789s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[1.820s] CMake Error at CMakeLists.txt:45 (find_package):
+[1.821s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.821s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.821s]   CMake did not find one.
+[1.821s] 
+[1.821s]   Could not find a package configuration file provided by "catkin" with any
+[1.821s]   of the following names:
+[1.821s] 
+[1.821s]     catkinConfig.cmake
+[1.821s]     catkin-config.cmake
+[1.821s] 
+[1.821s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.822s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.822s]   provides a separate development package or SDK, be sure it has been
+[1.822s]   installed.
+[1.822s] 
+[1.822s] 
+[1.822s] -- Configuring incomplete, errors occurred!
+[1.823s] See also "/home/uocav/ros-workspace/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[1.831s] Invoked command in '/home/uocav/ros-workspace/build/fast_lio' returned '1': /usr/bin/cmake /home/uocav/ros-workspace/FAST_LIO -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/fast_lio

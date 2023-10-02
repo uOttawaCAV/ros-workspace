@@ -1,1 +1,0 @@
-/home/uocav/ros-workspace/build/ouster_srvs/rosidl_cmake/srv/SetConfig_Request.msg

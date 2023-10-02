@@ -1,0 +1,222 @@
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:[m[K In function ‘[01m[KsbgEComCmdMagSetCalibData[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[Koffset[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:53:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+   53 |         [01;36m[Kassert[m[K(offset);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:44:76:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 | SbgErrorCode sbgEComCmdMagSetCalibData(SbgEComHandle *pHandle, [01;36m[Kconst float offset[3][m[K, const float matrix[9])
+      |                                                                [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[Kmatrix[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:54:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+   54 |         [01;36m[Kassert[m[K(matrix);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdMag.c:44:99:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 | SbgErrorCode sbgEComCmdMagSetCalibData(SbgEComHandle *pHandle, const float offset[3], [01;36m[Kconst float matrix[9][m[K)
+      |                                                                                       [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:30[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:[m[K In function ‘[01m[KsbgEComCmdOdoGetLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kfloat *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:177:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  177 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:168:69:[m[K [01;36m[Knote: [m[Kdeclared here
+  168 | SbgErrorCode sbgEComCmdOdoGetLeverArm(SbgEComHandle *pHandle, [01;36m[Kfloat leverArm[3][m[K)
+      |                                                               [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:30[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:[m[K In function ‘[01m[KsbgEComCmdOdoSetLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:242:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  242 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOdo.c:234:75:[m[K [01;36m[Knote: [m[Kdeclared here
+  234 | SbgErrorCode sbgEComCmdOdoSetLeverArm(SbgEComHandle *pHandle, [01;36m[Kconst float leverArm[3][m[K)
+      |                                                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:[m[K In function ‘[01m[KsbgEComCmdOutputGetNmeaTalkerId[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KnmeaTalkerId[m[K’ will return size of ‘[01m[Kchar *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:714:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  714 |         [01;36m[Kassert[m[K(nmeaTalkerId);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:703:105:[m[K [01;36m[Knote: [m[Kdeclared here
+  703 | SbgErrorCode sbgEComCmdOutputGetNmeaTalkerId(SbgEComHandle *pHandle, SbgEComOutputPort outputPort, [01;36m[Kchar nmeaTalkerId[2][m[K)
+      |                                                                                                    [01;36m[K~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:[m[K In function ‘[01m[KsbgEComCmdOutputSetNmeaTalkerId[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KnmeaTalkerId[m[K’ will return size of ‘[01m[Kconst char *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:788:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  788 |         [01;36m[Kassert[m[K(nmeaTalkerId);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdOutput.c:780:111:[m[K [01;36m[Knote: [m[Kdeclared here
+  780 | SbgErrorCode sbgEComCmdOutputSetNmeaTalkerId(SbgEComHandle *pHandle, SbgEComOutputPort outputPort, [01;36m[Kconst char nmeaTalkerId[2][m[K)
+      |                                                                                                    [01;36m[K~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:[m[K In function ‘[01m[KsbgEComCmdSensorGetAlignmentAndLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kfloat *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:368:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  368 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:358:124:[m[K [01;36m[Knote: [m[Kdeclared here
+  358 | SbgErrorCode sbgEComCmdSensorGetAlignmentAndLeverArm(SbgEComHandle *pHandle, SbgEComSensorAlignmentInfo *pAlignConf, [01;36m[Kfloat leverArm[3][m[K)
+      |                                                                                                                      [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgErrorCodes.h:35[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgCommon.h:131[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/../sbgECom.h:45[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdCommon.h:36[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.h:34[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:[m[K In function ‘[01m[KsbgEComCmdSensorSetAlignmentAndLeverArm[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/common/sbgDefines.h:54:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksizeof[m[K’ on array function parameter ‘[01m[KleverArm[m[K’ will return size of ‘[01m[Kconst float *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-array-argument-Wsizeof-array-argument]8;;[m[K]
+   54 | #define assert(expression) ((void)sizeof[01;35m[K([m[Kexpression))
+      |                                         [01;35m[K^[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:446:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kassert[m[K’
+  446 |         [01;36m[Kassert[m[K(leverArm);
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/external/sbgECom/src/commands/sbgEComCmdSensor.c:437:136:[m[K [01;36m[Knote: [m[Kdeclared here
+  437 | SbgErrorCode sbgEComCmdSensorSetAlignmentAndLeverArm(SbgEComHandle *pHandle, const SbgEComSensorAlignmentInfo *pAlignConf, [01;36m[Kconst float leverArm[3][m[K)
+      |                                                                                                                            [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:124:79:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_applier.cpp:124:79:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/message_wrapper.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:95:62:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:12:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   12 |     RCLCPP_INFO(node_handle->get_logger[01;35m[K([m[K), "SBG DRIVER - Init node, load params and connect to the device");
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:12:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   12 |     RCLCPP_INFO(node_handle->get_logger[01;35m[K([m[K), "SBG DRIVER - Init node, load params and connect to the device");
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:41[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_applier.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_device.h:14[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/main_mag.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/config_store.h:44[m[K,
+                 from [01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:2[m[K:
+/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h: In instantiation of ‘[01m[Ksbg::SbgVector3<T>::SbgVector3(const T*, size_t) [with T = float; size_t = long unsigned int][m[K’:
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/src/config_store.cpp:95:62:[m[K   required from here
+[01m[K/home/uocav/ros-workspace/src/sbg_ros2_driver/include/sbg_driver/sbg_vector3.h:81:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karray_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   SbgVector3(const T* p_raw_data, [01;35m[Ksize_t array_size[m[K)
+      |                                   [01;35m[K~~~~~~~^~~~~~~~~~[m[K

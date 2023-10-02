@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o"
+  "CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o.d"
   "liblaserscan_to_pointcloud.pdb"
   "liblaserscan_to_pointcloud.so"
 )

@@ -21,7 +21,7 @@ extern "C"
 // Member 'buf'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
-// Struct defined in msg/PacketMsg in the package ouster_msgs.
+/// Struct defined in msg/PacketMsg in the package ouster_msgs.
 typedef struct ouster_msgs__msg__PacketMsg
 {
   rosidl_runtime_c__uint8__Sequence buf;

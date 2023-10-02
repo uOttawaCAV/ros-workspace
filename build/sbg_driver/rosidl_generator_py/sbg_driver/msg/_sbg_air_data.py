@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -160,7 +164,7 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -174,7 +178,7 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -189,7 +193,7 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -203,7 +207,7 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
                 "The 'status' field must be a sub message of type 'SbgAirDataStatus'"
         self._status = value
 
-    @property
+    @builtins.property
     def pressure_abs(self):
         """Message field 'pressure_abs'."""
         return self._pressure_abs
@@ -214,9 +218,11 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
             assert \
                 isinstance(value, float), \
                 "The 'pressure_abs' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'pressure_abs' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._pressure_abs = value
 
-    @property
+    @builtins.property
     def altitude(self):
         """Message field 'altitude'."""
         return self._altitude
@@ -227,9 +233,11 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
             assert \
                 isinstance(value, float), \
                 "The 'altitude' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'altitude' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._altitude = value
 
-    @property
+    @builtins.property
     def pressure_diff(self):
         """Message field 'pressure_diff'."""
         return self._pressure_diff
@@ -240,9 +248,11 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
             assert \
                 isinstance(value, float), \
                 "The 'pressure_diff' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'pressure_diff' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._pressure_diff = value
 
-    @property
+    @builtins.property
     def true_air_speed(self):
         """Message field 'true_air_speed'."""
         return self._true_air_speed
@@ -253,9 +263,11 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
             assert \
                 isinstance(value, float), \
                 "The 'true_air_speed' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'true_air_speed' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._true_air_speed = value
 
-    @property
+    @builtins.property
     def air_temperature(self):
         """Message field 'air_temperature'."""
         return self._air_temperature
@@ -266,4 +278,6 @@ class SbgAirData(metaclass=Metaclass_SbgAirData):
             assert \
                 isinstance(value, float), \
                 "The 'air_temperature' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'air_temperature' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._air_temperature = value

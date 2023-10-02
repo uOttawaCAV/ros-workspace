@@ -26,16 +26,44 @@ extern "C"
 // Member 'velocity_accuracy'
 #include "geometry_msgs/msg/detail/vector3__struct.h"
 
-// Struct defined in msg/SbgGpsVel in the package sbg_driver.
+/// Struct defined in msg/SbgGpsVel in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgGpsVel
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up
   uint32_t time_stamp;
+  /// GPS velocity fix and status bitmask
   sbg_driver__msg__SbgGpsVelStatus status;
+  /// GPS Time of Week
   uint32_t gps_tow;
+  /// Velocity
+  /// In NED convention:
+  ///   X: North
+  ///   Y: East
+  ///   Z: Down
+  /// In ENU convention:
+  ///   X: East
+  ///   Y: North
+  ///   Z: Up
   geometry_msgs__msg__Vector3 velocity;
+  /// Velocity accuracy (1 sigma)
+  /// In NED convention:
+  ///   X: North
+  ///   Y: East
+  ///   Z: Vertical
+  /// In ENU convention:
+  ///   X: East
+  ///   Y: North
+  ///   Z: Vertical
   geometry_msgs__msg__Vector3 velocity_accuracy;
+  /// True direction of motion over ground (0 to 360 deg)
+  /// NED convention: Zero when the X axis is pointing North.
+  /// ENU convention: Zero when the X axis is pointing East. (opposite sign compared to NED)
   float course;
+  /// 1 sgima course accuracy
   float course_acc;
 } sbg_driver__msg__SbgGpsVel;
 

@@ -8,36 +8,36 @@
 module sbg_driver {
   module msg {
     @verbatim (language="comment", text=
-      " SBG Ellipse Messages")
+      "SBG Ellipse Messages")
     struct SbgAirData {
       std_msgs::msg::Header header;
 
       @verbatim (language="comment", text=
-        " Time since sensor is powered up micro s")
+        "Time since sensor is powered up micro s")
       uint32 time_stamp;
 
       @verbatim (language="comment", text=
-        " Airdata sensor status")
+        "Airdata sensor status")
       sbg_driver::msg::SbgAirDataStatus status;
 
       @verbatim (language="comment", text=
-        " Raw absolute pressure measured by the barometer sensor in Pascals.")
+        "Raw absolute pressure measured by the barometer sensor in Pascals.")
       double pressure_abs;
 
       @verbatim (language="comment", text=
-        " Altitude computed from barometric altimeter in meters and positive upward.")
+        "Altitude computed from barometric altimeter in meters and positive upward.")
       double altitude;
 
       @verbatim (language="comment", text=
-        " Raw differential pressure measured by the pitot tube in Pascal.")
+        "Raw differential pressure measured by the pitot tube in Pascal.")
       double pressure_diff;
 
       @verbatim (language="comment", text=
-        " True airspeed measured by a pitot tube in m.s^-1 and positive forward.")
+        "True airspeed measured by a pitot tube in m.s^-1 and positive forward.")
       double true_air_speed;
 
       @verbatim (language="comment", text=
-        " Outside air temperature in °C that could be used to compute true airspeed from differential pressure.")
+        "Outside air temperature in °C that could be used to compute true airspeed from differential pressure.")
       double air_temperature;
     };
   };

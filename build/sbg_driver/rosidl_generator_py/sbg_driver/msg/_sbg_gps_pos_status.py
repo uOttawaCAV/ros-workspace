@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -144,7 +146,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -159,7 +161,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'status' field must be an unsigned integer in [0, 255]"
         self._status = value
 
-    @property  # noqa: A003
+    @builtins.property  # noqa: A003
     def type(self):  # noqa: A003
         """Message field 'type'."""
         return self._type
@@ -174,7 +176,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'type' field must be an unsigned integer in [0, 255]"
         self._type = value
 
-    @property
+    @builtins.property
     def gps_l1_used(self):
         """Message field 'gps_l1_used'."""
         return self._gps_l1_used
@@ -187,7 +189,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'gps_l1_used' field must be of type 'bool'"
         self._gps_l1_used = value
 
-    @property
+    @builtins.property
     def gps_l2_used(self):
         """Message field 'gps_l2_used'."""
         return self._gps_l2_used
@@ -200,7 +202,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'gps_l2_used' field must be of type 'bool'"
         self._gps_l2_used = value
 
-    @property
+    @builtins.property
     def gps_l5_used(self):
         """Message field 'gps_l5_used'."""
         return self._gps_l5_used
@@ -213,7 +215,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'gps_l5_used' field must be of type 'bool'"
         self._gps_l5_used = value
 
-    @property
+    @builtins.property
     def glo_l1_used(self):
         """Message field 'glo_l1_used'."""
         return self._glo_l1_used
@@ -226,7 +228,7 @@ class SbgGpsPosStatus(metaclass=Metaclass_SbgGpsPosStatus):
                 "The 'glo_l1_used' field must be of type 'bool'"
         self._glo_l1_used = value
 
-    @property
+    @builtins.property
     def glo_l2_used(self):
         """Message field 'glo_l2_used'."""
         return self._glo_l2_used

@@ -1,1 +1,0 @@
-/home/uocav/ros-workspace/build/ouster_srvs/rosidl_typesupport_fastrtps_cpp/ouster_srvs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp

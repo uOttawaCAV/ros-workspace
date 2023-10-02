@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/sbg_driver/rosidl_generator_py/sbg_driver/msg/__init__.py

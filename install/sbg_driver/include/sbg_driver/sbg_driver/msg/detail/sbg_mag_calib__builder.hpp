@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/sbg_driver/rosidl_generator_cpp/sbg_driver/msg/detail/sbg_mag_calib__builder.hpp

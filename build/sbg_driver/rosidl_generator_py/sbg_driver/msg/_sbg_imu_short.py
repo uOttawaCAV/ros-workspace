@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -154,7 +156,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -168,7 +170,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -183,7 +185,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def imu_status(self):
         """Message field 'imu_status'."""
         return self._imu_status
@@ -197,7 +199,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
                 "The 'imu_status' field must be a sub message of type 'SbgImuStatus'"
         self._imu_status = value
 
-    @property
+    @builtins.property
     def delta_velocity(self):
         """Message field 'delta_velocity'."""
         return self._delta_velocity
@@ -211,7 +213,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
                 "The 'delta_velocity' field must be a sub message of type 'Vector3'"
         self._delta_velocity = value
 
-    @property
+    @builtins.property
     def delta_angle(self):
         """Message field 'delta_angle'."""
         return self._delta_angle
@@ -225,7 +227,7 @@ class SbgImuShort(metaclass=Metaclass_SbgImuShort):
                 "The 'delta_angle' field must be a sub message of type 'Vector3'"
         self._delta_angle = value
 
-    @property
+    @builtins.property
     def temperature(self):
         """Message field 'temperature'."""
         return self._temperature

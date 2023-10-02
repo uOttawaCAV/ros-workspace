@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -148,7 +150,7 @@ class SbgEkfEuler(metaclass=Metaclass_SbgEkfEuler):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -162,7 +164,7 @@ class SbgEkfEuler(metaclass=Metaclass_SbgEkfEuler):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @property
+    @builtins.property
     def time_stamp(self):
         """Message field 'time_stamp'."""
         return self._time_stamp
@@ -177,7 +179,7 @@ class SbgEkfEuler(metaclass=Metaclass_SbgEkfEuler):
                 "The 'time_stamp' field must be an unsigned integer in [0, 4294967295]"
         self._time_stamp = value
 
-    @property
+    @builtins.property
     def angle(self):
         """Message field 'angle'."""
         return self._angle
@@ -191,7 +193,7 @@ class SbgEkfEuler(metaclass=Metaclass_SbgEkfEuler):
                 "The 'angle' field must be a sub message of type 'Vector3'"
         self._angle = value
 
-    @property
+    @builtins.property
     def accuracy(self):
         """Message field 'accuracy'."""
         return self._accuracy
@@ -205,7 +207,7 @@ class SbgEkfEuler(metaclass=Metaclass_SbgEkfEuler):
                 "The 'accuracy' field must be a sub message of type 'Vector3'"
         self._accuracy = value
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status

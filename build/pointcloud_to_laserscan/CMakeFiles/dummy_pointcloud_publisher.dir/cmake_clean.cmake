@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o"
+  "CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o.d"
   "dummy_pointcloud_publisher"
   "dummy_pointcloud_publisher.pdb"
 )

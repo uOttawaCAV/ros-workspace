@@ -21,12 +21,20 @@ extern "C"
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.h"
 
-// Struct defined in msg/SbgOdoVel in the package sbg_driver.
+/// Struct defined in msg/SbgOdoVel in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgOdoVel
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up us
   uint32_t time_stamp;
+  /// Real Measurement
+  /// True if this log comes from a real pulse measurement
+  /// False if it comes from a timeout
   bool status;
+  /// Velocity in odometer direction (m/s)
   float vel;
 } sbg_driver__msg__SbgOdoVel;
 

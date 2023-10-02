@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o"
+  "CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o.d"
   "os_sensor"
   "os_sensor.pdb"
 )

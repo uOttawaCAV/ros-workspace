@@ -27,15 +27,25 @@ extern "C"
 // Member 'status'
 #include "sbg_driver/msg/detail/sbg_ship_motion_status__struct.h"
 
-// Struct defined in msg/SbgShipMotion in the package sbg_driver.
+/// Struct defined in msg/SbgShipMotion in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgShipMotion
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up us
   uint32_t time_stamp;
+  /// Main heave period in seconds. s float 4 4
   uint16_t heave_period;
+  /// [Surge, Sway, Heave (positive down)] at main location (in m)
+  /// Note : Surge & Sway are not fulfilled
   geometry_msgs__msg__Vector3 ship_motion;
+  /// [Longitudinal, Lateral, Vertical (positive down)] acceleration (in m/s2)
   geometry_msgs__msg__Vector3 acceleration;
+  /// [Longitudinal, Lateral, Vertical (positive down)] velocity (in m/s)
   geometry_msgs__msg__Vector3 velocity;
+  /// Ship motion output status
   sbg_driver__msg__SbgShipMotionStatus status;
 } sbg_driver__msg__SbgShipMotion;
 

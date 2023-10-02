@@ -15,7 +15,6 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(ouster_msgs REQUIRED)
-find_package(ouster_srvs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(Eigen3 REQUIRED)
@@ -65,7 +64,6 @@ set(ouster_ros_library_deps
   sensor_msgs
   geometry_msgs
   ouster_msgs
-  ouster_srvs
   pcl_conversions
   tf2
   tf2_eigen
@@ -156,6 +154,28 @@ rclcpp_components_register_node(os_image_component
   EXECUTABLE os_image
 )
 
+# ==== os_sensor_component ====
+create_ros2_component(os_driver_component
+  "src/os_sensor_node_base.cpp;src/os_sensor_node.cpp;src/os_driver_node.cpp"
+  "std_srvs"
+)
+rclcpp_components_register_node(os_driver_component
+  PLUGIN "ouster_ros::OusterDriver"
+  EXECUTABLE os_driver
+)
+
+
+# ==== Test ====
+if(BUILD_TESTING)
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(${PROJECT_NAME}_test test/ring_buffer_test.cpp)
+  target_include_directories(${PROJECT_NAME}_test PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+  )
+endif()
+
+
 # ==== Install ====
 install(
   TARGETS
@@ -164,6 +184,7 @@ install(
     os_replay_component
     os_cloud_component
     os_image_component
+    os_driver_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin

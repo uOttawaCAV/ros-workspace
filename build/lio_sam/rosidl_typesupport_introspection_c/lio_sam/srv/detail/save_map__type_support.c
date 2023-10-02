@@ -21,7 +21,7 @@ extern "C"
 {
 #endif
 
-void SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_init_function(
+void lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -30,12 +30,12 @@ void SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_init_f
   lio_sam__srv__SaveMap_Request__init(message_memory);
 }
 
-void SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_fini_function(void * message_memory)
+void lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_fini_function(void * message_memory)
 {
   lio_sam__srv__SaveMap_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_member_array[2] = {
   {
     "resolution",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -49,6 +49,8 @@ static rosidl_typesupport_introspection_c__MessageMember SaveMap_Request__rosidl
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -64,36 +66,38 @@ static rosidl_typesupport_introspection_c__MessageMember SaveMap_Request__rosidl
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_members = {
   "lio_sam__srv",  // message namespace
   "SaveMap_Request",  // message name
   2,  // number of fields
   sizeof(lio_sam__srv__SaveMap_Request),
-  SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_member_array,  // message members
-  SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_init_function,  // function to initialize message memory (memory has to be allocated)
-  SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_fini_function  // function to terminate message instance (will not free memory)
+  lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_member_array,  // message members
+  lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle = {
+static rosidl_message_type_support_t lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle = {
   0,
-  &SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_members,
+  &lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_lio_sam
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, lio_sam, srv, SaveMap_Request)() {
-  if (!SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle.typesupport_identifier) {
-    SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle.typesupport_identifier =
+  if (!lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle.typesupport_identifier) {
+    lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle;
+  return &lio_sam__srv__SaveMap_Request__rosidl_typesupport_introspection_c__SaveMap_Request_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -122,7 +126,7 @@ extern "C"
 {
 #endif
 
-void SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_init_function(
+void lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -131,12 +135,12 @@ void SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_init
   lio_sam__srv__SaveMap_Response__init(message_memory);
 }
 
-void SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_fini_function(void * message_memory)
+void lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_fini_function(void * message_memory)
 {
   lio_sam__srv__SaveMap_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_member_array[1] = {
   {
     "success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -150,36 +154,38 @@ static rosidl_typesupport_introspection_c__MessageMember SaveMap_Response__rosid
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_members = {
   "lio_sam__srv",  // message namespace
   "SaveMap_Response",  // message name
   1,  // number of fields
   sizeof(lio_sam__srv__SaveMap_Response),
-  SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_member_array,  // message members
-  SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_init_function,  // function to initialize message memory (memory has to be allocated)
-  SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_fini_function  // function to terminate message instance (will not free memory)
+  lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_member_array,  // message members
+  lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle = {
+static rosidl_message_type_support_t lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle = {
   0,
-  &SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_members,
+  &lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_lio_sam
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, lio_sam, srv, SaveMap_Response)() {
-  if (!SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle.typesupport_identifier) {
-    SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle.typesupport_identifier =
+  if (!lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle.typesupport_identifier) {
+    lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle;
+  return &lio_sam__srv__SaveMap_Response__rosidl_typesupport_introspection_c__SaveMap_Response_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

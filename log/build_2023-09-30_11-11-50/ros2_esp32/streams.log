@@ -1,0 +1,43 @@
+[0.159s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ros2_esp32
+[0.275s] -- The C compiler identification is GNU 11.4.0
+[0.370s] -- The CXX compiler identification is GNU 11.4.0
+[0.378s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.510s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.510s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.607s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.636s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.636s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.741s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.748s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.813s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.980s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.982s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.187s] -- Configuring done
+[1.196s] -- Generating done
+[1.197s] -- Build files have been written to: /home/uocav/ros-workspace/build/ros2_esp32
+[1.207s] Invoked command in '/home/uocav/ros-workspace/build/ros2_esp32' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/ros2_esp32 -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ros2_esp32
+[1.207s] Invoking command in '/home/uocav/ros-workspace/build/ros2_esp32': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ros2_esp32 -- -j6 -l6
+[1.255s] [ 25%] [32mBuilding CXX object CMakeFiles/integer_publisher.dir/src/integer_publisher.cpp.o[0m
+[1.258s] [ 50%] [32mBuilding CXX object CMakeFiles/string_publisher.dir/src/string_publisher.cpp.o[0m
+[6.200s] [ 75%] [32m[1mLinking CXX executable string_publisher[0m
+[6.359s] /usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+[6.366s] collect2: error: ld returned 1 exit status
+[6.368s] make[2]: *** [CMakeFiles/string_publisher.dir/build.make:145: string_publisher] Error 1
+[6.368s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/string_publisher.dir/all] Error 2
+[6.368s] make[1]: *** Waiting for unfinished jobs....
+[6.594s] [100%] [32m[1mLinking CXX executable integer_publisher[0m
+[6.715s] /usr/bin/ld: /opt/ros/foxy/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v6::basic_string_view<char>, spdlog::level::level_enum, fmt::v6::basic_string_view<char>)'
+[6.720s] collect2: error: ld returned 1 exit status
+[6.722s] make[2]: *** [CMakeFiles/integer_publisher.dir/build.make:145: integer_publisher] Error 1
+[6.722s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/integer_publisher.dir/all] Error 2
+[6.723s] make: *** [Makefile:146: all] Error 2

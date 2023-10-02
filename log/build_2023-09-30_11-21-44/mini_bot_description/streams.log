@@ -1,0 +1,51 @@
+[0.201s] Invoking command in '/home/uocav/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/mini_bot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/mini_bot_description
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.309s] -- The CXX compiler identification is GNU 11.4.0
+[0.315s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.382s] -- Detecting C compile features
+[0.382s] -- Detecting C compile features - done
+[0.384s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.467s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.673s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.694s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.785s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.788s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.789s] -- Added test 'lint_cmake' to check CMake code style
+[0.790s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.792s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done
+[0.798s] -- Generating done
+[0.800s] -- Build files have been written to: /home/uocav/ros-workspace/build/mini_bot_description
+[0.807s] Invoked command in '/home/uocav/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake /home/uocav/ros-workspace/src/mini_bot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/mini_bot_description
+[0.808s] Invoking command in '/home/uocav/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/mini_bot_description -- -j6 -l6
+[0.847s] Invoked command in '/home/uocav/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/mini_bot_description -- -j6 -l6
+[0.874s] Invoking command in '/home/uocav/ros-workspace/build/mini_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/mini_bot_description
+[0.879s] -- Install configuration: "Release"
+[0.879s] -- Execute custom install script
+[0.880s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/src/description/prototype.urdf
+[0.880s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/display.launch.py
+[0.880s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/robot_state.launch.py
+[0.880s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/rviz/urdf_config.rviz
+[0.880s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/package_run_dependencies/mini_bot_description
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/parent_prefix_path/mini_bot_description
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.sh
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.dsv
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.sh
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.dsv
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.bash
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.sh
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.zsh
+[0.881s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.dsv
+[0.881s] -- Symlinking: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.dsv
+[0.889s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/packages/mini_bot_description
+[0.889s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig.cmake
+[0.889s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig-version.cmake
+[0.890s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.xml
+[0.892s] Invoked command in '/home/uocav/ros-workspace/build/mini_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/mini_bot_description

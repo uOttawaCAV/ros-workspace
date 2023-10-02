@@ -1,0 +1,25 @@
+[0.983s] Invoking command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data
+[1.198s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.198s]   warnings.warn(
+[1.223s] running develop
+[1.224s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.224s]   warnings.warn(
+[1.226s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.226s]   warnings.warn(
+[1.283s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[1.283s]   warnings.warn(
+[1.388s] running egg_info
+[1.389s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[1.389s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[1.389s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[1.389s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[1.389s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[1.396s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.397s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.444s] running build_ext
+[1.444s] Creating /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[1.445s] Installing state_publisher script to /home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[1.445s] 
+[1.445s] Installed /home/uocav/ros-workspace/build/urdf_tutorial_r2d2
+[1.445s] running install_data
+[1.527s] Invoked command in '/home/uocav/ros-workspace/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/uocav/ros-workspace/build/urdf_tutorial_r2d2/prefix_override:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/uocav/ros-workspace/build/urdf_tutorial_r2d2/build --no-deps install_data

@@ -9,45 +9,45 @@
 module sbg_driver {
   module msg {
     @verbatim (language="comment", text=
-      " SBG Ellipse Messages")
+      "SBG Ellipse Messages")
     struct SbgMag {
       std_msgs::msg::Header header;
 
       @verbatim (language="comment", text=
-        " Time since sensor is powered up (us)")
+        "Time since sensor is powered up (us)")
       uint32 time_stamp;
 
       @verbatim (language="comment", text=
-        " Magnetometer output" "\n"
+        "Magnetometer output" "\n"
         "" "\n"
-        " NED convention:" "\n"
-        "   x: X axis of the device frame" "\n"
-        "   y: Y axis of the device frame" "\n"
-        "   z: Z axis of the device frame" "\n"
+        "NED convention:" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: Y axis of the device frame" "\n"
+        "  z: Z axis of the device frame" "\n"
         "" "\n"
-        " ENU convention:" "\n"
-        "   x: Y axis of the device frame" "\n"
-        "   y: X axis of the device frame" "\n"
-        "   z: -Z axis of the device frame")
+        "ENU convention:" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
+        "  z: -Z axis of the device frame")
       geometry_msgs::msg::Vector3 mag;
 
       @verbatim (language="comment", text=
-        " Accelerometer output" "\n"
+        "Accelerometer output" "\n"
         "" "\n"
-        " NED convention:" "\n"
-        "   x: X axis of the device frame" "\n"
-        "   y: Y axis of the device frame" "\n"
-        "   z: Z axis of the device frame" "\n"
+        "NED convention:" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: Y axis of the device frame" "\n"
+        "  z: Z axis of the device frame" "\n"
         "" "\n"
-        " ENU convention:" "\n"
-        "   x: Y axis of the device frame" "\n"
-        "   y: X axis of the device frame" "\n"
-        "   z: -Z axis of the device frame")
+        "ENU convention:" "\n"
+        "  x: X axis of the device frame" "\n"
+        "  y: -Y axis of the device frame" "\n"
+        "  z: -Z axis of the device frame")
       @unit (value="m/s^2")
       geometry_msgs::msg::Vector3 accel;
 
       @verbatim (language="comment", text=
-        " Status")
+        "Status")
       sbg_driver::msg::SbgMagStatus status;
     };
   };

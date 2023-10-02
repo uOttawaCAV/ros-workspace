@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/srv/_set_config.py

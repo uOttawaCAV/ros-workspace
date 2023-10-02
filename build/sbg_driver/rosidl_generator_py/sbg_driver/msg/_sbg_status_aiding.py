@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -144,7 +146,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def gps1_pos_recv(self):
         """Message field 'gps1_pos_recv'."""
         return self._gps1_pos_recv
@@ -157,7 +159,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'gps1_pos_recv' field must be of type 'bool'"
         self._gps1_pos_recv = value
 
-    @property
+    @builtins.property
     def gps1_vel_recv(self):
         """Message field 'gps1_vel_recv'."""
         return self._gps1_vel_recv
@@ -170,7 +172,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'gps1_vel_recv' field must be of type 'bool'"
         self._gps1_vel_recv = value
 
-    @property
+    @builtins.property
     def gps1_hdt_recv(self):
         """Message field 'gps1_hdt_recv'."""
         return self._gps1_hdt_recv
@@ -183,7 +185,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'gps1_hdt_recv' field must be of type 'bool'"
         self._gps1_hdt_recv = value
 
-    @property
+    @builtins.property
     def gps1_utc_recv(self):
         """Message field 'gps1_utc_recv'."""
         return self._gps1_utc_recv
@@ -196,7 +198,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'gps1_utc_recv' field must be of type 'bool'"
         self._gps1_utc_recv = value
 
-    @property
+    @builtins.property
     def mag_recv(self):
         """Message field 'mag_recv'."""
         return self._mag_recv
@@ -209,7 +211,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'mag_recv' field must be of type 'bool'"
         self._mag_recv = value
 
-    @property
+    @builtins.property
     def odo_recv(self):
         """Message field 'odo_recv'."""
         return self._odo_recv
@@ -222,7 +224,7 @@ class SbgStatusAiding(metaclass=Metaclass_SbgStatusAiding):
                 "The 'odo_recv' field must be of type 'bool'"
         self._odo_recv = value
 
-    @property
+    @builtins.property
     def dvl_recv(self):
         """Message field 'dvl_recv'."""
         return self._dvl_recv

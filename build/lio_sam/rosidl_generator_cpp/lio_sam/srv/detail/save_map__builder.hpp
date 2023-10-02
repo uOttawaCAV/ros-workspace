@@ -5,10 +5,11 @@
 #ifndef LIO_SAM__SRV__DETAIL__SAVE_MAP__BUILDER_HPP_
 #define LIO_SAM__SRV__DETAIL__SAVE_MAP__BUILDER_HPP_
 
-#include "lio_sam/srv/detail/save_map__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "lio_sam/srv/detail/save_map__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace lio_sam

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sbg_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c.o"
-  "rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.pdb"
-  "rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+  "CMakeFiles/sbg_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sbg_driver/_sbg_driver_s.ep.rosidl_typesupport_c.c.o.d"
+  "rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.pdb"
+  "rosidl_generator_py/sbg_driver/sbg_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
 )
 
 # Per-language clean rules from dependency scanning.

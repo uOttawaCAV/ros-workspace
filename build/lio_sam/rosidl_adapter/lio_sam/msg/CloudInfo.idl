@@ -8,7 +8,7 @@
 module lio_sam {
   module msg {
     @verbatim (language="comment", text=
-      " Cloud Info")
+      "Cloud Info")
     struct CloudInfo {
       std_msgs::msg::Header header;
 
@@ -17,11 +17,11 @@ module lio_sam {
       sequence<int32> end_ring_index;
 
       @verbatim (language="comment", text=
-        " point column index in range image")
+        "point column index in range image")
       sequence<int32> point_col_ind;
 
       @verbatim (language="comment", text=
-        " point range")
+        "point range")
       sequence<float> point_range;
 
       int64 imu_available;
@@ -29,7 +29,7 @@ module lio_sam {
       int64 odom_available;
 
       @verbatim (language="comment", text=
-        " Attitude for LOAM initialization")
+        "Attitude for LOAM initialization")
       float imu_roll_init;
 
       float imu_pitch_init;
@@ -37,7 +37,7 @@ module lio_sam {
       float imu_yaw_init;
 
       @verbatim (language="comment", text=
-        " Initial guess from imu pre-integration")
+        "Initial guess from imu pre-integration")
       float initial_guess_x;
 
       float initial_guess_y;
@@ -51,16 +51,16 @@ module lio_sam {
       float initial_guess_yaw;
 
       @verbatim (language="comment", text=
-        " Point cloud messages" "\n"
-        " original cloud deskewed")
+        "Point cloud messages" "\n"
+        "original cloud deskewed")
       sensor_msgs::msg::PointCloud2 cloud_deskewed;
 
       @verbatim (language="comment", text=
-        " extracted corner feature")
+        "extracted corner feature")
       sensor_msgs::msg::PointCloud2 cloud_corner;
 
       @verbatim (language="comment", text=
-        " extracted surface feature")
+        "extracted surface feature")
       sensor_msgs::msg::PointCloud2 cloud_surface;
     };
   };

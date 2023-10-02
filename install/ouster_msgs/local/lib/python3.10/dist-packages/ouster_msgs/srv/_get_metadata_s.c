@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/ouster_msgs/rosidl_generator_py/ouster_msgs/srv/_get_metadata_s.c

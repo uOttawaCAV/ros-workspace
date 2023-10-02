@@ -1,0 +1,58 @@
+[0.073s] Invoking command in '/home/uocav/ros-workspace/build/ouster_ros': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros
+[0.081s] [31mCMake Error at CMakeLists.txt:4 (include):
+[0.082s]   include could not find requested file:
+[0.082s] 
+[0.082s]     DefaultBuildType
+[0.082s] 
+[0.082s] [0m
+[0.085s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.274s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.342s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.344s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.349s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.421s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.422s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.728s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.760s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.869s] -- Found ouster_msgs: 0.2.0 (/home/uocav/ros-workspace/install/ouster_msgs/share/ouster_msgs/cmake)
+[0.907s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.921s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.941s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.948s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.948s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[0.949s]   does not match the name of the calling package (PCL).  This can lead to
+[0.949s]   problems in calling code that expects `find_package` result variables
+[0.949s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.949s] Call Stack (most recent call first):
+[0.949s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[0.949s]   CMakeLists.txt:21 (find_package)
+[0.949s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.950s] [0m
+[0.950s] -- looking for PCL_COMMON
+[0.950s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.061s] -- Found tf2_eigen: 0.25.4 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.311s] [31mCMake Error at CMakeLists.txt:48 (find_package):
+[1.311s]   By not providing "FindOusterSDK.cmake" in CMAKE_MODULE_PATH this project
+[1.311s]   has asked CMake to find a package configuration file provided by
+[1.312s]   "OusterSDK", but CMake did not find one.
+[1.312s] 
+[1.312s]   Could not find a package configuration file provided by "OusterSDK" with
+[1.312s]   any of the following names:
+[1.312s] 
+[1.312s]     OusterSDKConfig.cmake
+[1.312s]     oustersdk-config.cmake
+[1.312s] 
+[1.313s]   Add the installation prefix of "OusterSDK" to CMAKE_PREFIX_PATH or set
+[1.313s]   "OusterSDK_DIR" to a directory containing one of the above files.  If
+[1.313s]   "OusterSDK" provides a separate development package or SDK, be sure it has
+[1.313s]   been installed.
+[1.313s] 
+[1.313s] [0m
+[1.313s] -- Configuring incomplete, errors occurred!
+[1.314s] See also "/home/uocav/ros-workspace/build/ouster_ros/CMakeFiles/CMakeOutput.log".
+[1.319s] Invoked command in '/home/uocav/ros-workspace/build/ouster_ros' returned '1': CMAKE_PREFIX_PATH=/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/humble:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy LD_LIBRARY_PATH=/home/uocav/ros-workspace/install/ouster_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/uocav/ros-workspace/install/ouster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/uocav/ros-workspace/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/ouster_ros

@@ -1,0 +1,15 @@
+[0.084s] Invoking command in '/home/uocav/ros-workspace/build/ouster_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/ouster_srvs -- -j6 -l6
+[0.221s] [  2%] Built target ouster_srvs__cpp
+[0.284s] [ 12%] Built target ouster_srvs__rosidl_generator_c
+[0.327s] [ 23%] Built target ouster_srvs__rosidl_typesupport_cpp
+[0.371s] [ 34%] Built target ouster_srvs__rosidl_typesupport_c
+[0.431s] [ 44%] Built target ouster_srvs__rosidl_typesupport_introspection_c
+[0.532s] [ 55%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp
+[0.586s] [ 65%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp
+[0.671s] [ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c
+[0.706s] [ 76%] Built target ouster_srvs
+[0.760s] [ 78%] Built target ouster_srvs__py
+[0.835s] [ 87%] Built target ouster_srvs__python
+[0.934s] [ 91%] Built target ouster_srvs__rosidl_typesupport_c__pyext
+[1.024s] [ 95%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext
+[1.106s] [100%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext

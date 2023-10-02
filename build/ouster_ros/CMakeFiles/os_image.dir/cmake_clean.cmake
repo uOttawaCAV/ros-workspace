@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o"
+  "CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o.d"
   "os_image"
   "os_image.pdb"
 )

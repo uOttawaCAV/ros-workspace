@@ -317,18 +317,3 @@ get_service_type_support_handle<lio_sam::srv::SaveMap>()
 }
 
 }  // namespace rosidl_typesupport_cpp
-
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-ROSIDL_TYPESUPPORT_CPP_PUBLIC
-const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_cpp, lio_sam, srv, SaveMap)() {
-  return ::rosidl_typesupport_cpp::get_service_type_support_handle<lio_sam::srv::SaveMap>();
-}
-
-#ifdef __cplusplus
-}
-#endif

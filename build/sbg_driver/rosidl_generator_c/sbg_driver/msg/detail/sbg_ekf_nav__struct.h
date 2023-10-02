@@ -27,18 +27,55 @@ extern "C"
 // Member 'status'
 #include "sbg_driver/msg/detail/sbg_ekf_status__struct.h"
 
-// Struct defined in msg/SbgEkfNav in the package sbg_driver.
+/// Struct defined in msg/SbgEkfNav in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgEkfNav
 {
   std_msgs__msg__Header header;
+  /// Time since sensor is powered up
   uint32_t time_stamp;
+  /// Velocity
+  /// In NED convention:
+  ///   x: North
+  ///   y: East
+  ///   z: Down
+  /// In ENU convention:
+  ///   x: East
+  ///   y: North
+  ///   z: Up
   geometry_msgs__msg__Vector3 velocity;
+  /// Velocity accuracy (1 sigma).
+  /// In NED convention:
+  ///   x: North
+  ///   y: East
+  ///   z: Vertical
+  /// In ENU convention:
+  ///   x: East
+  ///   y: North
+  ///   z: Vertical
   geometry_msgs__msg__Vector3 velocity_accuracy;
+  /// Latitude. Positive is north of equator; negative is south
   double latitude;
+  /// Longitude. Positive is east of prime meridian; negative is west
   double longitude;
+  /// Altitude. Positive (above Mean Sea Level in meters)
   double altitude;
+  /// Altitude difference between the geoid and the Ellipsoid (WGS-84 Altitude - MSL Altitude)
+  /// (Height above Ellipsoid = altitude + undulation)
   float undulation;
+  /// Position accuracy (1 sigma).
+  /// In NED convention:
+  ///   x: North
+  ///   y: East
+  ///   z: Vertical
+  /// In ENU convention:
+  ///   x: East
+  ///   y: North
+  ///   z: Vertical
   geometry_msgs__msg__Vector3 position_accuracy;
+  /// Global solution status
   sbg_driver__msg__SbgEkfStatus status;
 } sbg_driver__msg__SbgEkfNav;
 

@@ -1,0 +1,16 @@
+[0.092s] Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.289s] [100%] Built target occupancy_pub
+[0.362s] Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --build /home/uocav/ros-workspace/build/navigation -- -j6 -l6
+[0.782s] Invoking command in '/home/uocav/ros-workspace/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation
+[0.808s] -- Install configuration: "RelWithDebInfo"
+[0.817s] -- Execute custom install script
+[0.820s] -- Up-to-date symlink: /home/uocav/ros-workspace/install/navigation/lib/navigation/occupancy_pub
+[0.821s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.821s]   ament_cmake_symlink_install_directory() can't find
+[0.821s]   '/home/uocav/ros-workspace/src/navigation/launch'
+[0.821s] Call Stack (most recent call first):
+[0.821s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.821s]   cmake_install.cmake:41 (include)
+[0.821s] 
+[0.821s] 
+[0.831s] Invoked command in '/home/uocav/ros-workspace/build/navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy /usr/bin/cmake --install /home/uocav/ros-workspace/build/navigation

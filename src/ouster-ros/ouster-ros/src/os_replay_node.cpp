@@ -7,8 +7,6 @@
  *
  */
 
-#include <fstream>
-
 #include "ouster_ros/os_sensor_node_base.h"
 #include "ouster_ros/visibility_control.h"
 
@@ -98,9 +96,7 @@ class OusterReplay : public OusterSensorNodeBase {
     }
 
    private:
-    void declare_parameters() {
-        declare_parameter("metadata");
-    }
+    void declare_parameters() { declare_parameter<std::string>("metadata"); }
 
     std::string parse_parameters() {
         auto meta_file = get_parameter("metadata").as_string();
@@ -114,10 +110,7 @@ class OusterReplay : public OusterSensorNodeBase {
 
     void load_metadata_from_file(const std::string& meta_file) {
         try {
-            std::ifstream in_file(meta_file);
-            std::stringstream buffer;
-            buffer << in_file.rdbuf();
-            cached_metadata = buffer.str();
+            cached_metadata = read_text_file(meta_file);
             info = sensor::parse_metadata(cached_metadata);
             display_lidar_info(info);
         } catch (const std::runtime_error& e) {
@@ -128,9 +121,7 @@ class OusterReplay : public OusterSensorNodeBase {
         }
     }
 
-    void cleanup() {
-        get_metadata_srv.reset();
-    }
+    void cleanup() { get_metadata_srv.reset(); }
 };
 
 }  // namespace ouster_ros

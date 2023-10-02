@@ -334,8 +334,11 @@ include("/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_symlink_install_
 # install("TARGETS" "os_image" "DESTINATION" "lib/ouster_ros")
 include("/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "ouster_ros_library" "os_sensor_component" "os_replay_component" "os_cloud_component" "os_image_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+# install("TARGETS" "os_driver" "DESTINATION" "lib/ouster_ros")
 include("/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "ouster_ros_library" "os_sensor_component" "os_replay_component" "os_cloud_component" "os_image_component" "os_driver_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include" "ouster-sdk/ouster_client/include" "ouster-sdk/ouster_client/include/optional-lite" "DESTINATION" "include/ouster_ros")
 ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" DIRECTORY "include" "ouster-sdk/ouster_client/include" "ouster-sdk/ouster_client/include/optional-lite" "DESTINATION" "include/ouster_ros")
@@ -346,8 +349,8 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/oust
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/ouster_ros")
 ament_cmake_symlink_install_directory("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" DIRECTORY "launch" "config" "DESTINATION" "share/ouster_ros")
 
-# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_ros/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_ros/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_ros/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ouster_ros/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ouster_ros/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ouster_ros/environment")
@@ -358,14 +361,14 @@ ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/oust
 # install(FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ouster_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ouster_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_ros/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_ros/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_ros/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ouster_ros/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ouster_ros/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ouster_ros/environment")
 
-# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_ros/environment")
-ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_ros/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_ros/environment")
+ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ouster_ros/environment")
 
 # install(FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ouster_ros/environment")
 ament_cmake_symlink_install_files("/home/uocav/ros-workspace/src/ouster-ros/ouster-ros" FILES "/home/uocav/ros-workspace/build/ouster_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ouster_ros/environment")

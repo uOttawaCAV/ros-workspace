@@ -1,0 +1,730 @@
+[0.000000] (-) TimerEvent: {}
+[0.000787] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.000860] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000901] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000936] (mini_bot_description) JobQueued: {'identifier': 'mini_bot_description', 'dependencies': OrderedDict()}
+[0.000972] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.001008] (ouster_msgs) JobQueued: {'identifier': 'ouster_msgs', 'dependencies': OrderedDict()}
+[0.001042] (ouster_srvs) JobQueued: {'identifier': 'ouster_srvs', 'dependencies': OrderedDict()}
+[0.001082] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.001171] (ros2_esp32) JobQueued: {'identifier': 'ros2_esp32', 'dependencies': OrderedDict()}
+[0.001229] (urdf_tutorial_r2d2) JobQueued: {'identifier': 'urdf_tutorial_r2d2', 'dependencies': OrderedDict()}
+[0.001263] (ouster_ros) JobQueued: {'identifier': 'ouster_ros', 'dependencies': OrderedDict([('ouster_msgs', '/home/uocav/ros-workspace/install/ouster_msgs'), ('ouster_srvs', '/home/uocav/ros-workspace/install/ouster_srvs')])}
+[0.001306] (ouster_msgs) JobStarted: {'identifier': 'ouster_msgs'}
+[0.018604] (ouster_srvs) JobStarted: {'identifier': 'ouster_srvs'}
+[0.026384] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.035440] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.042754] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.050264] (mini_bot_description) JobStarted: {'identifier': 'mini_bot_description'}
+[0.057801] (ouster_msgs) JobProgress: {'identifier': 'ouster_msgs', 'progress': 'cmake'}
+[0.058609] (ouster_msgs) JobProgress: {'identifier': 'ouster_msgs', 'progress': 'build'}
+[0.059288] (ouster_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/ouster_msgs', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/ouster_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/ouster_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.068740] (ouster_srvs) JobProgress: {'identifier': 'ouster_srvs', 'progress': 'cmake'}
+[0.070067] (ouster_srvs) JobProgress: {'identifier': 'ouster_srvs', 'progress': 'build'}
+[0.070264] (ouster_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/ouster_srvs', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/ouster_srvs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/ouster_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.073616] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.073815] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/uocav/ros-workspace/FAST_LIO', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/uocav/ros-workspace/install/fast_lio'], 'cwd': '/home/uocav/ros-workspace/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup')]), 'shell': False}
+[0.077408] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.079567] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.080577] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/lio_sam', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/lio_sam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.085083] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.086166] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.086491] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/micro_ros_setup', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.095290] (mini_bot_description) JobProgress: {'identifier': 'mini_bot_description', 'progress': 'cmake'}
+[0.098351] (mini_bot_description) JobProgress: {'identifier': 'mini_bot_description', 'progress': 'build'}
+[0.098433] (mini_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/mini_bot_description', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/mini_bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/mini_bot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.099512] (-) TimerEvent: {}
+[0.134915] (ouster_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.136893] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.143027] (ouster_srvs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.147290] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.161844] (ouster_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.162068] (ouster_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.163398] (micro_ros_setup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.175529] (ouster_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.175763] (ouster_srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.177151] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.177299] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199624] (-) TimerEvent: {}
+[0.291056] (fast_lio) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.299719] (-) TimerEvent: {}
+[0.326386] (micro_ros_setup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.340283] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.347601] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.348135] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.357143] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.358964] (ouster_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.364957] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.365297] (ouster_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.366401] (ouster_srvs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.368932] (ouster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.371993] (ouster_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.372830] (ouster_srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.375741] (ouster_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.378894] (ouster_srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399873] (-) TimerEvent: {}
+[0.424494] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.424652] (fast_lio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.430700] (fast_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.439744] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.440877] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.441622] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.446013] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.448187] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.451124] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.451807] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/micro_ros_setup\n'}
+[0.471363] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.473674] (mini_bot_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.473812] (mini_bot_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.473867] (mini_bot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.473914] (mini_bot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.473959] (mini_bot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.474002] (mini_bot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.474047] (mini_bot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.474091] (mini_bot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.474135] (mini_bot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.474179] (mini_bot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.474224] (mini_bot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.474268] (mini_bot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/mini_bot_description\n'}
+[0.476256] (mini_bot_description) CommandEnded: {'returncode': 0}
+[0.495821] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.500016] (-) TimerEvent: {}
+[0.503216] (fast_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.508830] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uocav/ros-workspace/build/micro_ros_setup'], 'cwd': '/home/uocav/ros-workspace/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/micro_ros_setup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.510229] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.514694] (mini_bot_description) JobProgress: {'identifier': 'mini_bot_description', 'progress': 'install'}
+[0.514875] (mini_bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uocav/ros-workspace/build/mini_bot_description'], 'cwd': '/home/uocav/ros-workspace/build/mini_bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/mini_bot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.521991] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.522346] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.522585] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.523004] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.523313] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.523500] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.523807] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.524001] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.524288] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.524581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.524866] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.525049] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.525207] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.527639] (ouster_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.528522] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.531439] (ouster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.537987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.538303] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.538512] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.538712] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.539401] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.539637] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.539843] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.540161] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.540345] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.540527] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh\n'}
+[0.540746] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.540966] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.541212] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.541455] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.541620] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config\n'}
+[0.541742] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian\n'}
+[0.541993] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.542226] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.542596] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.542940] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.543285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.543625] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.543980] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.544338] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.544713] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.545080] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.545471] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.545812] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.546147] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib\n'}
+[0.546407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.546644] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.546958] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.547267] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.547580] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.547897] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.548235] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.548557] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.548911] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.549268] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.549609] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/utils.sh\n'}
+[0.549935] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos\n'}
+[0.550197] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.550476] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.551269] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.551580] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.551661] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.551900] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.551978] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.552130] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.552315] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.552492] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.552812] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.553084] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.553699] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.553823] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.553934] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.554025] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.554172] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.554336] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh\n'}
+[0.554503] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.554665] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.554839] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.555106] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.555306] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.555461] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.555619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.555773] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.555966] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.556268] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh\n'}
+[0.556420] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.556578] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.556736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.556867] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.557030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.557185] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.557342] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.557504] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.557663] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.557821] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh\n'}
+[0.557981] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.558138] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.558298] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.558456] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.558574] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.558743] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.558905] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.559071] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.559231] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.559385] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.559548] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh\n'}
+[0.559707] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.559867] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.560029] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.560140] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.560295] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.560455] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.560626] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.560869] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.561111] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.561361] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh\n'}
+[0.561620] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.561862] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.562150] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.562316] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.562566] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.562824] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.563076] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.563321] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.563568] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.563810] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.564142] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.564378] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.564680] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.564881] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.565133] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx\n'}
+[0.565292] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic\n'}
+[0.565440] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/flash.sh\n'}
+[0.565701] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/package.xml\n'}
+[0.565944] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/configure.sh\n'}
+[0.566189] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos\n'}
+[0.566433] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos\n'}
+[0.566684] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/build.sh\n'}
+[0.566929] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/supported_platforms\n'}
+[0.567172] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/reset.sh\n'}
+[0.567405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/create.sh\n'}
+[0.567661] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta\n'}
+[0.567910] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt\n'}
+[0.568173] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos\n'}
+[0.568410] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.568667] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host\n'}
+[0.568828] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.569074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic\n'}
+[0.569252] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.569486] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.569687] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.569849] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.570011] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/reset.sh\n'}
+[0.570166] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.570322] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.570479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.570620] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.570774] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.570883] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.570991] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.571156] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.571324] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.571479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.571646] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.571808] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.572122] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.572407] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.572600] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.572759] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.572915] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr\n'}
+[0.573044] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.573221] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.573345] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.573529] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.573704] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.573878] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.574049] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.574216] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.574466] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.574603] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/reset.sh\n'}
+[0.574793] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.574960] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.575134] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.575294] (ouster_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.575381] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.575494] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/uocav/ros-workspace/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.577850] (mini_bot_description) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.578101] (mini_bot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.578312] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/src/description/prototype.urdf\n'}
+[0.578425] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/display.launch.py\n'}
+[0.578524] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/launch/robot_state.launch.py\n'}
+[0.578623] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/rviz/urdf_config.rviz\n'}
+[0.578721] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/package_run_dependencies/mini_bot_description\n'}
+[0.578819] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/parent_prefix_path/mini_bot_description\n'}
+[0.578916] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.sh\n'}
+[0.579013] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/ament_prefix_path.dsv\n'}
+[0.579109] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.sh\n'}
+[0.579207] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/environment/path.dsv\n'}
+[0.579303] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.bash\n'}
+[0.579420] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.sh\n'}
+[0.579517] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.zsh\n'}
+[0.579616] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/local_setup.dsv\n'}
+[0.579714] (mini_bot_description) StdoutLine: {'line': b'-- Symlinking: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.dsv\n'}
+[0.579811] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/ament_index/resource_index/packages/mini_bot_description\n'}
+[0.579908] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig.cmake\n'}
+[0.580045] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/cmake/mini_bot_descriptionConfig-version.cmake\n'}
+[0.580147] (mini_bot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/uocav/ros-workspace/install/mini_bot_description/share/mini_bot_description/package.xml\n'}
+[0.580245] (ouster_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.583632] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.588649] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.600135] (-) TimerEvent: {}
+[0.600522] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.600634] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.604621] (fast_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.607241] (mini_bot_description) CommandEnded: {'returncode': 0}
+[0.610904] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.616150] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.646405] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.647508] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.666478] (mini_bot_description) JobEnded: {'identifier': 'mini_bot_description', 'rc': 0}
+[0.667309] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.676465] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'cmake'}
+[0.678952] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'build'}
+[0.679182] (navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/navigation', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.682235] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.684504] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[0.684696] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uocav/ros-workspace/build/pointcloud_to_laserscan', '--', '-j6', '-l6'], 'cwd': '/home/uocav/ros-workspace/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'uocav'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/uocav/ros-workspace/install/pointcloud_to_laserscan/lib:/home/uocav/ros-workspace/install/ouster_ros/lib:/home/uocav/ros-workspace/install/ouster_srvs/lib:/home/uocav/ros-workspace/install/ouster_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/uocav'), ('OLDPWD', '/home/uocav'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/uocav/ros-workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'uocav'), ('JOURNAL_STREAM', '8:51501'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'uocav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/uocav:@/tmp/.ICE-unix/1687,unix/uocav:/tmp/.ICE-unix/1687'), ('INVOCATION_ID', 'f1299a249bfe4677810ca093377e2f01'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c374095_a623_48b6_8a64_ed31acdb632e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/uocav/ros-workspace/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/uocav/ros-workspace/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_srvs/lib/python3.8/site-packages:/home/uocav/ros-workspace/install/ouster_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/uocav/ros-workspace/install/ros2_esp32:/home/uocav/ros-workspace/install/pointcloud_to_laserscan:/home/uocav/ros-workspace/install/ouster_ros:/home/uocav/ros-workspace/install/ouster_srvs:/home/uocav/ros-workspace/install/ouster_msgs:/home/uocav/ros-workspace/install/navigation:/home/uocav/ros-workspace/install/mini_bot_description:/home/uocav/ros-workspace/install/micro_ros_setup:/home/uocav/ros-workspace/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.705055] (-) TimerEvent: {}
+[0.714890] (fast_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.715116] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.717417] (ouster_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.744015] (ouster_srvs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.744204] (navigation) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.764152] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.764735] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.766748] (navigation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.805149] (-) TimerEvent: {}
+[0.805592] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.811515] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.812432] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.813600] (fast_lio) StderrLine: {'line': b'Current CPU archtecture: x86_64\n'}
+[0.818740] (fast_lio) StderrLine: {'line': b'Processer number:  6\n'}
+[0.818998] (fast_lio) StderrLine: {'line': b'core for MP: 3\n'}
+[0.832456] (ouster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.839548] (ouster_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.841845] (ouster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.847804] (ouster_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.872662] (ouster_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.873230] (ouster_srvs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.875798] (ouster_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.876061] (ouster_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.900871] (ouster_srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901354] (ouster_srvs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.901411] (ouster_srvs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.901546] (ouster_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901612] (ouster_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.901662] (ouster_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.905316] (-) TimerEvent: {}
+[0.907951] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.920607] (navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.928349] (navigation) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.931923] (ouster_srvs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.932207] (ouster_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.959579] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.962750] (navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.976118] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[0.978607] (ouster_srvs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.981089] (ouster_srvs) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/ouster_srvs\n'}
+[0.982198] (ouster_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.984838] (ouster_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/ouster_msgs\n'}
+[1.005396] (-) TimerEvent: {}
+[1.013715] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_generator_c\x1b[0m\n'}
+[1.027153] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.027399] (ouster_srvs) StdoutLine: {'line': b'[  2%] Built target ouster_srvs__cpp\n'}
+[1.033085] (ouster_msgs) StdoutLine: {'line': b'[  3%] Built target ouster_msgs__cpp\n'}
+[1.043398] (ouster_srvs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_generator_c.dir/rosidl_generator_c/ouster_srvs/srv/detail/get_config__functions.c.o\x1b[0m\n'}
+[1.046694] (ouster_srvs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_generator_c.dir/rosidl_generator_c/ouster_srvs/srv/detail/get_metadata__functions.c.o\x1b[0m\n'}
+[1.049602] (ouster_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__rosidl_generator_c.dir/rosidl_generator_c/ouster_msgs/msg/detail/packet_msg__functions.c.o\x1b[0m\n'}
+[1.050904] (ouster_srvs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_generator_c.dir/rosidl_generator_c/ouster_srvs/srv/detail/set_config__functions.c.o\x1b[0m\n'}
+[1.051579] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.053838] (lio_sam) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[1.061698] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.061961] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.066644] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.081042] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.081610] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.085981] (ouster_srvs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_srvs/srv/detail/dds_fastrtps/get_config__type_support.cpp.o\x1b[0m\n'}
+[1.095880] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105517] (-) TimerEvent: {}
+[1.105831] (ouster_srvs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_srvs/srv/detail/get_config__type_support.cpp.o\x1b[0m\n'}
+[1.109471] (ouster_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_msgs/msg/detail/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[1.110657] (ouster_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_msgs/msg/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[1.110968] (ouster_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_msgs/msg/detail/dds_fastrtps/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[1.122512] (ouster_srvs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_srvs/srv/get_config__type_support.cpp.o\x1b[0m\n'}
+[1.196227] (navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.199861] (navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.205657] (-) TimerEvent: {}
+[1.246110] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.272376] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.284513] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.305770] (-) TimerEvent: {}
+[1.356052] (ouster_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libouster_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.406030] (-) TimerEvent: {}
+[1.426251] (ouster_srvs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_srvs/srv/detail/set_config__type_support.cpp.o\x1b[0m\n'}
+[1.451776] (ouster_srvs) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libouster_srvs__rosidl_generator_c.so\x1b[0m\n'}
+[1.452019] (ouster_srvs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_srvs/srv/set_config__type_support.cpp.o\x1b[0m\n'}
+[1.506151] (-) TimerEvent: {}
+[1.552927] (ouster_msgs) StdoutLine: {'line': b'[ 22%] Built target ouster_msgs__rosidl_generator_c\n'}
+[1.579644] (navigation) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.584375] (ouster_srvs) StdoutLine: {'line': b'[ 23%] Built target ouster_srvs__rosidl_generator_c\n'}
+[1.606094] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.606321] (-) TimerEvent: {}
+[1.629024] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.641787] (ouster_srvs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ouster_srvs/srv/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[1.657138] (ouster_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_msgs/msg/detail/packet_msg__type_support.c.o\x1b[0m\n'}
+[1.686096] (ouster_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_msgs/msg/packet_msg__type_support.cpp.o\x1b[0m\n'}
+[1.706456] (-) TimerEvent: {}
+[1.733577] (ouster_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.791752] (ouster_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.806594] (-) TimerEvent: {}
+[1.816687] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") \n'}
+[1.848627] (fast_lio) StderrLine: {'line': b'CMake Error at CMakeLists.txt:45 (find_package):\n'}
+[1.848860] (fast_lio) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.848952] (fast_lio) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.849037] (fast_lio) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.849113] (fast_lio) StderrLine: {'line': b'\n'}
+[1.849201] (fast_lio) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.849284] (fast_lio) StderrLine: {'line': b'  of the following names:\n'}
+[1.849358] (fast_lio) StderrLine: {'line': b'\n'}
+[1.849438] (fast_lio) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.849519] (fast_lio) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.849592] (fast_lio) StderrLine: {'line': b'\n'}
+[1.849673] (fast_lio) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.849756] (fast_lio) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.849840] (fast_lio) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.849922] (fast_lio) StderrLine: {'line': b'  installed.\n'}
+[1.849997] (fast_lio) StderrLine: {'line': b'\n'}
+[1.850078] (fast_lio) StderrLine: {'line': b'\n'}
+[1.850621] (fast_lio) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.850747] (fast_lio) StdoutLine: {'line': b'See also "/home/uocav/ros-workspace/build/fast_lio/CMakeFiles/CMakeOutput.log".\n'}
+[1.857626] (ouster_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libouster_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.858207] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.858333] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.858388] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.858438] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[1.858489] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[1.858538] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.858588] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.858638] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.858686] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.858732] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.858778] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.858828] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.858878] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.858924] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.858970] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.859034] (fast_lio) CommandEnded: {'returncode': 1}
+[1.877582] (ouster_msgs) StdoutLine: {'line': b'[ 41%] Built target ouster_msgs__rosidl_typesupport_cpp\n'}
+[1.906724] (-) TimerEvent: {}
+[1.918627] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 1}
+[1.935659] (ouster_srvs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ouster_srvs/srv/detail/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[1.938552] (ouster_msgs) StdoutLine: {'line': b'[ 45%] Built target ouster_msgs__rosidl_typesupport_c\n'}
+[1.969984] (ouster_msgs) StdoutLine: {'line': b'[ 48%] Built target ouster_msgs__rosidl_typesupport_introspection_c\n'}
+[2.002157] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.006924] (-) TimerEvent: {}
+[2.015714] (navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.032156] (ouster_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.040507] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.041531] (navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.043064] (navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/navigation\n'}
+[2.055605] (ouster_srvs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_srvs/srv/detail/get_config__type_support.c.o\x1b[0m\n'}
+[2.072581] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[2.092823] (ouster_srvs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_srvs/srv/detail/set_config__type_support.c.o\x1b[0m\n'}
+[2.105294] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.105692] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.107069] (-) TimerEvent: {}
+[2.123630] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[2.149050] (ouster_srvs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_srvs/srv/detail/dds_fastrtps/set_config__type_support.cpp.o\x1b[0m\n'}
+[2.155589] (navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target occupancy_pub\x1b[0m\n'}
+[2.168590] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_c\x1b[0m\n'}
+[2.191989] (navigation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/occupancy_pub.dir/src/occupancy_grid_pub.cpp.o\x1b[0m\n'}
+[2.193895] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.207197] (-) TimerEvent: {}
+[2.207830] (ouster_srvs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_srvs/srv/set_config__type_support.cpp.o\x1b[0m\n'}
+[2.212487] (ouster_srvs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ouster_srvs/srv/detail/get_metadata__type_support.c.o\x1b[0m\n'}
+[2.219696] (ouster_srvs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_srvs/srv/get_config__type_support.cpp.o\x1b[0m\n'}
+[2.238926] (ouster_srvs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libouster_srvs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.259070] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.259347] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.259401] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.259448] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.259493] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.259538] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.259583] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.259628] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.259673] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.259719] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.268528] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.268746] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.268796] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.268842] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.268887] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.268934] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.268977] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.269021] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.269065] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.269310] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.269445] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.269496] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.269541] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.269586] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.269645] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.269689] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.269734] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.269778] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.269862] (lio_sam) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.269911] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.269955] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.269999] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.270050] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.270095] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.270138] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.270190] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.270237] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.281908] (ouster_msgs) StdoutLine: {'line': b'[ 54%] Built target ouster_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.289732] (ouster_srvs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ouster_srvs/srv/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[2.306234] (ouster_srvs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libouster_srvs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.307353] (-) TimerEvent: {}
+[2.312950] (ouster_srvs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ouster_srvs/srv/detail/dds_fastrtps/get_metadata__type_support.cpp.o\x1b[0m\n'}
+[2.320443] (ouster_srvs) StdoutLine: {'line': b'[ 51%] Built target ouster_srvs__rosidl_typesupport_cpp\n'}
+[2.330633] (ouster_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.334973] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.350197] (ouster_srvs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libouster_srvs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.353041] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.353384] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.353495] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.368279] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.368698] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.369219] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/uocav/ros-workspace/src/pointcloud_to_laser/include\n'}
+[2.369400] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.370419] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.370697] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.371500] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.372440] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.373267] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.374464] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.374747] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.375439] (pointcloud_to_laserscan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.382836] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.388890] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.398168] (ouster_srvs) StdoutLine: {'line': b'[ 55%] Built target ouster_srvs__rosidl_typesupport_introspection_c\n'}
+[2.401617] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.407559] (-) TimerEvent: {}
+[2.410881] (ouster_srvs) StdoutLine: {'line': b'[ 57%] Built target ouster_srvs__rosidl_typesupport_c\n'}
+[2.421776] (lio_sam) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.429726] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.443207] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.443792] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.444400] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.447276] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.448021] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.448572] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.449165] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.450708] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.451153] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.451882] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.452598] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.453177] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.453864] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.454565] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.454737] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Generating done\n'}
+[2.455271] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.456073] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.456711] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.457436] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.457637] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Build files have been written to: /home/uocav/ros-workspace/build/pointcloud_to_laserscan\n'}
+[2.458255] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.458783] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.460407] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.460943] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.461413] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.462139] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.463086] (ouster_srvs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libouster_srvs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.473185] (ouster_msgs) StdoutLine: {'line': b'[ 61%] Built target ouster_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.483906] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic \n'}
+[2.485232] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.486777] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[2.494079] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[2.494320] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.507719] (-) TimerEvent: {}
+[2.510722] (ouster_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_msgs/msg/detail/packet_msg__type_support_c.cpp.o\x1b[0m\n'}
+[2.536542] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.546609] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pointcloud_to_laserscan_node\x1b[0m\n'}
+[2.564550] (pointcloud_to_laserscan) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target laserscan_to_pointcloud_node\x1b[0m\n'}
+[2.569155] (ouster_srvs) StdoutLine: {'line': b'[ 61%] Built target ouster_srvs__rosidl_typesupport_introspection_cpp\n'}
+[2.607837] (-) TimerEvent: {}
+[2.625148] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] Built target laserscan_to_pointcloud\n'}
+[2.631922] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] Built target pointcloud_to_laserscan\n'}
+[2.632162] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[2.632673] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] Built target dummy_pointcloud_publisher\n'}
+[2.633686] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o\x1b[0m\n'}
+[2.707984] (-) TimerEvent: {}
+[2.778948] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.808198] (-) TimerEvent: {}
+[2.909004] (-) TimerEvent: {}
+[2.922154] (ouster_srvs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libouster_srvs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.970339] (ouster_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libouster_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.009189] (-) TimerEvent: {}
+[3.063501] (ouster_srvs) StdoutLine: {'line': b'[ 65%] Built target ouster_srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.075376] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.086842] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.092545] (ouster_srvs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_srvs/srv/detail/get_config__type_support_c.cpp.o\x1b[0m\n'}
+[3.093169] (ouster_srvs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_srvs/srv/detail/set_config__type_support_c.cpp.o\x1b[0m\n'}
+[3.100843] (ouster_msgs) StdoutLine: {'line': b'[ 70%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.109363] (-) TimerEvent: {}
+[3.111145] (ouster_srvs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ouster_srvs/srv/detail/get_metadata__type_support_c.cpp.o\x1b[0m\n'}
+[3.183740] (ouster_msgs) StdoutLine: {'line': b'[ 70%] Built target ouster_msgs\n'}
+[3.228067] (-) TimerEvent: {}
+[3.280352] (ouster_msgs) StdoutLine: {'line': b'[ 74%] Built target ouster_msgs__py\n'}
+[3.328185] (-) TimerEvent: {}
+[3.335793] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.340227] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__python\x1b[0m\n'}
+[3.380740] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.381014] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.392121] (ouster_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__python.dir/rosidl_generator_py/ouster_msgs/msg/_packet_msg_s.c.o\x1b[0m\n'}
+[3.409815] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.409998] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.410048] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.428317] (-) TimerEvent: {}
+[3.528690] (-) TimerEvent: {}
+[3.629041] (-) TimerEvent: {}
+[3.630870] (lio_sam) StderrLine: {'line': b'CMake Error at CMakeLists.txt:43 (rosidl_get_typesupport_target):\n'}
+[3.631075] (lio_sam) StderrLine: {'line': b'  Unknown CMake command "rosidl_get_typesupport_target".\n'}
+[3.631126] (lio_sam) StderrLine: {'line': b'\n'}
+[3.631172] (lio_sam) StderrLine: {'line': b'\n'}
+[3.646090] (lio_sam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.646304] (lio_sam) StdoutLine: {'line': b'See also "/home/uocav/ros-workspace/build/lio_sam/CMakeFiles/CMakeOutput.log".\n'}
+[3.646356] (lio_sam) StdoutLine: {'line': b'See also "/home/uocav/ros-workspace/build/lio_sam/CMakeFiles/CMakeError.log".\n'}
+[3.672141] (lio_sam) StderrLine: {'line': b'make: *** [Makefile:1164: cmake_check_build_system] Error 1\n'}
+[3.674685] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 'SIGINT'}
+[3.697512] (ouster_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_msgs/libouster_msgs__python.so\x1b[0m\n'}
+[3.729195] (-) TimerEvent: {}
+[3.757176] (ouster_msgs) StdoutLine: {'line': b'[ 80%] Built target ouster_msgs__python\n'}
+[3.770858] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.775315] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.782259] (ouster_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.792617] (ouster_srvs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libouster_srvs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.796131] (ouster_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.800998] (ouster_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.810787] (ouster_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ouster_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ouster_msgs/_ouster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.829322] (-) TimerEvent: {}
+[3.920280] (ouster_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_msgs/ouster_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.929454] (-) TimerEvent: {}
+[3.944386] (ouster_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_msgs/ouster_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.949203] (ouster_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/ouster_msgs/ouster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.964904] (ouster_msgs) StdoutLine: {'line': b'[100%] Built target ouster_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.977292] (ouster_srvs) StdoutLine: {'line': b'[ 76%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c\n'}
+[3.983225] (ouster_msgs) StdoutLine: {'line': b'[100%] Built target ouster_msgs__rosidl_typesupport_c__pyext\n'}
+[4.001860] (ouster_srvs) StdoutLine: {'line': b'[ 76%] Built target ouster_srvs\n'}
+[4.018932] (ouster_msgs) StdoutLine: {'line': b'[100%] Built target ouster_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.029570] (-) TimerEvent: {}
+[4.030500] (ouster_msgs) JobEnded: {'identifier': 'ouster_msgs', 'rc': 'SIGINT'}
+[4.031360] (ouster_srvs) StdoutLine: {'line': b'[ 78%] Built target ouster_srvs__py\n'}
+[4.049404] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__python\x1b[0m\n'}
+[4.069886] (ouster_srvs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__python.dir/rosidl_generator_py/ouster_srvs/srv/_get_metadata_s.c.o\x1b[0m\n'}
+[4.070142] (ouster_srvs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__python.dir/rosidl_generator_py/ouster_srvs/srv/_set_config_s.c.o\x1b[0m\n'}
+[4.070198] (ouster_srvs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__python.dir/rosidl_generator_py/ouster_srvs/srv/_get_config_s.c.o\x1b[0m\n'}
+[4.129723] (-) TimerEvent: {}
+[4.222354] (ouster_srvs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_srvs/libouster_srvs__python.so\x1b[0m\n'}
+[4.229856] (-) TimerEvent: {}
+[4.270003] (ouster_srvs) StdoutLine: {'line': b'[ 87%] Built target ouster_srvs__python\n'}
+[4.285235] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.286507] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.292288] (ouster_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.303401] (ouster_srvs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ouster_srvs/_ouster_srvs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.304551] (ouster_srvs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ouster_srvs/_ouster_srvs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.313994] (ouster_srvs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ouster_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ouster_srvs/_ouster_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.329986] (-) TimerEvent: {}
+[4.430418] (-) TimerEvent: {}
+[4.487847] (ouster_srvs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_srvs/ouster_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.488095] (ouster_srvs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ouster_srvs/ouster_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.500054] (ouster_srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/ouster_srvs/ouster_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.523376] (ouster_srvs) StdoutLine: {'line': b'[100%] Built target ouster_srvs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.523628] (ouster_srvs) StdoutLine: {'line': b'[100%] Built target ouster_srvs__rosidl_typesupport_c__pyext\n'}
+[4.530549] (-) TimerEvent: {}
+[4.568775] (ouster_srvs) StdoutLine: {'line': b'[100%] Built target ouster_srvs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.579554] (ouster_srvs) JobEnded: {'identifier': 'ouster_srvs', 'rc': 'SIGINT'}
+[4.630703] (-) TimerEvent: {}
+[4.731139] (-) TimerEvent: {}
+[4.831587] (-) TimerEvent: {}
+[4.932003] (-) TimerEvent: {}
+[5.032390] (-) TimerEvent: {}
+[5.132767] (-) TimerEvent: {}
+[5.233148] (-) TimerEvent: {}
+[5.333576] (-) TimerEvent: {}
+[5.433958] (-) TimerEvent: {}
+[5.534354] (-) TimerEvent: {}
+[5.634758] (-) TimerEvent: {}
+[5.735180] (-) TimerEvent: {}
+[5.835553] (-) TimerEvent: {}
+[5.930175] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable laserscan_to_pointcloud_node\x1b[0m\n'}
+[5.935688] (-) TimerEvent: {}
+[5.997482] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[6.035892] (-) TimerEvent: {}
+[6.136591] (-) TimerEvent: {}
+[6.137007] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target laserscan_to_pointcloud_node\n'}
+[6.157408] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target pointcloud_to_laserscan_node\n'}
+[6.168940] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 'SIGINT'}
+[6.236721] (-) TimerEvent: {}
+[6.337149] (-) TimerEvent: {}
+[6.437579] (-) TimerEvent: {}
+[6.537979] (-) TimerEvent: {}
+[6.638327] (-) TimerEvent: {}
+[6.738685] (-) TimerEvent: {}
+[6.839217] (-) TimerEvent: {}
+[6.939650] (-) TimerEvent: {}
+[7.040457] (-) TimerEvent: {}
+[7.140853] (-) TimerEvent: {}
+[7.241252] (-) TimerEvent: {}
+[7.341693] (-) TimerEvent: {}
+[7.442107] (-) TimerEvent: {}
+[7.542536] (-) TimerEvent: {}
+[7.642904] (-) TimerEvent: {}
+[7.743243] (-) TimerEvent: {}
+[7.843653] (-) TimerEvent: {}
+[7.935266] (navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable occupancy_pub\x1b[0m\n'}
+[7.943739] (-) TimerEvent: {}
+[8.044377] (-) TimerEvent: {}
+[8.113751] (navigation) StdoutLine: {'line': b'[100%] Built target occupancy_pub\n'}
+[8.129799] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 'SIGINT'}
+[8.140696] (ros2_esp32) JobSkipped: {'identifier': 'ros2_esp32'}
+[8.140792] (urdf_tutorial_r2d2) JobSkipped: {'identifier': 'urdf_tutorial_r2d2'}
+[8.140835] (ouster_ros) JobSkipped: {'identifier': 'ouster_ros'}
+[8.140873] (-) EventReactorShutdown: {}

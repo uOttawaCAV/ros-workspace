@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -138,7 +140,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def is_delay_time(self):
         """Message field 'is_delay_time'."""
         return self._is_delay_time
@@ -151,7 +153,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
                 "The 'is_delay_time' field must be of type 'bool'"
         self._is_delay_time = value
 
-    @property
+    @builtins.property
     def pressure_valid(self):
         """Message field 'pressure_valid'."""
         return self._pressure_valid
@@ -164,7 +166,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
                 "The 'pressure_valid' field must be of type 'bool'"
         self._pressure_valid = value
 
-    @property
+    @builtins.property
     def altitude_valid(self):
         """Message field 'altitude_valid'."""
         return self._altitude_valid
@@ -177,7 +179,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
                 "The 'altitude_valid' field must be of type 'bool'"
         self._altitude_valid = value
 
-    @property
+    @builtins.property
     def pressure_diff_valid(self):
         """Message field 'pressure_diff_valid'."""
         return self._pressure_diff_valid
@@ -190,7 +192,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
                 "The 'pressure_diff_valid' field must be of type 'bool'"
         self._pressure_diff_valid = value
 
-    @property
+    @builtins.property
     def air_speed_valid(self):
         """Message field 'air_speed_valid'."""
         return self._air_speed_valid
@@ -203,7 +205,7 @@ class SbgAirDataStatus(metaclass=Metaclass_SbgAirDataStatus):
                 "The 'air_speed_valid' field must be of type 'bool'"
         self._air_speed_valid = value
 
-    @property
+    @builtins.property
     def air_temperature_valid(self):
         """Message field 'air_temperature_valid'."""
         return self._air_temperature_valid

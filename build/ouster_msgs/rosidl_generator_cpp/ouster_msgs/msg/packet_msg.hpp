@@ -7,6 +7,5 @@
 #include "ouster_msgs/msg/detail/packet_msg__struct.hpp"
 #include "ouster_msgs/msg/detail/packet_msg__builder.hpp"
 #include "ouster_msgs/msg/detail/packet_msg__traits.hpp"
-#include "ouster_msgs/msg/detail/packet_msg__type_support.hpp"
 
 #endif  // OUSTER_MSGS__MSG__PACKET_MSG_HPP_

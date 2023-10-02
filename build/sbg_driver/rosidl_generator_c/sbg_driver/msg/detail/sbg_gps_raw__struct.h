@@ -23,10 +23,14 @@ extern "C"
 // Member 'data'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
-// Struct defined in msg/SbgGpsRaw in the package sbg_driver.
+/// Struct defined in msg/SbgGpsRaw in the package sbg_driver.
+/**
+  * SBG Ellipse Messages
+ */
 typedef struct sbg_driver__msg__SbgGpsRaw
 {
   std_msgs__msg__Header header;
+  /// Raw Data
   rosidl_runtime_c__uint8__Sequence data;
 } sbg_driver__msg__SbgGpsRaw;
 

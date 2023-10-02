@@ -5,10 +5,11 @@
 #ifndef SBG_DRIVER__MSG__DETAIL__SBG_EKF_EULER__BUILDER_HPP_
 #define SBG_DRIVER__MSG__DETAIL__SBG_EKF_EULER__BUILDER_HPP_
 
-#include "sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "sbg_driver/msg/detail/sbg_ekf_euler__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace sbg_driver

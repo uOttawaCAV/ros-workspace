@@ -3,7 +3,7 @@ ARG ROS_DISTRO=rolling
 FROM ros:${ROS_DISTRO}-ros-core AS build-env
 ENV DEBIAN_FRONTEND=noninteractive \
     BUILD_HOME=/var/lib/build \
-    OUSTER_ROS_PATH=/opt/catkin_ws/src/ouster-ros
+    OUSTER_ROS_PATH=/opt/ros2_ws/src/ouster-ros
 
 RUN set -xue \
 # Turn off installing extra packages globally to slim down rosdep install
@@ -28,19 +28,15 @@ RUN set -xe \
 && groupadd -o -g ${BUILD_GID} build \
 && useradd -o -u ${BUILD_UID} -d ${BUILD_HOME} -rm -s /bin/bash -g build build
 
-# Install build dependencies using rosdep
-COPY --chown=build:build ouster-ros/package.xml $OUSTER_ROS_PATH/ouster-ros/package.xml
+# Set up build environment
+COPY --chown=build:build . $OUSTER_ROS_PATH
 
 RUN set -xe         \
 && apt-get update   \
 && rosdep init      \
 && rosdep update --rosdistro=$ROS_DISTRO \
-&& rosdep install -y --from-paths $OUSTER_ROS_PATH \
-# use -r for now to prevent rosdep from complaining about ouster_srvs
-    -r
+&& rosdep install --from-paths $OUSTER_ROS_PATH -y --ignore-src
 
-# Set up build environment
-COPY --chown=build:build . $OUSTER_ROS_PATH
 
 USER build:build
 WORKDIR ${BUILD_HOME}
@@ -53,9 +49,13 @@ RUN set -xe \
 FROM build-env
 
 SHELL ["/bin/bash", "-c"]
+
 RUN source /opt/ros/$ROS_DISTRO/setup.bash && colcon build \
     --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_CXX_FLAGS="-Wno-deprecated-declarations"
+
+RUN source /opt/ros/$ROS_DISTRO/setup.bash && colcon test \
+    --ctest-args tests ouster_ros --rerun-failed --output-on-failure
 
 # Entrypoint for running Ouster ros:
 #
@@ -63,5 +63,5 @@ RUN source /opt/ros/$ROS_DISTRO/setup.bash && colcon build \
 #
 ENTRYPOINT ["bash", "-c", "set -e \
 && source ./install/setup.bash \
-&& ros2 launch ouster_ros sensor.composite.launch.xml \"$@\" \
+&& ros2 launch ouster_ros sensor.launch.xml \"$@\" \
 ", "ros-entrypoint"]

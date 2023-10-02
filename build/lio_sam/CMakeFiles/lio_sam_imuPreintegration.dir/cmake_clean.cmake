@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o"
+  "CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o.d"
   "lio_sam_imuPreintegration"
   "lio_sam_imuPreintegration.pdb"
 )

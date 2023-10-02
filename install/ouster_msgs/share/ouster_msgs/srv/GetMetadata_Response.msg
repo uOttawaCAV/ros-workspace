@@ -1,0 +1,1 @@
+/home/uocav/ros-workspace/build/ouster_msgs/rosidl_cmake/srv/GetMetadata_Response.msg

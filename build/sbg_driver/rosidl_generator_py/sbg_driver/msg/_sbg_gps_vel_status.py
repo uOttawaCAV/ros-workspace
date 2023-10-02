@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -114,7 +116,7 @@ class SbgGpsVelStatus(metaclass=Metaclass_SbgGpsVelStatus):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def vel_status(self):
         """Message field 'vel_status'."""
         return self._vel_status
@@ -129,7 +131,7 @@ class SbgGpsVelStatus(metaclass=Metaclass_SbgGpsVelStatus):
                 "The 'vel_status' field must be an unsigned integer in [0, 255]"
         self._vel_status = value
 
-    @property
+    @builtins.property
     def vel_type(self):
         """Message field 'vel_type'."""
         return self._vel_type

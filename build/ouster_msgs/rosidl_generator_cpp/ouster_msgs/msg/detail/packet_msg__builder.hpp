@@ -5,10 +5,11 @@
 #ifndef OUSTER_MSGS__MSG__DETAIL__PACKET_MSG__BUILDER_HPP_
 #define OUSTER_MSGS__MSG__DETAIL__PACKET_MSG__BUILDER_HPP_
 
-#include "ouster_msgs/msg/detail/packet_msg__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "ouster_msgs/msg/detail/packet_msg__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace ouster_msgs

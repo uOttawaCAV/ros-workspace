@@ -20,7 +20,7 @@ def generate_launch_description():
     params_file = os.path.join(pkg_share, 'config/nav2/nav2_params.yaml')
     
     param_substitutions = {
-        'yaml_filename': os.path.join(pkg_share, 'worlds/slam/test.yaml'),
+        'yaml_filename': os.path.join(pkg_share, 'worlds/slam/competition_map_start.yaml'),
         'use_sim_time': 'True'
         }
 
@@ -29,12 +29,6 @@ def generate_launch_description():
         root_key='',
         param_rewrites=param_substitutions,
         convert_types=True)
-
-    lifecycle_nodes = ['filter_mask_server',
-                       'costmap_filter_info_server']
-    remappings = [('/tf', 'tf'),
-                ('/tf_static', 'tf_static')]
-
 
 
     pkg_nav2_bringup = get_package_share_directory('snowplow')

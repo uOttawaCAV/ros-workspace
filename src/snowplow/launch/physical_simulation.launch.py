@@ -20,10 +20,11 @@ def generate_launch_description():
     # doc = xacro.parse(open(xacro_file))
     xacro.process_doc(doc)
 
-    joystick = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    pkg_share,'launch','joystick.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[{'robot_description': doc.toxml()}],
     )
 
     twist_mux_params = os.path.join(pkg_share,'config','twist_mux.yaml')
@@ -41,13 +42,6 @@ def generate_launch_description():
         parameters=[{'use_sim_time': False}],
         remappings=[('/cmd_vel_in', '/diff_cont/cmd_vel_unstamped'),
                     ('cmd_vel_out', '/diff_cont/cmd_vel')]
-    )
-
-    robot_state_publisher_node = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        output='screen',
-        parameters=[{'robot_description': doc.toxml()}],
     )
 
     load_joint_state_controller = ExecuteProcess(
@@ -93,7 +87,6 @@ def generate_launch_description():
 
     return LaunchDescription(
         [
-            joystick,
             twist_mux,
             twist_stamper,
             robot_state_publisher_node,

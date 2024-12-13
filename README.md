@@ -47,8 +47,8 @@ To be able to communicate with the device, be sure that your user is part of the
 Once added, restart your machine to save and apply the changes.
 ``` sudo adduser $USER dialout ```
 
-## Driving the vehicle
-### Controller mode
+### Driving the vehicle
+#### Controller mode
 If you want to just run the robot using the remote control, run 2 things BUT IMPORTANTLY, run the joystick.launch.py and verify that the /cmd_vel_joy value shows 0s for x,y,z. Sometimes, it locks up to 1s at which point, you have to just stop and restart the launch until it shows all 0s.
 
 ``` ros2 launch snowplow joystick.launch.py   ```
@@ -57,7 +57,7 @@ If you want to just run the robot using the remote control, run 2 things BUT IMP
 
 ``` ros2 launch snowplow physical_controls.launch.py ```
 
-### Keyboard mode 
+#### Keyboard mode 
 
 For the keyboard control, use this command
 
@@ -67,7 +67,7 @@ instead of running
 
 ```ros2 launch snowplow joystick.launch.py```
 
-### Autonomous mode
+#### Autonomous mode
 There are two different parts to this. 
 
 1. Setting up the components for autonomous navigation

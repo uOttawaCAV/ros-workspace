@@ -15,7 +15,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('snowplow')
 
     slam_file = os.path.join(pkg_share, 
-                                    "config","slam", "localization_params_online_async.yaml")
+                                    "config","slam", "physical_localization_params_online_async.yaml")
     
     rl_params_file = os.path.join(pkg_share, 
                                     "config","robot_localization", "physical_ekf_gps.yaml")
@@ -27,7 +27,6 @@ def generate_launch_description():
         output='screen',
         arguments = "--x -1 --y 0 --z 0 --roll 0 --pitch 0 --yaw 0 --frame-id map --child-frame-id odom".split(' '),
     )
-    controller_odom = '/diff_cont/odom' 
 
     #  I believe we don't need this node as the SBG ellipse already fuses the IMU and GPS data to generate the odom
     # navsat_transform_node = Node(
@@ -70,10 +69,15 @@ def generate_launch_description():
                 remappings=[("odometry/filtered", "odometry/global")],
             )
 
-    slam_toolbox = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory("slam_toolbox"),'launch','online_async_launch.py'
-                )]), launch_arguments={'use_sim_time':  'false', 'slam_file': slam_file}.items()
+    slam_toolbox = Node(
+        parameters=[
+          slam_file,
+          {'use_sim_time': False}
+        ],
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+        name='slam_toolbox',
+        output='screen'
     )
     # Add a rviz node to visualize the map
 
@@ -82,7 +86,7 @@ def generate_launch_description():
             slam_toolbox,
             # navsat_transform_node,
             ekf_odom,
-            ekf_map,
+            # ekf_map,
             # map_transform_node
         ]
     )

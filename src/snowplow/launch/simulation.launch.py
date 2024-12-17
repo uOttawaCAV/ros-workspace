@@ -46,7 +46,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
         launch_arguments={
-            'gz_args': ' -r ' + pkg_share + '/worlds/empty.sdf'
+            'gz_args': ' -r ' + pkg_share + '/worlds/competition_1.sdf'
         }.items(),
     )
 
@@ -57,7 +57,10 @@ def generate_launch_description():
         arguments=['-string', doc.toxml(),
                    '-name', 'snowplow',
                    '-allow_renaming', 'true',
-                   '-z', '0.15'],
+                   '-x', '8.0',
+                   '-y', '-3.5',
+                   '-z', '0.15',
+                   '-Y', '1.5708'],
     )
 
     bridge = ExecuteProcess(
